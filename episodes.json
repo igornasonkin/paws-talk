@@ -1,0 +1,117 @@
+{
+ "episodes": [
+  {
+   "id": "001",
+   "title": "Why does my small dog stop to sniff?",
+   "date": "2026-10-16",
+   "duration": 117.4,
+   "summary": "A calm walk-and-talk about sniff breaks, patient leash habits, and checking hot pavement before warm-weather walks in Irvine.",
+   "audio": "ep001.mp3",
+   "cast": [
+    {
+     "id": "maya",
+     "name": "Maya",
+     "role": "Host"
+    },
+    {
+     "id": "theo",
+     "name": "Theo",
+     "role": "Host"
+    },
+    {
+     "id": "marcus",
+     "name": "Marcus",
+     "role": "Training voice"
+    },
+    {
+     "id": "clara",
+     "name": "Clara",
+     "role": "Health voice, not a vet"
+    }
+   ],
+   "links": [],
+   "lines": [
+    {
+     "who": "maya",
+     "t": 0.0,
+     "text": "Welcome to Today's Walk, Let's Talk. I'm Maya."
+    },
+    {
+     "who": "theo",
+     "t": 3.44,
+     "text": "And I'm Theo. Today, a scene every dog owner knows. You're on a shady sidewalk in Turtle Rock, and your small dog just stops. Completely."
+    },
+    {
+     "who": "maya",
+     "t": 11.99,
+     "text": "Leash loose. Tail up. Nose down. And you're standing there wondering, what exactly are we doing?"
+    },
+    {
+     "who": "theo",
+     "t": 18.31,
+     "text": "So we've invited Marcus to share a training point of view, and Clara to add a health note. Marcus, what's going on in there?"
+    },
+    {
+     "who": "marcus",
+     "t": 25.4,
+     "text": "Thanks, Theo. Here's the short version. A sniff is how a dog reads the news. Who walked by, who's new in the neighborhood, what was here at breakfast. When she stops, she's usually collecting information. She isn't being stubborn."
+    },
+    {
+     "who": "maya",
+     "t": 38.25,
+     "text": "So we shouldn't just keep pulling."
+    },
+    {
+     "who": "marcus",
+     "t": 40.4,
+     "text": "A steady, gentle pace is fine. Let her have a sniff break, then use a cheerful cue to move on. The sniff itself is the reward. You're teaching a rhythm: explore, then go."
+    },
+    {
+     "who": "theo",
+     "t": 51.18,
+     "text": "I like that. A walk as a conversation, not a march."
+    },
+    {
+     "who": "maya",
+     "t": 54.82,
+     "text": "Now Clara, there's another reason a dog might stop. Heat."
+    },
+    {
+     "who": "clara",
+     "t": 59.05,
+     "text": "Yes. And a reminder first: I'm an AI voice, not a veterinarian. On warm afternoons, pavement can get much hotter than the air. A simple check: press the back of your hand to the ground for five seconds. If it's too hot for you, it's too hot for her paws."
+    },
+    {
+     "who": "clara",
+     "t": 74.14,
+     "text": "Small dogs are also closer to the ground, so heat rises right at them. Early mornings, evenings, shade, and fresh water are kinder choices. And if your dog is panting hard or seems unwell, call your own vet."
+    },
+    {
+     "who": "theo",
+     "t": 87.38,
+     "text": "Practical. So: let the sniff happen, check the pavement, and keep it pleasant."
+    },
+    {
+     "who": "marcus",
+     "t": 91.55,
+     "text": "One more tip. For many small dogs, a few shorter strolls beat one long slog."
+    },
+    {
+     "who": "maya",
+     "t": 97.25,
+     "text": "That's our walk for today. These are AI voices sharing general information, not veterinary advice. For your dog's health, ask your vet."
+    },
+    {
+     "who": "theo",
+     "t": 106.71,
+     "text": "And if you're in Irvine and wondering who might look after your dog while you're away, the family at TurtleRock Paws would love to meet you. Until next time."
+    },
+    {
+     "who": "maya",
+     "t": 115.72,
+     "text": "Happy walking."
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Today's Walk, Let's Talk | TurtleRock Paws</title>
+<meta name="description" content="Calm, story-first conversations about dogs, from the family at TurtleRock Paws in Turtle Rock, Irvine.">
+<meta name="robots" content="noindex">
+<meta name="theme-color" content="#5b0a3c">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="bar">
+  <a class="book" href="https://www.irvinedogboarding.net/">
+    <span class="book-arrow" aria-hidden="true">&larr;</span>
+    <span>Back to TurtleRock Paws &ndash; Book your dog&rsquo;s stay</span>
+  </a>
+</header>
+
+<main class="wrap">
+  <section class="stage" aria-labelledby="title">
+    <p class="series">Today&rsquo;s Walk, Let&rsquo;s Talk</p>
+    <h1 id="title">Loading&hellip;</h1>
+    <p class="meta" id="meta"></p>
+
+    <div class="table" id="table" role="group" aria-label="Voices in this episode"></div>
+    <p class="nowspeaking" id="nowspeaking" aria-live="polite">Press play to join the table.</p>
+
+    <div class="player" id="player" hidden>
+      <audio id="audio" preload="none"></audio>
+      <div class="controls">
+        <button class="btn-skip" id="back15" type="button" aria-label="Back 15 seconds">&minus;15</button>
+        <button class="btn-play" id="play" type="button" aria-label="Play episode">
+          <svg class="i-play" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>
+          <svg class="i-pause" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 5h4v14H7zM13 5h4v14h-4z"/></svg>
+        </button>
+        <button class="btn-skip" id="speed" type="button" aria-label="Playback speed">1&times;</button>
+      </div>
+      <div class="scrub">
+        <span id="cur">0:00</span>
+        <input id="seek" type="range" min="0" max="1000" value="0" aria-label="Seek">
+        <span id="dur">0:00</span>
+      </div>
+    </div>
+
+    <p class="summary" id="summary"></p>
+    <div class="links" id="links"></div>
+  </section>
+
+  <section class="transcript" aria-labelledby="th">
+    <h2 id="th">Read along</h2>
+    <ol id="lines"></ol>
+  </section>
+</main>
+
+<footer class="foot">
+  <p><strong>AI voices.</strong> Everyone at this table is an AI character sharing general information for conversation, not veterinary advice. For your dog&rsquo;s health, ask your vet.</p>
+  <p>We collect no personal information on this page.</p>
+  <p><a href="https://www.irvinedogboarding.net/">TurtleRock Paws &middot; in-home dog boarding, Turtle Rock, Irvine</a></p>
+</footer>
+
+<script src="player.js"></script>
+</body>
+</html>
