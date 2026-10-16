@@ -85,3 +85,24 @@ h1{margin:0;font:italic 500 clamp(28px,7vw,44px)/1.12 var(--serif);color:var(--p
 .bench li{text-align:center}
 .bench img{width:84px;height:84px;border-radius:50%;border:3px solid var(--cream);box-shadow:0 3px 10px rgba(43,16,32,.25);background:var(--blush)}
 .bench b{display:block;margin-top:6px;font-size:15px}.bench span{display:block;font-size:12.5px;color:var(--muted);line-height:1.25}
+
+.ask{padding:4px 0 40px;max-width:68ch}
+.ask h2{margin:0 0 8px;font:italic 500 26px/1.2 var(--serif);color:var(--plum)}
+.ask p{margin:0 0 12px}
+.ask .fine{font-size:13.5px;color:var(--muted);margin-top:12px}
+.chips{list-style:none;margin:0 0 16px;padding:0;display:flex;flex-wrap:wrap;gap:8px}
+.chips li{background:var(--blush);color:var(--plum);border:1px solid var(--blush-d);border-radius:999px;padding:7px 14px;font-size:15px;font-weight:600}
+.askbtn{display:inline-flex;align-items:center;justify-content:center;min-height:48px;padding:10px 22px;border-radius:999px;background:var(--plum);color:#fff;font-weight:700;font-size:16px;text-decoration:none}
+.askbtn:hover{background:var(--plum-d)}
+
+.archive{padding:4px 0 28px;max-width:68ch}
+.archive h2{margin:0 0 10px;font:italic 500 26px/1.2 var(--serif);color:var(--plum)}
+.archive ol{list-style:none;margin:0;padding:0;display:grid;gap:8px}
+.archive ol a{display:block;padding:12px 14px;border:1px solid var(--blush-d);border-radius:14px;background:#fff;color:var(--ink);text-decoration:none}
+.archive ol a:hover{background:var(--blush)}
+.archive ol a.cur{border-color:var(--plum);box-shadow:inset 4px 0 0 var(--gold)}
+.archive .ad{display:block;font-size:13px;color:var(--muted)}
+.archive b{display:block;font:italic 500 19px/1.25 var(--serif);color:var(--plum);margin:2px 0}
+.archive .am{display:block;font-size:13px;color:var(--muted)}
+.archive .sub{font-size:14px;color:var(--muted);margin:12px 0 0}
+.archive .url{display:block;word-break:break-all;font-family:ui-monospace,Menlo,Consolas,monospace;font-size:13px;color:var(--ink);margin-top:4px}

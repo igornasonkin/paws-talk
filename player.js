@@ -11,7 +11,7 @@
     var id = new URLSearchParams(location.search).get('ep');
     BENCH = d.bench || null;
     ep = d.episodes.filter(function (e) { return e.id === id; })[0] || d.episodes[d.episodes.length - 1];
-    render();
+    render(); archive(d.episodes);
   }).catch(function () { $('title').textContent = 'This episode could not load. Please refresh.'; });
 
   function render() {
@@ -64,6 +64,17 @@
       navigator.mediaSession.setActionHandler('seekbackward', function () { seekTo(audio.currentTime - 15); });
       navigator.mediaSession.setActionHandler('seekforward', function () { seekTo(audio.currentTime + 15); });
     }
+  }
+
+  function archive(list) {
+    var ol = $('archive'); if (!ol) return; ol.textContent = '';
+    list.slice().sort(function (a, b) { return a.date < b.date ? 1 : -1; }).forEach(function (e) {
+      var li = el('li'); var a = el('a', e.id === ep.id ? 'cur' : null); a.href = '?ep=' + e.id;
+      var when = new Date(e.date + 'T12:00:00').toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' });
+      a.appendChild(el('span', 'ad', when)); a.appendChild(el('b', null, e.title)); a.appendChild(el('span', 'am', fmt(e.duration) + ' listen'));
+      if (e.id === ep.id) a.setAttribute('aria-current', 'page');
+      li.appendChild(a); ol.appendChild(li);
+    });
   }
 
   function toggle() { if (audio.paused) { audio.play(); } else { audio.pause(); } }

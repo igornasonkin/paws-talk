@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Today's Walk, Let's Talk</title>
+    <link>https://igornasonkin.github.io/paws-talk/</link>
+    <atom:link href="https://igornasonkin.github.io/paws-talk/feed.xml" rel="self" type="application/rss+xml"/>
+    <language>en-us</language>
+    <description>Calm conversations about dogs, from the family at TurtleRock Paws in Turtle Rock, Irvine. All voices are AI characters sharing general information, not veterinary advice.</description>
+    <itunes:author>TurtleRock Paws</itunes:author>
+    <itunes:summary>Calm conversations about dogs, from the family at TurtleRock Paws in Turtle Rock, Irvine. All voices are AI characters.</itunes:summary>
+    <itunes:image href="https://igornasonkin.github.io/paws-talk/cover.jpg"/>
+    <itunes:category text="Leisure"/>
+    <itunes:explicit>false</itunes:explicit>
+    <itunes:type>episodic</itunes:type>
+    <item>
+      <title>Why does my small dog stop to sniff?</title>
+      <link>https://igornasonkin.github.io/paws-talk/?ep=001</link>
+      <guid isPermaLink="false">paws-talk-001</guid>
+      <pubDate>Fri, 16 Oct 2026 12:00:00 -0700</pubDate>
+      <description>A calm walk-and-talk about sniff breaks, patient leash habits, and checking hot pavement before warm-weather walks in Irvine. AI voices sharing general information, not veterinary advice. For your dog's health, ask your vet.</description>
+      <itunes:summary>A calm walk-and-talk about sniff breaks, patient leash habits, and checking hot pavement before warm-weather walks in Irvine. AI voices sharing general information, not veterinary advice. For your dog's health, ask your vet.</itunes:summary>
+      <enclosure url="https://igornasonkin.github.io/paws-talk/ep001.mp3" length="921381" type="audio/mpeg"/>
+      <itunes:duration>2:12</itunes:duration>
+      <itunes:episode>1</itunes:episode>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+  </channel>
+</rss>
