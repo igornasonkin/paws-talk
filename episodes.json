@@ -4,7 +4,7 @@
    "id": "001",
    "title": "Why does my small dog stop to sniff?",
    "date": "2026-10-16",
-   "duration": 130.3,
+   "duration": 128.8,
    "summary": "A calm walk-and-talk about sniff breaks, patient leash habits, and checking hot pavement before warm-weather walks in Irvine.",
    "audio": "ep001.mp3",
    "cast": [
@@ -19,8 +19,8 @@
      "role": "Host"
     },
     {
-     "id": "marcus",
-     "name": "Marcus",
+     "id": "ed",
+     "name": "Ed",
      "role": "Training voice"
     },
     {
@@ -49,66 +49,66 @@
     {
      "who": "hal",
      "t": 23.63,
-     "text": "So we've invited Marcus to share a training point of view, and Clara to add a health note. Marcus, what's going on in there?"
+     "text": "So we've invited Ed to share a training point of view, and Clara to add a health note. Ed, what's going on in there?"
     },
     {
-     "who": "marcus",
-     "t": 32.58,
+     "who": "ed",
+     "t": 32.15,
      "text": "Thanks, Hal. Here's the short version. A sniff is how a dog reads the news. Who walked by, who's new in the neighborhood, what was here at breakfast. When she stops, she's usually collecting information. She isn't being stubborn."
     },
     {
      "who": "maya",
-     "t": 45.39,
+     "t": 44.56,
      "text": "So we shouldn't just keep pulling."
     },
     {
-     "who": "marcus",
-     "t": 47.54,
+     "who": "ed",
+     "t": 46.71,
      "text": "A steady, gentle pace is fine. Let her have a sniff break, then use a cheerful cue to move on. The sniff itself is the reward. You're teaching a rhythm: explore, then go."
     },
     {
      "who": "hal",
-     "t": 58.32,
+     "t": 57.01,
      "text": "I like that. A walk as a conversation, not a march."
     },
     {
      "who": "maya",
-     "t": 63.98,
+     "t": 62.67,
      "text": "Now Clara, there's another reason a dog might stop. Heat."
     },
     {
      "who": "clara",
-     "t": 69.01,
+     "t": 67.7,
      "text": "Yes. And a reminder first: I'm an AI voice, not a veterinarian. On warm afternoons, pavement can get much hotter than the air. A simple check: press the back of your hand to the ground for five seconds. If it's too hot for you, it's too hot for her paws."
     },
     {
      "who": "clara",
-     "t": 83.51,
+     "t": 82.2,
      "text": "Small dogs are also closer to the ground, so heat rises right at them. Early mornings, evenings, shade, and fresh water are kinder choices. And if your dog is panting hard or seems unwell, call your own vet."
     },
     {
      "who": "hal",
-     "t": 96.83,
+     "t": 95.53,
      "text": "Practical. So: let the sniff happen, check the pavement, and keep it pleasant."
     },
     {
-     "who": "marcus",
-     "t": 102.26,
+     "who": "ed",
+     "t": 100.95,
      "text": "One more tip. For many small dogs, a few shorter strolls beat one long slog."
     },
     {
      "who": "maya",
-     "t": 107.96,
+     "t": 106.49,
      "text": "That's our walk for today. These are AI voices sharing general information, not veterinary advice. For your dog's health, ask your vet."
     },
     {
      "who": "hal",
-     "t": 117.42,
+     "t": 115.95,
      "text": "And if you're in Irvine and wondering who might look after your dog while you're away, the family at TurtleRock Paws would love to meet you. Until next time."
     },
     {
      "who": "maya",
-     "t": 127.07,
+     "t": 125.6,
      "text": "Happy walking."
     }
    ]
@@ -117,7 +117,7 @@
    "id": "002",
    "title": "Brush, bath and nails: keeping grooming calm",
    "date": "2026-10-16",
-   "duration": 167.8,
+   "duration": 167.4,
    "summary": "Meet Judy, our grooming and care voice. A calm talk about short brushing sessions, lukewarm baths, small steps with nails, and a quick skin check.",
    "audio": "ep002.mp3",
    "cast": [
@@ -137,8 +137,8 @@
      "role": "Grooming and care voice"
     },
     {
-     "id": "marcus",
-     "name": "Marcus",
+     "id": "ed",
+     "name": "Ed",
      "role": "Training voice"
     }
    ],
@@ -185,53 +185,53 @@
      "text": "Lukewarm water, never hot, and a shampoo made for dogs. Wet her slowly, keep water away from her ears and eyes, and rinse longer than you think you need to. Leftover soap can itch."
     },
     {
-     "who": "marcus",
+     "who": "ed",
      "t": 85.78,
      "text": "I'd add one training thought. Let her sniff the towel, the tub, even the brush, before you start. When a dog gets a choice to approach, she's more relaxed. Then reward the small wins."
     },
     {
      "who": "hal",
-     "t": 96.67,
+     "t": 96.3,
      "text": "I like that. Let her say hello to the bath first."
     },
     {
      "who": "maya",
-     "t": 100.7,
+     "t": 100.34,
      "text": "And nails? Those worry a lot of people."
     },
     {
      "who": "judy",
-     "t": 104.31,
+     "t": 103.95,
      "text": "Nails are the tricky one. Go slowly, take tiny bits, and stop if you're unsure. If you can't see where it's safe to trim, a groomer or your vet can show you in person. That's worth the visit."
     },
     {
      "who": "judy",
-     "t": 123.6,
+     "t": 123.24,
      "text": "And while you brush, take a look at her skin. Redness, bumps, a strong smell, or a lot of scratching are good reasons to call your own vet."
     },
     {
      "who": "hal",
-     "t": 137.63,
+     "t": 137.27,
      "text": "So: short sessions, lukewarm water, small steps, and a quick skin check."
     },
     {
      "who": "maya",
-     "t": 143.69,
+     "t": 143.33,
      "text": "That's our walk for today. These are AI voices sharing general information, not veterinary advice. For your dog's health, ask your vet."
     },
     {
      "who": "hal",
-     "t": 153.15,
+     "t": 152.79,
      "text": "And if you're in Irvine and need someone to look after your dog while you're away, the family at TurtleRock Paws would love to meet you. Until next time."
     },
     {
      "who": "judy",
-     "t": 162.84,
+     "t": 162.48,
      "text": "Happy brushing!"
     },
     {
      "who": "maya",
-     "t": 164.56,
+     "t": 164.19,
      "text": "Happy walking."
     }
    ]
@@ -249,8 +249,8 @@
    "role": "Host"
   },
   {
-   "id": "marcus",
-   "name": "Marcus",
+   "id": "ed",
+   "name": "Ed",
    "role": "Training voice"
   },
   {

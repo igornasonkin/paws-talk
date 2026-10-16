@@ -67,7 +67,7 @@ h1{margin:0;font:italic 500 clamp(28px,7vw,44px)/1.12 var(--serif);color:var(--p
   padding:10px 12px 10px 14px;border-radius:0 12px 12px 0;cursor:pointer}
 .ln:hover{background:#faf1f6}
 .ln b{display:block;font-size:13.5px;margin-bottom:2px}
-.ln[data-who=maya] b{color:#8a2f5f}.ln[data-who=hal] b{color:#3b5e8c}.ln[data-who=marcus] b{color:#6a5a1e}.ln[data-who=clara] b{color:#2f7a56}.ln[data-who=mike] b{color:#4f7a3a}.ln[data-who=judy] b{color:#1f7480}.ln[data-who=charles] b{color:#8a4a2a}
+.ln[data-who=maya] b{color:#8a2f5f}.ln[data-who=hal] b{color:#3b5e8c}.ln[data-who=ed] b{color:#6a5a1e}.ln[data-who=clara] b{color:#2f7a56}.ln[data-who=mike] b{color:#4f7a3a}.ln[data-who=judy] b{color:#1f7480}.ln[data-who=charles] b{color:#8a4a2a}
 .ln.on{background:var(--blush);border-left-color:var(--gold)}
 
 .foot{background:var(--plum);color:#f9e6f2;padding:26px 16px calc(30px + env(safe-area-inset-bottom));font-size:14px;text-align:center}
@@ -106,3 +106,6 @@ h1{margin:0;font:italic 500 clamp(28px,7vw,44px)/1.12 var(--serif);color:var(--p
 .archive .am{display:block;font-size:13px;color:var(--muted)}
 .archive .sub{font-size:14px;color:var(--muted);margin:12px 0 0}
 .archive .url{display:block;word-break:break-all;font-family:ui-monospace,Menlo,Consolas,monospace;font-size:13px;color:var(--ink);margin-top:4px}
+
+.hero{margin:18px auto 0;max-width:720px}
+.hero img{display:block;width:100%;height:auto;border-radius:18px;box-shadow:0 8px 22px rgba(91,10,60,.2)}
