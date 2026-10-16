@@ -2,13 +2,14 @@
   'use strict';
   var $ = function (id) { return document.getElementById(id); };
   var reduce = window.matchMedia && matchMedia('(prefers-reduced-motion: reduce)').matches;
-  var ep, audio = $('audio'), active = -1, speeds = [1, 1.25, 0.85], si = 0;
+  var ep, BENCH = null, audio = $('audio'), active = -1, speeds = [1, 1.25, 0.85], si = 0;
 
   function fmt(s) { s = Math.max(0, Math.floor(s || 0)); return Math.floor(s / 60) + ':' + ('0' + (s % 60)).slice(-2); }
   function el(tag, cls, txt) { var e = document.createElement(tag); if (cls) e.className = cls; if (txt != null) e.textContent = txt; return e; }
 
   fetch('episodes.json').then(function (r) { return r.json(); }).then(function (d) {
     var id = new URLSearchParams(location.search).get('ep');
+    BENCH = d.bench || null;
     ep = d.episodes.filter(function (e) { return e.id === id; })[0] || d.episodes[d.episodes.length - 1];
     render();
   }).catch(function () { $('title').textContent = 'This episode could not load. Please refresh.'; });
@@ -25,6 +26,12 @@
       var img = el('img'); img.src = c.id + '.svg'; img.alt = c.name + ', ' + c.role; img.width = 116; img.height = 116; img.decoding = 'async';
       s.appendChild(img); s.appendChild(el('span', 'nm', c.name)); s.appendChild(el('span', 'rl', c.role));
       table.appendChild(s);
+    });
+
+    var bl = $('bench'); bl.textContent = '';
+    (BENCH || ep.cast).forEach(function (c) {
+      var li = el('li'); var im = el('img'); im.src = c.id + '.svg'; im.alt = ''; im.width = 84; im.height = 84; im.loading = 'lazy';
+      li.appendChild(im); li.appendChild(el('b', null, c.name)); li.appendChild(el('span', null, c.role)); bl.appendChild(li);
     });
 
     var ol = $('lines'); ol.textContent = '';
