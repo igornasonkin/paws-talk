@@ -112,6 +112,129 @@
      "text": "Happy walking."
     }
    ]
+  },
+  {
+   "id": "002",
+   "title": "Brush, bath and nails: keeping grooming calm",
+   "date": "2026-10-16",
+   "duration": 167.8,
+   "summary": "Meet Judy, our grooming and care voice. A calm talk about short brushing sessions, lukewarm baths, small steps with nails, and a quick skin check.",
+   "audio": "ep002.mp3",
+   "cast": [
+    {
+     "id": "maya",
+     "name": "Maya",
+     "role": "Host"
+    },
+    {
+     "id": "hal",
+     "name": "Hal",
+     "role": "Host"
+    },
+    {
+     "id": "judy",
+     "name": "Judy",
+     "role": "Grooming and care voice"
+    },
+    {
+     "id": "marcus",
+     "name": "Marcus",
+     "role": "Training voice"
+    }
+   ],
+   "links": [],
+   "lines": [
+    {
+     "who": "maya",
+     "t": 4.6,
+     "text": "Welcome back to Today's Walk, Let's Talk. I'm Maya."
+    },
+    {
+     "who": "hal",
+     "t": 8.21,
+     "text": "And I'm Hal. Today we're welcoming a new voice to the table, and a topic that makes many small dogs wiggle away: grooming."
+    },
+    {
+     "who": "maya",
+     "t": 16.62,
+     "text": "Brushing, baths, nail time. Judy, welcome. Tell us who you are."
+    },
+    {
+     "who": "judy",
+     "t": 22.46,
+     "text": "Thanks, Maya. I'm Judy, the grooming and care voice. A quick note: I'm an AI voice, not a professional groomer or a veterinarian, so think of this as friendly, general information."
+    },
+    {
+     "who": "hal",
+     "t": 41.41,
+     "text": "Fair enough. Where do we start?"
+    },
+    {
+     "who": "judy",
+     "t": 44.16,
+     "text": "With the brush. A few gentle minutes most days beats one long session. Keep it short, keep it calm, and give a little treat when it goes well. Dogs learn that the brush means good things."
+    },
+    {
+     "who": "maya",
+     "t": 63.59,
+     "text": "What about bath time?"
+    },
+    {
+     "who": "judy",
+     "t": 65.39,
+     "text": "Lukewarm water, never hot, and a shampoo made for dogs. Wet her slowly, keep water away from her ears and eyes, and rinse longer than you think you need to. Leftover soap can itch."
+    },
+    {
+     "who": "marcus",
+     "t": 85.78,
+     "text": "I'd add one training thought. Let her sniff the towel, the tub, even the brush, before you start. When a dog gets a choice to approach, she's more relaxed. Then reward the small wins."
+    },
+    {
+     "who": "hal",
+     "t": 96.67,
+     "text": "I like that. Let her say hello to the bath first."
+    },
+    {
+     "who": "maya",
+     "t": 100.7,
+     "text": "And nails? Those worry a lot of people."
+    },
+    {
+     "who": "judy",
+     "t": 104.31,
+     "text": "Nails are the tricky one. Go slowly, take tiny bits, and stop if you're unsure. If you can't see where it's safe to trim, a groomer or your vet can show you in person. That's worth the visit."
+    },
+    {
+     "who": "judy",
+     "t": 123.6,
+     "text": "And while you brush, take a look at her skin. Redness, bumps, a strong smell, or a lot of scratching are good reasons to call your own vet."
+    },
+    {
+     "who": "hal",
+     "t": 137.63,
+     "text": "So: short sessions, lukewarm water, small steps, and a quick skin check."
+    },
+    {
+     "who": "maya",
+     "t": 143.69,
+     "text": "That's our walk for today. These are AI voices sharing general information, not veterinary advice. For your dog's health, ask your vet."
+    },
+    {
+     "who": "hal",
+     "t": 153.15,
+     "text": "And if you're in Irvine and need someone to look after your dog while you're away, the family at TurtleRock Paws would love to meet you. Until next time."
+    },
+    {
+     "who": "judy",
+     "t": 162.84,
+     "text": "Happy brushing!"
+    },
+    {
+     "who": "maya",
+     "t": 164.56,
+     "text": "Happy walking."
+    }
+   ]
   }
  ],
  "bench": [
