@@ -7,6 +7,7 @@
   var reduce = window.matchMedia && matchMedia('(prefers-reduced-motion: reduce)').matches;
   var cv = document.createElement('canvas');
   cv.className = 'dogs'; cv.setAttribute('aria-hidden', 'true');
+  cv.style.cssText = 'position:absolute;left:0;top:0;pointer-events:none;z-index:2';   /* inline so it never depends on a cached stylesheet */
   var ctx = cv.getContext('2d');
   var W = 0, H = 0, dpr = 1, S = 1;           /* canvas size, pixel ratio, dog scale */
   var oval = { cx: 0, cy: 0, a: 1, b: 1 };     /* the tabletop ellipse */
