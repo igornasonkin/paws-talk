@@ -4,7 +4,7 @@
    "id": "001",
    "title": "Why does my small dog stop to sniff?",
    "date": "2026-10-16",
-   "duration": 125.0,
+   "duration": 121.8,
    "summary": "A calm walk-and-talk about sniff breaks, patient leash habits, and checking hot pavement before warm-weather walks in Irvine.",
    "audio": "ep001.mp3",
    "cast": [
@@ -73,45 +73,73 @@
     },
     {
      "who": "andria",
-     "t": 60.76,
+     "t": 60.36,
      "text": "Now Clara, there's another reason a dog might stop. Heat."
     },
     {
      "who": "clara",
-     "t": 65.48,
-     "text": "Yes. And a reminder first: I'm an AI voice, not a veterinarian. On warm afternoons, pavement can get much hotter than the air. A simple check: press the back of your hand to the ground for five seconds. If it's too hot for you, it's too hot for her paws."
+     "t": 64.28,
+     "text": "Yes. And a reminder first: I'm an AI voice, not a veterinarian. On warm afternoons, pavement can get much hotter than the air. A simple check: press the back of your hand to the ground for seven seconds. If it's too hot for you, it's too hot for her paws."
     },
     {
      "who": "clara",
-     "t": 79.98,
-     "text": "Small dogs are also closer to the ground, so heat rises right at them. Early mornings, evenings, shade, and fresh water are kinder choices. And if your dog is panting hard or seems unwell, call your own vet."
+     "t": 78.81,
+     "text": "Dogs walk barefoot on that surface, so early mornings, evenings, shade, and fresh water are kinder choices. And if your dog is panting hard or seems unwell, call your own vet."
     },
     {
      "who": "hal",
-     "t": 93.3,
+     "t": 89.29,
      "text": "Practical. So: let the sniff happen, check the pavement, and keep it pleasant."
     },
     {
      "who": "ed",
-     "t": 98.42,
+     "t": 95.2,
      "text": "One more tip. For many small dogs, a few shorter strolls beat one long slog."
     },
     {
      "who": "andria",
-     "t": 103.96,
+     "t": 100.74,
      "text": "That's our walk for today. These are AI voices sharing general information, not veterinary advice. For your dog's health, ask your vet."
     },
     {
      "who": "hal",
-     "t": 112.76,
+     "t": 109.54,
      "text": "And if you're in Irvine and wondering who might look after your dog while you're away, the family at TurtleRock Paws would love to meet you. Until next time."
     },
     {
      "who": "andria",
-     "t": 121.93,
+     "t": 118.72,
      "text": "Happy walking."
     }
-   ]
+   ],
+   "sources": {
+    "intro": "These are published research articles. Peer-reviewed means other scientists checked a study before the journal printed it. A study is a clue, not a guarantee, and every dog is different.",
+    "checked": "October 16, 2026",
+    "items": [
+     {
+      "kind": "Peer-reviewed review",
+      "title": "Olfaction in the canine cognitive and emotional processes: from behavioral and neural viewpoints to measurement possibilities",
+      "cite": "Neuroscience & Biobehavioral Reviews, 2024",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38160722/",
+      "supports": "Sniffing is natural dog behavior and important for a dog's well-being."
+     },
+     {
+      "kind": "Peer-reviewed study, free to read",
+      "title": "Incidence and risk factors for heat-related illness (heatstroke) in UK dogs under primary veterinary care in 2016",
+      "cite": "Scientific Reports, 2020",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32555323/",
+      "supports": "Heatstroke in dogs is real and can be serious, but it is uncommon: 395 confirmed cases among 905,543 UK dogs in one year."
+     },
+     {
+      "kind": "Veterinary school guidance (not a study)",
+      "title": "Protect your pet's feet from heat, burns",
+      "cite": "Washington State University College of Veterinary Medicine, 2017",
+      "url": "https://archive.news.wsu.edu/press-release/2017/07/06/protect-pets-feet-from-heat/",
+      "supports": "Pavement can burn paws even when the air is only moderately warm. Hold the back of your hand on it for about seven seconds."
+     }
+    ],
+    "notes": "No study found for the sniff-break rhythm or for several short strolls beating one long one. Those are common training practice, so treat them as friendly tips."
+   }
   },
   {
    "id": "002",
@@ -234,7 +262,28 @@
      "t": 161.27,
      "text": "Happy walking."
     }
-   ]
+   ],
+   "sources": {
+    "intro": "These are published research articles. Peer-reviewed means other scientists checked a study before the journal printed it. A study is a clue, not a guarantee, and every dog is different.",
+    "checked": "October 16, 2026",
+    "items": [
+     {
+      "kind": "Peer-reviewed study, free to read",
+      "title": "The welfare consequences and efficacy of training pet dogs with remote electronic training collars in comparison to reward based training",
+      "cite": "PLoS ONE, 2014",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/25184218/",
+      "supports": "In 63 dogs trained for coming when called, shock collars showed no consistent benefit and raised more welfare concerns than reward-based training. It tested recall, not grooming, so it supports the general idea only."
+     },
+     {
+      "kind": "Peer-reviewed review",
+      "title": "A comparative review of cutaneous pH",
+      "cite": "Veterinary Dermatology, 2002",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/12464061/",
+      "supports": "Skin acidity differs between species and helps protect the skin. Background only; it does not test shampoos."
+     }
+    ],
+    "notes": "No study found for lukewarm water, rinsing well, small nail trims, or letting a dog sniff the tub first. Those are common grooming practice. Ask your vet or groomer."
+   }
   }
  ],
  "bench": [
