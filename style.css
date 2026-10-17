@@ -118,3 +118,8 @@ h1{margin:0;font:italic 500 clamp(28px,7vw,44px)/1.12 var(--serif);color:var(--p
 .table.multi .seat:nth-child(n){margin-top:0}
 
 .seat img,.bench img{object-fit:cover}
+
+/* installed-app tweaks and studio link */
+.studiolink{margin:18px 0 0}
+.studiolink a{display:inline-flex;align-items:center;justify-content:center;min-height:48px;padding:10px 20px;border-radius:999px;background:var(--blush);color:var(--plum);font-weight:700;font-size:15px;text-decoration:none;border:1px solid var(--blush-d)}
+@media (display-mode:standalone){.bar{padding-top:max(12px,env(safe-area-inset-top))}}

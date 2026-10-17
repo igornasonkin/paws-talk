@@ -8,6 +8,12 @@
 <meta name="robots" content="noindex">
 <meta name="theme-color" content="#5b0a3c">
 <link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="icon-180.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Walk &amp; Talk">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <link rel="alternate" type="application/rss+xml" title="Today's Walk, Let's Talk" href="feed.xml">
 <link rel="stylesheet" href="style.css">
 </head>
@@ -48,6 +54,7 @@
 
     <p class="summary" id="summary"></p>
     <div class="links" id="links"></div>
+    <p class="studiolink"><a href="studio.html">Open the Studio: seat the table, pick a topic, add dog photos</a></p>
   </section>
 
   <section class="transcript" aria-labelledby="th">
@@ -85,5 +92,6 @@
 </footer>
 
 <script src="player.js"></script>
+<script>if("serviceWorker"in navigator){addEventListener("load",function(){navigator.serviceWorker.register("sw.js").catch(function(){})})}</script>
 </body>
 </html>

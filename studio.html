@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Studio | Today's Walk, Let's Talk</title>
+<meta name="robots" content="noindex">
+<meta name="theme-color" content="#5b0a3c">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="icon-180.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Walk &amp; Talk">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="studio.css">
+</head>
+<body class="studio">
+<header class="bar">
+  <a class="book" href="./"><span class="book-arrow" aria-hidden="true">&larr;</span><span>Back to the episodes</span></a>
+</header>
+<main class="wrap">
+  <h1 class="sh">The Studio</h1>
+  <p class="lead">Plan the next conversation. Drag faces to the table, pick a topic, add dog photos, then send it.</p>
+
+  <section aria-labelledby="s1">
+    <h2 id="s1">1. Who is at the table?</h2>
+    <p class="hint">Drag a face onto the table, drag it onto another face to change places, or drag it back down to take it off. Tapping a face works too.</p>
+    <div class="studio-table" id="stable" aria-label="Table" aria-live="polite"><p class="empty" id="empty">Drop faces here</p></div>
+    <p class="count" id="count">0 at the table</p>
+    <div class="tray" id="tray" aria-label="Available voices"></div>
+  </section>
+
+  <section aria-labelledby="s2">
+    <h2 id="s2">2. What are they talking about?</h2>
+    <label class="lbl" for="topic">Topic</label>
+    <select id="topic">
+      <option value="">Choose a topic&hellip;</option>
+      <optgroup label="On the walk">
+        <option>Why dogs stop to sniff</option>
+        <option>Small-dog leash manners</option>
+        <option>Warm pavement and heat safety</option>
+        <option>Meeting other dogs on the sidewalk</option>
+        <option>Barking at the neighbors</option>
+      </optgroup>
+      <optgroup label="At home">
+        <option>Brush, bath and nails</option>
+        <option>Calm alone time and separation worries</option>
+        <option>Puppy socializing</option>
+        <option>Senior dog comfort</option>
+        <option>Allergies and skin</option>
+      </optgroup>
+      <optgroup label="Science and breeds">
+        <option>Genetics and breed traits</option>
+        <option>Eye health</option>
+        <option>Family trees and ancestry</option>
+      </optgroup>
+      <optgroup label="Staying with us">
+        <option>Getting your dog ready for boarding</option>
+        <option>Irvine walks and local events</option>
+      </optgroup>
+      <option value="other">Something else (write it below)</option>
+    </select>
+    <label class="lbl" for="note">Your own idea or question (optional)</label>
+    <textarea id="note" rows="3" placeholder="For example: my 6-year-old Maltese hates the rain. What can we do?"></textarea>
+  </section>
+
+  <section aria-labelledby="s3">
+    <h2 id="s3">3. Add dog photos (optional)</h2>
+    <div class="drop" id="drop">
+      <p>Drop dog pictures here, or</p>
+      <label class="pick">Choose from my photos<input id="files" type="file" accept="image/*" multiple hidden></label>
+    </div>
+    <ul class="thumbs" id="thumbs"></ul>
+    <p class="fine">Photos stay on your device until you press Send and choose where to send them. Up to 4 photos.</p>
+  </section>
+
+  <section aria-labelledby="s4">
+    <h2 id="s4">4. Send it</h2>
+    <button class="send" id="send" type="button">Send my plan</button>
+    <p class="status" id="status" role="status"></p>
+    <p class="fine">Your phone will ask where to send it (Messages, Mail and so on). Nothing is stored on this website. The finished episode takes a little time to produce, and it shows up here in the list.</p>
+  </section>
+</main>
+<footer class="foot">
+  <p><strong>AI voices.</strong> Everyone at this table is an AI character sharing general information for conversation, not veterinary advice.</p>
+</footer>
+<script src="studio.js"></script>
+<script>if("serviceWorker"in navigator){addEventListener("load",function(){navigator.serviceWorker.register("sw.js").catch(function(){})})}</script>
+</body>
+</html>
