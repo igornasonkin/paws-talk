@@ -20,11 +20,11 @@
 <header class="bar">
   <a class="book" href="./"><span class="book-arrow" aria-hidden="true">&larr;</span><span>Back to the episodes</span></a>
 </header>
-<main class="wrap">
+<main class="wrap studio-grid">
   <h1 class="sh">The Studio</h1>
-  <p class="lead">Plan the next conversation. Drag faces to the table, pick a topic, add dog photos, then send it.</p>
+  <p class="lead">Plan the next conversation. Drag faces to the table, drag a topic or a paper onto its card, add dog photos, then send it.</p>
 
-  <section aria-labelledby="s1">
+  <section aria-labelledby="s1" class="g-s1">
     <h2 id="s1">1. Who is at the table?</h2>
     <p class="hint">Drag a face onto the table, drag it onto another face to change places, or drag it back down to take it off. Tapping a face works too.</p>
     <div class="studio-table" id="stable" aria-label="Table" aria-live="polite"><p class="empty" id="empty">Drop faces here</p></div>
@@ -32,9 +32,47 @@
     <div class="tray" id="tray" aria-label="Available voices"></div>
   </section>
 
-  <section aria-labelledby="s2">
+  <section aria-labelledby="s2" class="g-s2">
     <h2 id="s2">2. What are they talking about?</h2>
-    <label class="lbl" for="topic">Topic</label>
+    <p class="hint">Scroll the lists, then drag a topic or a paper onto its card. On a phone, hold the grip (&#8942;&#8942;) to drag. Tapping a card works too.</p>
+    <div class="slots">
+      <div class="slot" id="tslot" data-drop="topic">
+        <span class="slot-label">Topic</span>
+        <div class="slot-body" id="tbox"></div>
+      </div>
+      <div class="slot" id="pslot" data-drop="paper">
+        <span class="slot-label">Papers to discuss <span id="pcount">(0 of 2)</span></span>
+        <div class="slot-body" id="pbox"></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="g-side" aria-label="Topic and paper lists">
+    <div class="panel" data-drop="tlist">
+      <h3 class="ph">Topics</h3>
+      <label class="lbl sr" for="tsearch">Find a topic</label>
+      <input id="tsearch" type="search" placeholder="Search the topics" autocomplete="off">
+      <div class="scroller" id="tlist" tabindex="0" role="list" aria-label="Topics. Scroll to see more."></div>
+    </div>
+    <div class="panel" data-drop="plist">
+      <h3 class="ph">Papers</h3>
+      <p class="fine">Best: free-to-read, peer-reviewed research. Paste a link or a DOI, or drop a PDF. I check every paper before the episode.</p>
+      <div class="padd">
+        <label class="lbl sr" for="plink">Paper link or DOI</label>
+        <input id="plink" type="text" inputmode="url" placeholder="Paste a link or DOI" autocomplete="off">
+        <button type="button" class="padd-btn" id="padd">Add</button>
+      </div>
+      <div class="drop pdrop" id="pdrop">
+        <p>Drop a PDF or a link here, or</p>
+        <label class="pick">Choose a PDF<input id="pfile" type="file" accept="application/pdf" multiple hidden></label>
+      </div>
+      <div class="ptray" id="ptray" aria-label="Papers you added"></div>
+    </div>
+  </section>
+
+  <section aria-labelledby="s2b" class="g-own">
+    <h2 id="s2b">Your own idea</h2>
+    <label class="lbl" for="topic">Or choose from a menu</label>
     <select id="topic">
       <option value="">Choose a topic&hellip;</option>
       <optgroup label="Already made episodes">
@@ -283,7 +321,7 @@
     <textarea id="note" rows="3" placeholder="For example: my 6-year-old Maltese hates the rain. What can we do?"></textarea>
   </section>
 
-  <section aria-labelledby="s3">
+  <section aria-labelledby="s3" class="g-s3">
     <h2 id="s3">3. Add dog photos (optional)</h2>
     <div class="drop" id="drop">
       <p>Drop dog pictures here, or</p>
@@ -293,7 +331,7 @@
     <p class="fine">Photos stay on your device until you press Send and choose where to send them. Up to 4 photos.</p>
   </section>
 
-  <section aria-labelledby="s4">
+  <section aria-labelledby="s4" class="g-s4">
     <h2 id="s4">4. Send it</h2>
     <button class="send" id="send" type="button">Send my plan</button>
     <p class="status" id="status" role="status"></p>
