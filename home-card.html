@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Today's Walk, Let's Talk</title>
+<style>
+:root{--plum:#5b0a3c;--plum-d:#3e0629;--blush:#fde4f3;--cream:#fffdf6;--gold:#e3a53a;--ink:#2b1020}
+*{box-sizing:border-box}html,body{margin:0;height:100%}
+body{font:16px/1.45 system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;color:var(--ink);background:transparent}
+.card{display:grid;grid-template-columns:1.1fr 1fr;height:100%;background:var(--cream);border:2px solid var(--blush);border-radius:20px;overflow:hidden;box-shadow:0 6px 18px rgba(91,10,60,.15)}
+.pic{position:relative;min-height:0;background:#e9d9bd}
+.pic img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:block}
+.txt{padding:20px 22px;display:flex;flex-direction:column;justify-content:center;gap:10px;min-width:0}
+.k{margin:0;font:italic 400 15px/1.2 Georgia,"Palatino Linotype",serif;color:#6d5262}
+h2{margin:0;font:italic 500 clamp(24px,3.4vw,34px)/1.1 Georgia,"Palatino Linotype",serif;color:var(--plum)}
+.latest{margin:0;font-size:15px}.latest b{display:block;font-size:13px;letter-spacing:.04em;text-transform:uppercase;color:#8a2f5f}
+.btns{display:flex;flex-wrap:wrap;gap:10px;margin-top:2px}
+a.b{display:inline-flex;align-items:center;justify-content:center;min-height:46px;padding:10px 18px;border-radius:999px;text-decoration:none;font-weight:700;font-size:15px;text-align:center}
+a.main{background:var(--plum);color:#fff}a.main:hover{background:var(--plum-d)}
+a.alt{background:#fff;color:var(--plum);border:2px solid var(--plum)}a.alt:hover{background:var(--blush)}
+.faces{display:flex;gap:6px;align-items:center;flex-wrap:wrap}
+.faces a{display:block;width:40px;height:40px;border-radius:50%;overflow:hidden;border:2px solid #fff;box-shadow:0 1px 4px rgba(0,0,0,.3)}
+.faces img{width:100%;height:100%;object-fit:cover;display:block}
+.faces span{font-size:13px;color:#6d5262;margin-left:4px}
+:focus-visible{outline:3px solid var(--gold);outline-offset:2px}
+@media (max-width:640px){.card{grid-template-columns:1fr;grid-template-rows:42% 58%}.txt{padding:14px 16px;gap:8px}.latest{font-size:14px}a.b{min-height:44px;padding:8px 14px;font-size:14px}h2{font-size:26px}}
+</style></head><body>
+<div class="card">
+  <div class="pic"><img src="card-table.jpg" alt="Seven friendly characters and their dogs around a wooden table with coffee mugs and a microphone"></div>
+  <div class="txt">
+    <p class="k">New conversations about dogs, in Turtle Rock</p>
+    <h2>Today&rsquo;s Walk, Let&rsquo;s Talk</h2>
+    <p class="latest" id="latest"><b>Latest episode</b><span id="lt">Loading&hellip;</span></p>
+    <div class="btns">
+      <a class="b main" id="listen" href="https://igornasonkin.github.io/paws-talk/" target="_top">&#127911; Listen now</a>
+      <a class="b alt" href="https://igornasonkin.github.io/paws-talk/#bench" target="_top">Meet the table &amp; pick the next voice</a>
+    </div>
+    <div class="faces" aria-label="The voices at the table">
+      <a href="https://igornasonkin.github.io/paws-talk/#bench" target="_top" title="Hal"><img src="hal.jpg" alt="Hal"></a>
+      <a href="https://igornasonkin.github.io/paws-talk/#bench" target="_top" title="Ed"><img src="ed.jpg" alt="Ed"></a>
+      <a href="https://igornasonkin.github.io/paws-talk/#bench" target="_top" title="Clara"><img src="clara.jpg" alt="Clara"></a>
+      <a href="https://igornasonkin.github.io/paws-talk/#bench" target="_top" title="Andria"><img src="andria.jpg" alt="Andria"></a>
+      <a href="https://igornasonkin.github.io/paws-talk/#bench" target="_top" title="Mike"><img src="mike.jpg" alt="Mike"></a>
+      <a href="https://igornasonkin.github.io/paws-talk/#bench" target="_top" title="Judy"><img src="judy.jpg" alt="Judy"></a>
+      <a href="https://igornasonkin.github.io/paws-talk/#bench" target="_top" title="Charles"><img src="charles.jpg" alt="Charles"></a>
+    </div>
+  </div>
+</div>
+<script>
+fetch('episodes.json').then(function(r){return r.json()}).then(function(d){
+  var e=d.episodes[d.episodes.length-1], m=Math.round(e.duration/60);
+  document.getElementById('lt').textContent=e.title+' ('+m+' min)';
+}).catch(function(){document.getElementById('lt').textContent='Short, calm talks about life with small dogs.';});
+</script>
+</body></html>
