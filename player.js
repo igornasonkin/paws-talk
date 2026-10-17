@@ -21,6 +21,8 @@
     $('summary').textContent = ep.summary;
 
     var table = $('table'); table.textContent = '';
+    var n = ep.cast.length, cols = n <= 4 ? n : (n <= 8 ? Math.ceil(n / 2) : Math.ceil(n / 3));
+    table.style.setProperty('--cols', cols); table.classList.toggle('multi', n > 4);
     ep.cast.forEach(function (c) {
       var s = el('div', 'seat'); s.dataset.who = c.id;
       var img = el('img'); img.src = c.id + '.svg'; img.alt = c.name + ', ' + c.role; img.width = 116; img.height = 116; img.decoding = 'async';

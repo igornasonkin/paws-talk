@@ -109,3 +109,10 @@ h1{margin:0;font:italic 500 clamp(28px,7vw,44px)/1.12 var(--serif);color:var(--p
 
 .hero{margin:18px auto 0;max-width:720px}
 .hero img{display:block;width:100%;height:auto;border-radius:18px;box-shadow:0 8px 22px rgba(91,10,60,.2)}
+
+/* any number of voices at the table: wraps into rows when there are more than four */
+.table{flex-wrap:wrap;row-gap:10px;--cols:4}
+.table .seat{width:calc((100% - (var(--cols) - 1) * clamp(6px,2.4vw,22px)) / var(--cols));max-width:116px}
+.table.multi{max-width:640px}
+.table.multi::before{height:82%}
+.table.multi .seat:nth-child(n){margin-top:0}
