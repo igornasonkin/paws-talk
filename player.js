@@ -25,14 +25,14 @@
     table.style.setProperty('--cols', cols); table.classList.toggle('multi', n > 4);
     ep.cast.forEach(function (c) {
       var s = el('div', 'seat'); s.dataset.who = c.id;
-      var img = el('img'); img.src = c.id + '.svg'; img.alt = c.name + ', ' + c.role; img.width = 116; img.height = 116; img.decoding = 'async';
+      var img = el('img'); img.src = c.id + '.jpg'; img.alt = c.name + ', ' + c.role; img.width = 116; img.height = 116; img.decoding = 'async';
       s.appendChild(img); s.appendChild(el('span', 'nm', c.name)); s.appendChild(el('span', 'rl', c.role));
       table.appendChild(s);
     });
 
     var bl = $('bench'); bl.textContent = '';
     (BENCH || ep.cast).forEach(function (c) {
-      var li = el('li'); var im = el('img'); im.src = c.id + '.svg'; im.alt = ''; im.width = 84; im.height = 84; im.loading = 'lazy';
+      var li = el('li'); var im = el('img'); im.src = c.id + '.jpg'; im.alt = ''; im.width = 84; im.height = 84; im.loading = 'lazy';
       li.appendChild(im); li.appendChild(el('b', null, c.name)); li.appendChild(el('span', null, c.role)); bl.appendChild(li);
     });
 
