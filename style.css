@@ -24,9 +24,10 @@ h1{margin:0;font:italic 500 clamp(28px,7vw,44px)/1.12 var(--serif);color:var(--p
 .meta{margin:10px 0 0;color:var(--muted);font-size:15px}
 
 /* the round table */
-.table{position:relative;display:flex;justify-content:center;gap:clamp(6px,2.4vw,22px);padding:30px 4px 46px;margin:18px auto 0;max-width:560px}
+.table{position:relative;display:flex;justify-content:center;gap:clamp(6px,2.4vw,22px);padding:30px 4px 96px;margin:18px auto 0;max-width:560px}
 .table::before{content:"";position:absolute;left:0;right:0;bottom:6px;height:66%;border-radius:50%;
   background:radial-gradient(ellipse at 50% 30%,#dca66f 0,var(--wood) 55%,var(--wood-d) 100%);box-shadow:0 10px 24px rgba(91,10,60,.18);z-index:0}
+.dogs{position:absolute;left:0;top:0;pointer-events:none;z-index:2}
 .seat{position:relative;z-index:1;width:24%;max-width:116px;text-align:center;}
 .seat:nth-child(1),.seat:nth-child(4){margin-top:14px}
 .seat img{transition:opacity .25s,filter .25s;display:block;width:100%;height:auto;aspect-ratio:1/1;border-radius:50%;background:var(--blush);border:3px solid var(--cream);box-shadow:0 3px 10px rgba(43,16,32,.25)}
