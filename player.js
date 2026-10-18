@@ -27,20 +27,22 @@
     $('title').textContent = ep.title;
     $('meta').textContent = fmt(ep.duration) + ' listen · ' + new Date(ep.date + 'T12:00:00').toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' });
     $('summary').textContent = ep.summary;
+    var hero = document.querySelector('.hero img');
+    if (hero && ep.hero) { hero.src = ep.hero; if (ep.heroAlt) hero.alt = ep.heroAlt; }
 
     var table = $('table'); table.textContent = '';
     var n = ep.cast.length, cols = n <= 4 ? n : (n <= 8 ? Math.ceil(n / 2) : Math.ceil(n / 3));
     table.style.setProperty('--cols', cols); table.classList.toggle('multi', n > 4);
     ep.cast.forEach(function (c) {
       var s = el('div', 'seat'); s.dataset.who = c.id;
-      var img = el('img'); portrait(img, c.name); img.src = c.id + '.jpg'; img.alt = c.name + ', ' + c.role; img.width = 116; img.height = 116; img.decoding = 'async';
+      var img = el('img'); portrait(img, c.name); img.src = c.id + '.jpg?v=2'; img.alt = c.name + ', ' + c.role; img.width = 116; img.height = 116; img.decoding = 'async';
       s.appendChild(img); s.appendChild(el('span', 'nm', c.name)); s.appendChild(el('span', 'rl', c.role));
       table.appendChild(s);
     });
 
     var bl = $('bench'); bl.textContent = '';
     (BENCH || ep.cast).forEach(function (c) {
-      var li = el('li'); var im = el('img'); portrait(im, c.name); im.src = c.id + '.jpg'; im.alt = ''; im.width = 84; im.height = 84; im.loading = 'lazy';
+      var li = el('li'); var im = el('img'); portrait(im, c.name); im.src = c.id + '.jpg?v=2'; im.alt = ''; im.width = 84; im.height = 84; im.loading = 'lazy';
       li.appendChild(im); li.appendChild(el('b', null, c.name)); li.appendChild(el('span', null, c.role)); bl.appendChild(li);
     });
 

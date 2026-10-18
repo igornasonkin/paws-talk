@@ -869,7 +869,9 @@
      }
     ],
     "notes": "The Kujala and Hansen Wheat papers are licensed CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). The Morrill paper is a free author manuscript and no text is reproduced. This episode is our own plain-language summary, with changes (paraphrase and shortening), and is not endorsed by the authors or the journals. No breed names, rankings or brands are used. This is general information, not veterinary or training advice."
-   }
+   },
+   "hero": "table-bea.jpg?v=1",
+   "heroAlt": "An illustration of the show's voices and their dogs around a wooden table with coffee mugs, notebooks, printed dog photos, a laptop and a microphone. A framed photo of Bea, the breed voice, with her three puppies in a cozy bed, lies on the table at the lower left."
   }
  ],
  "bench": [
@@ -907,6 +909,21 @@
    "id": "charles",
    "name": "Charles",
    "role": "Irvine walks and local events"
+  },
+  {
+   "id": "leo",
+   "name": "Leo",
+   "role": "Behavior voice"
+  },
+  {
+   "id": "rosie",
+   "name": "Rosie",
+   "role": "New puppy parent"
+  },
+  {
+   "id": "bea",
+   "name": "Bea",
+   "role": "Breed voice"
   }
  ]
 }
