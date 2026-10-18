@@ -4,6 +4,14 @@
   var reduce = window.matchMedia && matchMedia('(prefers-reduced-motion: reduce)').matches;
   var ep, BENCH = null, audio = $('audio'), active = -1, speeds = [1, 1.25, 0.85], si = 0;
 
+  // Neutral letter badge when a voice has no portrait yet (never show a broken picture).
+  function portrait(img, name) {
+    img.onerror = function () {
+      img.onerror = null;
+      var ch = (name || '?').charAt(0).toUpperCase();
+      img.src = 'data:image/svg+xml;utf8,' + encodeURIComponent('<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120"><rect width="120" height="120" fill="#efe6d6"/><text x="60" y="78" font-size="52" font-family="Georgia,serif" text-anchor="middle" fill="#8a6a3f">' + ch + '</text></svg>');
+    };
+  }
   function fmt(s) { s = Math.max(0, Math.floor(s || 0)); return Math.floor(s / 60) + ':' + ('0' + (s % 60)).slice(-2); }
   function el(tag, cls, txt) { var e = document.createElement(tag); if (cls) e.className = cls; if (txt != null) e.textContent = txt; return e; }
 
@@ -25,14 +33,14 @@
     table.style.setProperty('--cols', cols); table.classList.toggle('multi', n > 4);
     ep.cast.forEach(function (c) {
       var s = el('div', 'seat'); s.dataset.who = c.id;
-      var img = el('img'); img.src = c.id + '.jpg'; img.alt = c.name + ', ' + c.role; img.width = 116; img.height = 116; img.decoding = 'async';
+      var img = el('img'); portrait(img, c.name); img.src = c.id + '.jpg'; img.alt = c.name + ', ' + c.role; img.width = 116; img.height = 116; img.decoding = 'async';
       s.appendChild(img); s.appendChild(el('span', 'nm', c.name)); s.appendChild(el('span', 'rl', c.role));
       table.appendChild(s);
     });
 
     var bl = $('bench'); bl.textContent = '';
     (BENCH || ep.cast).forEach(function (c) {
-      var li = el('li'); var im = el('img'); im.src = c.id + '.jpg'; im.alt = ''; im.width = 84; im.height = 84; im.loading = 'lazy';
+      var li = el('li'); var im = el('img'); portrait(im, c.name); im.src = c.id + '.jpg'; im.alt = ''; im.width = 84; im.height = 84; im.loading = 'lazy';
       li.appendChild(im); li.appendChild(el('b', null, c.name)); li.appendChild(el('span', null, c.role)); bl.appendChild(li);
     });
 
