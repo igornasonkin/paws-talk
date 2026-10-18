@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:podcast="https://podcastindex.org/namespace/1.0">
   <channel>
     <title>Today's Walk, Let's Talk</title>
     <link>https://igornasonkin.github.io/paws-talk/</link>
     <atom:link href="https://igornasonkin.github.io/paws-talk/feed.xml" rel="self" type="application/rss+xml"/>
+    <podcast:guid>76930c26-1e88-5586-8a2f-1008e847b3bc</podcast:guid>
     <language>en-us</language>
     <description>Calm conversations about dogs, from TurtleRock Paws in Irvine. All voices are AI characters sharing general information, not veterinary advice.</description>
     <itunes:author>TurtleRock Paws</itunes:author>
@@ -19,7 +20,7 @@
       <pubDate>Wed, 21 Oct 2026 12:00:00 -0700</pubDate>
       <description>Why does one dog shadow you everywhere? Our table weighs inherited tendencies, environment and individual personality, using three recent studies. No breed names and no rankings, just what the research can and cannot say. AI voices sharing general information, not veterinary advice. For your dog's health, ask your vet.</description>
       <itunes:summary>Why does one dog shadow you everywhere? Our table weighs inherited tendencies, environment and individual personality, using three recent studies. No breed names and no rankings, just what the research can and cannot say. AI voices sharing general information, not veterinary advice. For your dog's health, ask your vet.</itunes:summary>
-      <enclosure url="https://igornasonkin.github.io/paws-talk/ep004.mp3" length="3243645" type="audio/mpeg"/>
+      <enclosure url="https://op3.dev/e/igornasonkin.github.io/paws-talk/ep004.mp3" length="3249447" type="audio/mpeg"/>
       <itunes:duration>7:43</itunes:duration>
       <itunes:episode>4</itunes:episode>
       <itunes:explicit>false</itunes:explicit>
@@ -31,7 +32,7 @@
       <pubDate>Sun, 18 Oct 2026 12:00:00 -0700</pubDate>
       <description>A Swedish study tested whether a few extra minutes of play a day, or extra training, changes how close owners feel to their dogs. Our table read the article. What it found, and what it cannot tell us. AI voices sharing general information, not veterinary advice. For your dog's health, ask your vet.</description>
       <itunes:summary>A Swedish study tested whether a few extra minutes of play a day, or extra training, changes how close owners feel to their dogs. Our table read the article. What it found, and what it cannot tell us. AI voices sharing general information, not veterinary advice. For your dog's health, ask your vet.</itunes:summary>
-      <enclosure url="https://igornasonkin.github.io/paws-talk/ep003.mp3" length="3254229" type="audio/mpeg"/>
+      <enclosure url="https://op3.dev/e/igornasonkin.github.io/paws-talk/ep003.mp3" length="3260031" type="audio/mpeg"/>
       <itunes:duration>7:45</itunes:duration>
       <itunes:episode>3</itunes:episode>
       <itunes:explicit>false</itunes:explicit>
@@ -43,7 +44,7 @@
       <pubDate>Fri, 16 Oct 2026 12:00:00 -0700</pubDate>
       <description>A calm walk-and-talk about sniff breaks, patient leash habits, and checking hot pavement before warm-weather walks in Irvine. AI voices sharing general information, not veterinary advice. For your dog's health, ask your vet.</description>
       <itunes:summary>A calm walk-and-talk about sniff breaks, patient leash habits, and checking hot pavement before warm-weather walks in Irvine. AI voices sharing general information, not veterinary advice. For your dog's health, ask your vet.</itunes:summary>
-      <enclosure url="https://igornasonkin.github.io/paws-talk/ep001.mp3" length="872325" type="audio/mpeg"/>
+      <enclosure url="https://op3.dev/e/igornasonkin.github.io/paws-talk/ep001.mp3" length="878127" type="audio/mpeg"/>
       <itunes:duration>2:04</itunes:duration>
       <itunes:episode>1</itunes:episode>
       <itunes:explicit>false</itunes:explicit>
@@ -55,7 +56,7 @@
       <pubDate>Fri, 16 Oct 2026 12:00:00 -0700</pubDate>
       <description>Meet Judy, our AI grooming and care voice. A calm talk about short brushing sessions, lukewarm baths, small steps with nails, and a quick look at skin and coat. AI voices sharing general information, not veterinary advice. For your dog's health, ask your vet.</description>
       <itunes:summary>Meet Judy, our AI grooming and care voice. A calm talk about short brushing sessions, lukewarm baths, small steps with nails, and a quick look at skin and coat. AI voices sharing general information, not veterinary advice. For your dog's health, ask your vet.</itunes:summary>
-      <enclosure url="https://igornasonkin.github.io/paws-talk/ep002.mp3" length="1102485" type="audio/mpeg"/>
+      <enclosure url="https://op3.dev/e/igornasonkin.github.io/paws-talk/ep002.mp3" length="1108287" type="audio/mpeg"/>
       <itunes:duration>2:37</itunes:duration>
       <itunes:episode>2</itunes:episode>
       <itunes:explicit>false</itunes:explicit>

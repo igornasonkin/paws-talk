@@ -79,7 +79,13 @@
       $('srcnote').textContent = sr.notes || ''; $('srcdate').textContent = sr.checked ? 'Links checked ' + sr.checked + '. This is general information, not veterinary advice.' : '';
       sx.hidden = false;
     } else { sx.hidden = true; }
-    audio.src = ep.audio; $('dur').textContent = fmt(ep.duration);
+    // Count plays with OP3 (free, no cookies). If OP3 ever fails, fall back to the direct file.
+    var direct = ep.audio, counted = false;
+    if (location.protocol === 'https:' && /github\.io$/.test(location.hostname)) {
+      counted = true; audio.src = 'https://op3.dev/e/' + location.host + location.pathname.replace(/[^\/]*$/, '') + ep.audio;
+      audio.addEventListener('error', function fb() { if (counted) { counted = false; var t = audio.currentTime; audio.src = direct; audio.currentTime = t; } });
+    } else { audio.src = direct; }
+    $('dur').textContent = fmt(ep.duration);
     $('player').hidden = false;
     wire();
     if ('mediaSession' in navigator) {
