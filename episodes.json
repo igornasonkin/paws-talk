@@ -4,7 +4,7 @@
    "id": "001",
    "title": "Why does my small dog stop to sniff?",
    "date": "2026-10-16",
-   "duration": 121.8,
+   "duration": 124.4,
    "summary": "A calm walk-and-talk about sniff breaks, patient leash habits, and checking hot pavement before warm-weather walks in Irvine.",
    "audio": "ep001.mp3",
    "cast": [
@@ -39,76 +39,76 @@
     {
      "who": "hal",
      "t": 7.96,
-     "text": "And I'm Hal. Today, a scene every dog owner knows. You're on a shady sidewalk in Turtle Rock, and your small dog just stops. Completely."
+     "text": "And I'm Hal. Today, a scene every dog owner knows. You're on a shady sidewalk in Irvine, and your small dog just stops. Completely."
     },
     {
      "who": "andria",
-     "t": 16.8,
+     "t": 16.5,
      "text": "Leash loose. Tail up. Nose down. And you're standing there wondering, what exactly are we doing?"
     },
     {
      "who": "hal",
-     "t": 22.64,
+     "t": 22.34,
      "text": "So we've invited Ed to share a training point of view, and Clara to add a health note. Ed, what's going on in there?"
     },
     {
      "who": "ed",
-     "t": 30.61,
-     "text": "Thanks, Hal. Here's the short version. A sniff is how a dog reads the news. Who walked by, who's new in the neighborhood, what was here at breakfast. When she stops, she's usually collecting information. She isn't being stubborn."
+     "t": 30.31,
+     "text": "Thanks, Hal. I'm an AI voice, not a dog trainer, so here's the short version. A sniff is how a dog reads the news. Who walked by, who's new, what was here at breakfast. When she stops, she's usually collecting information, not being stubborn."
     },
     {
      "who": "andria",
-     "t": 43.02,
+     "t": 43.96,
      "text": "So we shouldn't just keep pulling."
     },
     {
      "who": "ed",
-     "t": 45.02,
+     "t": 45.96,
      "text": "A steady, gentle pace is fine. Let her have a sniff break, then use a cheerful cue to move on. The sniff itself is the reward. You're teaching a rhythm: explore, then go."
     },
     {
      "who": "hal",
-     "t": 55.33,
+     "t": 56.26,
      "text": "I like that. A walk as a conversation, not a march."
     },
     {
      "who": "andria",
-     "t": 60.36,
+     "t": 61.29,
      "text": "Now Clara, there's another reason a dog might stop. Heat."
     },
     {
      "who": "clara",
-     "t": 64.28,
-     "text": "Yes. And a reminder first: I'm an AI voice, not a veterinarian. On warm afternoons, pavement can get much hotter than the air. A simple check: press the back of your hand to the ground for seven seconds. If it's too hot for you, it's too hot for her paws."
+     "t": 65.21,
+     "text": "Yes. And a reminder first: I'm an AI voice, not a veterinarian. On warm afternoons, pavement can get much hotter than the air. One check a veterinary school suggests: hold the back of your hand on the ground for about seven seconds. If it feels too hot for your hand, it's likely too hot for her paws."
     },
     {
      "who": "clara",
-     "t": 78.81,
-     "text": "Dogs walk barefoot on that surface, so early mornings, evenings, shade, and fresh water are kinder choices. And if your dog is panting hard or seems unwell, call your own vet."
+     "t": 82.25,
+     "text": "Dogs walk barefoot on that surface, so early mornings, evenings, shade, and fresh water are kinder choices. And for anything about your own dog and warm weather, ask your vet."
     },
     {
      "who": "hal",
-     "t": 89.29,
+     "t": 92.57,
      "text": "Practical. So: let the sniff happen, check the pavement, and keep it pleasant."
     },
     {
      "who": "ed",
-     "t": 95.2,
+     "t": 98.49,
      "text": "One more tip. For many small dogs, a few shorter strolls beat one long slog."
     },
     {
      "who": "andria",
-     "t": 100.74,
+     "t": 104.03,
      "text": "That's our walk for today. These are AI voices sharing general information, not veterinary advice. For your dog's health, ask your vet."
     },
     {
      "who": "hal",
-     "t": 109.54,
-     "text": "And if you're in Irvine and wondering who might look after your dog while you're away, the family at TurtleRock Paws would love to meet you. Until next time."
+     "t": 112.83,
+     "text": "And if you're in Irvine and wondering who might look after your dog while you're away, TurtleRock Paws would love to meet you. Until next time."
     },
     {
      "who": "andria",
-     "t": 118.72,
+     "t": 121.28,
      "text": "Happy walking."
     }
    ],
@@ -124,18 +124,11 @@
       "supports": "Sniffing is natural dog behavior and important for a dog's well-being."
      },
      {
-      "kind": "Peer-reviewed study, free to read",
-      "title": "Incidence and risk factors for heat-related illness (heatstroke) in UK dogs under primary veterinary care in 2016",
-      "cite": "Scientific Reports, 2020",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/32555323/",
-      "supports": "Heatstroke in dogs is real and can be serious, but it is uncommon: 395 confirmed cases among 905,543 UK dogs in one year."
-     },
-     {
       "kind": "Veterinary school guidance (not a study)",
       "title": "Protect your pet's feet from heat, burns",
       "cite": "Washington State University College of Veterinary Medicine, 2017",
       "url": "https://archive.news.wsu.edu/press-release/2017/07/06/protect-pets-feet-from-heat/",
-      "supports": "Pavement can burn paws even when the air is only moderately warm. Hold the back of your hand on it for about seven seconds."
+      "supports": "On warm days pavement can get much hotter than the air. Hold the back of your hand on it for about seven seconds."
      }
     ],
     "notes": "No study found for the sniff-break rhythm or for several short strolls beating one long one. Those are common training practice, so treat them as friendly tips."
@@ -145,8 +138,8 @@
    "id": "002",
    "title": "Brush, bath and nails: keeping grooming calm",
    "date": "2026-10-16",
-   "duration": 164.4,
-   "summary": "Meet Judy, our grooming and care voice. A calm talk about short brushing sessions, lukewarm baths, small steps with nails, and a quick skin check.",
+   "duration": 157.3,
+   "summary": "Meet Judy, our AI grooming and care voice. A calm talk about short brushing sessions, lukewarm baths, small steps with nails, and a quick look at skin and coat.",
    "audio": "ep002.mp3",
    "cast": [
     {
@@ -189,77 +182,77 @@
     },
     {
      "who": "judy",
-     "t": 21.58,
+     "t": 20.58,
      "text": "Thanks, Andria. I'm Judy, the grooming and care voice. A quick note: I'm an AI voice, not a professional groomer or a veterinarian, so think of this as friendly, general information."
     },
     {
      "who": "hal",
-     "t": 40.76,
+     "t": 40.56,
      "text": "Fair enough. Where do we start?"
     },
     {
      "who": "judy",
-     "t": 43.36,
+     "t": 43.16,
      "text": "With the brush. A few gentle minutes most days beats one long session. Keep it short, keep it calm, and give a little treat when it goes well. Dogs learn that the brush means good things."
     },
     {
      "who": "andria",
-     "t": 62.78,
+     "t": 61.68,
      "text": "What about bath time?"
     },
     {
      "who": "judy",
-     "t": 64.44,
-     "text": "Lukewarm water, never hot, and a shampoo made for dogs. Wet her slowly, keep water away from her ears and eyes, and rinse longer than you think you need to. Leftover soap can itch."
+     "t": 63.34,
+     "text": "Lukewarm water and a shampoo made for dogs. Wet her slowly, keep water away from her ears and eyes, and rinse longer than you think you need to. Leftover soap can itch."
     },
     {
      "who": "ed",
-     "t": 84.82,
-     "text": "I'd add one training thought. Let her sniff the towel, the tub, even the brush, before you start. When a dog gets a choice to approach, she's more relaxed. Then reward the small wins."
+     "t": 82.09,
+     "text": "One training thought, from an AI voice, not a trainer. Let her sniff the towel, the tub, even the brush, before you start. A dog who gets a choice is often more relaxed. Then reward the small wins."
     },
     {
      "who": "hal",
-     "t": 95.35,
+     "t": 93.88,
      "text": "I like that. Let her say hello to the bath first."
     },
     {
      "who": "andria",
-     "t": 99.13,
+     "t": 97.66,
      "text": "And nails? Those worry a lot of people."
     },
     {
      "who": "judy",
-     "t": 102.51,
-     "text": "Nails are the tricky one. Go slowly, take tiny bits, and stop if you're unsure. If you can't see where it's safe to trim, a groomer or your vet can show you in person. That's worth the visit."
+     "t": 100.34,
+     "text": "Nails are the tricky one. A groomer or your vet can show you how, in person, and that's worth the visit. After that, go slowly and stop if you're unsure."
     },
     {
      "who": "judy",
-     "t": 121.81,
-     "text": "And while you brush, take a look at her skin. Redness, bumps, a strong smell, or a lot of scratching are good reasons to call your own vet."
+     "t": 116.77,
+     "text": "And while you brush, it's a nice moment to notice her skin and coat. If anything looks different to you, ask your own vet."
     },
     {
      "who": "hal",
-     "t": 135.83,
+     "t": 129.3,
      "text": "So: short sessions, lukewarm water, small steps, and a quick skin check."
     },
     {
      "who": "andria",
-     "t": 141.64,
+     "t": 134.4,
      "text": "That's our walk for today. These are AI voices sharing general information, not veterinary advice. For your dog's health, ask your vet."
     },
     {
      "who": "hal",
-     "t": 150.44,
-     "text": "And if you're in Irvine and need someone to look after your dog while you're away, the family at TurtleRock Paws would love to meet you. Until next time."
+     "t": 143.21,
+     "text": "And if you're in Irvine and need someone to look after your dog while you're away, TurtleRock Paws would love to meet you. Until next time."
     },
     {
      "who": "judy",
-     "t": 159.55,
+     "t": 152.46,
      "text": "Happy brushing!"
     },
     {
      "who": "andria",
-     "t": 161.27,
+     "t": 154.17,
      "text": "Happy walking."
     }
    ],
@@ -268,13 +261,6 @@
     "checked": "October 16, 2026",
     "items": [
      {
-      "kind": "Peer-reviewed study, free to read",
-      "title": "The welfare consequences and efficacy of training pet dogs with remote electronic training collars in comparison to reward based training",
-      "cite": "PLoS ONE, 2014",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/25184218/",
-      "supports": "In 63 dogs trained for coming when called, shock collars showed no consistent benefit and raised more welfare concerns than reward-based training. It tested recall, not grooming, so it supports the general idea only."
-     },
-     {
       "kind": "Peer-reviewed review",
       "title": "A comparative review of cutaneous pH",
       "cite": "Veterinary Dermatology, 2002",
@@ -282,7 +268,7 @@
       "supports": "Skin acidity differs between species and helps protect the skin. Background only; it does not test shampoos."
      }
     ],
-    "notes": "No study found for lukewarm water, rinsing well, small nail trims, or letting a dog sniff the tub first. Those are common grooming practice. Ask your vet or groomer."
+    "notes": "No study found for lukewarm water, rinsing well, small nail trims, or letting a dog choose to approach the tub first. Those are common grooming practice. Ask your vet or groomer."
    }
   }
  ],
