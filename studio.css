@@ -80,3 +80,5 @@ select,textarea{width:100%;font:inherit;font-size:17px;padding:12px 14px;border-
 }
 .card[hidden],.tg[hidden],.empty-note[hidden]{display:none}
 #pcount{text-transform:none;letter-spacing:0;font-weight:600}
+
+.calm{display:flex;align-items:center;gap:8px;margin:8px 0 4px;font-size:.92rem;cursor:pointer}.calm input{width:18px;height:18px}.calm span{color:var(--muted,#6f655c);font-size:.85rem}

@@ -149,13 +149,28 @@
   }
 
   /* topics */
+  var HEAVY = /death|dying|grief|grieving|goodbye|hospice|palliative|euthan|cancer|oncolog|biops|tumou?r|poison|toxic|\bbite|attack|aggress|recall|cruel|neglect|emergency|seizure|epilep|bloat|heatstroke|danger|cloning|stem cell|anti-aging|cannabi|\bcbd\b|prong|coyote|rattlesnake|biosecurity|lawsuit|disease|cushing|cruciate|shelter crisis|no-kill|tail docking|matting pain|kennel cough|end-of-life|loss\b|surgery|import rescues|parasite|vaccin|supplements|over-vaccination|anticipatory|finding peace/i;
+  function applyTopicFilter() {
+    var q = $('tsearch').value.trim().toLowerCase(), calm = $('calm').checked, any = false, shown = 0, hid = 0;
+    Array.prototype.forEach.call(document.querySelectorAll('#tlist .tg'), function (g) {
+      var vis = 0;
+      Array.prototype.forEach.call(g.querySelectorAll('.card'), function (c) {
+        var heavy = c.dataset.heavy === '1', show = (!q || c.dataset.text.indexOf(q) >= 0) && !(calm && heavy);
+        if (calm && heavy && (!q || c.dataset.text.indexOf(q) >= 0)) hid++;
+        c.hidden = !show; if (show) { vis++; shown++; }
+      });
+      g.hidden = vis === 0; if (vis) any = true;
+    });
+    var en = document.querySelector('#tlist .empty-note'); if (en) en.hidden = any;
+    $('calmnote').textContent = calm ? '(' + hid + ' heavier topics hidden)' : '(showing all)';
+  }
   function buildTopics() {
     var box = $('tlist'); box.textContent = '';
     Array.prototype.forEach.call(selEl.querySelectorAll('optgroup'), function (g) {
       var wrap = el('div', 'tg'); wrap.appendChild(el('h4', 'gh', g.label));
       var list = el('div', 'tgroup');
       Array.prototype.forEach.call(g.querySelectorAll('option'), function (o) {
-        var text = o.textContent, c = el('div', 'card'); c.setAttribute('role', 'listitem'); c.tabIndex = 0; c.dataset.text = text.toLowerCase();
+        var text = o.textContent, c = el('div', 'card'); c.setAttribute('role', 'listitem'); c.tabIndex = 0; c.dataset.text = text.toLowerCase(); c.dataset.heavy = HEAVY.test(text) ? '1' : '';
         c.appendChild(el('span', 'grip', '⋮⋮')); c.appendChild(el('span', 'ct', text));
         if (text === topicSel) c.classList.add('picked');
         c.addEventListener('click', function () { if (!justDragged) setTopic(text === topicSel ? '' : text); });
@@ -183,15 +198,8 @@
     dragify(s, function () { return topicSel; }, function (z) { if (z === 'tlist' || z === 'none') setTopic(''); });
   }
   selEl.addEventListener('change', function () { setTopic(selEl.value === 'other' ? '' : selEl.value); });
-  $('tsearch').addEventListener('input', function () {
-    var q = this.value.trim().toLowerCase(), any = false;
-    Array.prototype.forEach.call(document.querySelectorAll('#tlist .tg'), function (g) {
-      var vis = 0;
-      Array.prototype.forEach.call(g.querySelectorAll('.card'), function (c) { var show = !q || c.dataset.text.indexOf(q) >= 0; c.hidden = !show; if (show) vis++; });
-      g.hidden = vis === 0; if (vis) any = true;
-    });
-    var en = document.querySelector('#tlist .empty-note'); if (en) en.hidden = any;
-  });
+  $('tsearch').addEventListener('input', applyTopicFilter);
+  $('calm').addEventListener('change', applyTopicFilter);
 
   /* papers */
   function normalizeLink(s) {
@@ -254,7 +262,7 @@
     var t = e.dataTransfer.getData('text/uri-list') || e.dataTransfer.getData('text/plain'); if (t) addLinkText(t.split('\n')[0]);
   });
 
-  buildTopics(); drawTopicSlot(); drawPapers();
+  buildTopics(); drawTopicSlot(); drawPapers(); applyTopicFilter();
   $('tsearch').placeholder = 'Search ' + document.querySelectorAll('#tlist .card').length + ' topics, or scroll the list';
 
   /* send */
