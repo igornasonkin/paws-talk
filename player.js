@@ -97,13 +97,15 @@
   }
 
   function archive(list) {
-    var ol = $('archive'); if (!ol) return; ol.textContent = '';
-    list.slice().sort(function (a, b) { return a.date < b.date ? 1 : -1; }).forEach(function (e) {
-      var li = el('li'); var a = el('a', e.id === ep.id ? 'cur' : null); a.href = '?ep=' + e.id;
-      var when = new Date(e.date + 'T12:00:00').toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' });
-      a.appendChild(el('span', 'ad', when)); a.appendChild(el('b', null, e.title)); a.appendChild(el('span', 'am', fmt(e.duration) + ' listen'));
-      if (e.id === ep.id) a.setAttribute('aria-current', 'page');
-      li.appendChild(a); ol.appendChild(li);
+    ['archive', 'pick'].forEach(function (oid) {
+      var ol = $(oid); if (!ol) return; ol.textContent = '';
+      list.slice().sort(function (a, b) { return a.date < b.date ? 1 : -1; }).forEach(function (e) {
+        var li = el('li'); var a = el('a', e.id === ep.id ? 'cur' : null); a.href = '?ep=' + e.id;
+        var when = new Date(e.date + 'T12:00:00').toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' });
+        a.appendChild(el('span', 'ad', when)); a.appendChild(el('b', null, e.title)); a.appendChild(el('span', 'am', fmt(e.duration) + ' listen'));
+        if (e.id === ep.id) a.setAttribute('aria-current', 'page');
+        li.appendChild(a); ol.appendChild(li);
+      });
     });
   }
 
