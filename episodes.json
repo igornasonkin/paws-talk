@@ -270,6 +270,291 @@
     ],
     "notes": "No study found for lukewarm water, rinsing well, small nail trims, or letting a dog choose to approach the tub first. Those are common grooming practice. Ask your vet or groomer."
    }
+  },
+  {
+   "id": "003",
+   "title": "Journal Club: can a little daily play bring owners and dogs closer?",
+   "date": "2026-10-18",
+   "duration": 464.7,
+   "summary": "A Swedish study tested whether a few extra minutes of play a day, or extra training, changes how close owners feel to their dogs. Our table read the article. What it found, and what it cannot tell us.",
+   "audio": "ep003.mp3",
+   "cast": [
+    {
+     "id": "andria",
+     "name": "Andria",
+     "role": "Host"
+    },
+    {
+     "id": "hal",
+     "name": "Hal",
+     "role": "Host"
+    },
+    {
+     "id": "leo",
+     "name": "Leo",
+     "role": "Behavior voice"
+    },
+    {
+     "id": "ed",
+     "name": "Ed",
+     "role": "Training voice"
+    },
+    {
+     "id": "mike",
+     "name": "Mike",
+     "role": "Genetics and canine science voice"
+    },
+    {
+     "id": "rosie",
+     "name": "Rosie",
+     "role": "New puppy parent"
+    }
+   ],
+   "links": [],
+   "lines": [
+    {
+     "who": "andria",
+     "t": 16.65,
+     "text": "Welcome to Today's Walk, Let's Talk. I'm Andria, an AI voice, not a vet."
+    },
+    {
+     "who": "hal",
+     "t": 21.57,
+     "text": "And I'm Hal, an AI voice, not a researcher. It's Journal Club: one real study, and an honest look at what it can and cannot tell us."
+    },
+    {
+     "who": "andria",
+     "t": 30.24,
+     "text": "Our table today is Leo, Ed, Mike and Rosie. All of us are AI voices sharing general information, not veterinary or training advice."
+    },
+    {
+     "who": "leo",
+     "t": 39.61,
+     "text": "I'm Leo, an AI voice, not a behaviorist, and I'm our behavior-science reader. I read the article, methods and results included. I did not open the supplementary files or the reference list."
+    },
+    {
+     "who": "ed",
+     "t": 54.77,
+     "text": "I'm Ed, an AI voice, not a trainer. I read it through too, including the results table."
+    },
+    {
+     "who": "mike",
+     "t": 60.97,
+     "text": "I'm Mike, an AI voice, not a scientist. I read it as well, and I found something I did not expect. I'll save it for the design."
+    },
+    {
+     "who": "rosie",
+     "t": 68.22,
+     "text": "And I'm Rosie, an AI voice, not an expert, and the beginner at this table. So I'll ask the questions you're all wondering."
+    },
+    {
+     "who": "andria",
+     "t": 74.9,
+     "text": "Leo, what is this study, in one breath?"
+    },
+    {
+     "who": "leo",
+     "t": 78.37,
+     "text": "It's from Sweden, by Lina Roth, Per Jensen and Caisa Persson-Werme, in Royal Society Open Science, and it's open access, so anyone can read it. They asked a simple question: does playing with your dog change how close you feel, and is play different from training?"
+    },
+    {
+     "who": "rosie",
+     "t": 97.0,
+     "text": "Two studies in one paper, right?"
+    },
+    {
+     "who": "ed",
+     "t": 99.55,
+     "text": "Right. Study A was a survey. Two thousand nine hundred and forty dog owners in Sweden, recruited through online dog-owner groups, filled in an established questionnaire about their relationship with their dog. It has twenty-eight questions and three parts: Interaction, Emotional Closeness, and Perceived Costs."
+    },
+    {
+     "who": "leo",
+     "t": 116.42,
+     "text": "The first finding is what you'd guess. Owners who played more, and owners who trained more, scored higher on Interaction and Emotional Closeness, and lower on Perceived Costs. Mostly small effects, except play frequency and Interaction: a medium-to-large effect, a partial eta squared of 0.11. That's a measure of how much a factor explains."
+    },
+    {
+     "who": "rosie",
+     "t": 141.74,
+     "text": "So play wins?"
+    },
+    {
+     "who": "leo",
+     "t": 143.45,
+     "text": "Careful. That part is a survey, so it shows association, not cause. The authors say so themselves: a strong relationship could just as well lead to more interactions. And people who join dog studies tend to be the keen ones."
+    },
+    {
+     "who": "hal",
+     "t": 159.89,
+     "text": "Which is why there's a Study B."
+    },
+    {
+     "who": "mike",
+     "t": 162.83,
+     "text": "Yes, and that's where my surprise is. From Study A, one thousand six hundred and sixty-seven owners volunteered for a four-week experiment. The Play group added at least five minutes of play a day, from thirteen kinds of play, like tug, chasing and hide-and-seek. The Training group practiced tasks like a hand target or a quick U-turn. The control group got no extra instructions."
+    },
+    {
+     "who": "mike",
+     "t": 181.25,
+     "text": "Here's the detail I loved. The training group was told to reward with food, not play. Why? In Study A, forty percent of owners said they always or often use play or toys in training. So the researchers built a play-free training group, to pull the two apart."
+    },
+    {
+     "who": "andria",
+     "t": 194.28,
+     "text": "So what happened?"
+    },
+    {
+     "who": "leo",
+     "t": 195.83,
+     "text": "Five hundred and ninety-six people completed the final survey, and four hundred and eight met the rules for analysis: one hundred thirty-seven in Play, one hundred ten in Training, one hundred sixty-one in Control. Only Emotional Closeness showed a statistically significant group effect, with a p-value of 0.018. That tells you how surprising a result would be by chance alone. The Play group improved more than the Training group. Against Control, Play showed a trend in the same direction, but after correction for multiple comparisons it was not significant."
+    },
+    {
+     "who": "rosie",
+     "t": 235.07,
+     "text": "And how big is improved?"
+    },
+    {
+     "who": "leo",
+     "t": 238.05,
+     "text": "Small. The effect size was 0.02, and the authors say so. They add that four weeks is short, and that many owners may not have followed the plan on most days."
+    },
+    {
+     "who": "ed",
+     "t": 250.43,
+     "text": "As the applied reader, my take: this does not say training is bad. In Study B the training group got treats only, and the authors only speculate about why it didn't show a significant improvement. They suggest play is widely seen as a valuable reward, and that training can be more goal-focused, which may frustrate some owners."
+    },
+    {
+     "who": "hal",
+     "t": 268.6,
+     "text": "And what did the owners say?"
+    },
+    {
+     "who": "mike",
+     "t": 271.12,
+     "text": "About eighty percent in both the Play and Training groups reported positive changes in themselves, against slightly more than twenty percent in Control. In the Play group, owners most often wrote that their dog started play more often, thirty-one of them, and seemed to see them in a better light, thirty-two."
+    },
+    {
+     "who": "rosie",
+     "t": 286.47,
+     "text": "But did the dogs enjoy it?"
+    },
+    {
+     "who": "leo",
+     "t": 288.76,
+     "text": "Nobody measured the dogs. Everything here is what owners reported. The authors themselves say direct behavior and physiology measures from the dog's side would be valuable next. That is an important limit."
+    },
+    {
+     "who": "hal",
+     "t": 303.26,
+     "text": "Any favorite games?"
+    },
+    {
+     "who": "ed",
+     "t": 305.58,
+     "text": "Tug-of-war was the most popular, then rough-and-tumble and chasing. The real message is variety: dogs and owners differ in what they like."
+    },
+    {
+     "who": "andria",
+     "t": 315.04,
+     "text": "Time for the honest part. Leo, how much should we trust this?"
+    },
+    {
+     "who": "leo",
+     "t": 318.91,
+     "text": "A measured amount. Plus: a big survey, a three-group experiment, and authors open about the limits. Caution: results are owner-reported, owners knew the study was about dogs and relationships, most respondents were women recruited online in Sweden, in the Play and Training groups only owners who reported following the plan on at least eight days were analyzed, the effect was small, and four weeks is short. The authors flag some of these; some are our own reading. One study doesn't settle it."
+    },
+    {
+     "who": "andria",
+     "t": 351.41,
+     "text": "Three take-home messages, please."
+    },
+    {
+     "who": "leo",
+     "t": 353.77,
+     "text": "One. A few extra minutes of daily play went along with owners feeling emotionally closer to their dogs, and the authors read the experiment as evidence of a causal role for play. Against training the gain was significant; against no extra instructions, only a trend. The effect was small."
+    },
+    {
+     "who": "ed",
+     "t": 374.42,
+     "text": "Two. Read the training result carefully: this training group had treats only, and in the survey many owners said they mix play into training."
+    },
+    {
+     "who": "mike",
+     "t": 382.73,
+     "text": "Three. The study measured how owners feel. It did not measure how dogs feel, and it can't tell you what's right for any one dog."
+    },
+    {
+     "who": "rosie",
+     "t": 389.26,
+     "text": "Where can I read more?"
+    },
+    {
+     "who": "leo",
+     "t": 391.21,
+     "text": "Three recent open-access papers. A 2023 Scientific Reports paper on owner temperament and the dog-owner relationship, from Kujala and colleagues. A 2024 one from Koskela and colleagues on dogs' and owners' heart rate variability during stroking, training, sniffing and playing. And a 2025 paper in Animals presenting new versions of the questionnaire used here, from Bennett and colleagues. We only read their abstracts, so treat them as reading tips."
+    },
+    {
+     "who": "andria",
+     "t": 426.74,
+     "text": "If your own dog's play or behavior raises questions, ask your own vet or a qualified trainer. That's our walk for today. These are AI voices sharing general information, not veterinary or training advice."
+    },
+    {
+     "who": "hal",
+     "t": 440.25,
+     "text": "And if you're in Irvine and need care for your dog while you're away, TurtleRock Paws would love to meet you."
+    },
+    {
+     "who": "ed",
+     "t": 446.64,
+     "text": "Happy walking."
+    }
+   ],
+   "sources": {
+    "intro": "This week's study is open access (CC BY 4.0). Our readers read the article text on the publisher's open-access page, including the methods, results and discussion. The reference list and supplementary files were not opened. The three further-reading papers were only checked at abstract level. This is general information, not veterinary or training advice.",
+    "checked": "October 17, 2026",
+    "items": [
+     {
+      "kind": "Journal paper (article text read; reference list and supplementary files not opened)",
+      "title": "Play interactions improve the dog–owner relationship",
+      "cite": "Lina S. V. Roth, Per Jensen, Caisa Persson-Werme; Royal Society Open Science, April 2026 (CC BY 4.0)",
+      "url": "https://doi.org/10.1098/rsos.252294",
+      "supports": "The study this episode is about. A survey of 2,940 Swedish dog owners, then a four-week experiment (Play, Training and Control groups; 408 owners analyzed) using the 28-item Monash Dog–Owner Relationship Scale. Only Emotional Closeness showed a significant group effect (p = 0.018, small effect). Outcomes are owner-reported; the dogs' behavior and body responses were not measured.",
+      "role": "main",
+      "year": 2026,
+      "access": "full_text_read"
+     },
+     {
+      "kind": "Journal paper (abstract only)",
+      "title": "Modulation of dog-owner relationship and dog social and cognitive behavior by owner temperament and dog breed group",
+      "cite": "Kujala MV and colleagues; Scientific Reports, 2023",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37679427/",
+      "supports": "Further reading: how owner temperament relates to the dog-owner relationship. We read only the abstract.",
+      "role": "further",
+      "year": 2023,
+      "access": "abstract_only"
+     },
+     {
+      "kind": "Journal paper (abstract only)",
+      "title": "Behavioral and emotional co-modulation during dog-owner interaction measured by heart rate variability and activity",
+      "cite": "Koskela A and colleagues; Scientific Reports, 2024",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39448721/",
+      "supports": "Further reading: heart rate variability of dogs and owners during stroking, training, sniffing and playing. We read only the abstract.",
+      "role": "further",
+      "year": 2024,
+      "access": "abstract_only"
+     },
+     {
+      "kind": "Journal paper (abstract only)",
+      "title": "New 28-Item and 12-Item Dog Owner Relationship Scales: Contemporary Versions of the MDORS with a Revised Four-Component Structure",
+      "cite": "Bennett PC and colleagues; Animals, 2025",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40075915/",
+      "supports": "Further reading: an update of the questionnaire used in this study. We read only the abstract.",
+      "role": "further",
+      "year": 2025,
+      "access": "abstract_only"
+     }
+    ],
+    "notes": "Everything about the main study comes from the article text. The paper is licensed CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). This episode is our own plain-language summary, with changes (paraphrase and shortening), and is not endorsed by the authors or the journal. Outcomes are owner-reported and the effect was small. We name no products. This is general information, not veterinary or training advice."
+   }
   }
  ],
  "bench": [
