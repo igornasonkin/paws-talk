@@ -109,6 +109,18 @@
     });
   }
 
+
+  // Share button: the phone's own share sheet when there is one, otherwise copy the link.
+  var shareBtn = $('share');
+  if (shareBtn) shareBtn.addEventListener('click', function () {
+    var url = location.href.split('#')[0], msg = $('sharemsg');
+    var data = { title: "Today's Walk, Let's Talk", text: ep ? ep.title : "Today's Walk, Let's Talk", url: url };
+    function note(t) { if (msg) { msg.textContent = t; setTimeout(function () { msg.textContent = ''; }, 4000); } }
+    if (navigator.share) { navigator.share(data).catch(function () {}); return; }
+    if (navigator.clipboard && navigator.clipboard.writeText) { navigator.clipboard.writeText(url).then(function () { note('Link copied. Paste it anywhere.'); }, function () { note('Copy this link: ' + url); }); }
+    else { note('Copy this link: ' + url); }
+  });
+
   function toggle() { if (audio.paused) { audio.play(); } else { audio.pause(); } }
   var pending = null;
   function seekTo(t, play) {
