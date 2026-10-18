@@ -6,9 +6,12 @@
     <atom:link href="https://igornasonkin.github.io/paws-talk/feed.xml" rel="self" type="application/rss+xml"/>
     <podcast:guid>76930c26-1e88-5586-8a2f-1008e847b3bc</podcast:guid>
     <language>en-us</language>
-    <description>Calm conversations about dogs, from TurtleRock Paws in Irvine. All voices are AI characters sharing general information, not veterinary advice.</description>
+    <description>Today's Walk, Let's Talk is a short audio show about dogs: why they sniff, how they bond with people, and what recent research can and cannot say. Every voice is an AI character, not a real person and not a veterinarian, trainer or researcher. Episodes share general information only. Where an episode draws on a published study, the links appear on the episode page so you can read the source yourself. For your dog's health or behavior, ask your own vet or a qualified trainer. Cover art and character portraits are AI-generated and do not depict real people. The show is made by TurtleRock Paws, a dog boarding business in Irvine, California.</description>
+    <copyright>(c) 2026 TurtleRock Paws</copyright>
     <itunes:author>TurtleRock Paws</itunes:author>
-    <itunes:summary>Calm conversations about dogs, from TurtleRock Paws in Irvine. All voices are AI characters.</itunes:summary>
+    <itunes:subtitle>Calm conversations about dogs, told by AI characters around one round table. General information, not veterinary advice.</itunes:subtitle>
+    <itunes:summary>Today's Walk, Let's Talk is a short audio show about dogs: why they sniff, how they bond with people, and what recent research can and cannot say. Every voice is an AI character, not a real person and not a veterinarian, trainer or researcher. Episodes share general information only. Where an episode draws on a published study, the links appear on the episode page so you can read the source yourself. For your dog's health or behavior, ask your own vet or a qualified trainer. Cover art and character portraits are AI-generated and do not depict real people. The show is made by TurtleRock Paws, a dog boarding business in Irvine, California.</itunes:summary>
+
     <itunes:image href="https://igornasonkin.github.io/paws-talk/cover.jpg"/>
     <itunes:category text="Leisure"/>
     <itunes:explicit>false</itunes:explicit>
@@ -44,8 +47,8 @@
       <pubDate>Fri, 16 Oct 2026 12:00:00 -0700</pubDate>
       <description>A calm walk-and-talk about sniff breaks, patient leash habits, and checking hot pavement before warm-weather walks in Irvine. AI voices sharing general information, not veterinary advice. For your dog's health, ask your vet.</description>
       <itunes:summary>A calm walk-and-talk about sniff breaks, patient leash habits, and checking hot pavement before warm-weather walks in Irvine. AI voices sharing general information, not veterinary advice. For your dog's health, ask your vet.</itunes:summary>
-      <enclosure url="https://op3.dev/e/igornasonkin.github.io/paws-talk/ep001.mp3" length="878127" type="audio/mpeg"/>
-      <itunes:duration>2:04</itunes:duration>
+      <enclosure url="https://op3.dev/e/igornasonkin.github.io/paws-talk/ep001.mp3" length="1093503" type="audio/mpeg"/>
+      <itunes:duration>2:35</itunes:duration>
       <itunes:episode>1</itunes:episode>
       <itunes:explicit>false</itunes:explicit>
     </item>
@@ -56,8 +59,8 @@
       <pubDate>Fri, 16 Oct 2026 12:00:00 -0700</pubDate>
       <description>Meet Judy, our AI grooming and care voice. A calm talk about short brushing sessions, lukewarm baths, small steps with nails, and a quick look at skin and coat. AI voices sharing general information, not veterinary advice. For your dog's health, ask your vet.</description>
       <itunes:summary>Meet Judy, our AI grooming and care voice. A calm talk about short brushing sessions, lukewarm baths, small steps with nails, and a quick look at skin and coat. AI voices sharing general information, not veterinary advice. For your dog's health, ask your vet.</itunes:summary>
-      <enclosure url="https://op3.dev/e/igornasonkin.github.io/paws-talk/ep002.mp3" length="1108287" type="audio/mpeg"/>
-      <itunes:duration>2:37</itunes:duration>
+      <enclosure url="https://op3.dev/e/igornasonkin.github.io/paws-talk/ep002.mp3" length="1320135" type="audio/mpeg"/>
+      <itunes:duration>3:08</itunes:duration>
       <itunes:episode>2</itunes:episode>
       <itunes:explicit>false</itunes:explicit>
     </item>
