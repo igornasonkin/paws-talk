@@ -555,6 +555,321 @@
     ],
     "notes": "Everything about the main study comes from the article text. The paper is licensed CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). This episode is our own plain-language summary, with changes (paraphrase and shortening), and is not endorsed by the authors or the journal. Outcomes are owner-reported and the effect was small. We name no products. This is general information, not veterinary or training advice."
    }
+  },
+  {
+   "id": "004",
+   "title": "Table debate: why are some dogs clingier than others?",
+   "date": "2026-10-21",
+   "duration": 463.2,
+   "summary": "Why does one dog shadow you everywhere? Our table weighs inherited tendencies, environment and individual personality, using three recent studies. No breed names and no rankings, just what the research can and cannot say.",
+   "audio": "ep004.mp3",
+   "cast": [
+    {
+     "id": "andria",
+     "name": "Andria",
+     "role": "Host"
+    },
+    {
+     "id": "hal",
+     "name": "Hal",
+     "role": "Host"
+    },
+    {
+     "id": "mike",
+     "name": "Mike",
+     "role": "Genetics and canine science voice"
+    },
+    {
+     "id": "leo",
+     "name": "Leo",
+     "role": "Behavior voice"
+    },
+    {
+     "id": "ed",
+     "name": "Ed",
+     "role": "Training voice"
+    },
+    {
+     "id": "bea",
+     "name": "Bea",
+     "role": "Breed voice"
+    },
+    {
+     "id": "rosie",
+     "name": "Rosie",
+     "role": "New puppy parent"
+    }
+   ],
+   "links": [],
+   "lines": [
+    {
+     "who": "andria",
+     "t": 16.65,
+     "text": "Welcome to Today's Walk, Let's Talk. I'm Andria, an AI voice, not a vet."
+    },
+    {
+     "who": "hal",
+     "t": 21.57,
+     "text": "And I'm Hal, an AI voice, not a researcher. Today is a table debate: why are some dogs clingier than others?"
+    },
+    {
+     "who": "andria",
+     "t": 28.97,
+     "text": "Our table is Mike, Leo, Ed, Bea and Rosie. All of us are AI voices sharing general information, not veterinary or training advice. And a promise: we will not name a single breed today, and we will not rank any."
+    },
+    {
+     "who": "mike",
+     "t": 43.18,
+     "text": "I'm Mike, an AI voice, not a scientist. I read most of the article text of a big genetics paper from 2022. I did not open its supplementary files or reference list."
+    },
+    {
+     "who": "leo",
+     "t": 54.67,
+     "text": "I'm Leo, an AI voice, not a behaviorist. I read the article text of two open-access papers, methods and results included: one on wolves and dogs raised by people, and one on owner personality. I did not open their supplementary files or reference lists."
+    },
+    {
+     "who": "ed",
+     "t": 74.62,
+     "text": "I'm Ed, an AI voice, not a trainer. I read the owner personality paper too."
+    },
+    {
+     "who": "bea",
+     "t": 80.38,
+     "text": "I'm Bea, an AI voice, not a breeder, and breeds are my beat. I have not read these papers, so I'll be the one asking the awkward questions."
+    },
+    {
+     "who": "rosie",
+     "t": 88.39,
+     "text": "And I'm Rosie, an AI voice, not an expert, and the beginner at this table. Picture a puppy that follows its person to the bathroom. Why would it do that?"
+    },
+    {
+     "who": "andria",
+     "t": 97.47,
+     "text": "Let's find out. Hal, the debate."
+    },
+    {
+     "who": "hal",
+     "t": 99.95,
+     "text": "Three possible explanations. One: inheritance, meaning tendencies a dog is born with. Two: the environment and the people in a dog's life. Three: the individual dog's own personality. Mike, make the case for inheritance."
+    },
+    {
+     "who": "mike",
+     "t": 113.85,
+     "text": "Gladly. In that genetics paper, owners of eighteen thousand three hundred and eighty-five dogs filled in behavior surveys, and two thousand one hundred and fifty-five dogs had their DNA sequenced. Most behavior traits turned out to be heritable, above twenty-five percent. The most heritable of all was a behavior factor from the owner surveys that the paper calls human sociability: about sixty-seven percent."
+    },
+    {
+     "who": "rosie",
+     "t": 132.91,
+     "text": "Sixty-seven percent! So clinginess is mostly genes?"
+    },
+    {
+     "who": "mike",
+     "t": 137.26,
+     "text": "Careful. Sociability isn't the same as clinginess, and heritability describes differences across a big group of dogs. It does not say that sixty-seven percent of any one dog is inherited. And here's the twist for breed labels."
+    },
+    {
+     "who": "bea",
+     "t": 149.76,
+     "text": "Go on. I came in expecting breed to decide."
+    },
+    {
+     "who": "mike",
+     "t": 152.88,
+     "text": "Breed explained only about nine percent of the behavior differences between individual dogs. Inherited, yes. Sorted neatly by breed, no."
+    },
+    {
+     "who": "bea",
+     "t": 160.73,
+     "text": "But owners describe whole groups of dogs in the same few words."
+    },
+    {
+     "who": "mike",
+     "t": 165.32,
+     "text": "The paper notes that owner surveys are open to rater bias, including breed stereotypes. And in every breed with twenty-five or more dogs, most dogs scored within one standard deviation of the overall average. In other words, in this data, most dogs in each of those breeds sat close to the average."
+    },
+    {
+     "who": "bea",
+     "t": 180.77,
+     "text": "So the labels I lean on tell me less than I thought."
+    },
+    {
+     "who": "mike",
+     "t": 183.85,
+     "text": "The paper says breed is only a modest predictor for an individual dog. One more detail, from the regions the paper called moderately associated: about thirty-nine percent of the physical-trait ones were unusually different between breeds, against about seven percent of the behavior ones. The authors say looks, rather than behavior, appear to have been the focus of selection."
+    },
+    {
+     "who": "andria",
+     "t": 201.75,
+     "text": "Leo, does attachment to people go back further than breeds?"
+    },
+    {
+     "who": "leo",
+     "t": 206.3,
+     "text": "Possibly. A research group raised twelve dogs, all of one kind, and ten wolves in the same way, by people. At twenty-three weeks old they ran a Strange Situation Test: an animal meets a familiar person and a stranger in a new room. Both the wolves and the dogs told the familiar person from the stranger, and both showed similar attachment behaviors."
+    },
+    {
+     "who": "rosie",
+     "t": 230.78,
+     "text": "Wolves get attached to people?"
+    },
+    {
+     "who": "leo",
+     "t": 232.99,
+     "text": "Hand-raised ones did, in this test. Both followed the familiar person more than the stranger, and the difference was bigger in the dogs. These dogs were more playful and more passive. These wolves paced more, and the familiar person's return settled the pacing. The authors read it as attachment ability being old, standing variation. But it's a small group, a proof of concept, and earlier work found something different at a younger age."
+    },
+    {
+     "who": "hal",
+     "t": 261.01,
+     "text": "So inheritance might set a starting line. Ed, the environment and owners?"
+    },
+    {
+     "who": "ed",
+     "t": 267.31,
+     "text": "This is where it gets interesting. The Kujala paper surveyed four hundred and forty dog-and-owner pairs, with dogs from six months to thirteen years old, from more than a hundred breeds. Owners filled in a personality questionnaire and a relationship scale, and the dogs did a few tests."
+    },
+    {
+     "who": "rosie",
+     "t": 283.19,
+     "text": "What did they find?"
+    },
+    {
+     "who": "ed",
+     "t": 284.97,
+     "text": "Owner personality was linked to how close owners said they felt. In this sample, higher scores on a trait called negative affectivity went with both more emotional closeness and more perceived costs."
+    },
+    {
+     "who": "rosie",
+     "t": 297.11,
+     "text": "Negative what?"
+    },
+    {
+     "who": "leo",
+     "t": 299.49,
+     "text": "A trait from the temperament questionnaire the owners filled in. It's a personality measure, not a diagnosis, and it can't tell you anything about one particular person."
+    },
+    {
+     "who": "ed",
+     "t": 310.87,
+     "text": "In this sample, owners who scored higher on a trait called effortful control reported less closeness and lower costs. And dogs that were more active in the tests had owners who reported less closeness. Dogs that looked to the person when a task was unsolvable were less active."
+    },
+    {
+     "who": "bea",
+     "t": 326.66,
+     "text": "And breed groups?"
+    },
+    {
+     "who": "ed",
+     "t": 328.44,
+     "text": "In this study they did not differ on the relationship scale. Dog test performance did not significantly predict closeness either."
+    },
+    {
+     "who": "leo",
+     "t": 337.35,
+     "text": "Two cautions. Closeness here is what owners report about their own feelings, which is not the same as a dog being clingy. And it's correlational, so it can't tell us cause or direction."
+    },
+    {
+     "who": "ed",
+     "t": 350.52,
+     "text": "The authors also note the owners were mostly women and volunteers, and a commercial test provider ran the dog tests. So it's one sample of dog owners, not all of them."
+    },
+    {
+     "who": "andria",
+     "t": 360.94,
+     "text": "Rosie, where does the bathroom puzzle land?"
+    },
+    {
+     "who": "rosie",
+     "t": 363.74,
+     "text": "On a bit of everything, I think. I'm less confused and more curious."
+    },
+    {
+     "who": "hal",
+     "t": 368.37,
+     "text": "Fair verdict. Mike?"
+    },
+    {
+     "who": "mike",
+     "t": 370.72,
+     "text": "Inheritance plays a real part, but breed is only a modest predictor for an individual dog. A label alone is a modest guide to any one dog."
+    },
+    {
+     "who": "leo",
+     "t": 379.02,
+     "text": "The environment and the person seem to matter too, though these papers show associations, not instructions."
+    },
+    {
+     "who": "ed",
+     "t": 386.6,
+     "text": "And each dog is an individual. If you have questions or concerns about your own dog's behavior, ask your own vet or a qualified trainer. We can't judge your dog from here."
+    },
+    {
+     "who": "bea",
+     "t": 397.81,
+     "text": "My takeaway: a breed label is a conversation starter, not a verdict on one dog."
+    },
+    {
+     "who": "rosie",
+     "t": 403.3,
+     "text": "Where can I read more?"
+    },
+    {
+     "who": "leo",
+     "t": 405.25,
+     "text": "The three papers behind this episode are linked in the notes. The wolf paper is by Hansen Wheat and colleagues, 2022. The owner personality paper is by Kujala and colleagues, 2023. The genetics paper is by Morrill and colleagues, 2022. The first two are open access, and the third is free to read as an author manuscript."
+    },
+    {
+     "who": "andria",
+     "t": 430.69,
+     "text": "That's our walk for today. These are AI voices sharing general information, not veterinary or training advice."
+    },
+    {
+     "who": "hal",
+     "t": 438.75,
+     "text": "And if you're in Irvine and need care for your dog while you're away, TurtleRock Paws would love to meet you."
+    },
+    {
+     "who": "ed",
+     "t": 445.14,
+     "text": "Happy walking."
+    }
+   ],
+   "sources": {
+    "intro": "This episode rests on three studies. The article text of the Kujala and Hansen Wheat papers was read from the open-access full text, and most of the article text of the Morrill paper was read from a free author manuscript (not Creative Commons). For all three, the supplementary files and reference lists were not opened. This is general information, not veterinary or training advice.",
+    "checked": "October 18, 2026",
+    "items": [
+     {
+      "kind": "Journal paper (most of the article text read; supplementary files and reference list not opened)",
+      "title": "Ancestry-inclusive dog genomics challenges popular breed stereotypes",
+      "cite": "Morrill K and colleagues; Science, 2022 (free author manuscript, not Creative Commons)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35482869/",
+      "supports": "Owner surveys of 18,385 dogs and sequencing of 2,155 dogs. Breed explained about 9% of behavior differences between individual dogs; human sociability was the most heritable behavior factor. Most of the article text was read; the supplementary files were not. Survey answers come from owners.",
+      "role": "main",
+      "year": 2022,
+      "access": "full_text_read"
+     },
+     {
+      "kind": "Journal paper (article text read; reference list not opened)",
+      "title": "Modulation of dog-owner relationship and dog social and cognitive behavior by owner temperament and dog breed group",
+      "cite": "Kujala MV and colleagues; Scientific Reports, 2023 (CC BY 4.0)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37679427/",
+      "supports": "440 dog-owner pairs. Owner temperament and dog activity were linked to owner-reported closeness; breed groups did not differ on the relationship scale. Correlational, owner-reported.",
+      "role": "main",
+      "year": 2023,
+      "access": "full_text_read"
+     },
+     {
+      "kind": "Journal paper (article text read; reference list not opened)",
+      "title": "Human-directed attachment behavior in wolves suggests standing ancestral variation for human-dog attachment bonds",
+      "cite": "Hansen Wheat C and colleagues; Ecology and Evolution, 2022 (CC BY 4.0)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36187989/",
+      "supports": "12 dogs (all of one kind) and 10 wolves raised in the same way, tested at 23 weeks. Both showed similar attachment behaviors toward a familiar person. Small sample, proof of concept.",
+      "role": "main",
+      "year": 2022,
+      "access": "full_text_read"
+     }
+    ],
+    "notes": "The Kujala and Hansen Wheat papers are licensed CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). The Morrill paper is a free author manuscript and no text is reproduced. This episode is our own plain-language summary, with changes (paraphrase and shortening), and is not endorsed by the authors or the journals. No breed names, rankings or brands are used. This is general information, not veterinary or training advice."
+   }
   }
  ],
  "bench": [
