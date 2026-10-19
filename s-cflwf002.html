@@ -31,6 +31,7 @@ button,.chip{font:inherit;color:var(--ink);background:var(--chip);border:2px sol
 button[aria-pressed="true"],button.on{background:var(--plum);color:var(--on-plum);font-weight:700}
 button.solid{background:var(--plum);color:var(--on-plum);font-weight:700;border-radius:12px}
 button:focus-visible,summary:focus-visible{outline:3px solid var(--s2);outline-offset:2px}
+.card.key{border:2px solid var(--s1)}
 .card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:14px 16px;margin:0 0 14px}
 .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:10px;margin:0 0 14px}
 .stat{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:12px 14px;min-width:0}
@@ -67,6 +68,7 @@ svg text{fill:var(--muted);font:12px -apple-system,Helvetica,Arial,sans-serif}
 .toggle .tx span{font-size:15px;color:var(--muted)}
 .toggle .nn{font:700 22px/1 Georgia,serif;white-space:nowrap;padding-top:2px}
 .logs{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:8px}
+.logs button{white-space:normal;min-width:0;overflow-wrap:anywhere;line-height:1.25}
 textarea{width:100%;font:inherit;border:1px solid var(--line);border-radius:10px;padding:10px;background:var(--card);color:var(--ink);min-height:70px}
 .sr{position:absolute;left:-9999px}
 </style>
@@ -136,9 +138,11 @@ var M={
  ins:{n:'Added to home screen (Android, computer)',d:'The browser reported an install. iPhone does not report this; see "App opens".',f:is('ins')},
  app:{n:'App opens',d:'Visits from the home-screen app rather than the browser.',f:function(e){return e.t==='pv'&&e.m==='app'}},
  mg:{n:'Meet & Greet requests (you log them)',d:'Requests you logged on the Log tab, by where they heard of us.',f:function(e){return e.t==='man'&&/^mg-/.test(e.g)}},
+ call:{n:'Phone calls (you log them)',d:'Calls to our number that you logged on the Log tab, by where they heard of us.',f:function(e){return e.t==='man'&&/^call-/.test(e.g)}},
+ bk:{n:'Stays booked (you log them)',d:'Bookings you logged on the Log tab, by where they heard of us.',f:function(e){return e.t==='man'&&/^bk-/.test(e.g)}},
  cards:{n:'Cards handed out (you log them)',d:'QR cards you handed out or left. Used to compute landings per 10 cards.',f:function(e){return e.t==='man'&&e.g==='cards-out'}}
 };
-var CARDS=['visits','plays','p60','shares','site','mg'];
+var CARDS=['visits','plays','p60','shares','site'];
 
 /* ---------- data ---------- */
 function parse(list){var o=[];for(var i=0;i<list.length;i++){try{var e=JSON.parse(list[i][1]);e.ts=list[i][0];if(e.s==='testrun'||e.v==='testrun0001')continue;o.push(e)}catch(x){}}return o}
@@ -188,7 +192,7 @@ function table(head,rows){var o='<div class="scroll"><table><tr>'+head.map(funct
 
 /* ---------- Momentum ---------- */
 var PTS={pv:1,p60:2,sh:3,wc:3};
-function points(e){if(e.t==='pv')return e.s==='share'?3:1;if(e.t==='man'&&/^mg-/.test(e.g))return 20;return PTS[e.t]||0}
+function points(e){if(e.t==='pv')return e.s==='share'?3:1;if(e.t==='man'&&/^mg-/.test(e.g))return 20;if(e.t==='man'&&/^call-/.test(e.g))return 15;if(e.t==='man'&&/^bk-/.test(e.g))return 50;return PTS[e.t]||0}
 function momentum(filter,a,b){var p=0,n=0;EV.forEach(function(e){if(inRange(e.dt,a,b)&&filter(e)){var q=points(e);if(q){p+=q;n++}}});return{p:p,n:n}}
 
 /* ---------- views ---------- */
@@ -197,6 +201,9 @@ function vOverview(){
   o+='<div class="grid">';
   CARDS.forEach(function(k){var c=count(M[k].f,w.a,w.b),p=count(M[k].f,w.pa,w.pb);o+='<div class="stat"><div class="n">'+fmt(c)+'</div><div class="l">'+M[k].n+'</div><div class="d">'+delta(c,p)+'</div></div>'});
   o+='</div>';
+  o+='<div class="card key"><h2>What matters most</h2><p class="sub">Calls, Meet &amp; Greet requests and bookings. You log these on the Log tab.</p><div class="grid">';
+  ['call','mg','bk'].forEach(function(k){var c=count(M[k].f,w.a,w.b),p=count(M[k].f,w.pa,w.pb);o+='<div class="stat"><div class="n">'+fmt(c)+'</div><div class="l">'+M[k].n.replace(' (you log them)','')+'</div><div class="d">'+delta(c,p)+'</div></div>'});
+  o+='</div></div>';
   // new vs returning
   var vis=uniq(is('pv'),w.a,w.b),newv=uniq(function(e){return e.t==='pv'&&e.n===1},w.a,w.b),retv=Math.max(0,vis-newv);
   o+='<div class="card"><h2>New and returning visitors</h2><p class="sub">'+fmt(vis)+' different phones or browsers in the last '+R+' days.</p>';
@@ -207,8 +214,8 @@ function vOverview(){
     var vals=dailyCounts(M[c[0]].f,days);
     o+='<div class="card"><h2>'+c[1]+'</h2><div id="ch'+ci+'">'+bars(days.map(short),vals)+'</div><details><summary>Show as a table</summary>'+table(['Day','Count'],days.map(function(d,i){return [long(d),vals[i]]}).reverse())+'</details></div>'});
   // funnel
-  var f=[['Opened the page',uniq(is('pv'),w.a,w.b)],['Pressed play',uniq(is('ps'),w.a,w.b)],['Listened 60 seconds',uniq(is('p60'),w.a,w.b)],['Finished an episode',uniq(is('p100'),w.a,w.b)],['Went to our website',uniq(is('wc'),w.a,w.b)]];
-  o+='<div class="card"><h2>What visitors did</h2><p class="sub">Different visitors at each step.</p>'+hbars(f)+'</div>';
+  var f=[['Opened the page',uniq(is('pv'),w.a,w.b)],['Pressed play',uniq(is('ps'),w.a,w.b)],['Listened 60 seconds',uniq(is('p60'),w.a,w.b)],['Finished an episode',uniq(is('p100'),w.a,w.b)],['Went to our website',uniq(is('wc'),w.a,w.b)],['Called us (you log)',count(M.call.f,w.a,w.b)],['Asked for a Meet & Greet (you log)',count(M.mg.f,w.a,w.b)],['Booked a stay (you log)',count(M.bk.f,w.a,w.b)]];
+  o+='<div class="card"><h2>What visitors did</h2><p class="sub">The first five rows count different visitors. The last three are the calls, requests and bookings you logged.</p>'+hbars(f)+'</div>';
   // when
   var hrs=[];for(var h=0;h<24;h++)hrs.push(0);EV.forEach(function(e){if(inRange(e.dt,w.a,w.b)&&e.t==='pv')hrs[e.h|0]++});
   o+='<div class="card"><h2>Time of day (Pacific)</h2><div id="chh">'+bars(hrs.map(function(_,i){return (i%12||12)+(i<12?'a':'p')}),hrs,null,[0,6,12,18,23])+'</div></div>';
@@ -234,13 +241,14 @@ function vSrc(){
   // Momentum by source vs own 4-week baseline
   var t=today(),cur=srcStats(addDays(t,-6),t),base=srcStats(addDays(t,-34),addDays(t,-7));
   var mo=cur.map(function(r){var b=base.filter(function(x){return x.s===r.s})[0];var bw=b?b.pts/4:0;return {s:r.s,pts:r.pts,ev:r.ev+(b?b.ev:0),bw:bw}}).sort(function(a,b){return b.pts-a.pts});
-  o+='<div class="card"><h2>Momentum this week</h2><p class="sub">Points: a visit 1, a 60-second listen 2, a share 3, a visit from a shared link 3, a website click 3, a Meet &amp; Greet request 20. Each source is compared with its own last four weeks.</p>';
+  o+='<div class="card"><h2>Momentum this week</h2><p class="sub">Points: a visit 1, a 60-second listen 2, a share 3, a visit from a shared link 3, a website click 3, a phone call 15, a Meet &amp; Greet request 20, a booked stay 50. Each source is compared with its own last four weeks.</p>';
   o+=mo.length?table(['Source','Points this week','Usual week','Read'],mo.map(function(r){var rd=r.ev<30?'too early to judge':(r.bw?(r.pts>=r.bw*1.3?'above its usual':(r.pts<=r.bw*0.7?'below its usual':'about usual')):'new');return [sn(r.s),r.pts,fmt(r.bw),rd]})):'<p class="note">Nothing yet this week.</p>';
   var all=momentum(function(){return true},addDays(t,-6),t),ab=momentum(function(){return true},addDays(t,-34),addDays(t,-7));
   o+='<p class="note"><b>All together:</b> '+all.p+' points this week; your usual week is '+fmt(ab.p/4)+'. '+(all.n+ab.n<30?'Too early to judge.':'')+'</p></div>';
-  // mg by source
-  var mg={};EV.forEach(function(e){if(inRange(e.dt,w.a,w.b)&&e.t==='man'&&/^mg-/.test(e.g))mg[e.g.slice(3)]=(mg[e.g.slice(3)]||0)+1});
-  var mk=Object.keys(mg);o+='<div class="card"><h2>Meet &amp; Greet requests by where they heard</h2>'+(mk.length?hbars(mk.map(function(k){return [k,mg[k]]})):'<p class="note">None logged in this range. Use the Log tab when a request comes in.</p>')+'</div>';
+  // results by source
+  var rs2={};EV.forEach(function(e){if(inRange(e.dt,w.a,w.b)&&e.t==='man'){var m2=/^(call|mg|bk)-(.+)$/.exec(e.g||'');if(m2){var r=rs2[m2[2]]||(rs2[m2[2]]={call:0,mg:0,bk:0});r[m2[1]]++}}});
+  var rk=Object.keys(rs2).sort(function(x,y){var A=rs2[x],B=rs2[y];return (B.bk*100+B.mg*10+B.call)-(A.bk*100+A.mg*10+A.call)});
+  o+='<div class="card"><h2>Calls, requests and bookings by where they heard</h2>'+(rk.length?table(['Heard of us','Calls','Meet & Greet','Booked'],rk.map(function(k){return [k,rs2[k].call,rs2[k].mg,rs2[k].bk]})):'<p class="note">None logged in this range. Use the Log tab when a call, request or booking comes in.</p>')+'</div>';
   return o;
 }
 function vListen(){
@@ -270,9 +278,13 @@ function vTrack(){
   return o;
 }
 var LOGS=[['mg-podcast','Meet & Greet request: from the podcast'],['mg-qr','Meet & Greet request: from a QR card'],['mg-instagram','Meet & Greet request: Instagram'],['mg-facebook','Meet & Greet request: Facebook'],['mg-nextdoor','Meet & Greet request: Nextdoor'],['mg-google','Meet & Greet request: Google'],['mg-friend','Meet & Greet request: a friend'],['mg-other','Meet & Greet request: other']];
+var SRCS=[['podcast','From the podcast'],['qr','QR card'],['instagram','Instagram'],['facebook','Facebook'],['nextdoor','Nextdoor'],['google','Google'],['friend','A friend'],['other','Other / not sure']];
+LOGS=[];['mg','call','bk'].forEach(function(p){var nn={mg:'Meet & Greet request',call:'Phone call',bk:'Booked a stay'}[p];SRCS.forEach(function(x){LOGS.push([p+'-'+x[0],nn+': '+x[1]])})});
 var ACTS=[['cards-out','QR card handed out'],['act-ig-post','I posted on Instagram'],['act-ig-story','I posted an Instagram story'],['act-fb-post','I posted in a Facebook group'],['act-nextdoor','I posted on Nextdoor'],['act-qr-placed','I put a QR card somewhere new'],['act-email','I emailed clients about the show']];
 function vLog(){
-  var o='<div class="card"><h2>Log a Meet &amp; Greet request</h2><p class="sub">One tap when a request comes in. Pick where they heard of us.</p><div class="logs">'+LOGS.map(function(l){return '<button data-g="'+l[0]+'">'+l[1].replace('Meet & Greet request: ','')+'</button>'}).join('')+'</div></div>';
+  var o='';
+  [['bk','Log a booked stay','Most important. One tap when a stay is booked. Pick where they heard of us.'],['mg','Log a Meet &amp; Greet request','One tap when a request comes in.'],['call','Log a phone call','One tap for a call to our number from a new client or prospect.']].forEach(function(c){
+    o+='<div class="card"><h2>'+c[1]+'</h2><p class="sub">'+c[2]+'</p><div class="logs">'+LOGS.filter(function(l){return l[0].indexOf(c[0]+'-')===0}).map(function(l){return '<button data-g="'+l[0]+'">'+l[1].split(': ')[1]+'</button>'}).join('')+'</div></div>'});
   o+='<div class="card"><h2>Log something you did</h2><p class="sub">Wren uses these dates to see what changed afterwards.</p><div class="logs">'+ACTS.map(function(l){return '<button data-g="'+l[0]+'">'+l[1]+'</button>'}).join('')+'</div></div>';
   o+='<div class="card"><h2>Recent log</h2>'+recentLog()+'</div>';
   return o;
@@ -322,7 +334,7 @@ function actionDates(){var o=[];EPS.forEach(function(e){o.push({d:e.date,n:'epis
 function wrenData(){
   var t=today(),a=addDays(t,-6),pa=addDays(t,-13),pb=addDays(t,-7),o={};
   o.visits=count(is('pv'),a,t);o.pvPrev=count(is('pv'),pa,pb);o.visitors=uniq(is('pv'),a,t);o.newv=uniq(function(e){return e.t==='pv'&&e.n===1},a,t);
-  o.plays=count(is('ps'),a,t);o.p60=count(is('p60'),a,t);o.fin=count(is('p100'),a,t);o.shares=count(is('sh'),a,t);o.site=count(is('wc'),a,t);o.mg=count(M.mg.f,a,t);o.sharedv=count(M.sharedv.f,a,t);
+  o.plays=count(is('ps'),a,t);o.p60=count(is('p60'),a,t);o.fin=count(is('p100'),a,t);o.shares=count(is('sh'),a,t);o.site=count(is('wc'),a,t);o.mg=count(M.mg.f,a,t);o.calls=count(M.call.f,a,t);o.bk=count(M.bk.f,a,t);o.sharedv=count(M.sharedv.f,a,t);
   o.mins=sum(is('ls'),a,t,'x')/60;
   // chain: visitors from a shared link who then went to the website
   var sv={},sc={};EV.forEach(function(e){if(!inRange(e.dt,a,t))return;if(e.t==='pv'&&e.s==='share')sv[e.v]=1;if(e.t==='wc'&&e.s==='share')sc[e.v]=1});
@@ -341,7 +353,7 @@ function wrenText(d){
   P.push("I'm Wren, an AI voice, not an analyst. This is your week.");
   if(!d.visits&&!d.plays)P.push('It was quiet: no visits counted. That could be a quiet week, or your own phones being left out. Nothing here is a verdict yet.');
   else{
-    P.push(d.visits+' visits from '+d.visitors+' different phones ('+d.newv+' new, '+Math.max(0,d.visitors-d.newv)+' returning), '+d.plays+' plays, '+d.p60+' listened a full minute, '+d.fin+' finished an episode, '+d.shares+' shares, '+d.site+' clicks to your website'+(d.mg?', and '+d.mg+' Meet and Greet request'+(d.mg>1?'s':'')+' you logged':'')+'.');
+    P.push(d.visits+' visits from '+d.visitors+' different phones ('+d.newv+' new, '+Math.max(0,d.visitors-d.newv)+' returning), '+d.plays+' plays, '+d.p60+' listened a full minute, '+d.fin+' finished an episode, '+d.shares+' shares, '+d.site+' clicks to your website'+(d.mg?', and '+d.mg+' Meet and Greet request'+(d.mg>1?'s':'')+' you logged':'')+(d.calls?'; '+d.calls+' phone call'+(d.calls>1?'s':'')+' logged':'')+(d.bk?'; '+d.bk+' stay'+(d.bk>1?'s':'')+' booked':'')+'.');
     if(d.pvPrev)P.push('Visits are '+(d.visits>=d.pvPrev?'up':'down')+' from '+d.pvPrev+' the week before.');
   }
   if(d.sharedv||d.shares)P.push('Sharing: '+d.shares+' share taps, '+d.sharedv+' visits came through a shared link, and '+d.chainClicks+' of '+d.chainVisitors+' of those visitors went on to your website. These are counted exactly, not estimated.');
@@ -383,7 +395,7 @@ function render(){
   Array.prototype.forEach.call(document.querySelectorAll('[data-g]'),function(b){b.onclick=function(){logIt(b)}});
 }
 function copyNumbers(){
-  var d=window.__wren.d,sum={week_ending:today(),visits:d.visits,visitors:d.visitors,new_visitors:d.newv,plays:d.plays,listened_60s:d.p60,finished:d.fin,shares:d.shares,shared_link_visits:d.sharedv,site_clicks:d.site,meet_greet_logged:d.mg,minutes_listened:Math.round(d.mins),
+  var d=window.__wren.d,sum={week_ending:today(),visits:d.visits,visitors:d.visitors,new_visitors:d.newv,plays:d.plays,listened_60s:d.p60,finished:d.fin,shares:d.shares,shared_link_visits:d.sharedv,site_clicks:d.site,meet_greet_logged:d.mg,calls_logged:d.calls,stays_booked:d.bk,minutes_listened:Math.round(d.mins),
     sources:d.srcs.map(function(r){return {s:r.s,visits:r.v,plays:r.pl,p60:r.p60,shares:r.sh,site:r.wc,points:r.pts,events:r.ev}}),
     tests:d.tests.filter(function(x){return !x.r.wait}).map(function(x){return {after:x.ac.n,date:x.ac.d,measure:x.m,before_per_day:+(x.r.b/Math.max(1,x.r.nb)).toFixed(2),after_per_day:+(x.r.a/7).toFixed(2),ratio:+x.r.rr.toFixed(2),placebo_p:x.r.p,verdict:x.v[0]}})};
   var txt='Wren weekly numbers (private):\n'+JSON.stringify(sum,null,1),b=$('wcopy');
