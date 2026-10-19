@@ -96,6 +96,10 @@
     if (a) {
       var h = a.getAttribute('href') || '', full = a.href || '';
       if (full.indexOf('https://www.irvinedogboarding.net') === 0) {
+        // Tag the link so the website's own counters know this visit began on the podcast (a short label, no id).
+        if (!me() && !/privacy-policy/.test(full)) {
+          try { var u = new URL(full); if (!u.searchParams.get('s')) { u.searchParams.set('s', 'podcast'); if (epId) u.searchParams.set('utm_campaign', epId); a.href = u.toString(); } } catch (x) {}
+        }
         if (/privacy-policy/.test(full)) { /* not a business click */ } else if (/suggest-a-voice/.test(full)) send('sv'); else send('wc', { g: a.closest('header') ? 'top' : (a.closest('footer') ? 'foot' : 'body') });
       } else if (/(^|\/)studio\.html/.test(h)) send('st');
       else if (/feed\.xml/.test(h)) send('fd');

@@ -101,7 +101,7 @@ var $=function(i){return document.getElementById(i)};
 var R=+g('sb_r')||28, TAB=g('sb_t')||'home', EV=[], EPS=[], NOW=Date.now(), LOADED=0;
 
 /* ---------- names ---------- */
-var SRCN={direct:'Direct (typed, bookmark, app)',site:'Our website','qr-front':'QR card: front window','qr-paper':'QR card: paper','qr-card':'QR card: handed out',share:'A friend shared it',feed:'Podcast app / feed','ig-bio':'Instagram bio','ig-story':'Instagram story','ig-post':'Instagram post','fb-group':'Facebook group',nextdoor:'Nextdoor',gmb:'Google profile','wix-blog':'Website blog',owner:'You (logged)'};
+var SRCN={direct:'Direct (typed, bookmark, app)',podcast:'The podcast (link to our website)',site:'Our website','qr-front':'QR card: front window','qr-paper':'QR card: paper','qr-card':'QR card: handed out',share:'A friend shared it',feed:'Podcast app / feed','ig-bio':'Instagram bio','ig-story':'Instagram story','ig-post':'Instagram post','fb-group':'Facebook group',nextdoor:'Nextdoor',gmb:'Google profile','wix-blog':'Website blog',owner:'You (logged)'};
 function sn(x){return SRCN[x]||x}
 var REFN={none:'None / direct',ig:'Instagram',fb:'Facebook',nd:'Nextdoor',goog:'Google',bing:'Bing',site:'Our website',x:'X / Twitter',self:'Our own pages',other:'Other site'};
 var DEVN={ios:'iPhone / iPad',and:'Android',desk:'Computer'};
@@ -137,12 +137,15 @@ var M={
  deep:{n:'Scrolled to the bottom',d:'Reached the bottom of the page.',f:function(e){return e.t==='sd'&&e.x===100}},
  ins:{n:'Added to home screen (Android, computer)',d:'The browser reported an install. iPhone does not report this; see "App opens".',f:is('ins')},
  app:{n:'App opens',d:'Visits from the home-screen app rather than the browser.',f:function(e){return e.t==='pv'&&e.m==='app'}},
- mg:{n:'Meet & Greet requests (you log them)',d:'Requests you logged on the Log tab, by where they heard of us.',f:function(e){return e.t==='man'&&/^mg-/.test(e.g)}},
- call:{n:'Phone calls (you log them)',d:'Calls to our number that you logged on the Log tab, by where they heard of us.',f:function(e){return e.t==='man'&&/^call-/.test(e.g)}},
+ mg:{n:'Meet & Greet requests',d:'Forms sent on our website (counted automatically) plus requests you logged on the Log tab.',f:function(e){return (e.t==='man'&&/^mg-/.test(e.g))||(e.t==='wcl'&&e.g==='mg')}},
+ call:{n:'Calls and call taps',d:'Taps on the call or text button on our website (counted automatically) plus calls you logged on the Log tab.',f:function(e){return (e.t==='man'&&/^call-/.test(e.g))||(e.t==='wcl'&&(e.g==='call'||e.g==='sms'))}},
+ wsite:{n:'Website page views',d:'Pages of irvinedogboarding.net that were opened. Counted on the website itself.',f:is('wpv')},
+ wcall:{n:'Call and text button taps (automatic)',d:'Someone tapped the phone number or text link on our website. A tap is not always a call.',f:function(e){return e.t==='wcl'&&(e.g==='call'||e.g==='sms')}},
+ wmg:{n:'Meet & Greet forms sent (automatic)',d:'Someone sent the Meet & Greet form on our website. Only the fact that it was sent is counted, never what they wrote.',f:function(e){return e.t==='wcl'&&e.g==='mg'}},
  bk:{n:'Stays booked (you log them)',d:'Bookings you logged on the Log tab, by where they heard of us.',f:function(e){return e.t==='man'&&/^bk-/.test(e.g)}},
  cards:{n:'Cards handed out (you log them)',d:'QR cards you handed out or left. Used to compute landings per 10 cards.',f:function(e){return e.t==='man'&&e.g==='cards-out'}}
 };
-var CARDS=['visits','plays','p60','shares','site'];
+var CARDS=['visits','plays','p60','shares','site','wsite'];
 
 /* ---------- data ---------- */
 function parse(list){var o=[];for(var i=0;i<list.length;i++){try{var e=JSON.parse(list[i][1]);e.ts=list[i][0];if(e.s==='testrun'||e.v==='testrun0001')continue;o.push(e)}catch(x){}}return o}
@@ -192,7 +195,7 @@ function table(head,rows){var o='<div class="scroll"><table><tr>'+head.map(funct
 
 /* ---------- Momentum ---------- */
 var PTS={pv:1,p60:2,sh:3,wc:3};
-function points(e){if(e.t==='pv')return e.s==='share'?3:1;if(e.t==='man'&&/^mg-/.test(e.g))return 20;if(e.t==='man'&&/^call-/.test(e.g))return 15;if(e.t==='man'&&/^bk-/.test(e.g))return 50;return PTS[e.t]||0}
+function points(e){if(e.t==='pv')return e.s==='share'?3:1;if(e.t==='man'&&/^mg-/.test(e.g))return 20;if(e.t==='man'&&/^call-/.test(e.g))return 15;if(e.t==='man'&&/^bk-/.test(e.g))return 50;if(e.t==='wcl')return e.g==='mg'?20:((e.g==='call'||e.g==='sms')?8:0);return PTS[e.t]||0}
 function momentum(filter,a,b){var p=0,n=0;EV.forEach(function(e){if(inRange(e.dt,a,b)&&filter(e)){var q=points(e);if(q){p+=q;n++}}});return{p:p,n:n}}
 
 /* ---------- views ---------- */
@@ -201,7 +204,7 @@ function vOverview(){
   o+='<div class="grid">';
   CARDS.forEach(function(k){var c=count(M[k].f,w.a,w.b),p=count(M[k].f,w.pa,w.pb);o+='<div class="stat"><div class="n">'+fmt(c)+'</div><div class="l">'+M[k].n+'</div><div class="d">'+delta(c,p)+'</div></div>'});
   o+='</div>';
-  o+='<div class="card key"><h2>What matters most</h2><p class="sub">Calls, Meet &amp; Greet requests and bookings. You log these on the Log tab.</p><div class="grid">';
+  o+='<div class="card key"><h2>What matters most</h2><p class="sub">Calls, Meet &amp; Greet requests and bookings. Taps on the call button and the website form are counted automatically; you log everything else (calls, texts, in person, bookings) on the Log tab. If a request came through the website form, do not log it again.</p><div class="grid">';
   ['call','mg','bk'].forEach(function(k){var c=count(M[k].f,w.a,w.b),p=count(M[k].f,w.pa,w.pb);o+='<div class="stat"><div class="n">'+fmt(c)+'</div><div class="l">'+M[k].n.replace(' (you log them)','')+'</div><div class="d">'+delta(c,p)+'</div></div>'});
   o+='</div></div>';
   // new vs returning
@@ -214,8 +217,8 @@ function vOverview(){
     var vals=dailyCounts(M[c[0]].f,days);
     o+='<div class="card"><h2>'+c[1]+'</h2><div id="ch'+ci+'">'+bars(days.map(short),vals)+'</div><details><summary>Show as a table</summary>'+table(['Day','Count'],days.map(function(d,i){return [long(d),vals[i]]}).reverse())+'</details></div>'});
   // funnel
-  var f=[['Opened the page',uniq(is('pv'),w.a,w.b)],['Pressed play',uniq(is('ps'),w.a,w.b)],['Listened 60 seconds',uniq(is('p60'),w.a,w.b)],['Finished an episode',uniq(is('p100'),w.a,w.b)],['Went to our website',uniq(is('wc'),w.a,w.b)],['Called us (you log)',count(M.call.f,w.a,w.b)],['Asked for a Meet & Greet (you log)',count(M.mg.f,w.a,w.b)],['Booked a stay (you log)',count(M.bk.f,w.a,w.b)]];
-  o+='<div class="card"><h2>What visitors did</h2><p class="sub">The first five rows count different visitors. The last three are the calls, requests and bookings you logged.</p>'+hbars(f)+'</div>';
+  var f=[['Opened the page',uniq(is('pv'),w.a,w.b)],['Pressed play',uniq(is('ps'),w.a,w.b)],['Listened 60 seconds',uniq(is('p60'),w.a,w.b)],['Finished an episode',uniq(is('p100'),w.a,w.b)],['Went to our website',uniq(is('wc'),w.a,w.b)],['Looked at our website (page views)',count(M.wsite.f,w.a,w.b)],['Called or tapped call',count(M.call.f,w.a,w.b)],['Asked for a Meet & Greet',count(M.mg.f,w.a,w.b)],['Booked a stay (you log)',count(M.bk.f,w.a,w.b)]];
+  o+='<div class="card"><h2>What visitors did</h2><p class="sub">The first five rows count different visitors on the podcast page. The rest are counts: website page views, call taps and calls, Meet &amp; Greet requests (website form plus those you logged), and stays you logged.</p>'+hbars(f)+'</div>';
   // when
   var hrs=[];for(var h=0;h<24;h++)hrs.push(0);EV.forEach(function(e){if(inRange(e.dt,w.a,w.b)&&e.t==='pv')hrs[e.h|0]++});
   o+='<div class="card"><h2>Time of day (Pacific)</h2><div id="chh">'+bars(hrs.map(function(_,i){return (i%12||12)+(i<12?'a':'p')}),hrs,null,[0,6,12,18,23])+'</div></div>';
@@ -226,29 +229,32 @@ function vOverview(){
   return o;
 }
 function srcStats(a,b){
-  var m={};function g1(k){return m[k]||(m[k]={s:k,v:0,pl:0,p60:0,sh:0,wc:0,mg:0,pts:0,pe:0,ev:0})}
+  var m={};function g1(k){return m[k]||(m[k]={s:k,v:0,pl:0,p60:0,sh:0,wc:0,mg:0,wv:0,wk:0,wf:0,pts:0,pe:0,ev:0})}
   EV.forEach(function(e){if(!inRange(e.dt,a,b))return;var k=e.s;
     if(e.t==='man'){if(/^mg-/.test(e.g))g1('mg-'+e.g.slice(3)).mg++;return}
-    var r=g1(k);if(e.t==='pv')r.v++;else if(e.t==='ps')r.pl++;else if(e.t==='p60')r.p60++;else if(e.t==='sh')r.sh++;else if(e.t==='wc')r.wc++;
+    var r=g1(k);if(e.t==='pv')r.v++;else if(e.t==='ps')r.pl++;else if(e.t==='p60')r.p60++;else if(e.t==='sh')r.sh++;else if(e.t==='wc')r.wc++;else if(e.t==='wpv')r.wv++;else if(e.t==='wcl'){if(e.g==='mg')r.wf++;else if(e.g==='call'||e.g==='sms')r.wk++}
     var q=points(e);if(q){r.pts+=q;r.ev++}});
-  return Object.keys(m).map(function(k){return m[k]}).filter(function(r){return r.v||r.pl||r.wc||r.sh});
+  return Object.keys(m).map(function(k){return m[k]}).filter(function(r){return r.v||r.pl||r.wc||r.sh||r.wv||r.wk||r.wf});
 }
 function vSrc(){
-  var w=win(),rs=srcStats(w.a,w.b).sort(function(a,b){return b.v-a.v}),o='';
+  var w=win(),all0=srcStats(w.a,w.b),rs=all0.filter(function(r){return r.v||r.pl||r.wc||r.sh}).sort(function(a,b){return b.v-a.v}),ws0=all0.filter(function(r){return r.wv||r.wk||r.wf}).sort(function(a,b){return (b.wf*100+b.wk*10+b.wv)-(a.wf*100+a.wk*10+a.wv)}),o='';
   o+='<div class="card"><h2>Where visits came from</h2><p class="sub">Last '+R+' days. Each QR card and link has its own tag.</p>'+(rs.length?hbars(rs.map(function(r){return [sn(r.s),r.v]})):'<p class="note">No visits yet.</p>')+'</div>';
+  o+='<div class="card"><h2>Website visitors by where they came from</h2><p class="sub">Visits to irvinedogboarding.net that arrived with a tag (a link from the podcast, a QR card, a post). The tag is remembered for 30 days, so a call tap or form sent a few days later still counts for the link that brought them. Untagged visits are listed as Direct.</p>'+(ws0.length?table(['Source','Page views','Call taps','Meet &amp; Greet forms'],ws0.map(function(r){return [sn(r.s),r.wv,r.wk,r.wf]})):'<p class="note">None yet in this range.</p>')+'</div>';
   o+='<div class="card"><h2>Which source works best?</h2><p class="sub">Per 10 visits. Small numbers jump around: sources with under 30 events say "too early".</p>';
   o+=table(['Source','Visits','Plays','60 s','Shares','Site clicks','Read'],rs.map(function(r){var per=function(x){return r.v?fmt(x/r.v*10):'–'};return [sn(r.s),r.v,per(r.pl),per(r.p60),per(r.sh),per(r.wc),r.ev<30?'too early':'ok']}))+'</div>';
   // Momentum by source vs own 4-week baseline
   var t=today(),cur=srcStats(addDays(t,-6),t),base=srcStats(addDays(t,-34),addDays(t,-7));
   var mo=cur.map(function(r){var b=base.filter(function(x){return x.s===r.s})[0];var bw=b?b.pts/4:0;return {s:r.s,pts:r.pts,ev:r.ev+(b?b.ev:0),bw:bw}}).sort(function(a,b){return b.pts-a.pts});
-  o+='<div class="card"><h2>Momentum this week</h2><p class="sub">Points: a visit 1, a 60-second listen 2, a share 3, a visit from a shared link 3, a website click 3, a phone call 15, a Meet &amp; Greet request 20, a booked stay 50. Each source is compared with its own last four weeks.</p>';
+  o+='<div class="card"><h2>Momentum this week</h2><p class="sub">Points: a visit 1, a 60-second listen 2, a share 3, a visit from a shared link 3, a website click 3, a call or text tap on the website 8, a phone call you logged 15, a Meet &amp; Greet request 20, a booked stay 50. Each source is compared with its own last four weeks.</p>';
   o+=mo.length?table(['Source','Points this week','Usual week','Read'],mo.map(function(r){var rd=r.ev<30?'too early to judge':(r.bw?(r.pts>=r.bw*1.3?'above its usual':(r.pts<=r.bw*0.7?'below its usual':'about usual')):'new');return [sn(r.s),r.pts,fmt(r.bw),rd]})):'<p class="note">Nothing yet this week.</p>';
   var all=momentum(function(){return true},addDays(t,-6),t),ab=momentum(function(){return true},addDays(t,-34),addDays(t,-7));
   o+='<p class="note"><b>All together:</b> '+all.p+' points this week; your usual week is '+fmt(ab.p/4)+'. '+(all.n+ab.n<30?'Too early to judge.':'')+'</p></div>';
   // results by source
-  var rs2={};EV.forEach(function(e){if(inRange(e.dt,w.a,w.b)&&e.t==='man'){var m2=/^(call|mg|bk)-(.+)$/.exec(e.g||'');if(m2){var r=rs2[m2[2]]||(rs2[m2[2]]={call:0,mg:0,bk:0});r[m2[1]]++}}});
+  var rs2={};function bkt(x){x=String(x||'');if(/^qr-/.test(x))return 'qr';if(/^ig-|^instagram/.test(x))return 'instagram';if(/^fb-|^facebook/.test(x))return 'facebook';if(x==='nextdoor')return 'nextdoor';if(x==='gmb'||x==='google')return 'google';if(x==='share')return 'friend';if(x==='podcast'||x==='feed')return 'podcast';return 'other'}
+  EV.forEach(function(e){if(!inRange(e.dt,w.a,w.b))return;var b2=null,kd=null;if(e.t==='man'){var m2=/^(call|mg|bk)-(.+)$/.exec(e.g||'');if(m2){b2=m2[2];kd=m2[1]}}else if(e.t==='wcl'){b2=bkt(e.s);kd=e.g==='mg'?'mg':((e.g==='call'||e.g==='sms')?'call':null)}if(kd){var r=rs2[b2]||(rs2[b2]={call:0,mg:0,bk:0});r[kd]++}});
+  var SN2={};SRCS.forEach(function(x){SN2[x[0]]=x[1]});
   var rk=Object.keys(rs2).sort(function(x,y){var A=rs2[x],B=rs2[y];return (B.bk*100+B.mg*10+B.call)-(A.bk*100+A.mg*10+A.call)});
-  o+='<div class="card"><h2>Calls, requests and bookings by where they heard</h2>'+(rk.length?table(['Heard of us','Calls','Meet & Greet','Booked'],rk.map(function(k){return [k,rs2[k].call,rs2[k].mg,rs2[k].bk]})):'<p class="note">None logged in this range. Use the Log tab when a call, request or booking comes in.</p>')+'</div>';
+  o+='<div class="card"><h2>Calls, requests and bookings by where they heard</h2><p class="sub">Website taps and forms use the link tag; logged ones use what you picked.</p>'+(rk.length?table(['Heard of us','Calls','Meet & Greet','Booked'],rk.map(function(k){return [SN2[k]||k,rs2[k].call,rs2[k].mg,rs2[k].bk]})):'<p class="note">None in this range yet.</p>')+'</div>';
   return o;
 }
 function vListen(){
@@ -273,7 +279,7 @@ function vTrack(){
   var w=win(),hid={};try{hid=JSON.parse(g('sb_hide')||'{}')}catch(e){}
   var o='<div class="card"><h2>What we track</h2><p class="sub">This is the whole list, in plain words. Numbers are for the last 7 days. Everything is anonymous.</p><div class="row"><button class="solid" id="readlist">Read this list aloud</button><button id="stoplist">Stop</button></div></div><div class="card">';
   var t=today();Object.keys(M).forEach(function(k){var c=count(M[k].f,addDays(t,-6),t);o+='<div class="toggle"><div class="tx"><b>'+M[k].n+'</b><span>'+M[k].d+'</span></div><div class="nn">'+fmt(c)+'</div></div>'});
-  o+='</div><div class="card"><h2>Also kept</h2><p class="note">For each visit we also keep: the tag of the link or QR card, which episode, a random code on that phone (so we can tell new from returning; it carries no name), phone type, app or browser, the site they came from, language, hour of day, and how long they listened. We do not keep names, emails, locations, or IP addresses.</p></div>';
+  o+='</div><div class="card"><h2>Also kept</h2><p class="note">For each visit we also keep: the tag of the link or QR card, which episode, a random code on that phone (so we can tell new from returning; it carries no name), phone type, app or browser, the site they came from, language, hour of day, and how long they listened. We do not keep names, emails, locations, or IP addresses.</p><p class="note" style="margin-top:8px">On our website we keep only: which page was opened, a short source tag from the link (remembered up to 30 days on that phone, no name, no code), phone type, language, hour of day, and the fact that the call or text button was tapped or the Meet &amp; Greet form was sent. Never what the form says.</p></div>';
   o+='<div class="card"><h2>Want something else tracked?</h2><p class="note">Write it here. Then tell Claude in chat; new things need a small piece of code.</p><textarea id="want" placeholder="For example: how many people tap a specific episode from the list">'+(g('sb_want')||'')+'</textarea><div class="row" style="margin-top:8px"><button id="copywant">Copy this note</button></div></div>';
   return o;
 }
@@ -334,7 +340,7 @@ function actionDates(){var o=[];EPS.forEach(function(e){o.push({d:e.date,n:'epis
 function wrenData(){
   var t=today(),a=addDays(t,-6),pa=addDays(t,-13),pb=addDays(t,-7),o={};
   o.visits=count(is('pv'),a,t);o.pvPrev=count(is('pv'),pa,pb);o.visitors=uniq(is('pv'),a,t);o.newv=uniq(function(e){return e.t==='pv'&&e.n===1},a,t);
-  o.plays=count(is('ps'),a,t);o.p60=count(is('p60'),a,t);o.fin=count(is('p100'),a,t);o.shares=count(is('sh'),a,t);o.site=count(is('wc'),a,t);o.mg=count(M.mg.f,a,t);o.calls=count(M.call.f,a,t);o.bk=count(M.bk.f,a,t);o.sharedv=count(M.sharedv.f,a,t);
+  o.plays=count(is('ps'),a,t);o.p60=count(is('p60'),a,t);o.fin=count(is('p100'),a,t);o.shares=count(is('sh'),a,t);o.site=count(is('wc'),a,t);o.mg=count(M.mg.f,a,t);o.calls=count(M.call.f,a,t);o.wv=count(M.wsite.f,a,t);o.wk=count(M.wcall.f,a,t);o.wf=count(M.wmg.f,a,t);o.bk=count(M.bk.f,a,t);o.sharedv=count(M.sharedv.f,a,t);
   o.mins=sum(is('ls'),a,t,'x')/60;
   // chain: visitors from a shared link who then went to the website
   var sv={},sc={};EV.forEach(function(e){if(!inRange(e.dt,a,t))return;if(e.t==='pv'&&e.s==='share')sv[e.v]=1;if(e.t==='wc'&&e.s==='share')sc[e.v]=1});
@@ -353,7 +359,7 @@ function wrenText(d){
   P.push("I'm Wren, an AI voice, not an analyst. This is your week.");
   if(!d.visits&&!d.plays)P.push('It was quiet: no visits counted. That could be a quiet week, or your own phones being left out. Nothing here is a verdict yet.');
   else{
-    P.push(d.visits+' visits from '+d.visitors+' different phones ('+d.newv+' new, '+Math.max(0,d.visitors-d.newv)+' returning), '+d.plays+' plays, '+d.p60+' listened a full minute, '+d.fin+' finished an episode, '+d.shares+' shares, '+d.site+' clicks to your website'+(d.mg?', and '+d.mg+' Meet and Greet request'+(d.mg>1?'s':'')+' you logged':'')+(d.calls?'; '+d.calls+' phone call'+(d.calls>1?'s':'')+' logged':'')+(d.bk?'; '+d.bk+' stay'+(d.bk>1?'s':'')+' booked':'')+'.');
+    P.push(d.visits+' visits from '+d.visitors+' different phones ('+d.newv+' new, '+Math.max(0,d.visitors-d.newv)+' returning), '+d.plays+' plays, '+d.p60+' listened a full minute, '+d.fin+' finished an episode, '+d.shares+' shares, '+d.site+' clicks to your website'+(d.mg?', and '+d.mg+' Meet and Greet request'+(d.mg>1?'s':''):'')+(d.calls?'; '+d.calls+' call'+(d.calls>1?'s':'')+' or call tap'+(d.calls>1?'s':''):'')+(d.wv?'; '+d.wv+' website page views':'')+(d.bk?'; '+d.bk+' stay'+(d.bk>1?'s':'')+' booked':'')+'.');
     if(d.pvPrev)P.push('Visits are '+(d.visits>=d.pvPrev?'up':'down')+' from '+d.pvPrev+' the week before.');
   }
   if(d.sharedv||d.shares)P.push('Sharing: '+d.shares+' share taps, '+d.sharedv+' visits came through a shared link, and '+d.chainClicks+' of '+d.chainVisitors+' of those visitors went on to your website. These are counted exactly, not estimated.');
@@ -395,8 +401,8 @@ function render(){
   Array.prototype.forEach.call(document.querySelectorAll('[data-g]'),function(b){b.onclick=function(){logIt(b)}});
 }
 function copyNumbers(){
-  var d=window.__wren.d,sum={week_ending:today(),visits:d.visits,visitors:d.visitors,new_visitors:d.newv,plays:d.plays,listened_60s:d.p60,finished:d.fin,shares:d.shares,shared_link_visits:d.sharedv,site_clicks:d.site,meet_greet_logged:d.mg,calls_logged:d.calls,stays_booked:d.bk,minutes_listened:Math.round(d.mins),
-    sources:d.srcs.map(function(r){return {s:r.s,visits:r.v,plays:r.pl,p60:r.p60,shares:r.sh,site:r.wc,points:r.pts,events:r.ev}}),
+  var d=window.__wren.d,sum={week_ending:today(),visits:d.visits,visitors:d.visitors,new_visitors:d.newv,plays:d.plays,listened_60s:d.p60,finished:d.fin,shares:d.shares,shared_link_visits:d.sharedv,site_clicks:d.site,meet_greet_requests:d.mg,meet_greet_forms_auto:d.wf,calls_and_call_taps:d.calls,call_taps_auto:d.wk,website_page_views:d.wv,stays_booked:d.bk,minutes_listened:Math.round(d.mins),
+    sources:d.srcs.map(function(r){return {s:r.s,visits:r.v,plays:r.pl,p60:r.p60,shares:r.sh,site:r.wc,web_views:r.wv,call_taps:r.wk,mg_forms:r.wf,points:r.pts,events:r.ev}}),
     tests:d.tests.filter(function(x){return !x.r.wait}).map(function(x){return {after:x.ac.n,date:x.ac.d,measure:x.m,before_per_day:+(x.r.b/Math.max(1,x.r.nb)).toFixed(2),after_per_day:+(x.r.a/7).toFixed(2),ratio:+x.r.rr.toFixed(2),placebo_p:x.r.p,verdict:x.v[0]}})};
   var txt='Wren weekly numbers (private):\n'+JSON.stringify(sum,null,1),b=$('wcopy');
   try{navigator.clipboard.writeText(txt).then(function(){b.textContent='Copied. Paste to Claude'},function(){b.textContent='Could not copy'})}catch(e){b.textContent='Could not copy'}
