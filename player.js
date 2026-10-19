@@ -45,6 +45,7 @@
     BENCH = d.bench || null;
     ep = d.episodes.filter(function (e) { return e.id === id; })[0] || d.episodes[d.episodes.length - 1];
     render(); archive(d.episodes); tagSiteLinks();
+    window.WT_DUR = ep.duration; if (window.WT) window.WT.ready(ep.id);
   }).catch(function () { $('title').textContent = 'This episode could not load. Please refresh.'; });
 
   function render() {
