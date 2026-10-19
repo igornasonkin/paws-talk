@@ -4,6 +4,31 @@
   var reduce = window.matchMedia && matchMedia('(prefers-reduced-motion: reduce)').matches;
   var ep, BENCH = null, audio = $('audio'), active = -1, speeds = [1, 1.25, 0.85], si = 0;
 
+  // Where did this visit come from? A link or QR card may carry ?s=<placement>. Remember it for this visit only,
+  // then remove it from the address bar so a link copied by hand does not pass the tag on to a friend.
+  var SRC = 'direct';
+  try {
+    var qp = new URLSearchParams(location.search), sv = (qp.get('s') || '').toLowerCase().replace(/[^a-z0-9-]/g, '').slice(0, 24);
+    if (sv) {
+      SRC = sv; sessionStorage.setItem('wt_src', sv); qp.delete('s');
+      var rest = qp.toString();
+      history.replaceState(null, '', location.pathname + (rest ? '?' + rest : '') + location.hash);
+    } else { SRC = sessionStorage.getItem('wt_src') || 'direct'; }
+  } catch (e) {}
+  // Links to the TurtleRock Paws website carry source tags, so the business site can tell which visits the podcast sent.
+  function tagSiteLinks() {
+    if (!ep) return;
+    Array.prototype.forEach.call(document.querySelectorAll('a[href^="https://www.irvinedogboarding.net"]'), function (a) {
+      try {
+        var u = new URL(a.getAttribute('data-base') || a.href);
+        a.setAttribute('data-base', u.href);
+        u.searchParams.set('utm_source', 'podcast'); u.searchParams.set('utm_medium', 'player'); u.searchParams.set('utm_campaign', ep.id);
+        if (SRC !== 'direct') u.searchParams.set('s', SRC);
+        a.href = u.href;
+      } catch (e) {}
+    });
+  }
+
   // Neutral letter badge when a voice has no portrait yet (never show a broken picture).
   function portrait(img, name) {
     img.onerror = function () {
@@ -19,7 +44,7 @@
     var id = new URLSearchParams(location.search).get('ep');
     BENCH = d.bench || null;
     ep = d.episodes.filter(function (e) { return e.id === id; })[0] || d.episodes[d.episodes.length - 1];
-    render(); archive(d.episodes);
+    render(); archive(d.episodes); tagSiteLinks();
   }).catch(function () { $('title').textContent = 'This episode could not load. Please refresh.'; });
 
   function render() {
@@ -113,7 +138,11 @@
   // Share button: the phone's own share sheet when there is one, otherwise copy the link.
   var shareBtn = $('share');
   if (shareBtn) shareBtn.addEventListener('click', function () {
-    var url = location.href.split('#')[0], msg = $('sharemsg');
+    // Share the clean address plus a "shared by a friend" tag (the arrival tag of this visit is never passed on).
+    var su = new URL(location.href), epid = su.searchParams.get('ep'); su.search = ''; su.hash = '';
+    if (epid) su.searchParams.set('ep', epid);
+    su.searchParams.set('s', 'share');
+    var url = su.href, msg = $('sharemsg');
     var data = { title: "Today's Walk, Let's Talk", text: ep ? ep.title : "Today's Walk, Let's Talk", url: url };
     function note(t) { if (msg) { msg.textContent = t; setTimeout(function () { msg.textContent = ''; }, 4000); } }
     if (navigator.share) { navigator.share(data).catch(function () {}); return; }
