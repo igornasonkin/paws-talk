@@ -1,0 +1,321 @@
+{
+ "note": "Topic list for the Show Planner, copied from studio.html (2026-10-29). Keep both in step.",
+ "groups": [
+  {
+   "group": "Already made episodes",
+   "topics": [
+    "Why dogs stop to sniff",
+    "Brush, bath and nails: keeping grooming calm"
+   ]
+  },
+  {
+   "group": "Food & nutrition",
+   "topics": [
+    "Raw, kibble or fresh-cooked: which is best?",
+    "Is grain-free food bad for dogs' hearts?",
+    "Fresh-food subscriptions: worth the price?",
+    "Which human foods make safe treats?",
+    "This month's dog food recalls",
+    "Supplements: fish oil, probiotics, joint chews, CBD. Hype or help?",
+    "Is my dog overweight? The hardest conversation in dog ownership",
+    "Homemade dog food: love or risk?"
+   ]
+  },
+  {
+   "group": "Health & science",
+   "topics": [
+    "Could a pill help senior dogs live longer?",
+    "When to spay or neuter: does breed change the answer?",
+    "Dog DNA tests: fun or accurate?",
+    "Allergy season: what's new for itchy dogs",
+    "Pet insurance: worth it?",
+    "Anesthesia-free teeth cleaning: shortcut or risk?",
+    "Which vaccines does a boarding dog really need?",
+    "How old is my dog in human years?",
+    "Do dogs understand words?"
+   ]
+  },
+  {
+   "group": "Behavior & training",
+   "topics": [
+    "Crate: cozy den or doggy jail?",
+    "Should your dog sleep in your bed?",
+    "Dog parks: great exercise or bad idea?",
+    "Prong and e-collars: training tools or cruelty?",
+    "Separation anxiety: why so many dogs struggle when we leave",
+    "Should dogs say hello on leash?",
+    "Reactive dogs: how to share sidewalks kindly",
+    "Puppy socialization: what really matters early on",
+    "Zoomies, grass-eating and other weird habits explained"
+   ]
+  },
+  {
+   "group": "Irvine & SoCal",
+   "topics": [
+    "Coyotes in Turtle Rock: walking small dogs safely",
+    "Rattlesnake season on Irvine trails",
+    "Foxtails: the tiny summer menace",
+    "Hot pavement: when is it too hot to walk?",
+    "Fireworks nights: calming a scared dog",
+    "Best dog-friendly patios and cafés in Irvine",
+    "Where can dogs actually go on Orange County beaches?",
+    "Irvine's leash, license and poop rules, explained",
+    "Dog events around Irvine this month",
+    "Adopting in Irvine: meet the Animal Care Center"
+   ]
+  },
+  {
+   "group": "Breeds & genetics",
+   "topics": [
+    "Doodles: dream dog or overbred trend?",
+    "Flat-faced breeds and breathing: should buyers think twice?",
+    "Rescue or breeder: is one more ethical?",
+    "Breed or behavior: what predicts a happy boarding guest?",
+    "Why do small dogs live longer than big dogs?",
+    "Mixed-breed DNA surprises"
+   ]
+  },
+  {
+   "group": "Travel & boarding",
+   "topics": [
+    "Boarding, sitter or a friend's couch: what's best for your dog?",
+    "How to prepare a dog for a first stay away",
+    "Flying with dogs: cabin, cargo or stay home?",
+    "Holiday travel: when to book dog care",
+    "What to pack for boarding"
+   ]
+  },
+  {
+   "group": "Fun & culture",
+   "topics": [
+    "This year's most popular dog names",
+    "Halloween costumes: cute or cruel?",
+    "Dog tech: GPS collars, cameras, talking buttons. Worth it?",
+    "The funniest thing a guest did this month",
+    "Birthdays and \"gotcha days\": how do you celebrate?"
+   ]
+  },
+  {
+   "group": "Meet this dog (add photos below)",
+   "topics": [
+    "Meet this dog: age, coat, grooming, health and the best food"
+   ]
+  },
+  {
+   "group": "Nutrition & longevity",
+   "topics": [
+    "Raw diet or kibble: evolution, convenience and safety risks",
+    "Canine cognitive decline: spotting early signs in older dogs",
+    "Supplements that help: omega-3s, joint support, turmeric and CBD",
+    "Homemade diets: why most recipes are unbalanced",
+    "Intermittent fasting for dogs: does eating less extend life?",
+    "Grain-free diets and heart disease: what the science says",
+    "Gut health: probiotics, prebiotics and fermented foods",
+    "Obesity as an inflammatory disease: the hidden epidemic",
+    "Superfoods in the bowl: blueberries, pumpkin, bone broth. Hype or help?",
+    "The sugar and salt trap: hidden human ingredients",
+    "Working dog or couch potato: feeding for activity level",
+    "Xylitol and sugar substitutes: what every owner must know",
+    "Hydration: why dogs refuse water and when it becomes dangerous",
+    "Puppy growth curves: feeding large puppies for healthy joints",
+    "Prescription diets: when medical food really helps"
+   ]
+  },
+  {
+   "group": "Behavior, psychology & training",
+   "topics": [
+    "Positive reinforcement or dominance training: where is the line?",
+    "Separation anxiety as owners return to the office",
+    "Leash reactivity: the root causes of lunging and barking",
+    "Calming signals: the secret body language of dogs",
+    "Crate training ethics: comforting den or confinement?",
+    "The teenage dog phase: surviving 6 to 18 months",
+    "Resource guarding: managing food, toy and people possessiveness",
+    "Thunderstorms and fireworks: strategies for noise panic",
+    "Socialization or over-socialization: why greeting everyone backfires",
+    "The psychology of rescue dogs: decompression and building trust",
+    "Multi-dog households: hierarchy, jealousy and sharing",
+    "Instincts and outlets: why hardwired drives need a job",
+    "Brain games that tire a dog faster than a long run",
+    "Fear aggression: the subtle signs before a bite",
+    "Play bows and roughhousing: when play becomes bullying"
+   ]
+  },
+  {
+   "group": "Health, oncology & veterinary medicine",
+   "topics": [
+    "Canine cancer research: early-detection tests and immunotherapy",
+    "Osteosarcoma and lymphoma: quality of life during treatment",
+    "Spay and neuter timing: what recent studies suggest",
+    "The over-vaccination debate: titer tests or yearly boosters?",
+    "Parasite prevention: fleas, ticks, heartworm and a changing climate",
+    "Dental health and the heart, kidneys and liver",
+    "Cruciate ligament injuries: surgery, rehab and the second knee",
+    "Epilepsy: cluster seizures, medicines and emergency care",
+    "Allergies and chronic itching: environmental or food?",
+    "End-of-life care and hospice: palliative comfort and anticipatory grief",
+    "Canine physical therapy: hydrotherapy, laser and rehab for aging athletes",
+    "Ear infections decoded: why they keep coming back",
+    "Bloat: emergency signs, preventive surgery and risk factors",
+    "Kidney and liver disease in seniors: early detection",
+    "Cushing's and Addison's disease: hormone problems that mimic aging"
+   ]
+  },
+  {
+   "group": "Breeding, ethics & the dog industry",
+   "topics": [
+    "Ethical breeders and backyard breeders: what makes the difference?",
+    "The designer dog craze: health and temperament questions",
+    "The shelter crisis: why rescues are full and what can help",
+    "Breed-specific laws: public safety or unscientific discrimination?",
+    "Import rescues: the ethics and biosecurity of flying strays across borders",
+    "The economics of dog ownership: vet costs, insurance and access to care",
+    "Fake service dogs and certificate mills: public access rights",
+    "Working dogs: police, search-and-rescue and herding dogs in retirement",
+    "Puppy mills: spotting fraudulent online sellers and registry myths",
+    "Dog cloning: ethics, health outcomes and the emotional reality"
+   ]
+  },
+  {
+   "group": "Grooming, care & daily lifestyle",
+   "topics": [
+    "Double coats: why you should never shave them",
+    "Matting pain: how neglected coats hurt the skin",
+    "Nail trimming without trauma: cooperative care techniques",
+    "Skin and coat care: bath frequency, pH and seasons",
+    "Ear cleaning myths that cause infections",
+    "Dental hygiene at home: brushing, gels and bone safety",
+    "Choosing a harness: front clip, back clip or head halter",
+    "Dog park culture: the hidden dangers and how to spot a risky one",
+    "Traveling with dogs: planes, road trips and hotel etiquette",
+    "City or country: adapting high-drive dogs to apartment life"
+   ]
+  },
+  {
+   "group": "Longevity science & future trends",
+   "topics": [
+    "Anti-aging drug trials in dogs: the science of healthspan",
+    "Stem cell therapy for arthritis and nerve disease: what is proven?",
+    "AI in veterinary diagnostics: reading X-rays and scans",
+    "Wearable tech: tracking sleep, heart rate and early pain",
+    "Genetic testing: hidden disease markers before symptoms",
+    "Tissue banking and cryopreservation: what is possible",
+    "Microbiome transplants for chronic digestive disorders",
+    "Cannabinoid research: the truth about hemp and pain relief",
+    "Smart dog homes: automatic feeders, climate control, treat dispensers",
+    "Remote work and the human-dog bond"
+   ]
+  },
+  {
+   "group": "Human-dog culture, news & society",
+   "topics": [
+    "Dogs in the workplace: productivity booster or distraction?",
+    "The evolution of dog names: from Spot and Rover to human baby names",
+    "Designing a family home for pet hair, muddy paws and safety",
+    "Grieving a pet: why the loss is often misunderstood",
+    "Dog photography and social media: ethics of dressing up and posing",
+    "Pet custody battles: who keeps the dog after a breakup?",
+    "Dogs in books and movies: how stories shaped our empathy",
+    "Feral and street dogs: global sociology and shelter systems",
+    "Climate change and dogs: heatstroke and hot asphalt",
+    "How wolves chose us: the latest findings on domestication"
+   ]
+  },
+  {
+   "group": "Boarding, daycare & socialization",
+   "topics": [
+    "Boarding anxiety: signs of stress and choosing a low-stress home",
+    "Group play in daycare: chaotic or structured quiet time?",
+    "Kennel cough reality: Bordetella, canine flu and vaccine limits",
+    "Couch to camp: conditioning an inactive dog for an active weekend",
+    "Senior dogs in boarding: medication, bedding and pacing",
+    "Reactivity in boarding: social butterflies and shy dogs",
+    "Webcams in boarding: peace of mind or extra anxiety?",
+    "Dietary management on vacation: preventing stress tummy",
+    "Holiday stress prep: guests, family and fireworks",
+    "The transition home: why dogs act exhausted or clingy for 48 hours"
+   ]
+  },
+  {
+   "group": "Controversial & philosophical corner",
+   "topics": [
+    "Tail docking and ear cropping: tradition or outdated surgery?",
+    "Breeding flat-faced dogs: should we continue?",
+    "No-kill shelters: the ethics of keeping unadoptable dogs for years",
+    "Service dogs in restaurants and stores: health codes and disability rights",
+    "The multi-species future: dogs in dense cities and shrinking wild habitat"
+   ]
+  },
+  {
+   "group": "Genetics, evolution & breed history",
+   "topics": [
+    "From ancient wolf to couch potato: the genetic timeline",
+    "Decoding breed DNA: markers for herding, guarding and quirks",
+    "The Victorian breeding obsession and how it reshaped anatomy",
+    "DNA test kits demystified: how accurate are the percentages?",
+    "Rare and ancient breeds that split from wolves long ago",
+    "The Velcro dog debate: why are some dogs clingier than others? Type, upbringing or personality?"
+   ]
+  },
+  {
+   "group": "Advanced diagnostics & oncology",
+   "topics": [
+    "Liquid biopsies: blood and urine tests that screen for cancer",
+    "Biopsy and diagnostic roadmaps: how cancer is confirmed and staged",
+    "Navigating oncology options: treatment versus palliative care"
+   ]
+  },
+  {
+   "group": "End-of-life, grief & finding peace",
+   "topics": [
+    "The hardest choice: recognizing chronic pain and quality of life",
+    "At home or at the clinic: a peaceful, fear-free goodbye",
+    "Anticipatory grief: loving a dog who is still with us",
+    "Finding peace after loss: silence, memorials and guilt-free memories"
+   ]
+  },
+  {
+   "group": "Lifestyle, gear, training & quirks",
+   "topics": [
+    "The ultimate gear guide: harnesses, leashes, crates and cooling coats",
+    "Pad training: convenient or a housebreaking setback?",
+    "Dog snoring: harmless quirk or sleep apnea?",
+    "Microchips, GPS and Bluetooth tags: modern dog safety"
+   ]
+  },
+  {
+   "group": "Culture, history & famous canines",
+   "topics": [
+    "Hero dogs that saved lives",
+    "Dogs of famous historical figures",
+    "Why do dogs and owners look alike?"
+   ]
+  },
+  {
+   "group": "Special needs & comfort care",
+   "topics": [
+    "Living with a blind dog: a safe and calm home",
+    "Deaf dogs: hand signals and gentle wake-ups",
+    "Three-legged dogs and dogs without paws: stairs, floors and harnesses",
+    "Mobility aids: carts, boots and ramps in plain words",
+    "Caring for a dog with cancer: comfort at home (your vet decides treatment)",
+    "Good days and bad days: tracking comfort in a seriously ill dog",
+    "Caring for the caregiver: coping while your dog is sick"
+   ]
+  },
+  {
+   "group": "Today's picks from the table",
+   "topics": [
+    "Holiday-card dog portraits with just your phone",
+    "A calm corner: setting up a cozy spot for a small dog",
+    "Road-trip checklist for dogs",
+    "Tooth brushing for small dogs",
+    "Your new puppy's first week at home",
+    "Earthquake go-bag for your dog",
+    "Starting agility and nose-work games",
+    "Adopting an adult dog: the first weeks",
+    "Therapy dogs and service dogs: what they really do"
+   ]
+  }
+ ]
+}

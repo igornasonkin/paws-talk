@@ -14,7 +14,7 @@
 <meta name="apple-mobile-web-app-title" content="Walk &amp; Talk">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <link rel="stylesheet" href="style.css">
-<link rel="stylesheet" href="studio.css">
+<link rel="stylesheet" href="studio.css?v=2">
 </head>
 <body class="studio">
 <header class="bar">
@@ -335,6 +335,29 @@
 
   <section aria-labelledby="s4" class="g-s4">
     <h2 id="s4">4. Send it</h2>
+    <div class="owner-make" id="ownermake" hidden>
+      <p class="omk-lead">You are the show&rsquo;s owner on this phone. Choose when it plays, then make it.</p>
+      <label class="lbl" for="mkdate">Play it on</label>
+      <input class="omk-in" id="mkdate" type="date">
+      <label class="lbl" for="mkkind">Type of episode</label>
+      <select class="omk-in" id="mkkind"><option>Table talk</option><option>Journal Club</option><option>Debate</option><option>Dog news</option></select>
+      <label class="lbl" for="mklen">Length</label>
+      <select class="omk-in" id="mklen"><option value="5">Short, about 5 min</option><option value="8" selected>Standard, about 8 min</option><option value="15">Deep, about 15 min</option></select>
+      <label class="lbl" for="mkemph">What should they emphasise inside this topic? (optional)</label>
+      <textarea class="omk-in" id="mkemph" rows="3" placeholder="For example: more science, a few practical tips, less history"></textarea>
+      <div class="omk-num" id="mknumbox" hidden>
+        <label class="lbl" for="mknum">Your mobile number for text copies (typed once, kept on this phone only)</label>
+        <input class="omk-in" id="mknum" type="tel" inputmode="tel" placeholder="Type your number">
+      </div>
+      <button class="send" id="make" type="button">Make this episode</button>
+      <button class="send alt" id="textme" type="button">Text me a copy</button>
+      <ol class="omk-how">
+        <li><b>Make this episode</b> opens your share sheet. Tap the <b>Claude</b> app, then tap Send.</li>
+        <li>Claude writes it, records it with the AI voices, and runs the Legal Desk check.</li>
+        <li>If the check is GREEN, it appears in this app on the date you chose. If not, Claude asks you first.</li>
+      </ol>
+      <p class="fine"><a href="plan.html">Open the Show Planner</a> to see and change the coming days. If you do nothing, a calm episode is made every day and a Journal Club every Friday.</p>
+    </div>
     <button class="send" id="send" type="button">Send my plan</button>
     <p class="status" id="status" role="status"></p>
     <p class="fine">Your phone will ask where to send it (Messages, Mail and so on). Nothing is stored on this website. The finished episode takes a little time to produce, and it shows up here in the list.</p>
@@ -344,9 +367,9 @@
   <p><strong>AI voices.</strong> Everyone at this table is an AI character sharing general information for conversation, not veterinary advice.</p>
   <p>We count visits and plays, using a small random code saved in your browser, to see what people enjoy. No names, no emails, no ads. If your browser sends a Do Not Track or Global Privacy Control signal, we count nothing. <a href="https://www.irvinedogboarding.net/english-privacy-policy">Privacy Policy</a></p>
 </footer>
-<script src="track.js?v=3"></script>
+<script src="track.js?v=4"></script>
 <script>if(window.WT)window.WT.ready("studio")</script>
-<script src="studio.js"></script>
+<script src="studio.js?v=2"></script>
 <script>if("serviceWorker"in navigator){addEventListener("load",function(){navigator.serviceWorker.register("sw.js").catch(function(){})})}</script>
 </body>
 </html>

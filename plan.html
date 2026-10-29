@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Show Planner | Today's Walk, Let's Talk</title>
+<meta name="robots" content="noindex, nofollow">
+<meta name="theme-color" content="#5b0a3c">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="icon-180.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Walk &amp; Talk">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<link rel="stylesheet" href="plan.css?v=1">
+</head>
+<body>
+<header class="pbar">
+  <a class="back" href="./">&larr; Back to the show</a>
+</header>
+
+<main class="pwrap">
+  <h1>Show Planner</h1>
+  <p class="lead">Plan the next episodes. Change a topic, its focus, the length, the voices and the date. Then press <b>Submit request</b>. It opens Messages with everything written out. Nothing is sent until you press Send.</p>
+
+  <section class="pcard notowner" id="notowner" hidden>
+    <h2>Is this your phone?</h2>
+    <p>The Show Planner is for the show&rsquo;s owner. Turn it on for this phone only.</p>
+    <button class="big" id="beowner" type="button">Yes, this is my phone</button>
+  </section>
+
+  <section class="pcard" id="setup" aria-labelledby="seth">
+    <h2 id="seth">Where should requests go?</h2>
+    <p id="numnow" class="numnow"></p>
+    <div id="numform">
+      <label class="lbl" for="num">Your mobile number for requests</label>
+      <input class="inp" id="num" type="tel" inputmode="tel" autocomplete="tel" placeholder="Type your number">
+      <p class="hint">Saved on this phone only. It is never put on the website.</p>
+      <button class="big" id="numsave" type="button">Save</button>
+    </div>
+    <button class="big alt" id="numchange" type="button" hidden>Change</button>
+  </section>
+
+  <section class="pcard" aria-labelledby="rhh">
+    <h2 id="rhh">Weekly rhythm</h2>
+    <p>A new episode is made every day you tick. Unless you choose one, Claude picks a calm topic at random on the day.</p>
+    <div class="chips" id="days" role="group" aria-label="Days with a new episode"></div>
+    <label class="lbl" for="jcday">Journal Club day (about 15 min, a science deep dive on a real dog paper)</label>
+    <select class="inp" id="jcday"></select>
+  </section>
+
+  <section aria-labelledby="slh">
+    <div class="slhead">
+      <h2 id="slh">Coming episodes</h2>
+      <button class="big alt" id="addslot" type="button">+ Add an extra date</button>
+    </div>
+    <ol class="slots" id="slots"></ol>
+    <button class="big alt more" id="more" type="button">Show 2 more weeks</button>
+    <div class="pcard">
+      <h2>Send several at once</h2>
+      <p>Send every date you changed in the next 4 weeks in one request.</p>
+      <div class="btns">
+        <button class="big" id="sendall" type="button">Submit all my changes</button>
+        <button class="big alt" id="claudeall" type="button">Send to Claude</button>
+      </div>
+    </div>
+  </section>
+
+  <section class="pcard howto" aria-labelledby="hh">
+    <h2 id="hh">What happens after you send</h2>
+    <ol>
+      <li><b>Submit request</b> opens Messages with the plan written out, addressed to your number. Press Send. That is your record.</li>
+      <li><b>Send to Claude</b> opens the share sheet. Tap the <b>Claude</b> app, then send. Claude cannot read iPhone texts, so this is how the daily episode maker gets your change.</li>
+      <li>Every morning Claude makes that day&rsquo;s episode with the AI voices. The Legal Desk checks it. If it is GREEN, it goes live in this app by itself. If not, it waits for your &ldquo;publish&rdquo;.</li>
+      <li>Dates you did not change get a calm surprise topic. Journal Club gets a real dog science paper from the news or the journals.</li>
+    </ol>
+  </section>
+  <p class="status" id="status" role="status" aria-live="polite"></p>
+</main>
+
+<template id="slot-tpl">
+  <li class="slot">
+    <div class="sum">
+      <p class="sdate"></p>
+      <p class="stopic"></p>
+      <p class="swho"></p>
+      <p class="sbadge"></p>
+      <button class="big alt sopen" type="button" aria-expanded="false">Change this episode</button>
+    </div>
+    <div class="ed" hidden>
+      <label class="lbl">Date<input class="inp f-date" type="date"></label>
+      <label class="lbl">Type of episode
+        <select class="inp f-kind">
+          <option>Table talk</option><option>Journal Club</option><option>Debate</option><option>Dog news</option>
+        </select>
+      </label>
+
+      <fieldset class="fs">
+        <legend>Topic</legend>
+        <p class="curtopic"></p>
+        <label class="lbl">Search the topic list<input class="inp f-search" type="search" placeholder="For example: walks, sleep, food"></label>
+        <label class="check"><input class="f-calm" type="checkbox" checked> <span>Calm topics only</span></label>
+        <div class="tlist" role="list"></div>
+        <label class="lbl">Or type your own topic<input class="inp f-own" type="text" placeholder="Your own topic"></label>
+      </fieldset>
+
+      <fieldset class="fs">
+        <legend>Focus inside this topic</legend>
+        <div class="chips f-focus"></div>
+        <label class="lbl">What should they emphasise?<textarea class="inp f-emph" rows="3" placeholder="For example: more on how to read a dog's body language, less on history"></textarea></label>
+      </fieldset>
+
+      <fieldset class="fs">
+        <legend>Length</legend>
+        <div class="chips f-len"></div>
+      </fieldset>
+
+      <fieldset class="fs">
+        <legend>Voices at the table</legend>
+        <div class="voices f-voices"></div>
+        <p class="hint voicehint">Andria and Hal host. Pick 2 to 5 guests, or leave it to Claude.</p>
+      </fieldset>
+
+      <fieldset class="fs f-papers-box">
+        <legend>Papers for Journal Club (optional)</legend>
+        <label class="lbl">Paper link 1<input class="inp f-p1" type="url" inputmode="url" placeholder="https://"></label>
+        <label class="lbl">Paper link 2<input class="inp f-p2" type="url" inputmode="url" placeholder="https://"></label>
+        <p class="hint">Leave empty and a real peer-reviewed dog study from the news or the journals is found for you.</p>
+      </fieldset>
+
+      <label class="lbl">Notes<textarea class="inp f-notes" rows="3" placeholder="Anything else"></textarea></label>
+
+      <div class="btns">
+        <button class="big f-send" type="button">Submit request</button>
+        <button class="big alt f-share" type="button">Make it with Claude</button>
+        <button class="big alt f-copy" type="button">Copy</button>
+      </div>
+      <div class="btns">
+        <button class="big alt f-skip" type="button">Skip this date</button>
+        <button class="big alt f-reset" type="button">Reset to default</button>
+        <button class="big alt f-close" type="button">Done</button>
+      </div>
+    </div>
+  </li>
+</template>
+
+<script src="plan.js?v=1"></script>
+<script>if("serviceWorker"in navigator){addEventListener("load",function(){navigator.serviceWorker.register("sw.js").catch(function(){})})}</script>
+</body>
+</html>

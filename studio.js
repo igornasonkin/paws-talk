@@ -291,4 +291,51 @@
       navigator.clipboard.writeText(text).then(function () { st.textContent = 'Plan copied. Paste it into a message to send.'; }, function () { location.href = 'mailto:?subject=' + encodeURIComponent("Episode request") + '&body=' + encodeURIComponent(text); });
     } else { location.href = 'mailto:?subject=' + encodeURIComponent('Episode request') + '&body=' + encodeURIComponent(text); }
   }
+  /* ---------- owner: date, type, emphasis, and "Make this episode" (share to the Claude app) ---------- */
+  (function () {
+    var LS2 = null; try { LS2 = localStorage; } catch (e) {}
+    function g(k) { try { return LS2 ? LS2.getItem(k) : null; } catch (e) { return null; } }
+    function s2(k, v) { try { if (LS2) LS2.setItem(k, v); } catch (e) {} }
+    var isOwner = g('wt_owner') === '1' || g('wt_me') === '1';
+    if (!isOwner) return;
+    $('ownermake').hidden = false; $('send').hidden = true;
+    var t = new Date(); t.setDate(t.getDate() + 1);
+    $('mkdate').value = t.getFullYear() + '-' + ('0' + (t.getMonth() + 1)).slice(-2) + '-' + ('0' + t.getDate()).slice(-2);
+    $('mkkind').addEventListener('change', function () { $('mklen').value = this.value === 'Journal Club' ? '15' : (this.value === 'Dog news' ? '5' : '8'); });
+    if (!g('wt_req_to')) $('mknumbox').hidden = false;
+    function longD(v) { var p = v.split('-'); return new Date(+p[0], +p[1] - 1, +p[2], 12).toLocaleDateString('en-US', { weekday: 'long', month: 'long', day: 'numeric', year: 'numeric' }); }
+    function req() {
+      var st = $('status');
+      if (seated.length && seated.length < 2) { st.textContent = 'Please seat at least two voices, or none and Claude picks them.'; return null; }
+      var tv = $('topic').value, note = $('note').value.trim();
+      var topic = tv === 'other' ? '' : (tv || topicSel || '');
+      var pl = papersOn.map(function (id) { var p = paperById(id); return p ? (p.url ? p.label + ' ' + p.url : 'PDF attached: ' + p.label) : ''; }).filter(Boolean);
+      var L = ['Make this Walk & Talk episode', 'Play it on: ' + ($('mkdate').value ? longD($('mkdate').value) : 'the next free day'),
+        'Type: ' + $('mkkind').value + ', about ' + $('mklen').value + ' min',
+        'Topic: ' + (topic || (note ? 'my own idea, below' : 'surprise me with a calm topic')),
+        'Voices: ' + (seated.length ? seated.map(function (id) { return byId(id).name; }).join(', ') : 'pick them to suit the topic')];
+      var em = $('mkemph').value.trim(); if (em) L.push('Emphasis: ' + em);
+      if (pl.length) L.push('Papers: ' + pl.join('; '));
+      if (note) L.push('My idea: ' + note);
+      if (photos.length) L.push('Dog photos attached: ' + photos.length);
+      return L.join('\n');
+    }
+    $('make').addEventListener('click', function () {
+      var text = req(); if (!text) return; var st = $('status');
+      var data = { text: text };
+      var files = photos.map(function (p) { return p.file; }).concat(papersOn.map(paperById).filter(function (p) { return p && p.file; }).map(function (p) { return p.file; }));
+      try { if (files.length && navigator.canShare && navigator.canShare({ files: files })) data.files = files; } catch (e) {}
+      if (navigator.share) navigator.share(data).then(function () { st.textContent = 'Sent. Claude will make it and it shows up in the episode list.'; }).catch(function (e) { if (e && e.name !== 'AbortError') fallback(text); });
+      else fallback(text);
+    });
+    $('textme').addEventListener('click', function () {
+      var text = req(); if (!text) return; var n = g('wt_req_to');
+      if (!n) {
+        var d = ($('mknum').value || '').replace(/\D/g, ''); if (d.length === 10) d = '1' + d;
+        if (d.length < 11 || d.length > 15) { $('mknumbox').hidden = false; $('status').textContent = 'Type your 10-digit number first.'; $('mknum').focus(); return; }
+        n = '+' + d; s2('wt_req_to', n); $('mknumbox').hidden = true;
+      }
+      location.href = 'sms:' + n + '?&body=' + encodeURIComponent(text);
+    });
+  })();
 })();

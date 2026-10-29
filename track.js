@@ -61,7 +61,7 @@
     o = o || {};
     var d = { t: t, s: SRC, e: o.e != null ? o.e : epId, v: vid, n: gs(SS, 'wt_new') === '1' ? 1 : 0, d: dev, m: mode, r: refc, l: lang, g: o.g || '', x: o.x || 0 };
     var body = JSON.stringify(d);
-    try { fetch(URL_B, { method: 'POST', body: body, keepalive: true, mode: 'no-cors', credentials: 'omit' }); }
+    try { fetch(URL_B, { method: 'POST', body: body, keepalive: true, mode: 'no-cors', credentials: 'omit' }).catch(function () {}); }
     catch (e) { try { navigator.sendBeacon(URL_B, body); } catch (e2) {} }
   }
 
