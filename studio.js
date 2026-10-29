@@ -325,6 +325,7 @@
       var data = { text: text };
       var files = photos.map(function (p) { return p.file; }).concat(papersOn.map(paperById).filter(function (p) { return p && p.file; }).map(function (p) { return p.file; }));
       try { if (files.length && navigator.canShare && navigator.canShare({ files: files })) data.files = files; } catch (e) {}
+      if (window.toClaude) { window.toClaude(data, function () { st.textContent = 'Sent. Claude will make it and it shows up in the episode list.'; }); return; }
       if (navigator.share) navigator.share(data).then(function () { st.textContent = 'Sent. Claude will make it and it shows up in the episode list.'; }).catch(function (e) { if (e && e.name !== 'AbortError') fallback(text); });
       else fallback(text);
     });

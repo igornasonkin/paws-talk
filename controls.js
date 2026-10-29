@@ -13,6 +13,7 @@
 
   // Every instruction goes to the Claude app through the share sheet (Claude cannot read texts).
   function send(text) {
+    if (window.toClaude) { window.toClaude({ text: text }, function () { say('Sent to Claude. Thank you!'); }); return; }
     if (navigator.share) { navigator.share({ text: text }).catch(function () {}); return; }
     if (navigator.clipboard && navigator.clipboard.writeText) navigator.clipboard.writeText(text).then(function () { say('Copied. Open the Claude app and paste it into a chat.'); }, function () { say(text); });
     else say(text);

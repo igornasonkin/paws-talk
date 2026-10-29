@@ -127,7 +127,7 @@
     function fb() { var t = el('textarea'); t.value = body; t.setAttribute('readonly', ''); t.style.position = 'fixed'; t.style.opacity = '0'; document.body.appendChild(t); t.select(); try { document.execCommand('copy'); say('Copied. You can paste it anywhere.'); } catch (e) { say('Could not copy on this device.'); } t.remove(); }
     if (navigator.clipboard && navigator.clipboard.writeText) navigator.clipboard.writeText(body).then(function () { say('Copied. You can paste it anywhere.'); }, fb); else fb();
   }
-  function share(body) { if (navigator.share) navigator.share({ text: body }).catch(function () {}); else { copy(body); say('Copied. Open the Claude app and paste it into a chat.'); } }
+  function share(body) { if (window.toClaude) { window.toClaude({ text: body }); return; } if (navigator.share) navigator.share({ text: body }).catch(function () {}); else { copy(body); say('Copied. Open the Claude app and paste it into a chat.'); } }
   function markSent(list) {
     var d = new Date().toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
     list.forEach(function (s) { var o = ST.slots[s.key] = ST.slots[s.key] || {}; o.status = 'Sent'; o.sent = d; });
