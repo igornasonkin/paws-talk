@@ -872,6 +872,328 @@
    },
    "hero": "table-bea.jpg?v=1",
    "heroAlt": "An illustration of the show's voices and their dogs around a wooden table with coffee mugs, notebooks, printed dog photos, a laptop and a microphone. A framed photo of Bea, the breed voice, with her three puppies in a cozy bed, lies on the table at the lower left."
+  },
+  {
+   "id": "005",
+   "title": "Mixed-breed DNA surprises: why looks fool us",
+   "date": "2026-10-29",
+   "duration": 384.9,
+   "summary": "Why does a mixed-breed dog's DNA result so often surprise its family? Mike and Bea look at three peer-reviewed studies on guessing ancestry by eye, the few genes behind coat type, and how little breed tells us about one dog's behavior. No breed names, no rankings.",
+   "audio": "ep005.mp3",
+   "kind": "Table talk",
+   "topic": "Mixed-breed DNA surprises",
+   "cast": [
+    {
+     "id": "andria",
+     "name": "Andria",
+     "role": "Host"
+    },
+    {
+     "id": "hal",
+     "name": "Hal",
+     "role": "Host"
+    },
+    {
+     "id": "mike",
+     "name": "Mike",
+     "role": "Genetics and canine science voice"
+    },
+    {
+     "id": "bea",
+     "name": "Bea",
+     "role": "Breed voice"
+    }
+   ],
+   "links": [],
+   "lines": [
+    {
+     "who": "andria",
+     "t": 16.65,
+     "text": "Welcome to Today's Walk, Let's Talk. I'm Andria, an AI voice, not a vet."
+    },
+    {
+     "who": "hal",
+     "t": 21.57,
+     "text": "And I'm Hal, an AI voice, not a researcher. Picture a scruffy, medium-sized dog trotting beside you on the morning walk. Her family swears they know exactly what she is. Then a DNA result arrives, and nobody saw it coming."
+    },
+    {
+     "who": "andria",
+     "t": 35.66,
+     "text": "Today's table talk is mixed-breed DNA surprises. With us are Mike and Bea. All of us are AI voices sharing general information, and we will not name a single breed today."
+    },
+    {
+     "who": "mike",
+     "t": 47.37,
+     "text": "I'm Mike, an AI voice, not a scientist. I read the article text of three papers for today. All three are peer-reviewed, which means other scientists checked them before the journal printed them."
+    },
+    {
+     "who": "bea",
+     "t": 57.77,
+     "text": "I'm Bea, an AI voice, not a breeder. Matching a dog to a home is my beat, so I'll keep asking what all this means for real families."
+    },
+    {
+     "who": "andria",
+     "t": 65.63,
+     "text": "Mike, start us off. Why do so many owners get surprised?"
+    },
+    {
+     "who": "mike",
+     "t": 69.36,
+     "text": "Because our eyes are not very good at reading a mixed dog's family tree. One big study asked about twenty-six thousand people to guess the breeds in thirty mixed-breed dogs."
+    },
+    {
+     "who": "hal",
+     "t": 78.69,
+     "text": "Twenty-six thousand guessers. That's a lot of confident people."
+    },
+    {
+     "who": "mike",
+     "t": 83.22,
+     "text": "It is. And on average, the guesses picked up only about a fifth of each dog's actual ancestry. That's from a 2022 paper in the journal Science, from a community science project called Darwin's Ark."
+    },
+    {
+     "who": "bea",
+     "t": 94.48,
+     "text": "So most guessers were mostly wrong, on average?"
+    },
+    {
+     "who": "mike",
+     "t": 97.48,
+     "text": "On average they found about twenty-one percent of each dog's background. A good clue now and then, but mostly a miss."
+    },
+    {
+     "who": "andria",
+     "t": 103.82,
+     "text": "What about people who see lots of dogs, like shelter staff?"
+    },
+    {
+     "who": "mike",
+     "t": 107.47,
+     "text": "A 2018 study looked at that. Researchers tested the DNA of 919 dogs at two shelters, one in Arizona and one in San Diego."
+    },
+    {
+     "who": "bea",
+     "t": 116.5,
+     "text": "And how many of those dogs turned out to be one single breed?"
+    },
+    {
+     "who": "mike",
+     "t": 120.27,
+     "text": "Fewer than five in a hundred. Most dogs carried several breed signatures, most often three, and the whole group added up to 125 different breeds."
+    },
+    {
+     "who": "hal",
+     "t": 128.9,
+     "text": "One hundred twenty-five breeds walking around two shelters. That's a parade."
+    },
+    {
+     "who": "mike",
+     "t": 134.27,
+     "text": "At the San Diego shelter, staff wrote down their best guess from looks before the results came back. For 384 dogs, they matched at least one breed about two times in three."
+    },
+    {
+     "who": "andria",
+     "t": 143.8,
+     "text": "That sounds pretty good."
+    },
+    {
+     "who": "mike",
+     "t": 145.58,
+     "text": "It is, for one breed. But when they named both a first and a second breed, both were right only about one time in ten."
+    },
+    {
+     "who": "bea",
+     "t": 151.91,
+     "text": "So you can often spot one part of the story, but rarely the whole story."
+    },
+    {
+     "who": "mike",
+     "t": 156.12,
+     "text": "Exactly. And one more detail I liked: that test did not report any breed that made up less than about one eighth of a dog. So small pieces of family history can stay hidden."
+    },
+    {
+     "who": "andria",
+     "t": 165.55,
+     "text": "Here's what I want to know. Why can a dog look so much like one breed when that breed is only a small part of her?"
+    },
+    {
+     "who": "mike",
+     "t": 172.37,
+     "text": "Part of the answer may be that a few genes do a lot of the work for looks. A 2009 study in Science looked at coat type in more than a thousand dogs, mostly from recognized breeds."
+    },
+    {
+     "who": "hal",
+     "t": 182.71,
+     "text": "Coat type meaning fluffy, wiry, curly?"
+    },
+    {
+     "who": "mike",
+     "t": 186.24,
+     "text": "Yes. They found changes in just three genes. One for longer hair, one for curls, and one for the eyebrows and moustache look. Together, those three explained the coat type of about ninety-five percent of the dogs they sampled."
+    },
+    {
+     "who": "bea",
+     "t": 197.97,
+     "text": "Three genes for all those coats? That's a tidy recipe."
+    },
+    {
+     "who": "mike",
+     "t": 201.8,
+     "text": "It is. Mix and match them and you get at least seven coat types. And the short coat was the original version in their analysis."
+    },
+    {
+     "who": "hal",
+     "t": 208.64,
+     "text": "So a handful of genes can change the whole look of a dog."
+    },
+    {
+     "who": "mike",
+     "t": 213.26,
+     "text": "That's what they found for coats. And this part is my own reading, not the paper's claim: if a few genes shape the coat, the coat may say more about which gene versions a dog inherited than about her whole family tree."
+    },
+    {
+     "who": "bea",
+     "t": 224.07,
+     "text": "This is where I come in. Many people choose a dog by its looks and then expect the behavior of a breed. Does the science back that up?"
+    },
+    {
+     "who": "mike",
+     "t": 232.11,
+     "text": "Not very well. The 2022 paper collected owner surveys on 18,385 dogs and DNA from 2,155 dogs. About half were mixed-breed."
+    },
+    {
+     "who": "andria",
+     "t": 242.99,
+     "text": "And what did breed explain?"
+    },
+    {
+     "who": "mike",
+     "t": 244.95,
+     "text": "On average, breed explained only about nine percent of the differences in behavior between individual dogs. The authors wrote that breed alone is not informative enough to predict one dog's disposition."
+    },
+    {
+     "who": "bea",
+     "t": 255.94,
+     "text": "Nine percent. So the other ninety-one is the dog herself, her life, her people, and plenty we don't understand yet."
+    },
+    {
+     "who": "mike",
+     "t": 262.85,
+     "text": "That's a fair summary. For looks, breed mattered about five times more than for behavior."
+    },
+    {
+     "who": "hal",
+     "t": 267.7,
+     "text": "So the breed label may explain the ears better than the manners."
+    },
+    {
+     "who": "mike",
+     "t": 271.96,
+     "text": "Nicely put. One honest caution: those behavior scores came from owner surveys, and owners can be influenced by what they expect from a breed. The authors say that themselves."
+    },
+    {
+     "who": "andria",
+     "t": 281.27,
+     "text": "And the shelter study had limits too?"
+    },
+    {
+     "who": "mike",
+     "t": 283.6,
+     "text": "Yes. It was two shelters that choose which dogs they take in, and one commercial test. The authors said other places could look different."
+    },
+    {
+     "who": "bea",
+     "t": 290.68,
+     "text": "So what should a family do with all this? Here's my checklist. First, meet the dog in front of you. Watch how she greets people, plays, and settles."
+    },
+    {
+     "who": "andria",
+     "t": 298.87,
+     "text": "And second?"
+    },
+    {
+     "who": "bea",
+     "t": 300.19,
+     "text": "Second, ask what the people caring for her have seen her do, day to day. The shelter study authors made a similar point for shelters: describe each dog's own looks and behavior, rather than a breed label."
+    },
+    {
+     "who": "hal",
+     "t": 312.14,
+     "text": "And third?"
+    },
+    {
+     "who": "bea",
+     "t": 313.8,
+     "text": "Third, if you do a DNA test for fun, enjoy the surprise. But let your own dog's personality tell you who she is."
+    },
+    {
+     "who": "mike",
+     "t": 320.99,
+     "text": "And if a DNA result raises a health question, that's a conversation for your own vet."
+    },
+    {
+     "who": "andria",
+     "t": 326.11,
+     "text": "Let me sum up. One: looks are a weak guide to a mixed dog's ancestry, even for crowds and for people who see many dogs. Two: a few genes do a lot of the work for a dog's coat. Three: breed explained only a small share of behavior in that big study. Get to know the individual dog."
+    },
+    {
+     "who": "hal",
+     "t": 344.49,
+     "text": "I like that. The label is a guess. The dog is the answer."
+    },
+    {
+     "who": "andria",
+     "t": 348.88,
+     "text": "The three papers are listed under the player. That's our walk for today. These are AI voices sharing general information, not veterinary advice. For your dog's health, ask your own vet."
+    },
+    {
+     "who": "hal",
+     "t": 360.44,
+     "text": "And if you're in Irvine and need care for your dog while you're away, TurtleRock Paws would love to meet you."
+    },
+    {
+     "who": "andria",
+     "t": 366.82,
+     "text": "Happy walking."
+    }
+   ],
+   "sources": {
+    "intro": "This episode rests on three peer-reviewed papers. The article text of each was read (the Gunter paper from its open-access full text, the Morrill and Cadieu papers from free author manuscripts in PubMed Central). Supplementary files and reference lists were not opened. This is general information, not veterinary or training advice.",
+    "checked": "October 29, 2026",
+    "items": [
+     {
+      "kind": "Journal paper (article text read; supplementary files and reference list not opened)",
+      "title": "Ancestry-inclusive dog genomics challenges popular breed stereotypes",
+      "cite": "Morrill K and colleagues; Science, 2022 (free author manuscript in PubMed Central, not Creative Commons)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35482869/",
+      "supports": "Owner surveys of 18,385 dogs and DNA from 2,155 dogs; about half were mixed-breed. Breed explained about 9% of behavior variation between individual dogs; the breed effect was about fivefold higher for physical traits. About 26,600 people guessing the ancestry of 30 mixed-breed dogs identified on average about 21% of each dog's ancestry. The data come from the community science project Darwin's Ark (Introduction). The authors write that breed alone is not informative enough to predict an individual's disposition (Results). The authors note owner survey answers can be influenced by breed stereotypes (Results, Survey data).",
+      "role": "main",
+      "year": 2022,
+      "access": "full_text_read"
+     },
+     {
+      "kind": "Journal paper (article text read; supplementary files and reference list not opened)",
+      "title": "A canine identity crisis: Genetic breed heritage testing of shelter dogs",
+      "cite": "Gunter LM, Barber RT, Wynne CDL; PLoS ONE, 2018 (CC BY 4.0)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30138476/",
+      "supports": "DNA results for 919 dogs at two shelters (Arizona and San Diego); 125 breeds identified; 4.9% purebred; most often three breed signatures per dog. At the San Diego shelter, staff recorded breeds by appearance before the DNA results were received (Methods). For 384 dogs, staff visual identification matched at least one DNA-identified breed in 67.7% and both primary and secondary breeds in 10.4%. The test did not report ancestry under about 12.5%. Limits noted by the authors: two limited-admission shelters, one commercial test, and other areas of the country may show other breeds (Discussion). The authors suggest shelters describe each dog's physical and behavioral characteristics rather than breed labels (Conclusions).",
+      "role": "main",
+      "year": 2018,
+      "access": "full_text_read"
+     },
+     {
+      "kind": "Journal paper (article text read; supplementary files and reference list not opened)",
+      "title": "Coat variation in the domestic dog is governed by variants in three genes",
+      "cite": "Cadieu E and colleagues; Science, 2009 (free author manuscript in PubMed Central)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/19713490/",
+      "supports": "Genome-wide study of more than 1,000 dogs from 80 breeds (Abstract). Variants in three genes (hair length, curl, and the moustache-and-eyebrows growth pattern called furnishings), in combination, explained the coat type of 95% of dogs sampled and gave at least seven coat types; the short coat was the ancestral state.",
+      "role": "main",
+      "year": 2009,
+      "access": "full_text_read"
+     }
+    ],
+    "notes": "The Gunter paper is licensed CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). All summaries are in our own words. Found through PubMed."
+   }
   }
  ],
  "bench": [
