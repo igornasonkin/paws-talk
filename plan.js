@@ -20,7 +20,7 @@
   var VOICES = [
     ['andria', 'Andria', 'Host'], ['hal', 'Hal', 'Host'], ['ed', 'Ed', 'Training'], ['clara', 'Clara', 'Health, not a vet'],
     ['mike', 'Mike', 'Genetics and science'], ['judy', 'Judy', 'Grooming and care'], ['charles', 'Charles', 'Irvine walks'],
-    ['leo', 'Leo', 'Behavior'], ['rosie', 'Rosie', 'New puppy parent'], ['bea', 'Bea', 'Breeds']
+    ['leo', 'Leo', 'Behavior'], ['maya', 'Maya', 'Sleep and rest'], ['rosie', 'Rosie', 'New puppy parent'], ['bea', 'Bea', 'Breeds']
   ];
   var ORDER = VOICES.map(function (v) { return v[0]; });
   function vname(id) { var v = VOICES.filter(function (x) { return x[0] === id; })[0]; return v ? v[1] : id; }

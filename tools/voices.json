@@ -9,6 +9,7 @@
   "judy":    {"name": "Judy",    "role": "Grooming and care voice",            "kokoro": "af_nicole",  "lang": "en-us", "speed": 0.93, "pitch": 1.00},
   "charles": {"name": "Charles", "role": "Irvine walks and local events",      "kokoro": "bm_lewis",   "lang": "en-gb", "speed": 0.80, "pitch": 0.92},
   "leo":     {"name": "Leo",     "role": "Behavior voice",                     "kokoro": "am_michael", "lang": "en-us", "speed": 0.98, "pitch": 1.00},
+  "maya":    {"name": "Maya",    "role": "Sleep and rest voice",               "kokoro": "af_bella",   "lang": "en-us", "speed": 0.96, "pitch": 1.02},
   "rosie":   {"name": "Rosie",   "role": "New puppy parent",                   "kokoro": "af_jessica", "lang": "en-us", "speed": 1.08, "pitch": 1.00},
   "bea":     {"name": "Bea",     "role": "Breed voice",                        "kokoro": "bf_emma",    "lang": "en-gb", "speed": 1.00, "pitch": 1.00}
  }
