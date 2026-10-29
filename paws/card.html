@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>TurtleRock Paws QR card (4 x 6 in)</title>
+<meta name="robots" content="noindex">
+<style>
+@page{size:4in 6in;margin:0}
+*{box-sizing:border-box}
+body{margin:0;background:#eee;font-family:system-ui,-apple-system,"Segoe UI",sans-serif;color:#2b1020}
+.card{width:4in;height:6in;margin:20px auto;background:#fffdf6;padding:.28in .3in;display:flex;flex-direction:column;align-items:center;text-align:center;box-shadow:0 4px 18px rgba(0,0,0,.2)}
+.brand{font:italic 700 28px/1.1 Georgia,serif;color:#5b0a3c;margin:0}
+.sub{margin:4px 0 10px;font-size:13px;color:#5f4656}
+.qr{width:2.3in;height:2.3in}
+.scan{font:700 19px/1.2 Georgia,serif;color:#5b0a3c;margin:6px 0 8px}
+ol{list-style:none;counter-reset:s;margin:0;padding:0;text-align:left;width:100%;font-size:12.5px;line-height:1.35}
+li{counter-increment:s;position:relative;padding:4px 0 4px 30px}
+li::before{content:counter(s);position:absolute;left:0;top:3px;width:21px;height:21px;border-radius:50%;background:#5b0a3c;color:#fff;font:700 12px/21px system-ui,sans-serif;text-align:center}
+.foot{margin-top:auto;font-size:13px;font-weight:700;color:#5b0a3c}
+.fine{font-size:10px;color:#5f4656;font-weight:400;margin-top:2px}
+.print{display:block;margin:0 auto 30px;min-height:52px;padding:10px 26px;border-radius:999px;border:0;background:#5b0a3c;color:#fff;font:700 18px system-ui,sans-serif;cursor:pointer}
+@media print{body{background:#fff}.card{margin:0;box-shadow:none}.print{display:none}}
+</style>
+</head>
+<body>
+<div class="card">
+  <p class="brand">TurtleRock Paws</p>
+  <p class="sub">In-home dog boarding &middot; Turtle Rock, Irvine</p>
+  <img class="qr" src="qr-app.png" alt="QR code for the TurtleRock Paws app">
+  <p class="scan">Scan to add our app</p>
+  <ol>
+    <li>Point your phone camera at the code and tap the link.</li>
+    <li>iPhone or iPad: tap <b>Share</b> (square with an up arrow), then <b>Add to Home Screen</b>, then <b>Add</b>.</li>
+    <li>Android: tap <b>Install</b>, or the &#8942; menu, then <b>Add to Home screen</b>.</li>
+  </ol>
+  <p class="foot">Text 925-351-2104 &middot; irvinedogboarding.net<span class="fine"><br>No sign-in, no account, nothing to buy.</span></p>
+</div>
+<button class="print" type="button" onclick="window.print()">Print this card</button>
+</body>
+</html>

@@ -1,0 +1,15 @@
+{
+ "note": "Voice settings Igor chose (Kokoro v1.0, free, runs locally). pitch is a multiplier applied with ffmpeg (asetrate/atempo) so timing stays the same. Do not change Judy.",
+ "voices": {
+  "andria":  {"name": "Andria",  "role": "Host",                               "kokoro": "af_heart",   "lang": "en-us", "speed": 1.05, "pitch": 1.16},
+  "hal":     {"name": "Hal",     "role": "Host",                               "kokoro": "am_echo",    "lang": "en-us", "speed": 0.93, "pitch": 0.95, "extra": "vibrato=f=5.5:d=0.6,treble=g=4:f=3000"},
+  "ed":      {"name": "Ed",      "role": "Training voice",                     "kokoro": "am_onyx",    "lang": "en-us", "speed": 1.00, "pitch": 0.88},
+  "clara":   {"name": "Clara",   "role": "Health voice, not a vet",            "kokoro": "af_sky",     "lang": "en-us", "speed": 1.05, "pitch": 1.10},
+  "mike":    {"name": "Mike",    "role": "Genetics and canine science voice",  "kokoro": "am_eric",    "lang": "en-us", "speed": 1.08, "pitch": 0.95},
+  "judy":    {"name": "Judy",    "role": "Grooming and care voice",            "kokoro": "af_nicole",  "lang": "en-us", "speed": 0.93, "pitch": 1.00},
+  "charles": {"name": "Charles", "role": "Irvine walks and local events",      "kokoro": "bm_lewis",   "lang": "en-gb", "speed": 0.80, "pitch": 0.92},
+  "leo":     {"name": "Leo",     "role": "Behavior voice",                     "kokoro": "am_michael", "lang": "en-us", "speed": 0.98, "pitch": 1.00},
+  "rosie":   {"name": "Rosie",   "role": "New puppy parent",                   "kokoro": "af_jessica", "lang": "en-us", "speed": 1.08, "pitch": 1.00},
+  "bea":     {"name": "Bea",     "role": "Breed voice",                        "kokoro": "bf_emma",    "lang": "en-gb", "speed": 1.00, "pitch": 1.00}
+ }
+}
