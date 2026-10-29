@@ -1,0 +1,22 @@
+{
+ "note": "What runs by itself for the podcast, as last set. Updated by Claude whenever Igor changes something. No private details here.",
+ "updated": "2026-10-29",
+ "jobs": [
+  {"id": "daily-episode", "name": "Daily Walk & Talk episode", "title": "A new episode every day", "when": "Every day at 4:47 AM", "on": true,
+   "what": "Claude picks a calm topic (Journal Club with a real dog paper on Fridays), writes and records the episode, and runs the Legal Desk check. It appears in this app only if the check is GREEN. You get a notification either way."},
+  {"id": "tuesday-news", "name": "Tuesday dog news pick", "title": "Tuesday: choose a dog news story", "when": "Tuesdays at 8:51 AM", "on": true,
+   "what": "Sends you up to 3 cheerful dog stories from this week. Pick one for a Dog news episode."},
+  {"id": "thursday-jc", "name": "Thursday Journal Club pick", "title": "Thursday: choose Friday's paper", "when": "Thursdays at 8:53 AM", "on": true,
+   "what": "Sends you up to 3 real dog science papers. Pick one for Friday's Journal Club. If you don't pick, Friday's automatic episode finds one itself."},
+  {"id": "ideas-daily", "name": "Daily reminder: ideas worth keeping", "title": "Your podcast ideas list", "when": "Every day at 8:47 AM", "on": true,
+   "what": "Reminds you of the items still open on your ideas list (below)."}
+ ],
+ "ideas": [
+  "Sources first on every episode: real peer-reviewed links",
+  "Bing Webmaster Tools: sign in once (about 5 minutes), then Claude submits the website's sitemap",
+  "Home card opens the Studio directly",
+  "Podcast directories (Apple, Spotify and others): on hold, they need a public email",
+  "Tip jar: not now",
+  "Cheerful dog news of the week: first story still to be picked"
+ ]
+}

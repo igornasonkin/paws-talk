@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>My Controls | Today's Walk, Let's Talk</title>
+<meta name="robots" content="noindex, nofollow">
+<meta name="theme-color" content="#5b0a3c">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="icon-180.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Walk &amp; Talk">
+<link rel="stylesheet" href="plan.css?v=2">
+<style>
+.job{background:#fff;border:2px solid var(--blush-d);border-left:8px solid #2f7a56;border-radius:18px;padding:14px 16px;margin:0 0 14px}
+.job.off{border-left-color:#9a8a94;background:#faf7f9}
+.job h3{margin:0 0 4px;font:700 21px/1.25 system-ui,-apple-system,sans-serif;color:var(--plum)}
+.job .when{font-weight:700;margin:0 0 6px}
+.job .state{display:inline-block;font:700 15px/1 system-ui,sans-serif;padding:7px 12px;border-radius:999px;background:#d9f2e1;color:#14532d;margin:0 0 8px}
+.job.off .state{background:#eadfe6;color:#4a2b3d}
+.job p{margin:0 0 8px}
+.timerow{display:flex;gap:10px;align-items:center;flex-wrap:wrap;margin-top:8px}
+.timerow input{max-width:170px;margin:0}
+.choice{display:block;width:100%;margin:0 0 10px}
+.ideas{list-style:none;margin:0;padding:0;display:grid;gap:10px}
+.ideas li{background:#fffaf0;border:2px solid #f3dfb4;border-radius:14px;padding:12px 14px}
+.ideas li p{margin:0 0 8px;font-weight:600}
+.where ol{margin:0;padding-left:24px}.where li{margin:0 0 8px}
+.how{background:var(--blush);border-radius:14px;padding:12px 14px;font-weight:600}
+</style>
+</head>
+<body>
+<header class="pbar"><a class="back" href="./">&larr; Back to the show</a></header>
+<main class="pwrap">
+  <h1>My Controls</h1>
+  <p class="lead">Everything the podcast does by itself, and every choice you have, in one place.</p>
+  <p class="how">How the buttons work: a button writes the instruction for you and opens your share sheet. Tap the <b>Claude</b> app, then tap Send. Claude does it and updates this page.</p>
+
+  <section class="pcard notowner" id="notowner" hidden>
+    <h2>Is this your phone?</h2>
+    <p>These controls are for the show&rsquo;s owner.</p>
+    <button class="big" id="beowner" type="button">Yes, this is my phone</button>
+  </section>
+
+  <section aria-labelledby="jh">
+    <h2 id="jh">1. What runs by itself</h2>
+    <p class="hint" id="updated"></p>
+    <div id="jobs"></div>
+  </section>
+
+  <section class="pcard" aria-labelledby="ch">
+    <h2 id="ch">2. Make or change episodes</h2>
+    <a class="big choice" href="studio.html">Make one episode now (Studio)</a>
+    <a class="big alt choice" href="plan.html">Plan the coming days (Show Planner)</a>
+    <button class="big alt choice" type="button" data-say="Walk &amp; Talk control: find me 3 cheerful dog news stories from this week (calm topics only, real links). I will pick one for a Dog news episode.">Find dog news stories for me now</button>
+    <button class="big alt choice" type="button" data-say="Walk &amp; Talk control: suggest 3 real dog science papers for this Friday's Journal Club (calm topics, free full text preferred, real links). I will pick one.">Suggest papers for Friday now</button>
+    <label class="lbl" for="paper">Or paste a paper link for the next Journal Club</label>
+    <input class="inp" id="paper" type="url" inputmode="url" placeholder="https://">
+    <button class="big alt choice" type="button" id="usepaper" style="margin-top:10px">Use this paper for Friday</button>
+  </section>
+
+  <section class="pcard" aria-labelledby="ih">
+    <h2 id="ih">3. Your ideas list (still open)</h2>
+    <ul class="ideas" id="ideas"></ul>
+  </section>
+
+  <section class="pcard where" aria-labelledby="wh">
+    <h2 id="wh">Where do reminders and new-episode messages appear?</h2>
+    <p>They come as <b>notifications from the Claude app</b>, not inside Walk &amp; Talk. If you never see them:</p>
+    <ol>
+      <li>Open your iPhone <b>Settings</b>.</li>
+      <li>Scroll down and tap <b>Apps</b> (on older iPhones skip this step), then tap <b>Claude</b>.</li>
+      <li>Tap <b>Notifications</b> and turn on <b>Allow Notifications</b>.</li>
+      <li>Tap a notification to read the full message in the Claude app.</li>
+    </ol>
+  </section>
+  <p class="status" id="status" role="status" aria-live="polite"></p>
+</main>
+<script src="controls.js?v=1"></script>
+</body>
+</html>

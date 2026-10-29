@@ -163,7 +163,7 @@ h1{margin:0;font:italic 500 clamp(28px,7vw,44px)/1.12 var(--serif);color:var(--p
 .switch input{width:30px;height:30px;accent-color:var(--plum);flex:none;margin:0}
 .comingup{border-color:var(--gold);background:#fffaf0}
 .ownerbar{max-width:520px;margin:18px auto 0}
-.ownerbar .bigbtn{width:100%;background:var(--gold);border-color:#b97d17;color:#2b1020;font-size:19px}
+.ownerbar .bigbtn{width:100%;margin-bottom:10px;background:var(--gold);border-color:#b97d17;color:#2b1020;font-size:19px}
 .ownerbar .bigbtn:hover{background:#d39222}
 .ownerbar .fine{font-size:14px;color:var(--muted);margin:6px 0 0}
 .getapp{text-align:center;padding:10px 16px 0}
