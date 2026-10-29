@@ -1194,6 +1194,366 @@
     ],
     "notes": "The Gunter paper is licensed CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). All summaries are in our own words. Found through PubMed."
    }
+  },
+  {
+   "id": "006",
+   "title": "Journal Club: the dog in the bedroom and how you sleep",
+   "date": "2026-10-30",
+   "duration": 425.7,
+   "summary": "A new study compared the nights adults had a dog in the bedroom with their own nights sleeping alone, using a wrist tracker: nearly twelve thousand people in all, about four thousand of them in the dog group. Our readers read the whole paper: what it found, why the differences are so small, and the one thing it could not measure.",
+   "audio": "ep006.mp3",
+   "kind": "Journal Club",
+   "topic": "dogs, sleep and the bedroom",
+   "cast": [
+    {
+     "id": "andria",
+     "name": "Andria",
+     "role": "Host"
+    },
+    {
+     "id": "hal",
+     "name": "Hal",
+     "role": "Host"
+    },
+    {
+     "id": "leo",
+     "name": "Leo",
+     "role": "Behavior voice"
+    },
+    {
+     "id": "mike",
+     "name": "Mike",
+     "role": "Genetics and canine science voice"
+    },
+    {
+     "id": "charles",
+     "name": "Charles",
+     "role": "Irvine walks and local events"
+    },
+    {
+     "id": "rosie",
+     "name": "Rosie",
+     "role": "New puppy parent"
+    }
+   ],
+   "links": [],
+   "lines": [
+    {
+     "who": "andria",
+     "t": 16.65,
+     "text": "Welcome to Today's Walk, Let's Talk. I'm Andria, an AI voice, not a vet. Today's question is one you might be able to answer from your own bedroom."
+    },
+    {
+     "who": "hal",
+     "t": 25.99,
+     "text": "And I'm Hal, an AI voice, not a researcher. It's Journal Club. One real study, and an honest look at what it can and cannot tell us."
+    },
+    {
+     "who": "andria",
+     "t": 34.6,
+     "text": "At the table today: Leo, Mike, Charles and Rosie. All of us are AI voices sharing general information, not veterinary advice."
+    },
+    {
+     "who": "leo",
+     "t": 43.42,
+     "text": "I'm Leo, an AI voice, not a behaviorist. I'm one of today's readers, and I read the whole paper, methods and all."
+    },
+    {
+     "who": "mike",
+     "t": 52.07,
+     "text": "I'm Mike, an AI voice, not a scientist. I read all of it too, including the limitations, which is where the interesting part usually hides."
+    },
+    {
+     "who": "charles",
+     "t": 59.74,
+     "text": "I'm Charles, an AI voice, not a local guide. I read it as well, and one small thing in the methods surprised me. I'll save it."
+    },
+    {
+     "who": "rosie",
+     "t": 71.11,
+     "text": "And I'm Rosie, an AI voice, not an expert. I'll ask the questions you're probably already asking."
+    },
+    {
+     "who": "andria",
+     "t": 76.82,
+     "text": "Leo, what is this study, in one breath?"
+    },
+    {
+     "who": "leo",
+     "t": 79.47,
+     "text": "It came out this month in a journal called Nature and Science of Sleep. The researchers took adults who wear a fitness band overnight, and compared the nights they had a dog in the bedroom with their own nights without one."
+    },
+    {
+     "who": "rosie",
+     "t": 93.47,
+     "text": "Wait, the same person on both kinds of night?"
+    },
+    {
+     "who": "mike",
+     "t": 96.49,
+     "text": "That's the clever bit. If you compare dog people with non-dog people, you're also comparing their ages, their jobs and their bedtimes. Here, every person is their own comparison."
+    },
+    {
+     "who": "andria",
+     "t": 106.04,
+     "text": "How big was it?"
+    },
+    {
+     "who": "leo",
+     "t": 107.59,
+     "text": "Eleven thousand seven hundred and thirty-three adults, and more than one and a half million nights in total."
+    },
+    {
+     "who": "hal",
+     "t": 115.0,
+     "text": "That is a great many bedrooms."
+    },
+    {
+     "who": "mike",
+     "t": 117.81,
+     "text": "It is. They built three groups, one with a dog, one with a cat, one with a child in the room, and matched them on age, sex, body size and their usual sleep and heart rate, so the groups started out close, though not on everything."
+    },
+    {
+     "who": "andria",
+     "t": 128.34,
+     "text": "So what happened on the dog nights?"
+    },
+    {
+     "who": "leo",
+     "t": 130.5,
+     "text": "People slept about nine and a half minutes longer. Their resting heart rate overnight was about one beat per minute lower, and their heart rate variability was a little higher."
+    },
+    {
+     "who": "rosie",
+     "t": 141.7,
+     "text": "Heart rate variability? You've lost me."
+    },
+    {
+     "who": "mike",
+     "t": 144.3,
+     "text": "It's the tiny wobble in the gap between one heartbeat and the next. More wobble usually goes with a calmer, more rested state. It's a rough signal, not a verdict."
+    },
+    {
+     "who": "hal",
+     "t": 152.92,
+     "text": "Longer sleep and a calmer heart. That sounds like a clear win for the dog."
+    },
+    {
+     "who": "leo",
+     "t": 158.19,
+     "text": "Half a win. Those same nights had a few more interruptions, about four tenths of one extra disturbance, and a slightly smaller share of deep and dreaming sleep."
+    },
+    {
+     "who": "andria",
+     "t": 169.48,
+     "text": "So dog nights come with more minutes, but a little less smoothness."
+    },
+    {
+     "who": "leo",
+     "t": 173.21,
+     "text": "That's a fair way to put it."
+    },
+    {
+     "who": "mike",
+     "t": 175.44,
+     "text": "And there was one more result I liked. On the day after a dog night, people were a little more active, by about seven and a half minutes once you weight the time for how hard it was."
+    },
+    {
+     "who": "charles",
+     "t": 184.42,
+     "text": "A dog in the room at night, and a bit more moving about the next day. The paper doesn't say the dog caused that, mind you. It only noticed the two travelling together."
+    },
+    {
+     "who": "rosie",
+     "t": 197.87,
+     "text": "Charles, what was your surprise?"
+    },
+    {
+     "who": "charles",
+     "t": 200.18,
+     "text": "The tidying up. Anyone who slept near more than one sort of companion, a dog and a child, say, was taken out of the study altogether. And to make the groups the same size, more than forty thousand dog owners were set aside."
+    },
+    {
+     "who": "mike",
+     "t": 218.56,
+     "text": "Which is honest work, and also a reminder: the people left at the end are a tidy slice, not the whole world."
+    },
+    {
+     "who": "andria",
+     "t": 224.54,
+     "text": "Now the hard questions. What can this study not tell us?"
+    },
+    {
+     "who": "mike",
+     "t": 228.05,
+     "text": "Here's the big one. The band's own app asked a single question each morning: was there a dog in the room while you slept? Yes or no."
+    },
+    {
+     "who": "rosie",
+     "t": 234.62,
+     "text": "So they don't know if the dog was on the bed or on the floor?"
+    },
+    {
+     "who": "mike",
+     "t": 238.03,
+     "text": "They don't. They also don't know the size of the dog, the size of the bed, or how many dogs there were. The authors say so plainly, and they say the real difference for sharing a bed is likely bigger than what they measured."
+    },
+    {
+     "who": "leo",
+     "t": 248.49,
+     "text": "The second honest part is the size of all this. The researchers worked out an effect size for every result, and every one came in under the line scientists call small."
+    },
+    {
+     "who": "andria",
+     "t": 259.83,
+     "text": "Meaning what, in plain words?"
+    },
+    {
+     "who": "mike",
+     "t": 261.95,
+     "text": "Meaning that with that many nights you can measure almost anything and it will come out statistically significant. One beat a minute is real, and it is also close to nothing in your day."
+    },
+    {
+     "who": "hal",
+     "t": 271.45,
+     "text": "So: true, but tiny."
+    },
+    {
+     "who": "mike",
+     "t": 273.98,
+     "text": "That's the paper in three words."
+    },
+    {
+     "who": "leo",
+     "t": 276.4,
+     "text": "One more caution. People answered the nightly journal themselves, and about a third of the dog nights have no answer at all. The team redid the sums two other ways and got the same direction, which is good practice."
+    },
+    {
+     "who": "rosie",
+     "t": 291.15,
+     "text": "Was this checked by other scientists?"
+    },
+    {
+     "who": "mike",
+     "t": 293.66,
+     "text": "It was. Peer-reviewed means other scientists in the field read it before the journal printed it. That's a filter, not a guarantee."
+    },
+    {
+     "who": "andria",
+     "t": 300.41,
+     "text": "Anything else a careful listener should know?"
+    },
+    {
+     "who": "leo",
+     "t": 303.07,
+     "text": "Two things. People who wear fitness bands tend to be younger and more active than most adults. And two of the three authors are listed as working for the company that makes the band."
+    },
+    {
+     "who": "hal",
+     "t": 315.01,
+     "text": "Worth knowing. Should that worry us?"
+    },
+    {
+     "who": "mike",
+     "t": 317.86,
+     "text": "No, but you read it with your eyes open. The design is strong and the authors are the ones telling us the effects are small, which is a good sign."
+    },
+    {
+     "who": "andria",
+     "t": 325.38,
+     "text": "Three take-homes, one line each."
+    },
+    {
+     "who": "leo",
+     "t": 327.7,
+     "text": "One: in this study, nights with a dog in the room came with slightly longer sleep and a slightly calmer heart, and also slightly more waking."
+    },
+    {
+     "who": "mike",
+     "t": 337.38,
+     "text": "Two: every difference was very small, so this is not a reason to move your dog in, or out."
+    },
+    {
+     "who": "charles",
+     "t": 342.21,
+     "text": "Three: the cheerful bit is the day after. A dog in the house is a fine excuse for a walk, and that part needs no study at all."
+    },
+    {
+     "who": "andria",
+     "t": 353.21,
+     "text": "If you want to dig deeper, the links are under the player. Mike, the short version?"
+    },
+    {
+     "who": "mike",
+     "t": 358.22,
+     "text": "Three more, all free to read. A survey from Japan found adults who slept with a dog reported slightly higher well-being than people with no pet. A study in the United States put movement trackers on children and their dogs, and found the dog's movement predicted the child's a minute later. And a survey from Romania found people who slept with a pet were more likely to report poor sleep."
+    },
+    {
+     "who": "hal",
+     "t": 376.68,
+     "text": "So the research disagrees with itself."
+    },
+    {
+     "who": "leo",
+     "t": 379.95,
+     "text": "Politely, yes. That's normal for a young question, and it's why one study is never the last word."
+    },
+    {
+     "who": "rosie",
+     "t": 387.05,
+     "text": "And nobody has to move the dog tonight."
+    },
+    {
+     "who": "andria",
+     "t": 389.85,
+     "text": "Nobody has to move the dog tonight. That's our walk for today. These are AI voices sharing general information, not veterinary advice. For your dog's health, ask your own vet."
+    },
+    {
+     "who": "hal",
+     "t": 401.23,
+     "text": "And if you're in Irvine and need care for your dog while you're away, TurtleRock Paws would love to meet you."
+    },
+    {
+     "who": "andria",
+     "t": 407.6,
+     "text": "Happy walking."
+    }
+   ],
+   "sources": {
+    "intro": "One peer-reviewed paper, read in full, plus three further-reading papers. We read the full text of the main paper only; the three below were read as abstracts.",
+    "checked": "October 29, 2026",
+    "items": [
+     {
+      "kind": "study (main paper, full text read)",
+      "title": "Who's Been Sleeping in My Bedroom? Associations Between Co-Sleeping with Dogs, Cats, or Children and Sleep and Cardiorespiratory Physiology Among WHOOP Users",
+      "cite": "Montoye AHK, Curran DJ, Grosicki GJ. Nature and Science of Sleep, 2026;18:636142. PMID 42953753, PMCID PMC13715527. doi:10.2147/NSS.S636142",
+      "url": "https://doi.org/10.2147/NSS.S636142",
+      "supports": "All numbers in this episode: 11,733 adults, about 1.65 million person-days, 3,911 per matched group, dog nights +9.58 min sleep, -1.14 beats/min resting heart rate, +1.95 ms heart rate variability, +0.38 disturbances, -0.35% restorative sleep, +7.56 intensity-weighted minutes of next-day activity, all standardized effect sizes 0.008 to 0.045, about 31% missing dog-night journal entries, the bed-versus-room limitation, and the authors' own note that the effects are too small to be clinically meaningful. Free to read in PubMed Central. Two of the three authors are listed with the company that makes the wearable device."
+     },
+     {
+      "kind": "study (further reading, abstract read)",
+      "title": "Pet Co-Sleeping and Well-Being: Evidence from Two Cross-Sectional Online Surveys of Youths and Adults",
+      "cite": "Endo K, Shimatani K, Suzuki N. Clocks & Sleep, 2026;8(2). PMID 42200972. doi:10.3390/clockssleep8020025",
+      "url": "https://doi.org/10.3390/clockssleep8020025",
+      "supports": "Adults who co-slept with a dog reported higher well-being scores than non-owners; no significant association among the youth sample. Free to read."
+     },
+     {
+      "kind": "study (further reading, abstract read)",
+      "title": "Co-Sleeping with a pet: exploring the impact on youth sleep",
+      "cite": "Lancaster BD, Hefner T, Van Allen J. Journal of Pediatric Psychology, 2025;50(4):377-386. PMID 40084993. doi:10.1093/jpepsy/jsaf016",
+      "url": "https://doi.org/10.1093/jpepsy/jsaf016",
+      "supports": "175 families; a pet on the bed was associated with shorter and less efficient sleep, and in 43 child-dog pairs the dog's movement one minute earlier predicted the child's movement. This is the study that does separate 'on the bed' from 'in the room'. Free to read."
+     },
+     {
+      "kind": "study (further reading, abstract read)",
+      "title": "Sleep and modern life: a population-based study",
+      "cite": "Oros M, Soyez F, Moldovan AD, et al. Scientific Reports, 2025;15(1):27763. PMID 40738936. doi:10.1038/s41598-025-13405-5",
+      "url": "https://doi.org/10.1038/s41598-025-13405-5",
+      "supports": "Survey of 835 Romanian adults; co-sleeping with pets was associated with higher odds of self-reported sleep problems. Included to show the literature disagrees. Free to read."
+     }
+    ],
+    "notes": "Access level: FULL_TEXT for the main paper, retrieved from PubMed Central on October 29, 2026. Everything is paraphrased; no tables, figures or passages are reproduced. The three further-reading papers were read as abstracts only, and no voice on the show claims to have read them in full. The study is observational, so no causal claim is made anywhere in the script. The device brand is deliberately not named on air; the authors' employer is described only as 'the company that makes the band' so that the conflict of interest is still disclosed."
+   }
   }
  ],
  "bench": [
