@@ -14,7 +14,9 @@
     '.ch-row .ch-arrow{background:none;width:auto;font-size:26px;color:#5b0a3c}' +
     '.ch-go{display:block;width:100%;min-height:64px;margin:6px 0 12px;border:0;border-radius:32px;background:#5b0a3c;color:#fff;font:700 23px/1.2 -apple-system,system-ui,sans-serif}' +
     '.ch-alt{display:block;width:100%;min-height:56px;margin:0 0 10px;border:2px solid #5b0a3c;border-radius:30px;background:#fff;color:#5b0a3c;font:600 20px/1.2 -apple-system,system-ui,sans-serif}' +
-    '.ch-note{font-size:17px;color:#5f4656;margin:6px 0 0}';
+    '.ch-steps{list-style:none;padding:0;margin:0 0 18px;counter-reset:s}.ch-steps li{counter-increment:s;font-size:30px;line-height:1.3;margin:0 0 16px;display:block}.ch-steps li:before{content:counter(s);display:inline-flex;align-items:center;justify-content:center;width:44px;height:44px;border-radius:50%;background:#fde4f3;color:#5b0a3c;font-weight:800;margin-right:12px;vertical-align:middle}.ch-steps small{font-size:19px;color:#5f4656;margin-left:56px;display:inline-block}' +
+    '.ch-c{display:inline-flex;align-items:center;justify-content:center;width:42px;height:42px;border-radius:10px;background:#d97757;color:#fff;font-size:26px;vertical-align:middle}' +
+    '.ch-go{font-size:34px!important;min-height:84px!important}';
 
   function el(t, c, x) { var e = document.createElement(t); if (c) e.className = c; if (x != null) e.textContent = x; return e; }
 
@@ -31,18 +33,14 @@
     var back = el('div', 'ch-back'), box = el('div', 'ch-box');
     box.setAttribute('role', 'dialog'); box.setAttribute('aria-modal', 'true'); box.setAttribute('aria-label', 'Send this to Claude');
     box.innerHTML =
-      '<h2>Send this to Claude</h2>' +
-      '<ol>' +
-      '<li>Tap the big button below. A list of apps slides up.</li>' +
-      '<li>Find the row of <b>square app pictures</b> (Messages, Mail, Notes). <b>Slide that row to the left</b> with one finger until you see <b>Claude</b> (an orange square with a white star). Tap it.' +
-      '<div class="ch-row" aria-hidden="true"><span>&#9993;</span><span>&#128221;</span><span class="ch-arrow">&#8592;</span><span class="ch-c">&#10033;</span> Claude</div></li>' +
-      '<li>Claude opens with the message already written. Tap <b>Send</b> (the arrow). That is all.</li>' +
+      '<ol class="ch-steps">' +
+      '<li>Tap <b>Go</b></li>' +
+      '<li>Tap <span class="ch-c" aria-hidden="true">&#10033;</span> <b>Claude</b><br><small>(slide the apps left if you do not see it)</small></li>' +
+      '<li>Tap <b>New session</b></li>' +
       '</ol>';
-    var go = el('button', 'ch-go', 'Show me the apps'); go.type = 'button';
-    var cp = el('button', 'ch-alt', 'Claude is not in the list'); cp.type = 'button';
+    var go = el('button', 'ch-go', 'Go'); go.type = 'button';
     var no = el('button', 'ch-alt', 'Cancel'); no.type = 'button';
-    var note = el('p', 'ch-note', 'Do not tap the round pictures of people at the top. Those send it to a person.');
-    box.appendChild(go); box.appendChild(cp); box.appendChild(no); box.appendChild(note);
+    box.appendChild(go); box.appendChild(no);
     back.appendChild(box); document.body.appendChild(back);
     var prev = document.activeElement; go.focus();
     function close() { back.remove(); if (prev && prev.focus) try { prev.focus(); } catch (e) {} }
@@ -54,7 +52,6 @@
         navigator.share(data).then(function () { if (onSent) onSent(); }).catch(function (e) { if (e && e.name !== 'AbortError') window.toClaude.copyHelp(data.text); });
       } else window.toClaude.copyHelp(data.text);
     });
-    cp.addEventListener('click', function () { close(); window.toClaude.copyHelp(data.text); });
   };
 
   // Plan B: copy the message, then explain how to paste it in the Claude app.
