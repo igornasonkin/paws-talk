@@ -1,0 +1,6 @@
+# Build leftovers from tools/make_episode.py. The finished episode is
+# committed at the top level as epNNN.mp3; these are working copies only.
+tools/out/
+tools/__pycache__/
+__pycache__/
+*.pyc
