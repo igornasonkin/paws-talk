@@ -198,3 +198,7 @@ h1{margin:0;font:italic 500 clamp(28px,7vw,44px)/1.12 var(--serif);color:var(--p
 .episode-share-actions .sharebtn{font-size:15px;text-decoration:none}
 .episode-share [hidden]{display:none!important}
 #episode-share-status{font:15px/1.4 system-ui;color:var(--muted);min-height:1.4em}
+
+.episode-share-brand{margin:0 0 18px;color:var(--plum)}
+.episode-share-brand strong{display:block;font:700 24px/1.35 Georgia,serif}
+.episode-share-brand a{display:block;margin-top:4px;font:16px/1.5 system-ui;color:var(--plum);text-decoration:underline;text-underline-offset:3px}
