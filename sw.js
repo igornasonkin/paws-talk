@@ -1,6 +1,6 @@
 /* Tiny service worker: network first, cached copy only when offline. Audio is never cached. */
-var CACHE = 'walktalk-v15';
-var SHELL = ['./', 'index.html', 'studio.html', 'style.css', 'player.js', 'track.js', 'dogs.js', 'studio.js', 'episodes.json', 'manifest.webmanifest', 'icon-192.png', 'studio.css', 'plan.html', 'plan.js', 'plan.css', 'topics.json', 'install.js', 'qr-podcast.png', 'controls.html', 'controls.js', 'claudehelp.js'];
+var CACHE = 'walktalk-v16';
+var SHELL = ['./', 'index.html', 'studio.html', 'style.css', 'player.js', 'share.js', 'qrcode.js', 'track.js', 'dogs.js', 'studio.js', 'episodes.json', 'manifest.webmanifest', 'icon-192.png', 'studio.css', 'plan.html', 'plan.js', 'plan.css', 'topics.json', 'install.js', 'qr-podcast.png', 'controls.html', 'controls.js', 'claudehelp.js'];
 self.addEventListener('install', function (e) {
   e.waitUntil(caches.open(CACHE).then(function (c) { return c.addAll(SHELL); }).then(function () { return self.skipWaiting(); }));
 });

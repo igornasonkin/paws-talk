@@ -192,7 +192,11 @@
         if (e.id === ep.id) a.setAttribute('aria-current', 'page');
         // Switch in place, so the next episode can keep playing on the lock screen.
         a.addEventListener('click', function (ev) { ev.preventDefault(); var playing = !audio.paused; setEpisode(e, playing); scrollTo({ top: 0, behavior: reduce ? 'auto' : 'smooth' }); });
-        li.appendChild(a); ol.appendChild(li);
+        li.appendChild(a);
+        var share = el('button', 'episode-card-share', 'Share'); share.type = 'button';
+        share.setAttribute('aria-label', 'Share episode: ' + e.title);
+        share.addEventListener('click', function () { window.WTShare(e); });
+        li.appendChild(share); ol.appendChild(li);
       });
     });
   }
@@ -223,19 +227,9 @@
   // Three taps on the show title turn owner tools on or off (track.js stores the flag); refresh right after.
   document.addEventListener('click', function (e) { if (e.target && e.target.closest && e.target.closest('#title')) setTimeout(ownerBar, 60); });
 
-  // Share button: the phone's own share sheet when there is one, otherwise copy the link.
+  // Both the current player and episode cards open the same QR + link panel.
   var shareBtn = $('share');
-  if (shareBtn) shareBtn.addEventListener('click', function () {
-    var su = new URL(location.href), epid = su.searchParams.get('ep'); su.search = ''; su.hash = '';
-    if (epid) su.searchParams.set('ep', epid);
-    su.searchParams.set('s', 'share');
-    var url = su.href, msg = $('sharemsg');
-    var data = { title: "Today's Walk, Let's Talk", text: ep ? ep.title : "Today's Walk, Let's Talk", url: url };
-    function note(t) { if (msg) { msg.textContent = t; setTimeout(function () { msg.textContent = ''; }, 4000); } }
-    if (navigator.share) { navigator.share(data).catch(function () {}); return; }
-    if (navigator.clipboard && navigator.clipboard.writeText) { navigator.clipboard.writeText(url).then(function () { note('Link copied. Paste it anywhere.'); }, function () { note('Copy this link: ' + url); }); }
-    else { note('Copy this link: ' + url); }
-  });
+  if (shareBtn) shareBtn.addEventListener('click', function () { if (ep) window.WTShare(ep); });
 
   function toggle() { if (audio.paused) { audio.play(); } else { audio.pause(); } }
   var pending = null;
