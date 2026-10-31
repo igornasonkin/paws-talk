@@ -1554,6 +1554,393 @@
     ],
     "notes": "Access level: FULL_TEXT for the main paper, retrieved from PubMed Central on October 29, 2026. Everything is paraphrased; no tables, figures or passages are reproduced. The three further-reading papers were read as abstracts only, and no voice on the show claims to have read them in full. The study is observational, so no causal claim is made anywhere in the script. The device brand is deliberately not named on air; the authors' employer is described only as 'the company that makes the band' so that the conflict of interest is still disclosed."
    }
+  },
+  {
+   "id": "007",
+   "title": "Luna, Bella, Max: what's in a dog's name?",
+   "date": "2026-10-31",
+   "duration": 408.9,
+   "summary": "Which dog names top the list, and how fast do favorites change? Mike looks at New York City's dog license records and a small study on how often dogs get people names, and Ed shares what research says about dogs learning the names of things.",
+   "audio": "ep007.mp3",
+   "kind": "Table talk",
+   "topic": "This year's most popular dog names",
+   "cast": [
+    {
+     "id": "andria",
+     "name": "Andria",
+     "role": "Host"
+    },
+    {
+     "id": "hal",
+     "name": "Hal",
+     "role": "Host"
+    },
+    {
+     "id": "mike",
+     "name": "Mike",
+     "role": "Genetics and canine science voice"
+    },
+    {
+     "id": "ed",
+     "name": "Ed",
+     "role": "Training voice"
+    },
+    {
+     "id": "rosie",
+     "name": "Rosie",
+     "role": "New puppy parent"
+    }
+   ],
+   "links": [],
+   "lines": [
+    {
+     "who": "andria",
+     "t": 16.65,
+     "text": "Welcome to Today's Walk, Let's Talk. I'm Andria, an AI voice, not a vet."
+    },
+    {
+     "who": "hal",
+     "t": 21.57,
+     "text": "And I'm Hal, an AI voice, not a dog trainer. Picture a busy park on a Saturday morning. Someone calls out one name, and three dogs turn around at once."
+    },
+    {
+     "who": "andria",
+     "t": 31.57,
+     "text": "That's our table talk today: the most popular dog names, and what a name means to a dog. With us are Mike, Ed and Rosie. We're all AI voices sharing general information."
+    },
+    {
+     "who": "mike",
+     "t": 42.83,
+     "text": "I'm Mike, an AI voice, not a scientist. I brought city records, a news report or two, and two studies. I'll tell you which is which as we go."
+    },
+    {
+     "who": "ed",
+     "t": 50.64,
+     "text": "I'm Ed, an AI voice, not a trainer. I'm here for the part where the dog has to learn the name."
+    },
+    {
+     "who": "rosie",
+     "t": 56.74,
+     "text": "I'm Rosie, an AI voice, not an expert. And I have a confession: I've spent three days choosing an imaginary puppy's name."
+    },
+    {
+     "who": "hal",
+     "t": 64.0,
+     "text": "Three days. The imaginary puppy is very patient."
+    },
+    {
+     "who": "andria",
+     "t": 68.2,
+     "text": "Mike, where do you even find out which names are popular?"
+    },
+    {
+     "who": "mike",
+     "t": 71.48,
+     "text": "One of the best places is a big city's dog licenses. New York City asks owners to license their dogs with its Health Department, and the city publishes those records as open data."
+    },
+    {
+     "who": "rosie",
+     "t": 81.77,
+     "text": "So every dog with a city license has its name in a spreadsheet somewhere?"
+    },
+    {
+     "who": "mike",
+     "t": 85.83,
+     "text": "Pretty much. Each license has a name field. It only covers dogs with a license in one city, so it's a snapshot, not the whole country."
+    },
+    {
+     "who": "andria",
+     "t": 93.3,
+     "text": "Fair enough. So who's on top?"
+    },
+    {
+     "who": "mike",
+     "t": 95.46,
+     "text": "For licenses issued in 2024, the city's list put Luna first, with 591 dogs. Bella was second with 531."
+    },
+    {
+     "who": "hal",
+     "t": 104.23,
+     "text": "Luna, like the moon. That's a lovely thing to call across a park."
+    },
+    {
+     "who": "mike",
+     "t": 108.88,
+     "text": "Then Milo, Coco and Max, each with a bit over four hundred. A news report on the city data said 2024 was Luna's third year in a row at number one."
+    },
+    {
+     "who": "rosie",
+     "t": 118.19,
+     "text": "Wait, what about Bella? I thought Bella was the queen."
+    },
+    {
+     "who": "mike",
+     "t": 121.21,
+     "text": "She was. Go back to 2015, and the Associated Press reported the city's list: Bella first with 1,127 dogs, Max right behind with 1,073."
+    },
+    {
+     "who": "andria",
+     "t": 132.06,
+     "text": "So in less than ten years, the top spot changed hands."
+    },
+    {
+     "who": "mike",
+     "t": 135.57,
+     "text": "It did. And Max is the steady one. He's near the top in both lists."
+    },
+    {
+     "who": "hal",
+     "t": 139.44,
+     "text": "Good old Max. Never goes out of style."
+    },
+    {
+     "who": "rosie",
+     "t": 142.8,
+     "text": "Were there any funny ones?"
+    },
+    {
+     "who": "mike",
+     "t": 144.84,
+     "text": "The 2015 report had fifteen dogs named Potato. And the 2024 report found twenty-five dogs named Butter."
+    },
+    {
+     "who": "hal",
+     "t": 152.65,
+     "text": "Potato and Butter. Somebody was hungry when they filled out the form."
+    },
+    {
+     "who": "mike",
+     "t": 157.5,
+     "text": "One more honest detail. In 2024, more than 2,600 licenses had no name listed at all. So the true winner is a little uncertain."
+    },
+    {
+     "who": "andria",
+     "t": 166.53,
+     "text": "That's a nice reminder that data has holes. Mike, a lot of these sound like people names. Is that new?"
+    },
+    {
+     "who": "mike",
+     "t": 172.9,
+     "text": "Not really. There's a small study from 2007 in the journal Names. It's peer-reviewed, which means other scientists checked it before the journal printed it."
+    },
+    {
+     "who": "rosie",
+     "t": 181.4,
+     "text": "A whole journal about names? I love that."
+    },
+    {
+     "who": "mike",
+     "t": 184.18,
+     "text": "Me too. The researcher took the top 200 dog names from a popular naming website and checked each one against a big list of human first names."
+    },
+    {
+     "who": "andria",
+     "t": 192.44,
+     "text": "And how many matched?"
+    },
+    {
+     "who": "mike",
+     "t": 194.09,
+     "text": "About half. Forty-eight percent of the dog names were also human names. For cats it was forty-two percent, for pet birds twenty-three, and for horses just fourteen."
+    },
+    {
+     "who": "hal",
+     "t": 202.82,
+     "text": "So the closer the animal lives to us, the more it gets a person's name."
+    },
+    {
+     "who": "mike",
+     "t": 207.76,
+     "text": "That was the author's idea, yes. Pets that live indoors with the family got human names more often. But it's one small study of online lists, so take it as a clue, not a rule."
+    },
+    {
+     "who": "andria",
+     "t": 217.08,
+     "text": "Ed, let's talk about the dog's side. Does a dog know its name is its name?"
+    },
+    {
+     "who": "ed",
+     "t": 221.66,
+     "text": "Most owners will tell you their dog turns when it hears its name. That's everyday experience, not a study we read for today. What we did read is about something harder: learning the names of toys."
+    },
+    {
+     "who": "rosie",
+     "t": 232.99,
+     "text": "Toys have names?"
+    },
+    {
+     "who": "ed",
+     "t": 234.81,
+     "text": "In some homes, dozens of them. A 2021 study in the journal Scientific Reports, from a team in Budapest, looked at this. I read the full article."
+    },
+    {
+     "who": "andria",
+     "t": 244.65,
+     "text": "What did they do?"
+    },
+    {
+     "who": "ed",
+     "t": 246.12,
+     "text": "They gave thirty-four family dogs, all keen on fetching, three months of short daily play sessions. The owners kept saying each toy's name while they played."
+    },
+    {
+     "who": "hal",
+     "t": 255.48,
+     "text": "That sounds like a fun three months."
+    },
+    {
+     "who": "ed",
+     "t": 258.49,
+     "text": "It does. But at the end, only one of those thirty-four dogs could reliably pick out two toys by name."
+    },
+    {
+     "who": "rosie",
+     "t": 265.22,
+     "text": "Only one? Out of thirty-four?"
+    },
+    {
+     "who": "ed",
+     "t": 267.41,
+     "text": "Only one. The other dogs were happy to fetch. They just didn't use the toy's name to choose it."
+    },
+    {
+     "who": "mike",
+     "t": 273.1,
+     "text": "And there was a second group. After a two-year search around the world, the team found six dogs whose owners said they already knew toy names."
+    },
+    {
+     "who": "ed",
+     "t": 280.26,
+     "text": "Those six learned new toy names fast, about seven a month on average. And their owners said they never set out to teach it. It seemed to happen during ordinary play."
+    },
+    {
+     "who": "andria",
+     "t": 290.0,
+     "text": "So learning the names of things is rare in dogs."
+    },
+    {
+     "who": "ed",
+     "t": 293.0,
+     "text": "In that study, yes. The researchers called these rare dogs gifted word learners. That just means a few dogs who pick up object names quickly, while most dogs don't."
+    },
+    {
+     "who": "mike",
+     "t": 303.01,
+     "text": "One caution. Small groups, volunteer owners, and quite a few owners dropped out along the way. It's a strong clue, not the last word."
+    },
+    {
+     "who": "rosie",
+     "t": 310.12,
+     "text": "So if my imaginary puppy doesn't learn the name of her squeaky carrot, she's normal."
+    },
+    {
+     "who": "ed",
+     "t": 314.59,
+     "text": "Completely normal. She's still learning your voice, your routine, and that her name usually means something good is coming."
+    },
+    {
+     "who": "andria",
+     "t": 321.56,
+     "text": "Ed, any tips for choosing a name that works on a walk?"
+    },
+    {
+     "who": "ed",
+     "t": 324.85,
+     "text": "These are common practice, not tested results. A name that's easy to say and easy to hear helps. It's also handy if it doesn't sound like a cue you use, like sit or no."
+    },
+    {
+     "who": "hal",
+     "t": 334.98,
+     "text": "So no puppy named Sid. Too close to sit."
+    },
+    {
+     "who": "ed",
+     "t": 338.59,
+     "text": "Ha. And keep the name pleasant. Say it, then something nice happens: a treat, a smile, a game."
+    },
+    {
+     "who": "rosie",
+     "t": 344.61,
+     "text": "So the name is like a little doorbell for good news."
+    },
+    {
+     "who": "ed",
+     "t": 347.71,
+     "text": "I like that. A doorbell for good news."
+    },
+    {
+     "who": "andria",
+     "t": 351.11,
+     "text": "Let's sum up. One: in New York City's records, Luna has led for three years, after many years of Bella. Two: about half of popular dog names are also people names, in one small study. Three: most dogs don't learn toy names easily, and that's normal. Keep the name a happy word."
+    },
+    {
+     "who": "hal",
+     "t": 369.02,
+     "text": "And whatever you call your dog, say it like you mean something good."
+    },
+    {
+     "who": "rosie",
+     "t": 373.5,
+     "text": "I'm going with Butter."
+    },
+    {
+     "who": "andria",
+     "t": 375.33,
+     "text": "That's our walk for today. These are AI voices sharing general information, not veterinary advice. For your dog's health, ask your own vet."
+    },
+    {
+     "who": "hal",
+     "t": 384.39,
+     "text": "And if you're in Irvine and need care for your dog while you're away, TurtleRock Paws would love to meet you."
+    },
+    {
+     "who": "andria",
+     "t": 390.77,
+     "text": "Happy walking."
+    }
+   ],
+   "sources": {
+    "intro": "City license records reported in the news, and two peer-reviewed studies. We read the full text of the 2021 study and the 2007 study; the city numbers come from news reports of New York City Health Department data.",
+    "checked": "October 31, 2026",
+    "items": [
+     {
+      "kind": "news report of city data",
+      "title": "Luna named as NYC's most popular dog name in 2024",
+      "cite": "News report of New York City Department of Health dog license data for 2024 (via AOL).",
+      "url": "https://www.aol.com/most-popular-dog-name-york-195859381.html",
+      "supports": "2024 top names: Luna 591, Bella 531, Milo 418, Coco 414, Max 409; Luna top for the third year running; more than 2,600 licenses with no name; 25 dogs named Butter. Bella held the top spot before Luna took it in 2022."
+     },
+     {
+      "kind": "news report of city data",
+      "title": "A pup named Potato? 15 were registered in NYC last year",
+      "cite": "Associated Press, May 2016, reporting New York City Health Department figures for dog licenses issued in 2015.",
+      "url": "https://wsvn.com/news/us-world/a-pup-named-potato-15-were-registered-in-nyc-last-year/",
+      "supports": "2015: Bella 1,127, Max 1,073; Potato 15. Bella had been the city's top name since 2008."
+     },
+     {
+      "kind": "open data set",
+      "title": "NYC Dog Licensing Dataset",
+      "cite": "City of New York, NYC OpenData (Department of Health and Mental Hygiene Dog Licensing System), listed on Data.gov.",
+      "url": "https://catalog.data.gov/dataset/nyc-dog-licensing-dataset",
+      "supports": "New York City publishes its active dog license records, including a name field, as open data."
+     },
+     {
+      "kind": "study",
+      "title": "Birds are not More Human than Dogs: Evidence From Naming",
+      "cite": "Abel EL. Names, 2007;55(4):349-353.",
+      "url": "https://ans-names.pitt.edu/ans/article/view/1806",
+      "supports": "Of the top 200 dog names on an online list, 48% were also human first names; cats 42%, birds 23%, horses 14%; indoor pets more likely to get human names."
+     },
+     {
+      "kind": "study",
+      "title": "Word learning dogs (Canis familiaris) provide an animal model for studying exceptional performance",
+      "cite": "Fugazza C, Dror S, Sommese A, Temesi A, Miklosi A. Scientific Reports, 2021;11:14070. PMID 34234259, PMCID PMC8263709. doi:10.1038/s41598-021-93581-2",
+      "url": "https://doi.org/10.1038/s41598-021-93581-2",
+      "supports": "34 toy-motivated family dogs had 3 months of daily play-based toy-name training; only 1 passed the two-toy test. Six dogs found in a 2-year worldwide search learned about 7 new toy names per month on average; owners reported no formal training. Full text read in PubMed Central."
+     }
+    ],
+    "notes": "Name-choosing tips are common practice, not tested results. City data covers dogs with a license in one city only."
+   }
   }
  ],
  "bench": [
