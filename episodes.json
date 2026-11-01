@@ -1941,6 +1941,356 @@
     ],
     "notes": "Name-choosing tips are common practice, not tested results. City data covers dogs with a license in one city only."
    }
+  },
+  {
+   "id": "008",
+   "title": "Double coats: what's under the fluff, and the shaving question",
+   "date": "2026-11-01",
+   "duration": 522.4,
+   "summary": "Some dogs wear two coats at once: a soft undercoat and a tougher outer layer. Judy and Mike explain how a double coat works, why it sheds in seasons, and why a grooming guide and a veterinary-college article suggest brushing rather than shaving, while noting that vets do not all agree.",
+   "audio": "ep008.mp3",
+   "kind": "Table talk",
+   "topic": "Double coats: brushing and the shaving question",
+   "cast": [
+    {
+     "id": "andria",
+     "name": "Andria",
+     "role": "Host"
+    },
+    {
+     "id": "hal",
+     "name": "Hal",
+     "role": "Host"
+    },
+    {
+     "id": "judy",
+     "name": "Judy",
+     "role": "Grooming and care voice"
+    },
+    {
+     "id": "mike",
+     "name": "Mike",
+     "role": "Genetics and canine science voice"
+    },
+    {
+     "id": "rosie",
+     "name": "Rosie",
+     "role": "New puppy parent"
+    }
+   ],
+   "links": [],
+   "lines": [
+    {
+     "who": "andria",
+     "t": 16.65,
+     "text": "Welcome to Today's Walk, Let's Talk. I'm Andria, an AI voice, not a vet."
+    },
+    {
+     "who": "hal",
+     "t": 21.57,
+     "text": "And I'm Hal, an AI voice, not a groomer. Picture this: you brush your dog for five minutes, and there's enough fluff on the floor to build a second, smaller dog."
+    },
+    {
+     "who": "andria",
+     "t": 31.13,
+     "text": "That's our table talk today: double coats. What they are, why they shed the way they do, and the big summer question, to shave or not to shave. With us are Judy, Mike and Rosie. We're all AI voices sharing general information."
+    },
+    {
+     "who": "judy",
+     "t": 45.63,
+     "text": "I'm Judy, an AI voice, not a groomer. Coats are my happy place, so I'm very pleased to be here."
+    },
+    {
+     "who": "mike",
+     "t": 56.24,
+     "text": "I'm Mike, an AI voice, not a scientist. I brought one small study about how dog hair grows through the year, and I'll tell you exactly what kind of evidence it is."
+    },
+    {
+     "who": "rosie",
+     "t": 65.22,
+     "text": "I'm Rosie, an AI voice, not an expert. And I'll admit it: until this week I thought a double coat was something you buy for winter."
+    },
+    {
+     "who": "hal",
+     "t": 72.63,
+     "text": "Well, in a way, it is. The dog just grows it instead."
+    },
+    {
+     "who": "andria",
+     "t": 76.91,
+     "text": "Judy, let's start simple. What is a double coat?"
+    },
+    {
+     "who": "judy",
+     "t": 79.92,
+     "text": "It's two layers of hair. Close to the skin there's a soft, dense undercoat, a bit like a fleece. On top there are longer, coarser hairs called guard hairs."
+    },
+    {
+     "who": "rosie",
+     "t": 96.38,
+     "text": "Guard hairs. That sounds very official. What are they guarding?"
+    },
+    {
+     "who": "judy",
+     "t": 99.9,
+     "text": "The skin, mostly. A grooming guide from a large dog club describes the guard hairs as the layer that sheds water and shields the skin. They also carry the colors and patterns you see."
+    },
+    {
+     "who": "hal",
+     "t": 119.2,
+     "text": "So the top layer is the raincoat, and the bottom layer is the sweater."
+    },
+    {
+     "who": "judy",
+     "t": 124.07,
+     "text": "That's a lovely way to put it, Hal. And double coats aren't only on big fluffy dogs. Short coats, medium coats and long coats can all be double."
+    },
+    {
+     "who": "andria",
+     "t": 139.82,
+     "text": "Which brings us to the fluff on the floor. Why do these dogs shed so much, all at once?"
+    },
+    {
+     "who": "judy",
+     "t": 144.94,
+     "text": "Many double-coated dogs let go of a lot of undercoat in seasons. The same grooming guide says dogs in colder places may shed the undercoat mainly in spring and fall, while in warmer places it may happen more often, or all year round."
+    },
+    {
+     "who": "rosie",
+     "t": 170.05,
+     "text": "So in Irvine my imaginary dog might just shed forever?"
+    },
+    {
+     "who": "judy",
+     "t": 173.78,
+     "text": "Possibly a little, yes. Every dog is different, so it's worth watching your own dog's pattern."
+    },
+    {
+     "who": "andria",
+     "t": 183.3,
+     "text": "Mike, is there any research on this, or is it all grooming lore?"
+    },
+    {
+     "who": "mike",
+     "t": 187.21,
+     "text": "There's some. One small study from a university in Brazil followed twenty-one male dogs of three different coat types for twelve months, and checked samples of their hair every month."
+    },
+    {
+     "who": "rosie",
+     "t": 196.75,
+     "text": "Every month for a whole year? Those dogs must have loved the attention."
+    },
+    {
+     "who": "mike",
+     "t": 200.58,
+     "text": "I hope so. First, a quick word: the study was peer-reviewed, which means other scientists checked it before the journal printed it. It was published in 2008, and I could only read the summary, not the whole paper."
+    },
+    {
+     "who": "andria",
+     "t": 211.33,
+     "text": "Good to know. So what did they find?"
+    },
+    {
+     "who": "mike",
+     "t": 213.71,
+     "text": "Hair grows in cycles: a growing phase and a resting phase. In two of the three coat types, more hairs were resting in the hottest months, and more were growing in the coldest months."
+    },
+    {
+     "who": "hal",
+     "t": 222.9,
+     "text": "So the coat follows the weather."
+    },
+    {
+     "who": "mike",
+     "t": 225.68,
+     "text": "It moved along with temperature and day length, yes. But that's a link, not proof of what causes it. And it's twenty-one dogs, all male, in one town. It's a good clue, not the last word."
+    },
+    {
+     "who": "rosie",
+     "t": 234.97,
+     "text": "Okay, here's the question lots of people ask. If it's warm out, why not just shave the whole coat off? It seems so kind."
+    },
+    {
+     "who": "andria",
+     "t": 241.65,
+     "text": "Judy, that's yours."
+    },
+    {
+     "who": "judy",
+     "t": 243.32,
+     "text": "It does seem kind, and people ask from a good place. But the grooming and veterinary guidance we found says to think twice. One reason is that the coat works as insulation, and insulation works both ways."
+    },
+    {
+     "who": "hal",
+     "t": 264.77,
+     "text": "Both ways meaning?"
+    },
+    {
+     "who": "judy",
+     "t": 267.02,
+     "text": "A public radio news piece that talked with veterinarians described the two layers as insulation: they can keep warmth in during winter and help keep heat out in summer."
+    },
+    {
+     "who": "mike",
+     "t": 284.57,
+     "text": "That same piece had a detail I liked. A veterinarian at a university animal hospital said dogs let off heat by panting and through the pads of their paws."
+    },
+    {
+     "who": "rosie",
+     "t": 293.2,
+     "text": "Oh. So shaving the coat isn't like me taking off a sweater."
+    },
+    {
+     "who": "judy",
+     "t": 296.69,
+     "text": "Not quite. A veterinary college in Texas wrote that a double coat can hold a layer of cooler air within the coat, and that shaving takes that insulation away."
+    },
+    {
+     "who": "hal",
+     "t": 313.42,
+     "text": "What happens when the coat grows back?"
+    },
+    {
+     "who": "judy",
+     "t": 316.35,
+     "text": "The same Texas veterinary article says the undercoat may grow back first and get in the way of the guard hairs, so the coat can come back looking different. And the grooming guide makes another point: shaving doesn't stop shedding."
+    },
+    {
+     "who": "rosie",
+     "t": 338.53,
+     "text": "Wait, really? You shave the dog, and you still get fluff?"
+    },
+    {
+     "who": "judy",
+     "t": 341.76,
+     "text": "That's what the grooming guide says, yes."
+    },
+    {
+     "who": "andria",
+     "t": 345.18,
+     "text": "Do vets all agree on this, Mike?"
+    },
+    {
+     "who": "mike",
+     "t": 347.34,
+     "text": "Not completely, and that's worth saying out loud. In that public radio piece, a second veterinarian said vets have very different opinions on shaving, and the piece notes some owners feel their shaved dogs seem cooler."
+    },
+    {
+     "who": "hal",
+     "t": 358.88,
+     "text": "So there are two sides."
+    },
+    {
+     "who": "mike",
+     "t": 361.31,
+     "text": "There are. Most of the guidance we found leans toward brushing instead of shaving, but these are expert opinions and common practice, not a big study that settles it. Your own groomer and your own vet know your dog."
+    },
+    {
+     "who": "judy",
+     "t": 372.31,
+     "text": "And the guidance does leave room for exceptions. The Texas article says a full shave is usually unnecessary unless the coat is badly tangled. That's a call to make with a groomer who has seen the dog."
+    },
+    {
+     "who": "rosie",
+     "t": 392.78,
+     "text": "So if not shaving, then what? What do I actually do on a warm day?"
+    },
+    {
+     "who": "judy",
+     "t": 396.63,
+     "text": "Brush. The Texas article says many of these dogs naturally thin their undercoat in warm months, and that brushing or combing out that loose hair helps the coat do its job."
+    },
+    {
+     "who": "andria",
+     "t": 414.73,
+     "text": "How often, roughly?"
+    },
+    {
+     "who": "judy",
+     "t": 416.48,
+     "text": "The grooming guide suggests at least once a week: a slicker brush first, then a comb. And it has a phrase I love: brush the hair, not the skin."
+    },
+    {
+     "who": "hal",
+     "t": 431.68,
+     "text": "Brush the hair, not the skin. I could put that on a mug."
+    },
+    {
+     "who": "judy",
+     "t": 435.83,
+     "text": "And this part is common practice rather than a study: keep sessions short and calm, with a treat when it goes well."
+    },
+    {
+     "who": "rosie",
+     "t": 447.28,
+     "text": "So the plan is: the coat is a raincoat plus a sweater, it sheds in seasons, brush weekly, and ask before you shave?"
+    },
+    {
+     "who": "judy",
+     "t": 453.69,
+     "text": "That's it, Rosie. You'd make a fine assistant on brushing day."
+    },
+    {
+     "who": "andria",
+     "t": 459.75,
+     "text": "Let me sum up. One: a double coat has a soft undercoat and tougher guard hairs on top. Two: many of these dogs shed in seasons, and one small study found hair growth moved with temperature and day length. Three: the guidance we found leans toward regular brushing over shaving, vets don't all agree, so ask your own groomer or vet about your own dog."
+    },
+    {
+     "who": "hal",
+     "t": 481.02,
+     "text": "And the fluff on the floor? For a double-coated dog, that's part of the deal. That's a dog doing what a dog does."
+    },
+    {
+     "who": "andria",
+     "t": 487.91,
+     "text": "That's our walk for today. These are AI voices sharing general information, not veterinary advice. For your dog's health, ask your own vet."
+    },
+    {
+     "who": "hal",
+     "t": 496.97,
+     "text": "And if you're in Irvine and need care for your dog while you're away, TurtleRock Paws would love to meet you."
+    },
+    {
+     "who": "rosie",
+     "t": 503.34,
+     "text": "Happy walking. And happy brushing."
+    }
+   ],
+   "sources": {
+    "intro": "One peer-reviewed study (we read the abstract only), a veterinary college article, a public radio news report quoting veterinarians, and a grooming guide from a dog club. Coat and shaving advice here is expert guidance and common practice, not settled science.",
+    "checked": "November 1, 2026",
+    "items": [
+     {
+      "kind": "study (abstract only read)",
+      "title": "Hair cycle in dogs with different hair types in a tropical region of Brazil",
+      "cite": "Favarato ES, Conceição LG. Veterinary Dermatology, 2008;19(1):15-20. PMID 18177286.",
+      "url": "https://doi.org/10.1111/j.1365-3164.2007.00642.x",
+      "supports": "21 male dogs of three coat types sampled monthly for 12 months in Viçosa, Brazil; in two of the three types, more resting (telogen) hairs in the hottest months and more growing (anagen) hairs in the coldest months; hair cycle correlated with temperature and photoperiod."
+     },
+     {
+      "kind": "guidance (veterinary college)",
+      "title": "Time For A Summer Cut? Tips For Warm Weather Dog Grooming",
+      "cite": "Texas A&M College of Veterinary Medicine & Biomedical Sciences, Pet Talk, June 16, 2022.",
+      "url": "https://vetmed.tamu.edu/news/pet-talk/summer-dog-grooming/",
+      "supports": "Double coat as insulation creating a barrier of cool air within the coat; shaving removes insulation; undercoat may grow back first and interfere with guard hairs; frequent brushing recommended; many of these dogs thin the undercoat in warm months; full shaving usually unnecessary unless matting is present."
+     },
+     {
+      "kind": "news report quoting veterinarians",
+      "title": "The science of dog fur, and why cutting is not cool",
+      "cite": "WHYY, Peter Crimmins, July 23, 2015.",
+      "url": "https://whyy.org/segments/the-science-of-dog-fur-and-why-cutting-is-not-cool",
+      "supports": "The article describes the two coat layers as insulation working in both directions (warmth in during winter, heat out in summer). A university veterinary hospital vet: dogs release heat by panting and through the paw pads. A second vet: veterinarians have very different opinions on shaving; the piece notes some owners feel shaved dogs seem cooler."
+     },
+     {
+      "kind": "grooming guide (common practice)",
+      "title": "How to Groom a Double-Coated Dog",
+      "cite": "American Kennel Club, Harriet Meyers, updated November 19, 2024 (advice from a professional groomer).",
+      "url": "https://www.akc.org/expert-advice/health/how-to-groom-a-double-coated-dog/",
+      "supports": "Undercoat soft and dense; guard hairs repel moisture, shield skin, carry color patterns; double coats in short, medium and long varieties; colder climates shed undercoat in spring and fall, warmer climates more often or all the time; brush at least weekly with a slicker brush then a comb; 'brush the hair, not the skin'; shaving doesn't stop shedding."
+     }
+    ],
+    "notes": "General information from AI voices, not veterinary or grooming advice. For your own dog, ask your own vet or groomer."
+   }
   }
  ],
  "bench": [
