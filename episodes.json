@@ -2291,6 +2291,328 @@
     ],
     "notes": "General information from AI voices, not veterinary or grooming advice. For your own dog, ask your own vet or groomer."
    }
+  },
+  {
+   "id": "009",
+   "title": "Irvine's leash, license and poop rules, explained",
+   "date": "2026-11-02",
+   "duration": 437.4,
+   "summary": "Charles walks Rosie through three everyday dog rules in Irvine, as the City of Irvine's own pages describe them: a short leash in public, a dog license from four months old, and picking up after your dog. Every rule here is paraphrased from official pages, so check the city's site for the current wording.",
+   "audio": "ep009.mp3",
+   "kind": "Table talk",
+   "topic": "Irvine's leash, license and poop rules, explained",
+   "cast": [
+    {
+     "id": "andria",
+     "name": "Andria",
+     "role": "Host"
+    },
+    {
+     "id": "hal",
+     "name": "Hal",
+     "role": "Host"
+    },
+    {
+     "id": "charles",
+     "name": "Charles",
+     "role": "Irvine walks and local events"
+    },
+    {
+     "id": "rosie",
+     "name": "Rosie",
+     "role": "New puppy parent"
+    }
+   ],
+   "links": [],
+   "lines": [
+    {
+     "who": "andria",
+     "t": 16.65,
+     "text": "Welcome to Today's Walk, Let's Talk. I'm Andria, an AI voice, not a lawyer."
+    },
+    {
+     "who": "hal",
+     "t": 21.76,
+     "text": "And I'm Hal, an AI voice, not a city official. Picture it: a fresh new leash, a happy dog, a pocket full of bags, and a little voice asking, am I doing this right?"
+    },
+    {
+     "who": "andria",
+     "t": 32.08,
+     "text": "That little voice is today's table talk. Irvine's leash, license and poop rules, explained in plain words. With us are Charles and Rosie. We're all AI voices sharing general information, not legal advice."
+    },
+    {
+     "who": "charles",
+     "t": 46.12,
+     "text": "I'm Charles, an AI voice, not a local guide. I've brought the city's own pages with me today, and I'll keep saying it: check the city page for the current wording."
+    },
+    {
+     "who": "rosie",
+     "t": 60.3,
+     "text": "I'm Rosie, an AI voice, not an expert. And I have a confession. I thought a dog license was something you get when your dog passes a driving test."
+    },
+    {
+     "who": "hal",
+     "t": 68.71,
+     "text": "Well, some dogs do drive the whole walk."
+    },
+    {
+     "who": "andria",
+     "t": 72.19,
+     "text": "Charles, let's start with the leash. What does the city say?"
+    },
+    {
+     "who": "charles",
+     "t": 75.49,
+     "text": "The City of Irvine's Animal Services page says that when a dog is off its owner's property, it should be on a leash of six feet or less."
+    },
+    {
+     "who": "charles",
+     "t": 86.07,
+     "text": "And the leash should be held by a person who can keep the dog fully under control. That's the city's idea, put in my own words."
+    },
+    {
+     "who": "rosie",
+     "t": 96.31,
+     "text": "Six feet. So, about one tall person, lying down?"
+    },
+    {
+     "who": "charles",
+     "t": 99.63,
+     "text": "That's a rather good picture, Rosie. Close enough to chat with your dog, as I like to say."
+    },
+    {
+     "who": "hal",
+     "t": 106.91,
+     "text": "I like the second half of that rule. Not just a leash, but a person who's really holding it."
+    },
+    {
+     "who": "charles",
+     "t": 112.79,
+     "text": "Quite so. A short leash keeps a dog close on a narrow path, and it's a courtesy to people passing by, and to their dogs."
+    },
+    {
+     "who": "rosie",
+     "t": 123.27,
+     "text": "But where can a dog just run? Asking for every dog I've ever met."
+    },
+    {
+     "who": "charles",
+     "t": 126.97,
+     "text": "Irvine has a city dog park called Central Bark. The city's page describes almost three acres of open field for off-leash play, with a separate fenced area for small or frail dogs."
+    },
+    {
+     "who": "charles",
+     "t": 142.11,
+     "text": "One practical note from that page: the park is closed every second Wednesday of the month for maintenance. So check before you load up the car."
+    },
+    {
+     "who": "andria",
+     "t": 153.64,
+     "text": "That's a good tip. Nobody likes a disappointed dog at a locked gate."
+    },
+    {
+     "who": "hal",
+     "t": 158.16,
+     "text": "Or a disappointed Hal, frankly."
+    },
+    {
+     "who": "andria",
+     "t": 161.38,
+     "text": "Okay, part two: the license. Charles, who needs one?"
+    },
+    {
+     "who": "charles",
+     "t": 165.17,
+     "text": "The Irvine Animal Care Center's licensing page says California and the City of Irvine require every dog four months and older to have a license. And every dog should wear a current license tag, as the page puts it."
+    },
+    {
+     "who": "rosie",
+     "t": 183.77,
+     "text": "Four months. So a puppy gets a few months of freedom, and then it's paperwork time."
+    },
+    {
+     "who": "charles",
+     "t": 188.05,
+     "text": "In a manner of speaking. You can apply on the city's website, or visit the center during its open hours, where the staff will help you."
+    },
+    {
+     "who": "charles",
+     "t": 198.26,
+     "text": "And the page asks one thing that made me smile: please don't bring your pet to the center for this. The dog can stay home."
+    },
+    {
+     "who": "rosie",
+     "t": 207.82,
+     "text": "Aw. The dog doesn't even get to pick its tag?"
+    },
+    {
+     "who": "hal",
+     "t": 210.69,
+     "text": "Sounds like the dog gets a nap instead. Fair trade."
+    },
+    {
+     "who": "andria",
+     "t": 214.92,
+     "text": "What do people need to bring, Charles?"
+    },
+    {
+     "who": "charles",
+     "t": 217.2,
+     "text": "The page lists a photo ID, your dog's records that the city asks for, spay or neuter paperwork if that applies, and your address and contact details. The page has the full list."
+    },
+    {
+     "who": "charles",
+     "t": 232.87,
+     "text": "A license can be bought for up to three years, depending on your dog's records. There are different rates, and some reduced rates too, so the city page is the place for the current numbers."
+    },
+    {
+     "who": "rosie",
+     "t": 247.5,
+     "text": "Okay, but why bother? What does a license actually do for my dog?"
+    },
+    {
+     "who": "charles",
+     "t": 251.65,
+     "text": "The city's page puts it simply: dogs with a license get returned home sooner. The tag has a QR code and a phone number, so a neighbor who finds your dog can scan it, and you get a call, a text or an email."
+    },
+    {
+     "who": "rosie",
+     "t": 269.43,
+     "text": "Oh, I love that. So the tag is like a little business card that says, hello, I belong to someone, please call them."
+    },
+    {
+     "who": "hal",
+     "t": 275.51,
+     "text": "A business card that wags. I like that very much."
+    },
+    {
+     "who": "andria",
+     "t": 279.54,
+     "text": "And part three, the one in the title that made Rosie giggle. Picking up."
+    },
+    {
+     "who": "rosie",
+     "t": 283.88,
+     "text": "I did not giggle. Okay, I giggled."
+    },
+    {
+     "who": "charles",
+     "t": 286.47,
+     "text": "The city's Animal Services page points to a section of the Irvine Municipal Code, number four, five, seven ten. In plain words: you can't leave your dog's poop on any property you don't own, public or private."
+    },
+    {
+     "who": "charles",
+     "t": 304.18,
+     "text": "The city can issue a fine for it. But I'd rather talk about the reason behind it."
+    },
+    {
+     "who": "andria",
+     "t": 310.89,
+     "text": "Go on."
+    },
+    {
+     "who": "charles",
+     "t": 312.16,
+     "text": "The county's stormwater program explains it well. When it rains, or sprinklers run long, waste left on the ground can wash into the storm drain."
+    },
+    {
+     "who": "charles",
+     "t": 324.61,
+     "text": "And the program says water in storm drains is not treated. It flows straight on to our creeks, rivers and the ocean."
+    },
+    {
+     "who": "rosie",
+     "t": 334.35,
+     "text": "Wait, so the bag in my pocket is basically helping the beach?"
+    },
+    {
+     "who": "charles",
+     "t": 338.04,
+     "text": "That's one lovely way to put it, Rosie. A small bag, a short walk to the bin, and a cleaner creek."
+    },
+    {
+     "who": "hal",
+     "t": 346.57,
+     "text": "So the short version: short leash, current tag, full pocket of bags."
+    },
+    {
+     "who": "rosie",
+     "t": 351.5,
+     "text": "Can I repeat it back? Leash six feet or less when we're out. License from four months, with the tag on. And pick up every time, because it can wash down to the ocean."
+    },
+    {
+     "who": "charles",
+     "t": 360.06,
+     "text": "Splendid. And one more habit: rules can change, so the city's own pages are the final word, not a table of AI voices."
+    },
+    {
+     "who": "andria",
+     "t": 371.19,
+     "text": "Let me sum up. One: the city's page says a leash of six feet or less, held by someone who can keep the dog under control. Two: the city's licensing page says dogs four months and older need a license and a current tag, and it helps lost dogs get home sooner. Three: leaving your dog's poop on property you don't own is against city code, and the stormwater program says it can wash to the ocean."
+    },
+    {
+     "who": "hal",
+     "t": 394.2,
+     "text": "All the links are under the player, so you can read the city's words for yourself."
+    },
+    {
+     "who": "andria",
+     "t": 399.27,
+     "text": "That's our walk for today. These are AI voices sharing general information, not veterinary or legal advice. For your dog's health, ask your own vet, and for the rules, check the city's own pages."
+    },
+    {
+     "who": "hal",
+     "t": 411.75,
+     "text": "And if you're in Irvine and need care for your dog while you're away, TurtleRock Paws would love to meet you."
+    },
+    {
+     "who": "rosie",
+     "t": 418.12,
+     "text": "Happy walking. And don't forget the bags."
+    }
+   ],
+   "sources": {
+    "intro": "Official City of Irvine pages and an Orange County stormwater program page. These are official guidance, paraphrased in our own words. Rules and fees change, so check the city's current pages before relying on anything here. This is general information, not legal advice.",
+    "checked": "November 2, 2026",
+    "items": [
+     {
+      "kind": "official guidance (city)",
+      "title": "Irvine Animal Services: dogs on leash",
+      "cite": "City of Irvine, Animal Services FAQ page.",
+      "url": "https://legacy.cityofirvine.org/crm/ReqFaq/answers.asp?id=7901",
+      "supports": "Dogs off their owner's property must be on a leash of 6 feet or less, held by a person who can completely control the dog at all times."
+     },
+     {
+      "kind": "official guidance (city)",
+      "title": "Irvine Animal Services: pet waste",
+      "cite": "City of Irvine, Animal Services FAQ page, citing Irvine Municipal Code 4-5-710.",
+      "url": "https://legacy.cityofirvine.org/crm/ReqFaq/answers.asp?id=7905",
+      "supports": "It is unlawful to leave your pet's feces on any public or private property not owned by you; a violation can be punished by a fine."
+     },
+     {
+      "kind": "official guidance (city)",
+      "title": "Irvine Animal Care Center: Licensing",
+      "cite": "City of Irvine, Irvine Animal Care Center licensing page.",
+      "url": "https://www.cityofirvine.gov/irvine-animal-care-center/licensing",
+      "supports": "California and the City of Irvine require dogs four months and older to be licensed; dogs must wear a current license tag; apply online or at the center, and do not bring your pet; documents listed (photo ID, dog records the city lists, spay or neuter certificate if applicable, address and contact details); licenses for up to 3 years, limited by the dog's records; reduced rates exist; licensed pets get returned home sooner; tag has a QR code and a toll-free number so a finder can trigger a call, text or email."
+     },
+     {
+      "kind": "official guidance (city)",
+      "title": "Central Bark Dog Park",
+      "cite": "City of Irvine, parks and facilities page.",
+      "url": "https://cityofirvine.gov/node/18926",
+      "supports": "Almost three acres of open field for off-leash play; separate fenced area for small or frail dogs; closed every second Wednesday of the month for maintenance."
+     },
+     {
+      "kind": "official guidance (county stormwater program)",
+      "title": "Top 3 Tips to Care for Your Pet AND Our Waterways",
+      "cite": "H2OC Stormwater Program (Orange County), February 24, 2021.",
+      "url": "https://h2oc.org/?p=4147",
+      "supports": "Pet waste left on the ground can be washed into the storm drain by rain or over-irrigation; water entering storm drains is not treated and flows directly to creeks, rivers and the ocean."
+     }
+    ],
+    "notes": "Fees, rates and penalties are deliberately not quoted; see the city's licensing page for current numbers."
+   }
   }
  ],
  "bench": [
