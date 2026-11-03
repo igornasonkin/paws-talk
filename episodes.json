@@ -2613,6 +2613,314 @@
     ],
     "notes": "Fees, rates and penalties are deliberately not quoted; see the city's licensing page for current numbers."
    }
+  },
+  {
+   "id": "010",
+   "title": "Should dogs say hello on leash?",
+   "date": "2026-11-03",
+   "duration": 399.7,
+   "summary": "Leo and Ed talk about the classic sidewalk moment: two dogs on leashes, both owners wondering whether to let them meet. One large observation study, a university body-language guide and a professional trainers' article help the table sort out a quick, loose-leash hello from a friendly wave and a walk on by.",
+   "audio": "ep010.mp3",
+   "kind": "Table talk",
+   "topic": "Should dogs say hello on leash?",
+   "cast": [
+    {
+     "id": "andria",
+     "name": "Andria",
+     "role": "Host"
+    },
+    {
+     "id": "hal",
+     "name": "Hal",
+     "role": "Host"
+    },
+    {
+     "id": "leo",
+     "name": "Leo",
+     "role": "Behavior voice"
+    },
+    {
+     "id": "ed",
+     "name": "Ed",
+     "role": "Training voice"
+    }
+   ],
+   "links": [],
+   "lines": [
+    {
+     "who": "andria",
+     "t": 16.65,
+     "text": "Welcome to Today's Walk, Let's Talk. I'm Andria, an AI voice, not a journalist."
+    },
+    {
+     "who": "hal",
+     "t": 21.95,
+     "text": "And I'm Hal, an AI voice, not a dog owner. Picture it: a quiet sidewalk, another dog coming your way, and both humans doing that little slow-down. Do we stop? Do we say hello?"
+    },
+    {
+     "who": "andria",
+     "t": 33.25,
+     "text": "That awkward half-step dance! Today's question is simple: should dogs say hello on leash? Joining us are Leo and Ed."
+    },
+    {
+     "who": "leo",
+     "t": 40.73,
+     "text": "I'm Leo, an AI voice, not a behaviorist. I love this question, because it's really about how dogs talk to each other."
+    },
+    {
+     "who": "ed",
+     "t": 49.85,
+     "text": "I'm Ed, an AI voice, not a trainer. And I'll bring the small, practical steps."
+    },
+    {
+     "who": "andria",
+     "t": 55.26,
+     "text": "Leo, start us off. When two dogs meet freely, say in an open field, what does a polite hello look like?"
+    },
+    {
+     "who": "leo",
+     "t": 62.06,
+     "text": "A professional trainers' group article describes it nicely. A relaxed dog usually comes in on a curve, a bit sideways, rather than marching straight at the other dog."
+    },
+    {
+     "who": "leo",
+     "t": 73.45,
+     "text": "Then there's a short sniff, often starting near the face and moving toward the back end. The article says that sniff tends to last about three seconds before the dogs play or move on."
+    },
+    {
+     "who": "hal",
+     "t": 85.83,
+     "text": "Three seconds. That's shorter than most human handshakes."
+    },
+    {
+     "who": "andria",
+     "t": 89.79,
+     "text": "And what changes when there's a leash involved?"
+    },
+    {
+     "who": "leo",
+     "t": 92.72,
+     "text": "The same article points out that a leash takes away a dog's freedom to choose the angle and to walk away. On a tight leash, dogs often end up face to face, looking right at each other as they get closer."
+    },
+    {
+     "who": "leo",
+     "t": 106.21,
+     "text": "The article notes that a head-on approach with a long stare is how dogs often look when they're warning each other off. And a university body-language guide from Purdue lists a straight, hard, fast approach as a red flag."
+    },
+    {
+     "who": "hal",
+     "t": 121.36,
+     "text": "So the leash makes them meet like two people walking into the same revolving door."
+    },
+    {
+     "who": "ed",
+     "t": 126.97,
+     "text": "That's a pretty good picture, Hal."
+    },
+    {
+     "who": "andria",
+     "t": 129.79,
+     "text": "Is there any actual research on this, or is it mostly experience?"
+    },
+    {
+     "who": "leo",
+     "t": 134.09,
+     "text": "There's one big observation study, published in 2011 in a peer-reviewed journal. Peer-reviewed just means other scientists checked it before the journal printed it."
+    },
+    {
+     "who": "leo",
+     "t": 145.69,
+     "text": "The researchers watched about eighteen hundred and seventy dogs meeting other dogs on everyday walks in public places."
+    },
+    {
+     "who": "andria",
+     "t": 153.81,
+     "text": "That's a lot of sniffing."
+    },
+    {
+     "who": "leo",
+     "t": 155.6,
+     "text": "It really is. They found that dogs off leash sniffed each other more often than dogs on leash. And they counted what they called threat signals, the warning postures, about twice as often between leashed dogs."
+    },
+    {
+     "who": "hal",
+     "t": 169.98,
+     "text": "Does that mean the leash causes it?"
+    },
+    {
+     "who": "leo",
+     "t": 172.8,
+     "text": "Good question, and no, the study can't tell us that. It's an observation study, so it shows a pattern, not a cause. Other differences between the dogs or the walks could shape what the researchers saw."
+    },
+    {
+     "who": "andria",
+     "t": 186.25,
+     "text": "So it's a clue, not a verdict."
+    },
+    {
+     "who": "leo",
+     "t": 188.46,
+     "text": "Exactly. It fits what trainers describe, but it doesn't prove it."
+    },
+    {
+     "who": "andria",
+     "t": 193.06,
+     "text": "Ed, let's get practical. Someone's on the sidewalk tomorrow and another dog is coming. What do they do?"
+    },
+    {
+     "who": "ed",
+     "t": 199.62,
+     "text": "First, you're allowed to just say no. The trainers' article suggests a simple move: a friendly wave to the other person, and then you cross the street when it's clear, or turn around."
+    },
+    {
+     "who": "hal",
+     "t": 209.68,
+     "text": "I like that. A wave is a perfectly good hello."
+    },
+    {
+     "who": "ed",
+     "t": 213.64,
+     "text": "Right. Dogs, like people, don't have to meet everyone they pass. Plenty of calm walks with no greetings at all can be a lovely walk."
+    },
+    {
+     "who": "andria",
+     "t": 221.56,
+     "text": "And if both people want the dogs to meet?"
+    },
+    {
+     "who": "ed",
+     "t": 224.17,
+     "text": "Then three small steps. One: ask the other person first. Two: wait until both dogs look fairly calm, not pulling hard toward each other."
+    },
+    {
+     "who": "ed",
+     "t": 232.63,
+     "text": "Three: keep the leash loose, let them sniff for a few seconds, then cheerfully call your dog away. A treat a few steps off is common practice, not a study finding."
+    },
+    {
+     "who": "andria",
+     "t": 242.3,
+     "text": "Why call them away so soon? It feels a little rude."
+    },
+    {
+     "who": "ed",
+     "t": 245.58,
+     "text": "Because the article says brief hellos help dogs stay calmer. It also notes that while the humans stand and greet each other, the dogs stay stuck close together the whole time."
+    },
+    {
+     "who": "hal",
+     "t": 255.87,
+     "text": "So the dogs' meeting shouldn't last as long as the owners' conversation."
+    },
+    {
+     "who": "ed",
+     "t": 260.63,
+     "text": "Ha, that's it exactly. You can do two or three short hellos instead of one long one."
+    },
+    {
+     "who": "andria",
+     "t": 266.3,
+     "text": "Leo, how does someone tell if a hello is going well?"
+    },
+    {
+     "who": "leo",
+     "t": 269.56,
+     "text": "The Purdue guide describes a relaxed dog as loose in the body, with soft eyes, relaxed ears and a soft, maybe open mouth. A play bow, front end down, back end up, is a friendly invitation."
+    },
+    {
+     "who": "leo",
+     "t": 284.04,
+     "text": "Signs a dog is less comfortable include a stiff or frozen body, turning the head away, lip licking, yawning, or the whites of the eyes showing."
+    },
+    {
+     "who": "andria",
+     "t": 294.21,
+     "text": "And if you see those?"
+    },
+    {
+     "who": "leo",
+     "t": 295.9,
+     "text": "The guide's advice is simple: if a dog seems worried, end the interaction. Calmly walk away, no fuss. That's not a failure, it's just listening."
+    },
+    {
+     "who": "ed",
+     "t": 306.22,
+     "text": "And this part is just common practice, not a study: a light, happy voice as you call your dog away."
+    },
+    {
+     "who": "hal",
+     "t": 312.61,
+     "text": "What if someone's dog is an enthusiastic one who wants to meet everybody?"
+    },
+    {
+     "who": "ed",
+     "t": 317.96,
+     "text": "That's really common. A common practice is to rehearse the call-away on its own, at a distance, with tiny treats, so your dog learns that walking on with you is also a good deal."
+    },
+    {
+     "who": "leo",
+     "t": 328.2,
+     "text": "And if a dog's reactions on walks ever change suddenly, or feel like more than ordinary excitement, that's a moment to check in with your own vet and a qualified, reward-based behavior professional."
+    },
+    {
+     "who": "andria",
+     "t": 342.03,
+     "text": "Let me sum it up in three short points. One: a polite dog hello is usually a curve, a sniff and about three seconds."
+    },
+    {
+     "who": "andria",
+     "t": 349.69,
+     "text": "Two: on a leash, keep it loose, keep it short, and ask first. Three: a friendly wave and walking on is a perfectly good choice too."
+    },
+    {
+     "who": "hal",
+     "t": 358.08,
+     "text": "So the short version: ask, keep it loose, keep it brief, and it's fine to just wave."
+    },
+    {
+     "who": "andria",
+     "t": 363.73,
+     "text": "That's our walk for today. These are AI voices sharing general information, not veterinary or training advice. For your dog's health, ask your own vet. The links are under the player."
+    },
+    {
+     "who": "hal",
+     "t": 375.21,
+     "text": "And if you're in Irvine and need care for your dog while you're away, TurtleRock Paws would love to meet you."
+    },
+    {
+     "who": "andria",
+     "t": 381.59,
+     "text": "Happy walking."
+    }
+   ],
+   "sources": {
+    "intro": "One observation study, a university body-language guide and an article from a professional trainers' association. The study shows a pattern, not a cause. This is general information, not veterinary or training advice.",
+    "checked": "November 3, 2026",
+    "items": [
+     {
+      "kind": "study (observational, peer-reviewed)",
+      "title": "Factors affecting dog-dog interactions on walks with their owners",
+      "cite": "Řezáč P, Viziová P, Dobešová M, Havlíček Z, Pospíšilová D. Applied Animal Behaviour Science 134 (2011): 170-176. Summary page: Purdue Center for Canine Welfare.",
+      "url": "https://caninewelfare.centers.purdue.edu/resource/factors-affecting-dog-dog-interactions-on-walks-with-their-owners",
+      "supports": "1,870 interacting dogs observed in public places where owners walk dogs; dogs off leash sniffed each other more often than dogs on leash; threats were about twice as frequent between leashed dogs as between unleashed dogs. Observational: shows a pattern, not a cause."
+     },
+     {
+      "kind": "guideline (university)",
+      "title": "Canine Body Language",
+      "cite": "Croney CC, Croney Research Group, Purdue University, 2023.",
+      "url": "https://caninewelfare.centers.purdue.edu/wp-content/uploads/2023/10/Canine-Body-Language.pdf",
+      "supports": "Relaxed signs: loose body, soft eyes, relaxed ears, soft or open mouth; play bow as a friendly sign. Stress signs: tense or stiff body, freezing, head-turning, turning away, lip licking, yawning, whites of the eyes showing. A straight, hard, fast approach is a red flag; if the dog seems fearful, stop the interaction."
+     },
+     {
+      "kind": "common practice (professional association article)",
+      "title": "Managing Dog-Dog Greetings",
+      "cite": "Antolec D. Pet Professional Guild, BARKS blog, November 13, 2018.",
+      "url": "https://www.petprofessionalguild.com/barks/barks-magazine-blog/managing-dog-dog-greetings/",
+      "supports": "Relaxed off-leash dogs approach on a curve; leashed greetings tend to be face to face with sustained eye contact; dogs usually sniff about three seconds, then play or disengage; handlers chatting keeps dogs close longer; brief, repeated greetings; waving and crossing the street or turning around; dogs do not have to engage with everyone they pass."
+     }
+    ],
+    "notes": "General information only. Every dog is an individual; for your own dog, ask your vet or a qualified, reward-based behavior professional."
+   }
   }
  ],
  "bench": [
