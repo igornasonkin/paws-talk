@@ -2921,6 +2921,294 @@
     ],
     "notes": "General information only. Every dog is an individual; for your own dog, ask your vet or a qualified, reward-based behavior professional."
    }
+  },
+  {
+   "id": "011",
+   "title": "A calm corner: setting up a cozy spot for a small dog",
+   "date": "2026-11-04",
+   "duration": 430.7,
+   "summary": "Maya, Ed and Rosie join the hosts to talk about giving a dog a quiet corner of their own: where to put it, what goes in it, and how to teach a dog that it is the place to settle. One sleep study in family dogs, one small study of how dogs used beds, and a government welfare code help the table keep it simple.",
+   "audio": "ep011.mp3",
+   "kind": "Table talk",
+   "topic": "A calm corner: setting up a cozy spot for a small dog",
+   "cast": [
+    {
+     "id": "andria",
+     "name": "Andria",
+     "role": "Host"
+    },
+    {
+     "id": "hal",
+     "name": "Hal",
+     "role": "Host"
+    },
+    {
+     "id": "maya",
+     "name": "Maya",
+     "role": "Sleep and rest voice"
+    },
+    {
+     "id": "ed",
+     "name": "Ed",
+     "role": "Training voice"
+    },
+    {
+     "id": "rosie",
+     "name": "Rosie",
+     "role": "New puppy parent"
+    }
+   ],
+   "links": [],
+   "lines": [
+    {
+     "who": "andria",
+     "t": 16.65,
+     "text": "Welcome to Today's Walk, Let's Talk. I'm Andria, an AI voice, not a journalist."
+    },
+    {
+     "who": "hal",
+     "t": 21.95,
+     "text": "And I'm Hal, an AI voice, not a dog owner. Picture a small dog after a walk, doing three slow circles on the sofa cushion, then flopping down with a big sigh."
+    },
+    {
+     "who": "andria",
+     "t": 32.59,
+     "text": "That sigh! Today we're talking about a calm corner: a cozy spot a dog can call their own. Joining us are Maya, Ed and Rosie."
+    },
+    {
+     "who": "maya",
+     "t": 40.81,
+     "text": "I'm Maya, an AI voice, not a sleep scientist. I'm happy to be here, because a cozy corner is really about rest, and rest is my favorite subject."
+    },
+    {
+     "who": "ed",
+     "t": 51.41,
+     "text": "I'm Ed, an AI voice, not a trainer. I'll bring the how-to part: how a dog learns that a spot means settle down."
+    },
+    {
+     "who": "rosie",
+     "t": 58.58,
+     "text": "I'm Rosie, an AI voice, not an expert. And I came with questions. First one: why would a dog even need a corner? Can't they just nap anywhere?"
+    },
+    {
+     "who": "maya",
+     "t": 66.29,
+     "text": "Lots of dogs do nap anywhere! But here's the interesting part. Dogs don't sleep in one long block the way many people do. They rest in pieces, through the day and the night."
+    },
+    {
+     "who": "maya",
+     "t": 77.63,
+     "text": "One research team pointed out that, in earlier studies they cite, a dog's sleep bout averaged about forty-five minutes. So a dog may look for a good place to lie down many times a day."
+    },
+    {
+     "who": "hal",
+     "t": 90.12,
+     "text": "Forty-five minutes. That's a lot of trips to the sofa cushion."
+    },
+    {
+     "who": "andria",
+     "t": 94.4,
+     "text": "Maya, tell us about that study. What did they actually do?"
+    },
+    {
+     "who": "maya",
+     "t": 97.96,
+     "text": "It was a peer-reviewed paper from 2018 in the journal Scientific Reports. Peer-reviewed means other scientists checked it before the journal printed it. The team recorded the sleep of sixteen family dogs, using small sensors that sit on the outside of the body, with no special training needed."
+    },
+    {
+     "who": "maya",
+     "t": 117.46,
+     "text": "Some dogs were recorded at home, where they usually slept, and some somewhere unfamiliar. Away from home, dogs were less likely to move into the sleep stage scientists call REM, short for rapid eye movement, after their first stretch of the other kind of sleep."
+    },
+    {
+     "who": "rosie",
+     "t": 134.85,
+     "text": "Oh, so a familiar place might help a dog really settle?"
+    },
+    {
+     "who": "maya",
+     "t": 138.23,
+     "text": "That's a fair reading, with a big caution. It was one small study of sixteen dogs, and it measured brain activity, not comfort. It tells us sleep away from home looked a bit different. It doesn't tell us which bed or which corner is right for your dog."
+    },
+    {
+     "who": "andria",
+     "t": 154.63,
+     "text": "Okay. So where should the corner go?"
+    },
+    {
+     "who": "maya",
+     "t": 156.99,
+     "text": "I like to start with an official guide. The Scottish Government's code of practice for the welfare of dogs says a dog should have its own bed with comfortable bedding, in a quiet, dry area, out of drafts. It also talks about a resting area where the dog feels secure and can go any time."
+    },
+    {
+     "who": "hal",
+     "t": 175.31,
+     "text": "Quiet, dry, no breeze, and open all hours. I like that."
+    },
+    {
+     "who": "rosie",
+     "t": 179.96,
+     "text": "So not right next to the front door where everyone walks by?"
+    },
+    {
+     "who": "maya",
+     "t": 183.38,
+     "text": "A spot away from the busiest path is a sensible idea, and that one is common practice rather than a tested result. Watch where your dog already chooses to rest. They often tell you."
+    },
+    {
+     "who": "andria",
+     "t": 195.64,
+     "text": "And what goes in the corner? Ed, Maya, is there any research on beds?"
+    },
+    {
+     "who": "maya",
+     "t": 199.87,
+     "text": "There's one small study I can point to. It was published in 2018 in the Journal of Veterinary Behavior. We could read only the summary, not the whole paper, so I'll keep it short."
+    },
+    {
+     "who": "maya",
+     "t": 212.29,
+     "text": "Researchers offered beds to dogs living at a research facility. In choice tests, the dogs seemed to prefer soft bedding. Then nine older dogs were tested with soft fleece beds on the floor and with beds raised about a foot."
+    },
+    {
+     "who": "rosie",
+     "t": 227.77,
+     "text": "And which one won?"
+    },
+    {
+     "who": "maya",
+     "t": 229.55,
+     "text": "The floor-level beds were used for about eighty-three percent of the night, and the raised beds for about twenty-one percent. The authors call the results preliminary, and they suggest offering dogs a few choices."
+    },
+    {
+     "who": "hal",
+     "t": 242.85,
+     "text": "So soft, easy to step into, and let the dog vote."
+    },
+    {
+     "who": "ed",
+     "t": 247.18,
+     "text": "Exactly. And I'll add a plain, common-practice tip: a blanket or towel that smells of home. Our sources didn't test that, so think of it as a friendly idea, not a finding."
+    },
+    {
+     "who": "rosie",
+     "t": 257.72,
+     "text": "Here's my small-dog question. Does a little dog need a different kind of corner?"
+    },
+    {
+     "who": "ed",
+     "t": 262.18,
+     "text": "Honest answer: none of our sources looked at dog size, so I can't give you a small-dog rule. What I can say is the general idea fits any size: a bed your dog can step into easily, in a quiet spot."
+    },
+    {
+     "who": "andria",
+     "t": 274.23,
+     "text": "Ed, how does a dog learn that the corner is the place to settle?"
+    },
+    {
+     "who": "ed",
+     "t": 278.07,
+     "text": "Think of it as a thank-you note that arrives fast. Step one: put the bed down, and when your dog steps onto it on their own, say a calm 'yes' and drop a tiny treat right on the bed."
+    },
+    {
+     "who": "ed",
+     "t": 288.13,
+     "text": "Step two: when they lie down there, reward again, softly, right where they are. Step three: keep sessions short, a few minutes, and practice when your dog is already a bit sleepy, like after a walk."
+    },
+    {
+     "who": "rosie",
+     "t": 299.08,
+     "text": "So, let them find it, thank them on the bed, keep it short, practice when they're drowsy?"
+    },
+    {
+     "who": "ed",
+     "t": 303.53,
+     "text": "That's it. And how do you know it's working? Your dog starts walking over to the corner by themselves. This is common training practice, not a tested study, and every dog learns at their own pace."
+    },
+    {
+     "who": "hal",
+     "t": 314.37,
+     "text": "What if the dog just walks off the bed and goes back to the sofa?"
+    },
+    {
+     "who": "ed",
+     "t": 318.95,
+     "text": "That's information, not failure. Make it easier: move the bed to where they like to rest, or try a different texture. Never push or pull a dog onto a bed. The corner should feel like their choice."
+    },
+    {
+     "who": "maya",
+     "t": 329.96,
+     "text": "And on the sleep side, many people end the day quiet, dim and predictable, instead of with a hard game of fetch right before bed. That's common practice, not something our sources tested."
+    },
+    {
+     "who": "andria",
+     "t": 342.35,
+     "text": "One more from me. Maya, the study said dogs slept more after an active day. Does that mean a busier day always means better rest?"
+    },
+    {
+     "who": "maya",
+     "t": 350.71,
+     "text": "Careful there. The study found that after an active day, dogs slept more and fell asleep sooner. But active meant things like a competition or advanced training, it was a small group, and it shows a pattern, not a cause. Tired and settled aren't the same thing."
+    },
+    {
+     "who": "rosie",
+     "t": 367.97,
+     "text": "Tired and settled aren't the same thing. I'm writing that down."
+    },
+    {
+     "who": "andria",
+     "t": 371.56,
+     "text": "Let's sum up. One: dogs rest in many short pieces, so a spot of their own may get used a lot. Two: a quiet, dry place out of drafts, with comfortable bedding, is what the welfare code describes. Three: invite your dog there with calm rewards, and let them choose."
+    },
+    {
+     "who": "hal",
+     "t": 387.99,
+     "text": "So the short version: quiet spot, soft bed, a few choices, and a thank-you when they settle."
+    },
+    {
+     "who": "andria",
+     "t": 394.16,
+     "text": "That's our walk for today. These are AI voices sharing general information, not veterinary or training advice. For your dog's health, ask your own vet. Our sources are listed under the player."
+    },
+    {
+     "who": "hal",
+     "t": 406.27,
+     "text": "And if you're in Irvine and need care for your dog while you're away, TurtleRock Paws would love to meet you."
+    },
+    {
+     "who": "andria",
+     "t": 412.64,
+     "text": "Happy walking."
+    }
+   ],
+   "sources": {
+    "intro": "One peer-reviewed sleep study in family dogs (full text read), one small peer-reviewed study of how dogs used beds (summary read only), and a government code of practice. Tips about blankets, placement and mat training are labeled as common practice. This is general information, not veterinary or training advice.",
+    "checked": "November 4, 2026",
+    "items": [
+     {
+      "kind": "study (peer-reviewed, small sample; full text read)",
+      "title": "Differences in pre-sleep activity and sleep location are associated with variability in daytime/nighttime sleep electrophysiology in the domestic dog",
+      "cite": "Bunford N, Reicher V, Kis A, Pogány Á, Gombos F, Bódizs R, Gácsi M. Scientific Reports 8 (2018): 7109. doi:10.1038/s41598-018-25546-x. PMID 29740040, PMCID PMC5940857. Open access.",
+      "url": "https://doi.org/10.1038/s41598-018-25546-x",
+      "supports": "16 family dogs recorded with non-invasive sleep sensors (no prior training needed); when not at home, REM sleep after the first non-REM sleep was less likely; after an active day (for example a competition or advanced training) dogs slept more and fell asleep sooner; the discussion cites earlier work giving an average dog sleep bout of about 45 minutes and describes dog sleep as polyphasic (sleep and activity alternate through the day). Small sample; shows associations, not causes."
+     },
+     {
+      "kind": "study (peer-reviewed, small orientation study; summary read only)",
+      "title": "A study of how laboratory dogs used beds (title paraphrased)",
+      "cite": "Döring D, Backofen I, Schmidt J, Bauer A, Erhard MH. Journal of Veterinary Behavior 28 (2018): 6-10. doi:10.1016/j.jveb.2018.07.004. Summary page: Purdue Center for Canine Welfare.",
+      "url": "https://doi.org/10.1016/j.jveb.2018.07.004",
+      "supports": "Choice tests with 12 laboratory dogs suggested a preference for soft bedding; 9 older dogs used floor-level fleece beds for about 83% of the 10-hour dark phase versus about 21% for beds raised 30 cm; authors call results preliminary and suggest offering several options. Only the summary was read."
+     },
+     {
+      "kind": "guideline (government code of practice)",
+      "title": "Code of practice for the welfare of dogs, Section 1: the need for a suitable environment",
+      "cite": "Scottish Government, 2010.",
+      "url": "https://www.gov.scot/publications/code-practice-welfare-dogs/pages/4/",
+      "supports": "Provide a resting area where the dog feels secure and has constant access; the dog should have its own bed with comfortable bedding in a quiet, dry, draught-free area."
+     }
+    ],
+    "notes": "A blanket that smells of home, placing the bed away from busy walkways, and rewarding a dog for settling on a bed are common practice, not tested results from these sources. None of the sources looked at dog size."
+   }
   }
  ],
  "bench": [
