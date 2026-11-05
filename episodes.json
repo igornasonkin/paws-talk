@@ -3209,6 +3209,282 @@
     ],
     "notes": "A blanket that smells of home, placing the bed away from busy walkways, and rewarding a dog for settling on a bed are common practice, not tested results from these sources. None of the sources looked at dog size."
    }
+  },
+  {
+   "id": "012",
+   "title": "Road-trip checklist for dogs",
+   "date": "2026-11-05",
+   "duration": 421.2,
+   "summary": "Ed, Judy and Rosie join the hosts to build a calm road-trip checklist for a dog: practice drives, a comfortable spot in the car, sniff breaks, water and a familiar blanket. A travel guide from a national veterinary group and one owner survey from three countries keep the table on track.",
+   "audio": "ep012.mp3",
+   "kind": "Table talk",
+   "topic": "Road-trip checklist for dogs",
+   "cast": [
+    {
+     "id": "andria",
+     "name": "Andria",
+     "role": "Host"
+    },
+    {
+     "id": "hal",
+     "name": "Hal",
+     "role": "Host"
+    },
+    {
+     "id": "ed",
+     "name": "Ed",
+     "role": "Training voice"
+    },
+    {
+     "id": "judy",
+     "name": "Judy",
+     "role": "Grooming and care voice"
+    },
+    {
+     "id": "rosie",
+     "name": "Rosie",
+     "role": "New puppy parent"
+    }
+   ],
+   "links": [],
+   "lines": [
+    {
+     "who": "andria",
+     "t": 16.65,
+     "text": "Welcome to Today's Walk, Let's Talk. I'm Andria, an AI voice, not a journalist."
+    },
+    {
+     "who": "hal",
+     "t": 21.95,
+     "text": "And I'm Hal, an AI voice, not a dog owner. Picture the car packed for a weekend away, and a small dog sitting by the door, watching every bag go out like it's a parade."
+    },
+    {
+     "who": "andria",
+     "t": 32.65,
+     "text": "The parade of bags! Today we're making a road-trip checklist for dogs. Joining us are Ed, Judy and Rosie."
+    },
+    {
+     "who": "ed",
+     "t": 39.61,
+     "text": "I'm Ed, an AI voice, not a trainer. I'll bring the practice part, because the trip goes better when the car is already a familiar place."
+    },
+    {
+     "who": "judy",
+     "t": 47.77,
+     "text": "I'm Judy, an AI voice, not a groomer. I'll bring the comfort kit: the soft things, the towel, the little routines that feel like home."
+    },
+    {
+     "who": "rosie",
+     "t": 61.94,
+     "text": "I'm Rosie, an AI voice, not an expert. And I have a very basic first question. Where do I even start?"
+    },
+    {
+     "who": "andria",
+     "t": 68.06,
+     "text": "Let's start with the plan. Our main guide today is a travel page from the American Veterinary Medical Association, a national group for vets. Its very first step is deciding whether your dog comes along at all."
+    },
+    {
+     "who": "hal",
+     "t": 81.02,
+     "text": "I like that. Not every trip is a dog trip, and that's fine."
+    },
+    {
+     "who": "andria",
+     "t": 85.56,
+     "text": "And if your dog is coming, the guide says to check that dogs are welcome where you're staying, and at the stops along the way."
+    },
+    {
+     "who": "rosie",
+     "t": 92.64,
+     "text": "Oh, I would totally forget the stops. Okay, the dog is invited. What goes on the checklist?"
+    },
+    {
+     "who": "andria",
+     "t": 97.66,
+     "text": "Item one from the guide: a collar with an ID tag that has your current phone number. And if your dog has a microchip, keep its contact details up to date."
+    },
+    {
+     "who": "hal",
+     "t": 107.34,
+     "text": "So the tag should match the phone in your pocket today, not the one from three years ago."
+    },
+    {
+     "who": "andria",
+     "t": 112.97,
+     "text": "Item two: where your dog rides. The guide suggests a well-fitted harness or a carrier of the right size, where your dog can stand, turn around and lie down. It also says heads and bodies stay inside the car, and dogs stay out of laps."
+    },
+    {
+     "who": "rosie",
+     "t": 127.95,
+     "text": "Wait, really? I picture a dog with ears flapping out the window. That's the happiest picture there is."
+    },
+    {
+     "who": "hal",
+     "t": 133.15,
+     "text": "It's a lovely picture. The guide still says heads in, so the ears can do their flapping from the back seat."
+    },
+    {
+     "who": "andria",
+     "t": 139.73,
+     "text": "Now, how do people actually do this? Ed, you found a study."
+    },
+    {
+     "who": "ed",
+     "t": 143.68,
+     "text": "I did. It's a peer-reviewed study from 2019 in the journal Preventive Veterinary Medicine. Peer-reviewed means other scientists checked it before the journal printed it. The team asked dog owners who drive with their dogs how their dogs ride."
+    },
+    {
+     "who": "ed",
+     "t": 157.95,
+     "text": "About two thousand people answered an online survey, in the United States, the United Kingdom and Australia."
+    },
+    {
+     "who": "rosie",
+     "t": 164.87,
+     "text": "And what did they say?"
+    },
+    {
+     "who": "ed",
+     "t": 166.69,
+     "text": "A little over half of the American owners said they restrain their dog in the car in some way. It was about two thirds in Australia and close to three quarters in the United Kingdom."
+    },
+    {
+     "who": "ed",
+     "t": 177.23,
+     "text": "Owners of small dogs were more likely to use one than owners of bigger dogs. The researchers wondered whether people think small dogs are more delicate, but the survey didn't test that."
+    },
+    {
+     "who": "hal",
+     "t": 188.16,
+     "text": "So that's a small dog getting their own little seat setup. Fair enough."
+    },
+    {
+     "who": "judy",
+     "t": 192.96,
+     "text": "And a little honesty about this kind of study: it's one survey, the people who answered found it on social media, and the answers are what owners said, not what anyone watched. The authors say themselves that the sample is likely biased."
+    },
+    {
+     "who": "andria",
+     "t": 216.8,
+     "text": "Good label. One survey, self-reported, a useful picture of habits, not a rule. Ed, here's my practical question. What if my dog has never worn a harness in the car?"
+    },
+    {
+     "who": "ed",
+     "t": 227.9,
+     "text": "Then that's your homework before the trip, and the guide says the same thing: practice with the harness or carrier first, because something new adds stress on a long day."
+    },
+    {
+     "who": "ed",
+     "t": 236.67,
+     "text": "Here's a simple plan. Step one: let your dog sniff the harness or carrier at home, and reward calm interest with a small treat. Step two: sit in the parked car together for a minute or two. Step three: take short, easy drives that end somewhere nice, like a favorite walk."
+    },
+    {
+     "who": "rosie",
+     "t": 251.72,
+     "text": "So the car becomes the thing that leads to the park, not the thing that leads to a long, boring day?"
+    },
+    {
+     "who": "ed",
+     "t": 257.11,
+     "text": "Exactly. And you'll know it's working when your dog walks up to the car looking curious, not worried. Those three steps are common practice, by the way, not something the survey tested."
+    },
+    {
+     "who": "andria",
+     "t": 267.22,
+     "text": "Judy, your turn. What's in the comfort kit?"
+    },
+    {
+     "who": "judy",
+     "t": 270.0,
+     "text": "The guide covers the food and water part: pack enough, offer water at every stop, and keep mealtimes close to your dog's usual times. Routine travels well."
+    },
+    {
+     "who": "judy",
+     "t": 286.37,
+     "text": "The rest is common practice, not from a study. A blanket or bed that smells like home, an old towel for muddy paws, bags for pick-up, a brush for a quick tidy at the end of the day, and a favorite toy."
+    },
+    {
+     "who": "hal",
+     "t": 307.84,
+     "text": "A blanket that smells like home. That's a small thing that probably means a lot to a nose."
+    },
+    {
+     "who": "judy",
+     "t": 314.0,
+     "text": "And a quick brush at the hotel can be a nice calm moment for both of you. Short and gentle, then a treat."
+    },
+    {
+     "who": "rosie",
+     "t": 325.0,
+     "text": "Okay, now the fun part. Rest stops! How often do we stop?"
+    },
+    {
+     "who": "andria",
+     "t": 328.65,
+     "text": "The guide doesn't give a number. It says to take frequent breaks so dogs can stretch, take a bathroom break, and sniff around."
+    },
+    {
+     "who": "hal",
+     "t": 335.83,
+     "text": "Sniff around. That's the part I'd underline. For a dog, a new rest stop is like a newspaper nobody else has read yet."
+    },
+    {
+     "who": "ed",
+     "t": 343.7,
+     "text": "And keep the leash on at stops. That one's common practice too, not from the guide. New places, new smells; a leash keeps the stop simple."
+    },
+    {
+     "who": "rosie",
+     "t": 352.11,
+     "text": "Let me say it back. Plan the trip, check the stops welcome dogs, update the ID tag, a fitted harness or carrier, practice drives, food and water on schedule, the comfort kit, and lots of sniff breaks."
+    },
+    {
+     "who": "andria",
+     "t": 362.64,
+     "text": "That's the checklist. Let's sum up in three. One: plan ahead, check that dogs are welcome, and update the ID tag. Two: a fitted harness or carrier, heads inside, and practice before the big day. Three: water, usual mealtimes, and plenty of sniff breaks."
+    },
+    {
+     "who": "hal",
+     "t": 378.67,
+     "text": "So the short version: practice first, pack a little home, and let the nose enjoy the trip."
+    },
+    {
+     "who": "andria",
+     "t": 384.63,
+     "text": "That's our walk for today. These are AI voices sharing general information, not veterinary or training advice. For your dog's health, ask your own vet. Our sources are listed under the player."
+    },
+    {
+     "who": "hal",
+     "t": 396.74,
+     "text": "And if you're in Irvine and need care for your dog while you're away, TurtleRock Paws would love to meet you."
+    },
+    {
+     "who": "andria",
+     "t": 403.11,
+     "text": "Happy walking."
+    }
+   ],
+   "sources": {
+    "intro": "One travel guide from a national veterinary association and one peer-reviewed owner survey (accepted author manuscript read in full). Tips about practice drives, comfort items and leashes at stops are labeled as common practice. This is general information, not veterinary or training advice.",
+    "checked": "November 5, 2026",
+    "items": [
+     {
+      "kind": "guideline (professional veterinary association)",
+      "title": "11 things you can do to make road trips safer for you and your pet",
+      "cite": "American Veterinary Medical Association (AVMA), pet owner travel page.",
+      "url": "https://www.avma.org/public/PetCare/Pages/travel.aspx",
+      "supports": "Decide whether the pet comes; check the pet is welcome at the destination and stops; collar with an ID tag with current contact details and keep microchip registration up to date; a properly fitted harness or correctly sized carrier where the pet can stand, turn around and lie down; heads and bodies inside the vehicle and pets out of laps; practice with the restraint before the trip, since an unfamiliar one adds stress; frequent breaks for dogs to stretch, relieve themselves and sniff around; pack enough food and water, offer water at each stop and keep feeding times close to normal."
+     },
+     {
+      "kind": "study (peer-reviewed online owner survey; accepted author manuscript read in full)",
+      "title": "Restraint of dogs in vehicles in the US, UK and Australia",
+      "cite": "Hazel SJ, Kogan LR, Montrose VT, Hebart ML, Oxley JA. Preventive Veterinary Medicine 170 (2019): 104714. doi:10.1016/j.prevetmed.2019.104714. Author manuscript: University of Adelaide repository (hdl 2440/121758).",
+      "url": "https://doi.org/10.1016/j.prevetmed.2019.104714",
+      "supports": "706 (US), 692 (UK) and 637 (Australia) completed surveys from owners who drive with their dogs; restraint reported by 55% in the US, 67% in Australia and 72% in the UK; small dogs more likely to be restrained than medium, large or giant dogs; authors suggest people may perceive small dogs as more easily hurt (not tested); recruited through social media, self-reported, likely biased sample (stated by the authors)."
+     }
+    ],
+    "notes": "Practice steps (sniffing the harness at home, sitting in the parked car, short drives that end somewhere pleasant), a blanket that smells of home, a towel, pick-up bags, a brush, a favorite toy and keeping the leash on at stops are common practice, not tested results from these sources. Neither source gives a number for how often to stop."
+   }
   }
  ],
  "bench": [
