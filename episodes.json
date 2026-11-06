@@ -3485,6 +3485,329 @@
     ],
     "notes": "Practice steps (sniffing the harness at home, sitting in the parked car, short drives that end somewhere pleasant), a blanket that smells of home, a towel, pick-up bags, a brush, a favorite toy and keeping the leash on at stops are common practice, not tested results from these sources. Neither source gives a number for how often to stop."
    }
+  },
+  {
+   "id": "013",
+   "title": "Journal Club: the teenage dog phase",
+   "date": "2026-11-06",
+   "duration": 452.3,
+   "summary": "A peer-reviewed study followed young dogs being raised as future guide dogs and found that, around eight months old, the odds of a dog repeatedly not answering a well-known cue from the person who raised them were higher, but not with someone else, and that carers rated their dogs as easier to train again by about a year. Our readers read the whole article: what it found, why it is only part of the story, and three calm take-homes.",
+   "audio": "ep013.mp3",
+   "kind": "Journal Club",
+   "topic": "The teenage dog phase: what one study saw from 5 to 12 months",
+   "cast": [
+    {
+     "id": "andria",
+     "name": "Andria",
+     "role": "Host"
+    },
+    {
+     "id": "hal",
+     "name": "Hal",
+     "role": "Host"
+    },
+    {
+     "id": "leo",
+     "name": "Leo",
+     "role": "Behavior voice"
+    },
+    {
+     "id": "mike",
+     "name": "Mike",
+     "role": "Genetics and canine science voice"
+    },
+    {
+     "id": "ed",
+     "name": "Ed",
+     "role": "Training voice"
+    },
+    {
+     "id": "rosie",
+     "name": "Rosie",
+     "role": "New puppy parent"
+    }
+   ],
+   "links": [],
+   "lines": [
+    {
+     "who": "andria",
+     "t": 16.65,
+     "text": "Welcome to Today's Walk, Let's Talk. I'm Andria, an AI voice, not a vet. Picture this: your young dog has done a perfect sit for months, and one morning you say sit, and they just look at you."
+    },
+    {
+     "who": "hal",
+     "t": 28.5,
+     "text": "And I'm Hal, an AI voice, not a researcher. Like a teenager being asked to tidy their room. It's Friday, so it's Journal Club: one real study, read closely."
+    },
+    {
+     "who": "andria",
+     "t": 38.59,
+     "text": "At the table today: Leo, Mike, Ed and Rosie. All of us are AI voices sharing general information, not veterinary advice."
+    },
+    {
+     "who": "leo",
+     "t": 47.25,
+     "text": "I'm Leo, an AI voice, not a behaviorist. I'm one of today's readers, and I read the whole article, start to finish."
+    },
+    {
+     "who": "mike",
+     "t": 56.07,
+     "text": "I'm Mike, an AI voice, not a scientist. I read it all too. One honest note: the detailed methods sit in a separate online file we could not open, so we read the methods as the article itself describes them."
+    },
+    {
+     "who": "ed",
+     "t": 67.1,
+     "text": "I'm Ed, an AI voice, not a trainer. I read it as well, and one detail in the results surprised me. I'll save it for later."
+    },
+    {
+     "who": "rosie",
+     "t": 75.09,
+     "text": "And I'm Rosie, an AI voice, not an expert. I'm here to ask what you're probably wondering."
+    },
+    {
+     "who": "andria",
+     "t": 80.2,
+     "text": "Leo, what is this paper, in one breath?"
+    },
+    {
+     "who": "leo",
+     "t": 82.95,
+     "text": "It's called Teenage dogs?, with a question mark, from a research team, published in the journal Biology Letters in 2020. It's peer-reviewed, which means other scientists checked it before the journal printed it."
+    },
+    {
+     "who": "mike",
+     "t": 98.04,
+     "text": "The question was simple. People have long said dogs go through a teenage phase. Is there any real evidence for that, or is it just a story owners tell each other?"
+    },
+    {
+     "who": "rosie",
+     "t": 106.76,
+     "text": "Wait, dogs have teenage years?"
+    },
+    {
+     "who": "leo",
+     "t": 109.18,
+     "text": "In a way. Adolescence is the stretch where a young animal becomes an adult, and puberty happens in it. For the dogs in this study, the researchers looked at about five months as before, eight months as during, and twelve months as after."
+    },
+    {
+     "who": "hal",
+     "t": 125.06,
+     "text": "Who were the dogs?"
+    },
+    {
+     "who": "mike",
+     "t": 127.32,
+     "text": "Young dogs being raised to become future guide dogs. Each one was raised by one main person, who the paper calls the carer."
+    },
+    {
+     "who": "ed",
+     "t": 134.41,
+     "text": "Which makes them an interesting group. They all came from the same program, which is not the same as life as a family dog."
+    },
+    {
+     "who": "andria",
+     "t": 141.87,
+     "text": "So what did they actually do?"
+    },
+    {
+     "who": "leo",
+     "t": 143.96,
+     "text": "In one part, ninety-three dogs were tested at five months, at eight months, or both. Their carer asked for a sit, and then a stranger asked for a sit."
+    },
+    {
+     "who": "mike",
+     "t": 154.63,
+     "text": "Sixty-nine dogs were tested at both ages. And here's the headline. At eight months, the odds of a dog repeatedly not sitting for their carer were about twice as high as at five months."
+    },
+    {
+     "who": "rosie",
+     "t": 164.68,
+     "text": "Twice? That's a lot of ignored sits."
+    },
+    {
+     "who": "mike",
+     "t": 167.2,
+     "text": "Careful, though. It's the odds of not responding, not twice as many dogs. The paper gives an odds ratio of 2.14, which is a way of comparing how likely something is in one situation versus another."
+    },
+    {
+     "who": "hal",
+     "t": 178.46,
+     "text": "And with the stranger?"
+    },
+    {
+     "who": "ed",
+     "t": 180.72,
+     "text": "That's my surprise. With the stranger, the sits got better between five and eight months, not worse. Same dogs, same ages, same simple cue. The dip only showed up with the person who knew them best."
+    },
+    {
+     "who": "rosie",
+     "t": 192.4,
+     "text": "So it's personal! The dog is ignoring you, specifically."
+    },
+    {
+     "who": "leo",
+     "t": 195.72,
+     "text": "That's why the authors borrowed the word teenage, and called it adolescent conflict behaviour, aimed at the carer. But it's a comparison, not proof that dogs feel what teenagers feel."
+    },
+    {
+     "who": "andria",
+     "t": 208.63,
+     "text": "Was that just one test?"
+    },
+    {
+     "who": "mike",
+     "t": 210.5,
+     "text": "No, and that's a strength. In a bigger group of two hundred eighty-five dogs, the carers filled in a questionnaire about how easy their dog was to train. Carers rated their dogs as harder to train at eight months than at five, and easier again at twelve."
+    },
+    {
+     "who": "leo",
+     "t": 223.19,
+     "text": "And the trainers, on the other hand, rated them as more trainable at eight months. So the two kinds of people saw the same dogs quite differently."
+    },
+    {
+     "who": "hal",
+     "t": 232.8,
+     "text": "I like that. The dog didn't forget the lesson. It just stopped taking it from the person at home for a while."
+    },
+    {
+     "who": "rosie",
+     "t": 239.56,
+     "text": "Is there more?"
+    },
+    {
+     "who": "leo",
+     "t": 241.02,
+     "text": "Yes. The carers also answered questions about how unsettled the dog seemed when left alone, which the paper calls separation-related behaviour. Those scores were about thirty-six percent higher at eight months than at five or at twelve months."
+    },
+    {
+     "who": "mike",
+     "t": 257.92,
+     "text": "And at eight months only, dogs with higher scores on those questions also tended to have lower trainability scores. That's a link, not a cause. The paper can't say one leads to the other."
+    },
+    {
+     "who": "andria",
+     "t": 267.6,
+     "text": "And there was a second finding, about timing?"
+    },
+    {
+     "who": "leo",
+     "t": 270.37,
+     "text": "In seventy young female dogs, those who showed more attachment and attention-seeking behaviour at five months tended to reach puberty earlier. It's an association, and it needs repeating in other studies."
+    },
+    {
+     "who": "andria",
+     "t": 284.68,
+     "text": "Okay, Mike, the honest part. What can't this study tell us?"
+    },
+    {
+     "who": "mike",
+     "t": 288.29,
+     "text": "Three things. First, puberty was only measured in some of the dogs. For the rest, the authors assumed it from age, using what is already known, and they say those ages would differ for other kinds of dogs."
+    },
+    {
+     "who": "leo",
+     "t": 298.44,
+     "text": "Second, a lot of it comes from questionnaires filled in by the carers themselves. That's useful, but it's how people saw their dogs, not a stopwatch."
+    },
+    {
+     "who": "ed",
+     "t": 308.33,
+     "text": "And third, these were all future guide dogs from one program. A family dog in Irvine has a different life, so the pattern might look different, or not show up at all."
+    },
+    {
+     "who": "hal",
+     "t": 318.27,
+     "text": "So what's the big idea, in one sentence?"
+    },
+    {
+     "who": "leo",
+     "t": 321.82,
+     "text": "On average, in this group, a dip in listening to the main carer showed up around eight months, and by about a year carers rated their dogs as easier to train again. The authors' hope is simply that owners know this can be a passing phase."
+    },
+    {
+     "who": "rosie",
+     "t": 338.26,
+     "text": "Okay, so if I had an eight-month-old who suddenly forgot sit, what would you tell me?"
+    },
+    {
+     "who": "ed",
+     "t": 342.92,
+     "text": "This part is common training practice, not something the study tested. Make it easy again. Short, happy sessions, go back to quiet places, and reward the basics you thought were done."
+    },
+    {
+     "who": "leo",
+     "t": 353.61,
+     "text": "Stay kind and keep doing fun things together. And if a change is sudden or doesn't feel like your dog, talk to your own vet first, then a qualified, reward-based trainer."
+    },
+    {
+     "who": "andria",
+     "t": 365.85,
+     "text": "Let me sum up. One: a dip in listening around eight months was seen in this group, mostly toward the main carer. Two: in this study, carers rated their dogs as easier to train again by about a year. Three: keep training short and kind, and ask your own vet about your own dog."
+    },
+    {
+     "who": "hal",
+     "t": 383.28,
+     "text": "And if you want to dig deeper, the links are under the player."
+    },
+    {
+     "who": "mike",
+     "t": 387.48,
+     "text": "Two free papers there. One from 2025 compared people's relationships with their dogs to their relationships with family and friends, and found the dog bond had something of both a child and a close friend."
+    },
+    {
+     "who": "leo",
+     "t": 399.23,
+     "text": "And one from 2024 compared young companion pigs and dogs meeting a stranger. Only the dogs showed the clear pattern of attachment to their owner. We read the abstracts of those two, not the full papers."
+    },
+    {
+     "who": "rosie",
+     "t": 414.47,
+     "text": "So a teenage dog can still adore you. They're just not saying it with a sit."
+    },
+    {
+     "who": "andria",
+     "t": 418.75,
+     "text": "That's our walk for today. These are AI voices sharing general information, not veterinary advice. For your dog's health, ask your own vet."
+    },
+    {
+     "who": "hal",
+     "t": 427.81,
+     "text": "And if you're in Irvine and need care for your dog while you're away, TurtleRock Paws would love to meet you."
+    },
+    {
+     "who": "andria",
+     "t": 434.19,
+     "text": "Happy walking."
+    }
+   ],
+   "sources": {
+    "intro": "One peer-reviewed paper, read in full, plus two further-reading papers read as abstracts.",
+    "checked": "November 6, 2026",
+    "items": [
+     {
+      "kind": "study (main paper, full text read)",
+      "title": "Teenage dogs? Evidence for adolescent-phase conflict behaviour and an association between attachment to humans and pubertal timing in the domestic dog",
+      "cite": "Asher L, England GCW, Sommerville R, Harvey ND. Biology Letters, 2020;16(5):20200097. PMID 32396785, PMCID PMC7280042. doi:10.1098/rsbl.2020.0097",
+      "url": "https://doi.org/10.1098/rsbl.2020.0097",
+      "supports": "All numbers in this episode: test ages of 5, 8 and 12 months; 93 dogs in the sit test, 69 tested at both 5 and 8 months; odds of repeatedly not responding to the carer's sit cue 2.14 times higher at 8 months than at 5 months (95% CI 1.46 to 3.11), while responses to the stranger improved; 285 dogs in the trainability questionnaires, with carers rating trainability lower at 8 months and higher again at 12 months, and trainers rating it higher at 8 months; separation-related behaviour scores 36% higher at 8 months than at 5 and 12 months; the association between those scores and lower trainability at 8 months only; 70 young females, in whom more attachment and attention-seeking behaviour at 5 months was associated with earlier puberty; the limitations that puberty was measured in only some dogs and assumed from age-based knowledge for the rest and on ages differing for other kinds of dogs; and the title's 'adolescent-phase conflict behaviour' framing; and the authors' hope that owners know this can be a passing phase. Free to read in PubMed Central."
+     },
+     {
+      "kind": "study (further reading, abstract read)",
+      "title": "Similarities and differences between dog-human and human-human relationships",
+      "cite": "Turcsán B, Ujfalussy DJ, Kerepesi A, Miklósi Á, Kubinyi E. Scientific Reports, 2025;15(1):11871. PMID 40258899, PMCID PMC12012045. doi:10.1038/s41598-025-95515-8",
+      "url": "https://doi.org/10.1038/s41598-025-95515-8",
+      "supports": "Survey of 717 owners; the dog relationship showed features of both a parent-child bond and a close friendship. Free to read."
+     },
+     {
+      "kind": "study (further reading, abstract read)",
+      "title": "Domestication and exposure to human social stimuli are not sufficient to trigger attachment to humans: a companion pig-dog comparative study",
+      "cite": "Gábor A, Pérez Fraga P, Gácsi M, Gerencsér L, Andics A. Scientific Reports, 2024;14(1):14058. PMID 38977716, PMCID PMC11231355. doi:10.1038/s41598-024-63529-3",
+      "url": "https://doi.org/10.1038/s41598-024-63529-3",
+      "supports": "Young companion pigs and dogs in a stranger test; only the dogs' behaviour met the criteria for attachment to the owner. Free to read."
+     }
+    ],
+    "notes": "Access level: FULL_TEXT for the main article (introduction, results, discussion), retrieved from PubMed Central on November 6, 2026. The detailed methods are in a separate online file that we could not open, and the funding, ethics and competing-interests notes were not part of the text we read; PubMed lists the work as supported by a non-US-government source. Everything is paraphrased; no tables, figures or passages are reproduced. The two further-reading papers were read as abstracts only, and no voice claims to have read them in full. Findings are associations within one group of future guide dogs in training, so no causal claim is made. Kinds of dogs in the study are deliberately not named on air."
+   }
   }
  ],
  "bench": [
