@@ -3808,6 +3808,334 @@
     ],
     "notes": "Access level: FULL_TEXT for the main article (introduction, results, discussion), retrieved from PubMed Central on November 6, 2026. The detailed methods are in a separate online file that we could not open, and the funding, ethics and competing-interests notes were not part of the text we read; PubMed lists the work as supported by a non-US-government source. Everything is paraphrased; no tables, figures or passages are reproduced. The two further-reading papers were read as abstracts only, and no voice claims to have read them in full. Findings are associations within one group of future guide dogs in training, so no causal claim is made. Kinds of dogs in the study are deliberately not named on air."
    }
+  },
+  {
+   "id": "014",
+   "title": "Tooth brushing for small dogs, one tiny step at a time",
+   "date": "2026-11-07",
+   "duration": 485.9,
+   "summary": "Judy and Rosie join the hosts to turn tooth brushing into a calm little habit: a mat, a taste of toothpaste made for pets, gentle handling first, and patience. A large owner survey, a small study of teaching dogs and a veterinary college guide keep the table on track.",
+   "audio": "ep014.mp3",
+   "kind": "Table talk",
+   "topic": "Tooth brushing for small dogs",
+   "cast": [
+    {
+     "id": "andria",
+     "name": "Andria",
+     "role": "Host"
+    },
+    {
+     "id": "hal",
+     "name": "Hal",
+     "role": "Host"
+    },
+    {
+     "id": "judy",
+     "name": "Judy",
+     "role": "Grooming and care voice"
+    },
+    {
+     "id": "rosie",
+     "name": "Rosie",
+     "role": "New puppy parent"
+    }
+   ],
+   "links": [],
+   "lines": [
+    {
+     "who": "andria",
+     "t": 16.65,
+     "text": "Welcome to Today's Walk, Let's Talk. I'm Andria, an AI voice, not a journalist."
+    },
+    {
+     "who": "hal",
+     "t": 21.95,
+     "text": "And I'm Hal, an AI voice, not a dog owner. Picture a small dog at the end of the day, giving a big wide yawn, and for one second you see a whole row of tiny teeth."
+    },
+    {
+     "who": "andria",
+     "t": 32.59,
+     "text": "Those tiny teeth are today's topic: tooth brushing for small dogs, and how to make it a calm little habit. Joining us are Judy and Rosie."
+    },
+    {
+     "who": "judy",
+     "t": 41.62,
+     "text": "I'm Judy, an AI voice, not a groomer. I'll bring the step-by-step part, because brushing goes best when it starts very, very small."
+    },
+    {
+     "who": "rosie",
+     "t": 55.56,
+     "text": "I'm Rosie, an AI voice, not an expert. And my first question is a real one. Do people actually brush their dog's teeth?"
+    },
+    {
+     "who": "andria",
+     "t": 62.72,
+     "text": "Some do! A large peer-reviewed survey from Sweden asked exactly that. Peer-reviewed means other scientists checked it before the journal printed it."
+    },
+    {
+     "who": "andria",
+     "t": 71.47,
+     "text": "Close to sixty thousand dog owners answered, back in 2017. Fewer than four in a hundred said they brushed their dog's teeth every day."
+    },
+    {
+     "who": "rosie",
+     "t": 80.83,
+     "text": "Four in a hundred! So if I don't brush yet, I'm in very big company."
+    },
+    {
+     "who": "hal",
+     "t": 84.69,
+     "text": "Very big company. About half of the owners said they didn't brush at all."
+    },
+    {
+     "who": "andria",
+     "t": 89.75,
+     "text": "Here's the hopeful part. Almost two thirds of the owners said they could consider brushing every day."
+    },
+    {
+     "who": "hal",
+     "t": 95.49,
+     "text": "So the wish is there. It's the habit that's the hard part."
+    },
+    {
+     "who": "andria",
+     "t": 99.48,
+     "text": "And small dogs come up in this study. Owners of smaller dogs tended to brush more often, and were more likely to say a vet clinic had suggested brushing."
+    },
+    {
+     "who": "rosie",
+     "t": 108.85,
+     "text": "Why small dogs?"
+    },
+    {
+     "who": "judy",
+     "t": 110.72,
+     "text": "The authors share a few ideas, but that's really a question about your own dog's mouth, so it's one for your own vet. What we can talk about is how any dog can learn a calm routine."
+    },
+    {
+     "who": "andria",
+     "t": 129.16,
+     "text": "One more note on that survey: it's people describing their own habits, in one country. The authors say people may report brushing a bit more often than they really do."
+    },
+    {
+     "who": "hal",
+     "t": 139.27,
+     "text": "I can see why. Ask most of us, and it's most days. Most days in spirit."
+    },
+    {
+     "who": "andria",
+     "t": 144.79,
+     "text": "So how do you start? Judy, you've been reading a guide from a veterinary college."
+    },
+    {
+     "who": "judy",
+     "t": 149.71,
+     "text": "Yes, a 2025 page from the Riney Canine Health Center at Cornell University's veterinary college. The big idea is that brushing is training. Don't try a full brushing on day one."
+    },
+    {
+     "who": "rosie",
+     "t": 171.14,
+     "text": "Not on day one? I was going to march right in with the brush."
+    },
+    {
+     "who": "judy",
+     "t": 174.48,
+     "text": "Step one is a spot and a time. Keep the brush and toothpaste somewhere handy, and put down a towel or a mat where your dog will sit."
+    },
+    {
+     "who": "judy",
+     "t": 188.21,
+     "text": "Then, for a few days, just let your dog lick a little flavored toothpaste made for pets, right there on the mat. No brushing yet."
+    },
+    {
+     "who": "hal",
+     "t": 201.36,
+     "text": "So the mat starts to mean something nice. Like a dinner bell, but for teeth."
+    },
+    {
+     "who": "rosie",
+     "t": 206.49,
+     "text": "I love that. A tooth mat."
+    },
+    {
+     "who": "judy",
+     "t": 208.61,
+     "text": "Step two is the one the page calls the most important: getting comfortable with handling. Each little stage gets a reward."
+    },
+    {
+     "who": "judy",
+     "t": 221.18,
+     "text": "First your hand hovers over the head. Then it rests gently on top. Then your thumb lifts the lip. Then you draw the cheek back to see the teeth at the back."
+    },
+    {
+     "who": "rosie",
+     "t": 237.68,
+     "text": "That's four steps before the toothbrush even shows up."
+    },
+    {
+     "who": "judy",
+     "t": 240.95,
+     "text": "It is. And the page says each stage can take days or even weeks. You go at your dog's pace, and if your dog pulls away, you slow down."
+    },
+    {
+     "who": "andria",
+     "t": 255.95,
+     "text": "And step three?"
+    },
+    {
+     "who": "judy",
+     "t": 257.44,
+     "text": "Lift the lip, touch one tooth with the brush, and reward. When that's easy, a few strokes on a tooth, and then a little longer, over many sessions."
+    },
+    {
+     "who": "judy",
+     "t": 271.89,
+     "text": "Step four is real brushing, one section of the mouth at a time, short and pleasant. The page says the whole process can take weeks to months."
+    },
+    {
+     "who": "hal",
+     "t": 286.97,
+     "text": "Weeks to months. I like that honesty. Nobody's handing out a stopwatch."
+    },
+    {
+     "who": "rosie",
+     "t": 292.27,
+     "text": "But does the dog ever actually get comfortable with it? That's my real worry."
+    },
+    {
+     "who": "andria",
+     "t": 296.61,
+     "text": "There's a small study on exactly that. It's from the same Swedish research group, first published online in 2023 in the Journal of Veterinary Dentistry."
+    },
+    {
+     "who": "andria",
+     "t": 306.92,
+     "text": "Twenty-two dogs that live at a university as teaching dogs had their teeth brushed once a day for two weeks, with praise, a friendly touch and treats."
+    },
+    {
+     "who": "andria",
+     "t": 316.02,
+     "text": "Each day the team scored signs of stress on a scale from zero to five. After one week, the average hadn't moved. By day fourteen, it had dropped close to zero."
+    },
+    {
+     "who": "rosie",
+     "t": 326.14,
+     "text": "So the first week was the slow part, and then they settled."
+    },
+    {
+     "who": "andria",
+     "t": 329.48,
+     "text": "That's how the researchers read it. They wrote that it took longer than a week for the dogs to get used to the brushing."
+    },
+    {
+     "who": "hal",
+     "t": 335.58,
+     "text": "So the first week or two takes patience. I like that."
+    },
+    {
+     "who": "andria",
+     "t": 339.81,
+     "text": "They also looked at the teeth. Plaque, the soft film that builds up on teeth, had gone down after one week of daily brushing."
+    },
+    {
+     "who": "andria",
+     "t": 347.28,
+     "text": "Then the brushing stopped. Two weeks later, the plaque scores were back where they started."
+    },
+    {
+     "who": "rosie",
+     "t": 352.17,
+     "text": "Oh no! Two weeks, and it all came back?"
+    },
+    {
+     "who": "hal",
+     "t": 354.72,
+     "text": "That's why these guides keep coming back to the word daily."
+    },
+    {
+     "who": "andria",
+     "t": 358.86,
+     "text": "Right. Both Swedish papers describe daily brushing as the gold standard for looking after a dog's teeth at home."
+    },
+    {
+     "who": "judy",
+     "t": 365.85,
+     "text": "And a few honest limits on that small study. It was one type of dog, living in one place, and the people who did the brushing also scored the stress. Most of the dogs had done some tooth cleaning practice a year earlier, too."
+    },
+    {
+     "who": "judy",
+     "t": 388.59,
+     "text": "So it's a good clue, not a promise for your own dog."
+    },
+    {
+     "who": "rosie",
+     "t": 393.37,
+     "text": "Okay, can I say it back? A mat, a little taste of pet toothpaste, hand on the head, lift the lip, touch one tooth, then slowly more, and lots of treats."
+    },
+    {
+     "who": "judy",
+     "t": 401.19,
+     "text": "That's it. The Cornell page also says brushing doesn't replace the cleanings your vet does. And from us: if your dog seems uncomfortable when you touch the mouth, or something there looks different, pause and ask your own vet."
+    },
+    {
+     "who": "andria",
+     "t": 423.41,
+     "text": "Let's sum up in three. One: daily brushing is the gold standard, but in the big survey few owners managed it, so simply starting is a good step."
+    },
+    {
+     "who": "andria",
+     "t": 432.42,
+     "text": "Two: go in small stages, with a mat, a taste of toothpaste made for pets, and gentle handling first. Three: be patient. In the small study, the dogs were calmer by the end of the second week."
+    },
+    {
+     "who": "hal",
+     "t": 444.68,
+     "text": "So the short version: little steps, little treats, and a little brushing every day."
+    },
+    {
+     "who": "andria",
+     "t": 450.05,
+     "text": "That's our walk for today. These are AI voices sharing general information, not veterinary advice. For your dog's health, ask your own vet. Our sources are listed under the player."
+    },
+    {
+     "who": "hal",
+     "t": 461.41,
+     "text": "And if you're in Irvine and need care for your dog while you're away, TurtleRock Paws would love to meet you."
+    },
+    {
+     "who": "andria",
+     "t": 467.78,
+     "text": "Happy walking."
+    }
+   ],
+   "sources": {
+    "intro": "Two peer-reviewed studies from one Swedish research group (both read in full, free on PubMed Central) and one veterinary college guide. This is general information, not veterinary advice.",
+    "checked": "November 7, 2026",
+    "items": [
+     {
+      "kind": "study (peer-reviewed national owner survey; full text read)",
+      "title": "Dental home care in dogs - a questionnaire study among Swedish dog owners, veterinarians and veterinary nurses",
+      "cite": "Enlund KB, Brunius C, Hanson J, Hagman R, Höglund OV, Gustås P, Pettersson A. BMC Veterinary Research 16 (2020): 90. doi:10.1186/s12917-020-02281-y. PMID 32188446, PMCID PMC7081671. Open access.",
+      "url": "https://doi.org/10.1186/s12917-020-02281-y",
+      "supports": "59,978 complete dog-owner responses, collected March to April 2017; less than 4% brushed daily; about half never brushed; almost two thirds said they could consider brushing daily; owners of smaller dogs brushed more often and were more likely to report a clinic recommending brushing; daily brushing described as the gold standard; self-report, possible social desirability bias and a Swedish context (stated by the authors)."
+     },
+     {
+      "kind": "study (peer-reviewed; small study of 22 university teaching dogs plus 4 controls; full text read)",
+      "title": "Evaluation of a Thiol-Detection Test to Assess Tooth Brushing Efficacy in Dogs",
+      "cite": "Enlund KB, Rahunen N, Thelander S, Olsén L. Journal of Veterinary Dentistry 41(3) (2024, online 2023): 183-191. doi:10.1177/08987564231179898. PMID 37345423, PMCID PMC11003196.",
+      "url": "https://doi.org/10.1177/08987564231179898",
+      "supports": "Once-daily brushing for 2 weeks with verbal, touch and treat rewards; stress scored daily on a 0 to 5 scale: mean 0.9 on day 1, 0.9 on day 7, 0.1 on day 14; authors say it took longer than 7 days for dogs to get used to it; plaque scores improved after 7 and 14 days; 2 weeks after brushing stopped, plaque scores had returned to the starting level; daily brushing called the gold standard. Limits stated by the authors: one breed, the people brushing also scored stress, most dogs had done similar dental home care practice a year earlier."
+     },
+     {
+      "kind": "guidance (veterinary college health center page)",
+      "title": "How to Brush Your Dog's Teeth (February 2025)",
+      "cite": "Cohen A. Cornell Richard P. Riney Canine Health Center, Cornell University College of Veterinary Medicine, February 4, 2025.",
+      "url": "https://riney.vet.cornell.edu/member-benefits-health-tips/how-to-brush-your-dogs-teeth-feb-2025",
+      "supports": "Brushing is a training process, do not try a full brushing on day one; a routine spot with a mat or towel; let the dog lick flavored toothpaste made for pets on the mat for a few days; handling steps (hand hovers, rests on head, lift the lip, pull back the cheek) with a reward after each, called the most important step; touch one tooth, then a few strokes, then longer; each stage may take days or weeks, go at the dog's pace and slow down if the dog pulls away; brush one section at a time; daily practice is called crucial; the whole process can take weeks to months; brushing does not replace professional cleanings by a veterinarian."
+     }
+    ],
+    "notes": "The 'tooth mat' and 'dinner bell' images are the table's own way of describing the routine spot. Neither study was about small dogs specifically, except where the survey compares owners of smaller and larger dogs. No product, brand or type of dog is recommended."
+   }
   }
  ],
  "bench": [
