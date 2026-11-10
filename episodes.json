@@ -4784,6 +4784,312 @@
     ],
     "notes": "The term 'calming signals' comes from a dog trainer's book; the Italian 2017 study used that list. Training tips in the episode are labeled as common practice."
    }
+  },
+  {
+   "id": "017",
+   "title": "Front clip, back clip or head halter: choosing what your dog walks in",
+   "date": "2026-11-10",
+   "duration": 441.4,
+   "summary": "Ed, Judy and Rosie join the hosts to sort out collars, harnesses and head halters: what each one does, what a 2025 review of the research found, and why fit and a little training matter too. The short answer: there is no single best choice, only a good match for your dog and your walks.",
+   "audio": "ep017.mp3",
+   "kind": "Table talk",
+   "topic": "Choosing a harness: front clip, back clip or head halter",
+   "cast": [
+    {
+     "id": "andria",
+     "name": "Andria",
+     "role": "Host"
+    },
+    {
+     "id": "hal",
+     "name": "Hal",
+     "role": "Host"
+    },
+    {
+     "id": "ed",
+     "name": "Ed",
+     "role": "Training voice"
+    },
+    {
+     "id": "judy",
+     "name": "Judy",
+     "role": "Grooming and care voice"
+    },
+    {
+     "id": "rosie",
+     "name": "Rosie",
+     "role": "New puppy parent"
+    }
+   ],
+   "links": [],
+   "lines": [
+    {
+     "who": "andria",
+     "t": 16.65,
+     "text": "Welcome to Today's Walk, Let's Talk. I'm Andria, an AI voice, not a journalist."
+    },
+    {
+     "who": "hal",
+     "t": 21.95,
+     "text": "And I'm Hal, an AI voice, not a veteran dog owner. Picture a pet store aisle: a whole wall of straps and clips, and one dog sitting there, waiting to see what you pick."
+    },
+    {
+     "who": "andria",
+     "t": 32.33,
+     "text": "That wall is today's topic. Front clip, back clip, or head halter: what's the difference, and how do you choose? Joining us are Ed, Judy and Rosie."
+    },
+    {
+     "who": "ed",
+     "t": 41.32,
+     "text": "I'm Ed, an AI voice, not a trainer. I'm here for the pulling part, and for what you can practice."
+    },
+    {
+     "who": "judy",
+     "t": 47.68,
+     "text": "I'm Judy, an AI voice, not a groomer. I'll bring the fit and comfort part, gently."
+    },
+    {
+     "who": "rosie",
+     "t": 56.89,
+     "text": "And I'm Rosie, an AI voice, not an expert. First question: what even is a front clip?"
+    },
+    {
+     "who": "ed",
+     "t": 61.78,
+     "text": "It's about where the leash attaches. A back-clip harness has the ring on top, between the shoulder blades. A front-clip harness has it on the chest."
+    },
+    {
+     "who": "ed",
+     "t": 70.11,
+     "text": "And a head halter is different again: a loop around the nose and one behind the head, so the leash steers the head a little."
+    },
+    {
+     "who": "hal",
+     "t": 76.98,
+     "text": "Three ways to hold hands with a dog, then."
+    },
+    {
+     "who": "andria",
+     "t": 80.51,
+     "text": "Is there any research on which is best?"
+    },
+    {
+     "who": "judy",
+     "t": 82.98,
+     "text": "There's a nice place to start. A review published in 2025 in the journal Animals, by two researchers, Cavalli and Protopopova. It's peer-reviewed, which means other scientists checked it before the journal printed it."
+    },
+    {
+     "who": "judy",
+     "t": 106.51,
+     "text": "A review means they gathered the earlier studies, twenty-one full articles plus two short abstracts, and looked at what they say together."
+    },
+    {
+     "who": "rosie",
+     "t": 118.95,
+     "text": "So, the winner is?"
+    },
+    {
+     "who": "judy",
+     "t": 120.67,
+     "text": "That's the surprise. Their main finding is that there's no one-size-fits-all choice. It depends on the dog, and on the person at the other end."
+    },
+    {
+     "who": "hal",
+     "t": 134.82,
+     "text": "I suspected that. Go on."
+    },
+    {
+     "who": "ed",
+     "t": 137.54,
+     "text": "The big question they asked was simple: does your dog pull? For dogs that pull, the review suggests starting with a front-clip harness that doesn't tighten, along with training."
+    },
+    {
+     "who": "rosie",
+     "t": 147.17,
+     "text": "Why the front?"
+    },
+    {
+     "who": "ed",
+     "t": 148.73,
+     "text": "When the dog leans into the leash, the chest ring redirects the dog's movement, so pulling gets less rewarding. The authors are honest that every no-pull design works by making pulling a bit less comfortable."
+    },
+    {
+     "who": "andria",
+     "t": 160.45,
+     "text": "And the back clip?"
+    },
+    {
+     "who": "ed",
+     "t": 161.93,
+     "text": "Two studies in the review found dogs pulled more in a back-clip harness than in a collar. One idea is that a harness simply feels comfortable to lean into."
+    },
+    {
+     "who": "hal",
+     "t": 171.22,
+     "text": "So the back clip is like a good office chair. Nice to lean on."
+    },
+    {
+     "who": "ed",
+     "t": 175.64,
+     "text": "Ha, something like that. But for a dog that already walks on a loose leash, the review says a back-clip harness may suit best, especially the kinds with a strap across the chest or a Y shape at the front."
+    },
+    {
+     "who": "rosie",
+     "t": 186.8,
+     "text": "What about the head halter? It looks very fancy."
+    },
+    {
+     "who": "ed",
+     "t": 189.76,
+     "text": "The review puts head halters last on the list, as a last resort. In one study of 26 dogs, dogs in a head halter behaved in a more controlled way."
+    },
+    {
+     "who": "ed",
+     "t": 199.2,
+     "text": "But they also pawed at their noses more, and showed signs like lowered heads and ears, which the review reads as some discomfort."
+    },
+    {
+     "who": "judy",
+     "t": 206.94,
+     "text": "Another small study, of 12 dogs, saw that kind of pawing go down over a few sessions, though not all the way. So some dogs do get used to it, with time."
+    },
+    {
+     "who": "andria",
+     "t": 222.37,
+     "text": "Judy, what about plain collars?"
+    },
+    {
+     "who": "judy",
+     "t": 224.67,
+     "text": "For some calm, loose-leash walkers, the review says a flat collar may suit, since harnesses can change how a dog moves. It's not for every dog, though, so check with your vet."
+    },
+    {
+     "who": "hal",
+     "t": 241.76,
+     "text": "Wait, harnesses get in the way of moving?"
+    },
+    {
+     "who": "judy",
+     "t": 245.04,
+     "text": "They can. Several studies measured dogs walking and found harnesses changed the stride and limited the swing of the shoulder. And here's a fun twist."
+    },
+    {
+     "who": "judy",
+     "t": 260.02,
+     "text": "In one study of nine dogs, the Y-shaped harness, which people often call less restrictive, limited the shoulder more than the chest-strap kind."
+    },
+    {
+     "who": "rosie",
+     "t": 273.66,
+     "text": "So the one that looks roomier wasn't roomier?"
+    },
+    {
+     "who": "judy",
+     "t": 276.32,
+     "text": "Not in that small group. Another study of 66 dogs found it depends a lot on each dog's build, like where the strap sits compared to the elbow. That's why fit matters so much."
+    },
+    {
+     "who": "andria",
+     "t": 295.57,
+     "text": "So how do you check the fit?"
+    },
+    {
+     "who": "judy",
+     "t": 297.49,
+     "text": "One common tip in the review: you should be able to slide one or two fingers under the straps. Snug, not tight, and not so loose it slides around."
+    },
+    {
+     "who": "judy",
+     "t": 312.83,
+     "text": "And the review suggests that vets, trainers and groomers can show owners how to fit it. So it's fine to ask for a hand the first time."
+    },
+    {
+     "who": "rosie",
+     "t": 326.79,
+     "text": "Okay, my dog would run away from a harness like it was bath time. What do I do?"
+    },
+    {
+     "who": "ed",
+     "t": 331.47,
+     "text": "The review mentions that reward-based training can help dogs get comfortable with their gear. Here's a common-practice plan, not a tested one, in three small steps."
+    },
+    {
+     "who": "ed",
+     "t": 341.14,
+     "text": "One: show the harness, then give a treat. Two: hold it open so your dog chooses to put their head through, then treat. Three: buckle it for a few seconds, treat, and take it off before your dog minds."
+    },
+    {
+     "who": "rosie",
+     "t": 352.04,
+     "text": "So the harness basically becomes the treat delivery machine."
+    },
+    {
+     "who": "ed",
+     "t": 355.61,
+     "text": "Exactly. Short and happy beats long and tense."
+    },
+    {
+     "who": "hal",
+     "t": 359.39,
+     "text": "And the human end of the leash? I have a feeling we're part of this."
+    },
+    {
+     "who": "ed",
+     "t": 363.84,
+     "text": "We are. One study in the review had 24 dogs walk a straight path and a zigzag path full of distractions. Leash tension was about one point six times higher on the zigzag."
+    },
+    {
+     "who": "ed",
+     "t": 374.77,
+     "text": "And each owner and dog pair had their own steady style. So the route, and the person holding the leash, may matter too, not just the gear."
+    },
+    {
+     "who": "hal",
+     "t": 382.66,
+     "text": "I like that. The short version: if your dog pulls, think front clip and practice. If not, a back clip, or for some dogs a simple collar. And fit it with a finger or two of room."
+    },
+    {
+     "who": "andria",
+     "t": 393.06,
+     "text": "Three points to take home. There's no single best choice, only a good match. Whatever you choose, fit matters. And a little reward-based practice makes any gear easier. For anything about your own dog's body, ask your vet. The links are under the player."
+    },
+    {
+     "who": "andria",
+     "t": 407.85,
+     "text": "That's our walk for today. These are AI voices sharing general information, not veterinary advice. For your dog's health, ask your own vet."
+    },
+    {
+     "who": "hal",
+     "t": 416.91,
+     "text": "And if you're in Irvine and need care for your dog while you're away, TurtleRock Paws would love to meet you."
+    },
+    {
+     "who": "andria",
+     "t": 423.29,
+     "text": "Happy walking."
+    }
+   ],
+   "sources": {
+    "intro": "One peer-reviewed review of the research on collars, harnesses and head halters, and one peer-reviewed study it discusses. This is general information, not veterinary advice.",
+    "checked": "November 10, 2026",
+    "items": [
+     {
+      "kind": "review (peer-reviewed; 21 full-text articles and 2 abstracts; open access, full text read)",
+      "title": "Review of Collars, Harnesses, and Head Collars for Walking Dogs",
+      "cite": "Cavalli C, Protopopova A. Animals 15(15) (2025): 2162. doi:10.3390/ani15152162",
+      "url": "https://doi.org/10.3390/ani15152162",
+      "supports": "No one-size-fits-all device; for dogs that pull, besides training, non-tightening front-clip harnesses first, head collars a last resort; for dogs that do not pull, back-clip chest-strap or Y-shaped harnesses, and flat collars for dogs that walk on a loose leash (least body restriction); two studies found more pulling on back-clip harnesses than collars; all no-pull devices work by creating some discomfort when pulling; harnesses changed gait and shoulder movement; one 9-dog study found the Y-shaped harness limited shoulder extension more than the chest-strap harness; a 66-dog study found effects depend on each dog's anatomy (e.g., elbow height); head collar study of 26 dogs: more controlled behavior but more nose pawing, lowered heads and ears; 12-dog study: these behaviors decreased across sessions; fit tip of one or two fingers under the harness; vets, trainers and groomers can show owners how to fit; reward-based training can help dogs become comfortable with devices; 24-dog study: leash tension about 1.6 times higher on a zigzag course with distractions, with consistent differences between owner-dog pairs."
+     },
+     {
+      "kind": "study (peer-reviewed; 23 dogs; open access, full text read)",
+      "title": "Comparing efficacy in reducing pulling and welfare impacts of four types of leash walking equipment",
+      "cite": "Johnson AC, Wynne CDL. PeerJ 12 (2024): e18131. doi:10.7717/peerj.18131",
+      "url": "https://doi.org/10.7717/peerj.18131",
+      "supports": "Background reading for the front-clip point: in 23 dogs walked for five minutes on each of four types of equipment, measured pulling was lower on a front-clip harness than on a tightening collar; the authors caution against generalizing from their setting."
+     }
+    ],
+    "notes": "Training steps in the episode are labeled as common practice. No brands or products are named. The 'one or two fingers' fit tip is a common recommendation cited in the review."
+   }
   }
  ],
  "bench": [
