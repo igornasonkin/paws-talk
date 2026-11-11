@@ -5090,6 +5090,338 @@
     ],
     "notes": "Training steps in the episode are labeled as common practice. No brands or products are named. The 'one or two fingers' fit tip is a common recommendation cited in the review."
    }
+  },
+  {
+   "id": "018",
+   "title": "Instincts and outlets: giving your dog's natural drives a little job",
+   "date": "2026-11-11",
+   "duration": 428.9,
+   "summary": "Leo and Ed join the hosts to talk about the natural things dogs love to do, like sniffing, chewing, digging and chasing a toy, and simple ways to give those drives a job. A large genetics study, a small nose work study, a new pilot study and two university guides keep the table on track.",
+   "audio": "ep018.mp3",
+   "kind": "Table talk",
+   "topic": "Instincts and outlets: why hardwired drives need a job",
+   "cast": [
+    {
+     "id": "andria",
+     "name": "Andria",
+     "role": "Host"
+    },
+    {
+     "id": "hal",
+     "name": "Hal",
+     "role": "Host"
+    },
+    {
+     "id": "leo",
+     "name": "Leo",
+     "role": "Behavior voice"
+    },
+    {
+     "id": "ed",
+     "name": "Ed",
+     "role": "Training voice"
+    }
+   ],
+   "links": [],
+   "lines": [
+    {
+     "who": "andria",
+     "t": 16.65,
+     "text": "Welcome to Today's Walk, Let's Talk. I'm Andria, an AI voice, not a journalist."
+    },
+    {
+     "who": "hal",
+     "t": 21.95,
+     "text": "And I'm Hal, an AI voice, not a veteran dog owner. Picture a dog on a walk, nose glued to one blade of grass, as if it holds the news of the whole street."
+    },
+    {
+     "who": "andria",
+     "t": 31.99,
+     "text": "That nose is today's topic. Dogs come with natural drives: sniffing, chewing, digging, chasing. Why do those drives want a job, and how can we give them one? Joining us are Leo and Ed."
+    },
+    {
+     "who": "leo",
+     "t": 44.36,
+     "text": "I'm Leo, an AI voice, not a behaviorist. I'm here for the why."
+    },
+    {
+     "who": "ed",
+     "t": 49.58,
+     "text": "I'm Ed, an AI voice, not a trainer. And I'm here for the how, in small steps."
+    },
+    {
+     "who": "andria",
+     "t": 55.16,
+     "text": "Leo, let's start with the why. Are these drives really built in?"
+    },
+    {
+     "who": "leo",
+     "t": 59.12,
+     "text": "In part. A big study in the journal Science in 2022 looked at dog behavior in general. It surveyed owners of more than eighteen thousand dogs and looked at the DNA of over two thousand of them."
+    },
+    {
+     "who": "leo",
+     "t": 73.95,
+     "text": "It's peer-reviewed, which means other scientists checked it before the journal printed it. The researchers found that most of the behavior traits they measured are partly inherited."
+    },
+    {
+     "who": "hal",
+     "t": 85.46,
+     "text": "So it's in the genes."
+    },
+    {
+     "who": "leo",
+     "t": 87.88,
+     "text": "Some of it. But here's the twist. A dog's breed explained only about nine percent of the differences in behavior between individual dogs."
+    },
+    {
+     "who": "andria",
+     "t": 97.49,
+     "text": "Only nine percent?"
+    },
+    {
+     "who": "leo",
+     "t": 99.17,
+     "text": "That's what they report. The authors suggest many of these behaviors are very old, older than modern breeds. So every dog is an individual, and your most useful guide is the dog in front of you."
+    },
+    {
+     "who": "hal",
+     "t": 113.32,
+     "text": "I like that. Read the dog, not the label."
+    },
+    {
+     "who": "andria",
+     "t": 116.84,
+     "text": "So if a drive is there, what happens when it has nowhere to go?"
+    },
+    {
+     "who": "leo",
+     "t": 120.68,
+     "text": "A guide from Cornell's veterinary college puts it gently. It says enrichment gives dogs a chance to act on their instincts, and that some unwanted behaviors, like chewing the wrong thing, may partly come from not having enough of it."
+    },
+    {
+     "who": "leo",
+     "t": 136.45,
+     "text": "That's guidance from a veterinary college, not a study. And it's no one's fault. It's just a hint about what a dog might be asking for."
+    },
+    {
+     "who": "hal",
+     "t": 145.53,
+     "text": "So the slipper isn't the enemy. It's a job application."
+    },
+    {
+     "who": "ed",
+     "t": 149.84,
+     "text": "Ha, exactly. And we can offer a better job."
+    },
+    {
+     "who": "andria",
+     "t": 153.52,
+     "text": "Let's start with the nose. Ed?"
+    },
+    {
+     "who": "ed",
+     "t": 155.88,
+     "text": "There's a small study I like, by two researchers, Duranton and Horowitz, published in 2019. Twenty pet dogs, split into two groups of ten."
+    },
+    {
+     "who": "ed",
+     "t": 165.35,
+     "text": "For two weeks, one group practiced nose work every day, searching with their noses. The other group practiced heelwork, walking neatly beside a person."
+    },
+    {
+     "who": "andria",
+     "t": 174.26,
+     "text": "And how do you measure what a dog feels about that?"
+    },
+    {
+     "who": "leo",
+     "t": 177.25,
+     "text": "With a clever test. Dogs learn that a bowl in one spot has a treat and a bowl in another spot doesn't. Then a bowl appears halfway between."
+    },
+    {
+     "who": "leo",
+     "t": 187.3,
+     "text": "A dog that hurries over seems to expect something good. Researchers call this a judgment bias test, which just means a way to see if a dog is in a hopeful frame of mind."
+    },
+    {
+     "who": "ed",
+     "t": 199.51,
+     "text": "After the two weeks, the nose work dogs went to that in-between bowl faster than before. The heelwork dogs didn't change. The authors describe the sniffing dogs as more optimistic."
+    },
+    {
+     "who": "hal",
+     "t": 210.31,
+     "text": "Optimistic dogs. I'll take that."
+    },
+    {
+     "who": "leo",
+     "t": 213.52,
+     "text": "With a caveat. It's twenty dogs, and I read summaries of the paper, not the whole thing. So it's a nice clue, not a final answer."
+    },
+    {
+     "who": "andria",
+     "t": 222.45,
+     "text": "Is there anything newer?"
+    },
+    {
+     "who": "leo",
+     "t": 224.24,
+     "text": "Yes. A pilot study from Auburn University, published this year in the journal Animals. Twenty-six dogs, and nineteen of them did nose work as a hobby or a sport."
+    },
+    {
+     "who": "leo",
+     "t": 236.04,
+     "text": "The researchers gave the dogs a puzzle that can't be solved: a treat under a clear box that's locked down. Then they timed how long each dog stayed with it."
+    },
+    {
+     "who": "hal",
+     "t": 246.65,
+     "text": "That sounds a bit like my crossword."
+    },
+    {
+     "who": "leo",
+     "t": 249.72,
+     "text": "Ha, very like it. Dogs with the most nose work training spent the least time looking away from the puzzle. Owners of nose work dogs also rated them higher on a questionnaire about focus and self-control."
+    },
+    {
+     "who": "ed",
+     "t": 264.06,
+     "text": "And the fitness tests didn't differ between the groups, for the dogs or for their people."
+    },
+    {
+     "who": "leo",
+     "t": 269.4,
+     "text": "The authors call it a pilot with a small sample. And it compares dogs that already did nose work with dogs that didn't, so it can't show that nose work caused the difference."
+    },
+    {
+     "who": "andria",
+     "t": 280.74,
+     "text": "Good to know. So, Ed, how does someone start with the nose tomorrow?"
+    },
+    {
+     "who": "ed",
+     "t": 284.68,
+     "text": "Cornell's guide describes a game called find it: start easy, add a cue word, and make it harder over time. Here's one way, in three steps. Step one: drop a treat right by your dog's nose and say find it."
+    },
+    {
+     "who": "ed",
+     "t": 296.36,
+     "text": "Step two: put the next one a little farther away, then behind a chair leg. Step three: once your dog has it, hide treats around one room while your dog waits, then say find it."
+    },
+    {
+     "who": "ed",
+     "t": 306.11,
+     "text": "And the guide suggests using part of your dog's daily meal for the game. If your dog is on a special diet, ask your vet first."
+    },
+    {
+     "who": "hal",
+     "t": 313.77,
+     "text": "And on walks?"
+    },
+    {
+     "who": "ed",
+     "t": 315.75,
+     "text": "The same guide suggests letting your dog stop and sniff without hurrying them, and sometimes letting them choose the direction, when it's safe. That's guidance from a veterinary college, not a study."
+    },
+    {
+     "who": "andria",
+     "t": 327.12,
+     "text": "What about chewing and digging?"
+    },
+    {
+     "who": "ed",
+     "t": 328.96,
+     "text": "A guide from Purdue's canine welfare researchers lists chews, puzzle feeders and, for digging, a digging box. It also says to keep an eye on chews as they wear. A welcome digging corner is common practice."
+    },
+    {
+     "who": "andria",
+     "t": 341.52,
+     "text": "And chasing?"
+    },
+    {
+     "who": "ed",
+     "t": 342.92,
+     "text": "The Purdue guide mentions balls and toys that move. A tossed ball, or a toy on a rope that you sweep along the ground, lets a dog chase something that's meant to be chased."
+    },
+    {
+     "who": "ed",
+     "t": 352.79,
+     "text": "Keep it short and fun, and add a cue to start and stop. That's common practice, not a tested result."
+    },
+    {
+     "who": "leo",
+     "t": 359.28,
+     "text": "And watch your dog. Some love the nose games, some love to chase. The Purdue guide says different kinds of enrichment matter, so try a few and notice what lights your dog up."
+    },
+    {
+     "who": "hal",
+     "t": 371.43,
+     "text": "So the short version: notice what your dog loves to do, then give it a time and a place."
+    },
+    {
+     "who": "andria",
+     "t": 377.31,
+     "text": "Three points to take home. Many dog behaviors are partly inherited, but every dog is an individual. Sniffing games are an easy place to start, and one small study hints they may help dogs feel more hopeful. And give chewing, digging and chasing a welcome outlet. The links are under the player."
+    },
+    {
+     "who": "andria",
+     "t": 395.41,
+     "text": "That's our walk for today. These are AI voices sharing general information, not veterinary advice. For your dog's health, ask your own vet."
+    },
+    {
+     "who": "hal",
+     "t": 404.47,
+     "text": "And if you're in Irvine and need care for your dog while you're away, TurtleRock Paws would love to meet you."
+    },
+    {
+     "who": "andria",
+     "t": 410.85,
+     "text": "Happy walking."
+    }
+   ],
+   "sources": {
+    "intro": "One large peer-reviewed genetics study, two peer-reviewed studies about nose work, and two university guides. This is general information, not veterinary advice.",
+    "checked": "November 11, 2026",
+    "items": [
+     {
+      "kind": "study (peer-reviewed; owner surveys for 18,385 dogs, DNA for 2,155; abstract read)",
+      "title": "Ancestry-inclusive dog genomics challenges popular breed stereotypes",
+      "cite": "Morrill K and colleagues. Science 376(6592) (2022): eabk0639. doi:10.1126/science.abk0639. PMID 35482869",
+      "url": "https://doi.org/10.1126/science.abk0639",
+      "supports": "Most behavioral traits measured are partly heritable; breed explains about 9% of behavioral variation in individual dogs; the authors propose many breed-typical behaviors come from adaptation that predates modern breeds."
+     },
+     {
+      "kind": "study (peer-reviewed; 20 dogs; summary pages read, not the full paper)",
+      "title": "Let me sniff! Nosework induces positive judgment bias in pet dogs",
+      "cite": "Duranton C, Horowitz A. Applied Animal Behaviour Science 211 (2019): 61-66. doi:10.1016/j.applanim.2018.12.009. Summary: Purdue Center for Canine Welfare and Bekoff M, Psychology Today, February 2019",
+      "url": "https://caninewelfare.centers.purdue.edu/resource/let-me-sniff-nosework-induces-positive-judgment-bias-in-pet-dogs",
+      "supports": "Two groups of 10 dogs practiced nose work or heelwork daily for two weeks; after nose work, dogs approached an ambiguous bowl faster; no change in the heelwork group; the authors describe this as a more optimistic outlook."
+     },
+     {
+      "kind": "study (peer-reviewed pilot; 26 dogs; open access, full text read)",
+      "title": "Does Nose Work Training Affect Dog Executive Function and Physical Fitness in Humans and Dogs?",
+      "cite": "Animals 16(3) (2026): 453. Auburn University. doi:10.3390/ani16030453. PMID 41681434, PMCID PMC12896905",
+      "url": "https://doi.org/10.3390/ani16030453",
+      "supports": "19 nose work dogs and 7 non-nose work dogs; owner-rated executive function scores were higher in nose work dogs; in an unsolvable task, titled nose work dogs spent the least time looking away; fitness tests did not differ between groups; the authors call it a small pilot with possible selection bias."
+     },
+     {
+      "kind": "guidance (veterinary college health center page)",
+      "title": "Canine Enrichment Ideas (July 2023)",
+      "cite": "Cohen A. Cornell Richard P. Riney Canine Health Center, Cornell University College of Veterinary Medicine, July 6, 2023",
+      "url": "https://riney.vet.cornell.edu/member-benefits-health-tips/canine-enrichment-ideas",
+      "supports": "Enrichment gives dogs chances to act on instincts such as sniffing, chewing, digging and chasing; some unwanted behaviors may partly reflect a lack of enrichment; uninterrupted sniffing and letting the dog choose direction when safe; the find it game, starting easy; using part of the daily meal."
+     },
+     {
+      "kind": "guidance (university research group handout)",
+      "title": "Environmental Enrichment: Types of Enrichment",
+      "cite": "Rezvani T, Shreyer T, Croney C. Croney Research Group, Purdue University, 2021",
+      "url": "https://caninewelfare.centers.purdue.edu/wp-content/uploads/2022/01/Copyright-BB-Enrichment-2-Types-6.15.23.pdf",
+      "supports": "Lists chews, puzzle feeders, scent work, digging boxes, and movement toys such as balls; says exposure to multiple types of enrichment matters. Also says chews should be monitored for wear."
+     }
+    ],
+    "notes": "The three find it steps follow the Cornell guide's advice to start easy and build up; the digging corner and chase-toy tips are labeled as common practice. No brands, products or breed names are mentioned."
+   }
   }
  ],
  "bench": [
