@@ -5715,6 +5715,248 @@
     ],
     "notes": "Keeping a few toys aside to bring back out, slow walks on new routes, and watching for signs a dog has had enough at a gathering are common practice, not tested in these studies. No study we found tells us whether dogs know their birthday. Check the City of Irvine's own pages for park rules."
    }
+  },
+  {
+   "id": "020",
+   "title": "Journal Club: how selective breeding reshaped the dog brain",
+   "date": "2026-11-13",
+   "duration": 384.1,
+   "summary": "A peer-reviewed brain-imaging study looked at scans from 62 healthy pet dogs across 33 breeds and found that the shape of the dog brain varies in real, patterned ways from one lineage to another. The variation lines up with the jobs dogs were bred for, and most of it sits on the newest branches of the dog family tree, the fast, recent remaking of breeds that took off in the Victorian era.",
+   "audio": "ep020.mp3",
+   "kind": "Journal Club",
+   "topic": "The Victorian breeding obsession and how it reshaped anatomy",
+   "cast": [
+    {
+     "id": "andria",
+     "name": "Andria",
+     "role": "Host"
+    },
+    {
+     "id": "hal",
+     "name": "Hal",
+     "role": "Host"
+    },
+    {
+     "id": "mike",
+     "name": "Mike",
+     "role": "Genetics and canine science voice"
+    },
+    {
+     "id": "leo",
+     "name": "Leo",
+     "role": "Behavior voice"
+    },
+    {
+     "id": "ed",
+     "name": "Ed",
+     "role": "Training voice"
+    }
+   ],
+   "links": [],
+   "lines": [
+    {
+     "who": "andria",
+     "t": 16.65,
+     "text": "Welcome to Today's Walk, Let's Talk. I'm Andria, an AI voice, not a vet. Here's today's picture: two dogs, same size, same healthy little bodies, and yet inside, their brains are not quite built the same way."
+    },
+    {
+     "who": "hal",
+     "t": 30.27,
+     "text": "And I'm Hal, an AI voice, not a researcher. It's Friday, so it's Journal Club, where we take one real study and read it closely. And this one goes back to a question people have asked for ages: what did all that breeding actually change?"
+    },
+    {
+     "who": "andria",
+     "t": 43.92,
+     "text": "At the table today: Mike, Leo and Ed. All of us are AI voices sharing general information, not veterinary advice. Mike, set the scene for us."
+    },
+    {
+     "who": "mike",
+     "t": 53.84,
+     "text": "I'm Mike, an AI voice, not a scientist. So here's the backdrop. Most of the dog lineages we know today were pinned down and fixed quite recently, really taking off in the Victorian era, the eighteen-hundreds, when clubs and record books turned loose local types into set breeds. That's from a separate genetics paper we'll link."
+    },
+    {
+     "who": "mike",
+     "t": 69.25,
+     "text": "And today's main study asks: did that burst of human choosing leave a mark you can actually see inside the skull? I read the whole paper, start to finish, methods and all."
+    },
+    {
+     "who": "leo",
+     "t": 78.16,
+     "text": "I'm Leo, an AI voice, not a behaviorist. I read the whole thing too. And the honest headline is yes, the brain shape varies from lineage to lineage, in a way that isn't random."
+    },
+    {
+     "who": "ed",
+     "t": 91.57,
+     "text": "I'm Ed, an AI voice, not a trainer. I read it as well, and one part genuinely surprised me. I'll hold it for a minute, because it changed how I think about all this."
+    },
+    {
+     "who": "andria",
+     "t": 101.43,
+     "text": "Okay. Mike, what did they actually do? In plain terms."
+    },
+    {
+     "who": "mike",
+     "t": 105.1,
+     "text": "They gathered brain scans, the magnetic kind, from 62 healthy pet dogs across 33 breeds. Then, instead of measuring regions by hand, they let a computer find patterns, groups of brain areas that tend to grow or shrink together across dogs. Peer-reviewed, by the way, just means other scientists checked it before the journal printed it."
+    },
+    {
+     "who": "andria",
+     "t": 121.72,
+     "text": "Groups of areas that move together. Give me a picture for that."
+    },
+    {
+     "who": "mike",
+     "t": 125.45,
+     "text": "Think of a mixing board with sliders. The computer found six sliders, six little networks, and as you go from one lineage to another, different sliders are pushed up or down. Six networks, that's the number to hold onto."
+    },
+    {
+     "who": "leo",
+     "t": 136.73,
+     "text": "And the careful part is what those six networks are not. They checked whether it was just big dogs having big brains, or the shape of the head squashing things. It wasn't simply that. The variation stayed even after you account for body size, total brain size, and skull shape."
+    },
+    {
+     "who": "andria",
+     "t": 155.84,
+     "text": "So what does line up with it, then?"
+    },
+    {
+     "who": "leo",
+     "t": 157.96,
+     "text": "The job. Each of the six networks tracked at least one of the old working roles, hunting by sight, hunting by scent, guarding, and plain companionship. For example, a network tied to movement and eye control leaned toward the sight-hunting types, and a smell-related network leaned toward the scent-hunting types. It fits the story, which is satisfying and also a reason to stay skeptical."
+    },
+    {
+     "who": "hal",
+     "t": 183.1,
+     "text": "Why skeptical? That sounds like a clean result."
+    },
+    {
+     "who": "leo",
+     "t": 186.81,
+     "text": "Because it's a pattern, a correlation, not a cause. The study shows the brain shape and the breeding history go together. It does not show that one network makes a dog do a job. The authors are careful about that, and they warn us not to assume a dog's brain area does the same thing a human's does."
+    },
+    {
+     "who": "andria",
+     "t": 206.93,
+     "text": "Ed, you've been sitting on something. Go."
+    },
+    {
+     "who": "ed",
+     "t": 209.6,
+     "text": "Here's what got me. They mapped the changes onto the dog family tree, and almost all of it sits out on the thin, newest twigs, the individual lineages, not the deep old trunk. In plain words, most of this brain change is recent."
+    },
+    {
+     "who": "ed",
+     "t": 222.39,
+     "text": "That's the Victorian piece landing in the biology. The fast remaking of breeds a couple of centuries back shows up as fresh change at the tips of the tree. I didn't expect selection that recent to be that visible."
+    },
+    {
+     "who": "mike",
+     "t": 234.45,
+     "text": "And that matches the genetics paper we'll link, which puts the big breed explosion in roughly the last two hundred years. Two studies, two different methods, pointing the same way."
+    },
+    {
+     "who": "hal",
+     "t": 243.53,
+     "text": "So let me do the honest part. What can this study not tell me about my own dog at home?"
+    },
+    {
+     "who": "leo",
+     "t": 249.19,
+     "text": "Quite a lot, and the authors say so. It's a small sample, 62 dogs, and some breeds are just one dog, so it's a map drawn with a few pins, not a crowd. Every dog in it was a family pet, not a working dog on the job, so it may show a quieter version of these traits. And it's about averages across lineages, never a readout of the individual on your sofa."
+    },
+    {
+     "who": "andria",
+     "t": 274.61,
+     "text": "That last point feels important."
+    },
+    {
+     "who": "leo",
+     "t": 276.8,
+     "text": "It's the whole point. Your dog is an individual first. A lineage is a loose tendency, not a script. The kindest and most accurate thing you can do is meet the dog in front of you."
+    },
+    {
+     "who": "andria",
+     "t": 289.5,
+     "text": "Let me pull out three calm take-homes. One: a careful study found dog brain shape really does vary from lineage to lineage, in patterns, not at random."
+    },
+    {
+     "who": "hal",
+     "t": 299.73,
+     "text": "Two: those patterns line up with the jobs dogs were bred for, and most of the change is recent, which fits the Victorian breeding boom. But it's a correlation, so hold it gently."
+    },
+    {
+     "who": "ed",
+     "t": 310.43,
+     "text": "Three: this is about group averages, not your dog. For anything about your own dog's health or behavior, ask your own vet, and for training, a kind, reward-based trainer who has met them."
+    },
+    {
+     "who": "hal",
+     "t": 321.14,
+     "text": "And if you want to dig deeper, the links are under the player."
+    },
+    {
+     "who": "mike",
+     "t": 325.34,
+     "text": "Two further papers there. One is a genetics study that dates the big breed remaking to roughly the last couple of centuries. The other, from some of the same people, looks at how skull shape and brain shape change together in dogs. We read the abstracts of those two, not the full papers."
+    },
+    {
+     "who": "leo",
+     "t": 339.5,
+     "text": "So the short version. Two centuries of human choosing are written, faintly, into the shape of the dog brain. But your dog is still, first and last, your dog."
+    },
+    {
+     "who": "andria",
+     "t": 350.56,
+     "text": "That's our walk for today. These are AI voices sharing general information, not veterinary advice. For your dog's health, ask your own vet."
+    },
+    {
+     "who": "hal",
+     "t": 359.62,
+     "text": "And if you're in Irvine and need care for your dog while you're away, TurtleRock Paws would love to meet you."
+    },
+    {
+     "who": "andria",
+     "t": 366.0,
+     "text": "Happy walking."
+    }
+   ],
+   "sources": {
+    "intro": "One peer-reviewed brain-imaging paper, read in full, plus two further-reading papers read as abstracts.",
+    "checked": "November 13, 2026",
+    "items": [
+     {
+      "kind": "study (main paper, full text read)",
+      "title": "Significant Neuroanatomical Variation Among Domestic Dog Breeds",
+      "cite": "Hecht EE, Smaers JB, Dunn WD, Kent M, Preuss TM, Gutman DA. Journal of Neuroscience, 2019;39(39):7748-7758. PMID 31477568, PMCID PMC6764193. doi:10.1523/JNEUROSCI.0303-19.2019",
+      "url": "https://doi.org/10.1523/JNEUROSCI.0303-19.2019",
+      "supports": "All numbers and claims in this episode: T2-weighted MRI from 62 healthy pet dogs across 33 breeds; a data-driven whole-brain independent components analysis found six covarying regional networks; the variation is non-random and is not explained by total brain size, total body size or skull shape alone; each of the six networks correlates significantly with at least one behavioral specialization (sight hunting, scent hunting, guarding, companionship), with a movement/eye-control network associated with sight hunting and an olfactory network with scent hunting; phylogenetic analysis found most change on the terminal branches of the dog tree (recent, lineage-specific selection), tree from Parker et al. 2017; brain size scales with body size less steeply than in most mammals; the authors caution the findings are correlational, that higher-order cortical networks should not be assumed to parallel human regions, that the sample is small with some breeds represented by a single dog, and that all dogs were house pets rather than working dogs. Full text (introduction, methods, results, discussion) read from the authors' open copy on November 13, 2026.",
+      "role": "main",
+      "year": 2019,
+      "access": "full_text_read"
+     },
+     {
+      "kind": "study (further reading, abstract read)",
+      "title": "Genomic Analyses Reveal the Influence of Geographic Origin, Migration, and Hybridization on Modern Dog Breed Development",
+      "cite": "Parker HG, Dreger DL, Rimbault M, Davis BW, Mullen AB, Carpintero-Ramirez G, Ostrander EA. Cell Reports, 2017;19(4):697-708. doi:10.1016/j.celrep.2017.03.079. CC BY 4.0",
+      "url": "https://doi.org/10.1016/j.celrep.2017.03.079",
+      "supports": "Genomic study of 1,346 dogs across 161 breeds; links the refinement of older breed types into set modern breeds to roughly the last two hundred years, the Victorian-era rise of breed registries. Abstract read; this is also the source of the family tree used by the main paper. Free to read.",
+      "role": "context",
+      "year": 2017,
+      "access": "abstract_only"
+     },
+     {
+      "kind": "study (further reading, abstract read)",
+      "title": "Covariation of Skull and Brain Morphology in Domestic Dogs",
+      "cite": "Barton SA, Kent M, Hecht EE. Journal of Comparative Neurology, 2024;532(9):e25668. PMID 39268838. doi:10.1002/cne.25668",
+      "url": "https://doi.org/10.1002/cne.25668",
+      "supports": "MRI of 62 dogs from 33 breeds plus 17 mixed or unknown dogs; found that as neurocrania become broader and shorter, or narrower and longer, the gray-matter volume of particular brain regions changes, suggesting selective breeding for skull shape may affect brain anatomy. Abstract read.",
+      "role": "context",
+      "year": 2024,
+      "access": "abstract_only"
+     }
+    ],
+    "notes": "Access level: FULL_TEXT for the main paper (Hecht et al. 2019); introduction, materials and methods, results and discussion were all present and read from the authors' open copy on November 13, 2026. Further-reading papers (Parker et al. 2017; Barton et al. 2024) were read at abstract level only, and the episode says so. No breed names are used on air; behavioral specializations are described as types (sight hunting, scent hunting, guarding, companionship) exactly as the main paper frames them. Calm topic: brain anatomy and breed history; no illness, injury, medication or death."
+   }
   }
  ],
  "bench": [
