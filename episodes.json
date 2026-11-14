@@ -5957,6 +5957,326 @@
     ],
     "notes": "Access level: FULL_TEXT for the main paper (Hecht et al. 2019); introduction, materials and methods, results and discussion were all present and read from the authors' open copy on November 13, 2026. Further-reading papers (Parker et al. 2017; Barton et al. 2024) were read at abstract level only, and the episode says so. No breed names are used on air; behavioral specializations are described as types (sight hunting, scent hunting, guarding, companionship) exactly as the main paper frames them. Calm topic: brain anatomy and breed history; no illness, injury, medication or death."
    }
+  },
+  {
+   "id": "021",
+   "title": "Sand and leashes: where dogs can go on Orange County beaches",
+   "date": "2026-11-14",
+   "duration": 446.2,
+   "summary": "Charles, Ed and Rosie join the hosts to walk through what three Orange County cities and California State Parks say about dogs on the beach. The rules differ from beach to beach, so check the city's own page before you go.",
+   "audio": "ep021.mp3",
+   "kind": "Table talk",
+   "topic": "Where can dogs actually go on Orange County beaches?",
+   "cast": [
+    {
+     "id": "andria",
+     "name": "Andria",
+     "role": "Host"
+    },
+    {
+     "id": "hal",
+     "name": "Hal",
+     "role": "Host"
+    },
+    {
+     "id": "charles",
+     "name": "Charles",
+     "role": "Irvine walks and local events"
+    },
+    {
+     "id": "ed",
+     "name": "Ed",
+     "role": "Training voice"
+    },
+    {
+     "id": "rosie",
+     "name": "Rosie",
+     "role": "New puppy parent"
+    }
+   ],
+   "links": [],
+   "lines": [
+    {
+     "who": "andria",
+     "t": 16.65,
+     "text": "Welcome to Today's Walk, Let's Talk. I'm Andria, an AI voice, not a lawyer."
+    },
+    {
+     "who": "hal",
+     "t": 21.76,
+     "text": "And I'm Hal, an AI voice, not a lifeguard. Picture it: a cool November morning, a leash in one hand, a dog staring at the ocean like it's the biggest playground in the world."
+    },
+    {
+     "who": "andria",
+     "t": 32.66,
+     "text": "That's today's table talk. Where can dogs actually go on Orange County beaches? With us are Charles, Ed and Rosie. We're all AI voices sharing general information, not legal advice."
+    },
+    {
+     "who": "charles",
+     "t": 45.37,
+     "text": "I'm Charles, an AI voice, not a local guide. I've brought the cities' own beach pages, checked today, and I'll say it more than once: check the city page before you go."
+    },
+    {
+     "who": "ed",
+     "t": 60.07,
+     "text": "I'm Ed, an AI voice, not a trainer. I'm here for the manners part, once we know where we're allowed to be."
+    },
+    {
+     "who": "rosie",
+     "t": 66.64,
+     "text": "I'm Rosie, an AI voice, not an expert. And my big question is simple. Is there one rule for every beach?"
+    },
+    {
+     "who": "charles",
+     "t": 72.79,
+     "text": "Sadly not, Rosie. Each city writes its own rules, and the state parks have theirs. So today we'll take three cities and the state, one at a time."
+    },
+    {
+     "who": "hal",
+     "t": 85.23,
+     "text": "A little beach tour. I like it already."
+    },
+    {
+     "who": "andria",
+     "t": 88.62,
+     "text": "Let's start with Huntington Beach. Charles?"
+    },
+    {
+     "who": "charles",
+     "t": 91.38,
+     "text": "The City of Huntington Beach's beach information page says dogs must be on a leash, and they're only permitted on the service road and at Dog Beach."
+    },
+    {
+     "who": "rosie",
+     "t": 103.21,
+     "text": "Wait, there's a beach just called Dog Beach?"
+    },
+    {
+     "who": "charles",
+     "t": 105.89,
+     "text": "There is, and the city's page names it. In plain words: on the city's beach, dogs belong at Dog Beach or on the service road, and the leash rule still applies."
+    },
+    {
+     "who": "hal",
+     "t": 119.43,
+     "text": "So a dog can't just trot onto any stretch of sand there."
+    },
+    {
+     "who": "charles",
+     "t": 123.66,
+     "text": "Not according to that page. Dog Beach and the service road, on a leash. The page doesn't list hours for Dog Beach itself, so that's one to check before a visit."
+    },
+    {
+     "who": "andria",
+     "t": 136.65,
+     "text": "Next stop, Newport Beach."
+    },
+    {
+     "who": "charles",
+     "t": 138.71,
+     "text": "Newport has a time window. The city's beach information page says dogs are never allowed on the beach, or on any beachfront sidewalk, between ten in the morning and four thirty in the afternoon."
+    },
+    {
+     "who": "charles",
+     "t": 154.53,
+     "text": "Before ten and after four thirty, dogs are allowed. And the page says that covers both the ocean-front and the bay-front beaches."
+    },
+    {
+     "who": "rosie",
+     "t": 165.41,
+     "text": "So in Newport, the dog is an early bird or an evening stroller."
+    },
+    {
+     "who": "charles",
+     "t": 169.16,
+     "text": "Precisely. And the page asks for a proper leash, no longer than six feet, held by someone who can keep the dog under control. It also says off-leash dogs are never allowed in any public space there, parks and beaches included."
+    },
+    {
+     "who": "hal",
+     "t": 187.91,
+     "text": "Six feet. That's a number worth remembering."
+    },
+    {
+     "who": "charles",
+     "t": 191.44,
+     "text": "It is. And Newport's page adds one more thing: the person with the dog should carry something to clean up right away."
+    },
+    {
+     "who": "andria",
+     "t": 200.78,
+     "text": "Now Laguna Beach. I hear this one changes with the seasons."
+    },
+    {
+     "who": "charles",
+     "t": 204.8,
+     "text": "It does. The City of Laguna Beach's page on dogs on the beach says all dogs must always be leashed."
+    },
+    {
+     "who": "charles",
+     "t": 213.58,
+     "text": "Between June fifteenth and September tenth, dogs are only allowed on the beach before nine in the morning and after six in the evening. The rest of the year, the page says dogs may visit at any hour."
+    },
+    {
+     "who": "rosie",
+     "t": 229.52,
+     "text": "Oh, so right now, in November, that's the any-hour season?"
+    },
+    {
+     "who": "charles",
+     "t": 232.77,
+     "text": "By that page, yes, still on a leash. With one exception the page names: dogs are not allowed at Thousand Steps Beach on any day of the year."
+    },
+    {
+     "who": "hal",
+     "t": 244.68,
+     "text": "So in Laguna, the calendar matters, and one beach is always a no."
+    },
+    {
+     "who": "andria",
+     "t": 249.82,
+     "text": "And the state beaches, Charles? There are a few of those along our coast."
+    },
+    {
+     "who": "charles",
+     "t": 253.8,
+     "text": "California State Parks has a general answer on its questions page. It says that, in general, dogs are not allowed on trails or beaches in state parks, with a few exceptions. And where dogs are allowed, the leash can be no longer than six feet."
+    },
+    {
+     "who": "rosie",
+     "t": 274.27,
+     "text": "A few exceptions. How do I find them?"
+    },
+    {
+     "who": "charles",
+     "t": 276.96,
+     "text": "Each park has its own page, and the state points people there. So look up the exact park before you pack the car."
+    },
+    {
+     "who": "rosie",
+     "t": 286.32,
+     "text": "Okay, let me check I've got it. Huntington: Dog Beach and the service road, on a leash. Newport: not between ten and four thirty. Laguna: leashed, summer hours from mid-June to early September, and never at Thousand Steps. State beaches: mostly no, so check the park."
+    },
+    {
+     "who": "charles",
+     "t": 300.75,
+     "text": "Splendid, Rosie. That's a fair summary of what the pages said when we checked them today."
+    },
+    {
+     "who": "andria",
+     "t": 308.31,
+     "text": "Ed, let's say we're on a beach where dogs are welcome. What about manners on the sand?"
+    },
+    {
+     "who": "ed",
+     "t": 313.22,
+     "text": "This part is common practice, not a study. The beach is full of new things: waves, birds, towels, picnics. A lot to take in, so I'd keep the leash short near people's spots on the sand."
+    },
+    {
+     "who": "ed",
+     "t": 324.23,
+     "text": "And practice a simple come-back-to-me cue at home first, with a tasty reward, before you try it on the leash with the ocean shouting for attention."
+    },
+    {
+     "who": "rosie",
+     "t": 333.01,
+     "text": "The ocean is very loud. I'd struggle to listen too."
+    },
+    {
+     "who": "ed",
+     "t": 336.43,
+     "text": "Exactly. So make it easy. Start a little away from the busy part, reward your dog for checking in with you, and keep the first visit short and pleasant."
+    },
+    {
+     "who": "hal",
+     "t": 345.09,
+     "text": "What about other dogs? Everybody's in the same small strip of sand."
+    },
+    {
+     "who": "ed",
+     "t": 349.94,
+     "text": "Ask before the dogs say hello, and be happy with a no. Some dogs want a friend; some just want to look at the waves. Both are fine."
+    },
+    {
+     "who": "andria",
+     "t": 358.16,
+     "text": "And the cleanup?"
+    },
+    {
+     "who": "charles",
+     "t": 359.52,
+     "text": "Newport's page asks people to carry a way to clean up, as I said. Bring more bags than you think, Rosie, and use the bins."
+    },
+    {
+     "who": "rosie",
+     "t": 370.38,
+     "text": "Noted. Bags in every pocket."
+    },
+    {
+     "who": "hal",
+     "t": 372.83,
+     "text": "So the short version: check the city page, short leash, right hours, full pocket of bags."
+    },
+    {
+     "who": "andria",
+     "t": 378.87,
+     "text": "Let me sum up. One: each city sets its own beach rules, and in Huntington Beach the city's page points dogs to Dog Beach and the service road, on a leash. Two: Newport's page says no dogs on the beach between ten and four thirty, and Laguna's page has summer hours from mid-June to early September. Three: on state beaches, dogs are generally not allowed, with a few exceptions, so check the park's own page."
+    },
+    {
+     "who": "hal",
+     "t": 403.09,
+     "text": "All the links are under the player, so you can read the cities' own words for yourself."
+    },
+    {
+     "who": "andria",
+     "t": 408.42,
+     "text": "That's our walk for today. These are AI voices sharing general information, not veterinary or legal advice. For your dog's health, ask your own vet, and for the rules, check the city's own pages."
+    },
+    {
+     "who": "hal",
+     "t": 420.89,
+     "text": "And if you're in Irvine and need care for your dog while you're away, TurtleRock Paws would love to meet you."
+    },
+    {
+     "who": "rosie",
+     "t": 427.27,
+     "text": "Happy walking. And happy sand."
+    }
+   ],
+   "sources": {
+    "intro": "Official city pages from Huntington Beach, Newport Beach and Laguna Beach, and a California State Parks page. These are official guidance, paraphrased in our own words. Beach rules change, so check each city's or park's current page before you go. This is general information, not legal advice.",
+    "checked": "November 14, 2026",
+    "items": [
+     {
+      "kind": "official guidance (city)",
+      "title": "Huntington Beach: Beach Information",
+      "cite": "City of Huntington Beach, Parks and Recreation, beach information page.",
+      "url": "https://www.huntingtonbeachca.gov/departments/parks_recreation/beach_information/index.php",
+      "supports": "Dogs must be on a leash and are only permitted on the service road and at Dog Beach. The page does not list hours for Dog Beach."
+     },
+     {
+      "kind": "official guidance (city)",
+      "title": "Newport Beach: Beach Information",
+      "cite": "City of Newport Beach, beach information page, section on dogs on the beach.",
+      "url": "https://www.newportbeachca.gov/how-do-i-/find/beach-information",
+      "supports": "Dogs are never allowed on the beach or any beachfront sidewalk between 10 a.m. and 4:30 p.m.; allowed before 10 a.m. and after 4:30 p.m.; covers ocean-front and bay-front beaches; leash no longer than six feet with the dog under control; off-leash dogs never allowed in public spaces including parks and beaches; carry a means to clean up right away."
+     },
+     {
+      "kind": "official guidance (city)",
+      "title": "Laguna Beach: Dogs on the Beach",
+      "cite": "City of Laguna Beach, Our Beaches, Dogs on the Beach page.",
+      "url": "https://www.lagunabeachcity.net/our-beaches/dogs-on-the-beach",
+      "supports": "All dogs must always be leashed; between June 15 and September 10, dogs only before 9:00 a.m. and after 6:00 p.m.; the rest of the year dogs may visit at any hour; dogs prohibited every day of the year at Thousand Steps Beach."
+     },
+     {
+      "kind": "official guidance (state)",
+      "title": "California State Parks: Frequently Asked Questions",
+      "cite": "California State Parks, FAQ page.",
+      "url": "https://www.parks.ca.gov/?page_id=937",
+      "supports": "In general, dogs are not allowed on trails or beaches, with a few exceptions; dogs must always be on a leash of no more than six feet; check individual park pages."
+     }
+    ],
+    "notes": "Beach manners tips from Ed (short leash near people, practicing a come-back cue at home, asking before dogs greet) are labeled on air as common practice, not research. Fines and phone numbers on the city pages are deliberately not quoted."
+   }
   }
  ],
  "bench": [
