@@ -6277,6 +6277,354 @@
     ],
     "notes": "Beach manners tips from Ed (short leash near people, practicing a come-back cue at home, asking before dogs greet) are labeled on air as common practice, not research. Fines and phone numbers on the city pages are deliberately not quoted."
    }
+  },
+  {
+   "id": "022",
+   "title": "From ancient wolf to couch potato: the dog's long timeline",
+   "date": "2026-11-15",
+   "duration": 419.1,
+   "summary": "How did a wild wolf become the dog snoring on your sofa? Mike and Bea walk through what ancient DNA suggests about when and where dogs began, and why scientists still disagree.",
+   "audio": "ep022.mp3",
+   "kind": "Table talk",
+   "topic": "From ancient wolf to couch potato: the genetic timeline",
+   "cast": [
+    {
+     "id": "andria",
+     "name": "Andria",
+     "role": "Host"
+    },
+    {
+     "id": "hal",
+     "name": "Hal",
+     "role": "Host"
+    },
+    {
+     "id": "mike",
+     "name": "Mike",
+     "role": "Genetics and canine science voice"
+    },
+    {
+     "id": "bea",
+     "name": "Bea",
+     "role": "Breed voice"
+    },
+    {
+     "id": "rosie",
+     "name": "Rosie",
+     "role": "New puppy parent"
+    }
+   ],
+   "links": [],
+   "lines": [
+    {
+     "who": "andria",
+     "t": 16.65,
+     "text": "Welcome to Today's Walk, Let's Talk. I'm Andria, an AI voice, not a journalist. Picture your dog right now, upside down on the sofa, paws in the air."
+    },
+    {
+     "who": "hal",
+     "t": 26.58,
+     "text": "And I'm Hal, an AI voice, not a veteran dog owner. Somewhere far back in that dog's family tree, there was a wolf. Today we ask how we got from there to here."
+    },
+    {
+     "who": "andria",
+     "t": 36.7,
+     "text": "We have three guests at the table. Mike, welcome."
+    },
+    {
+     "who": "mike",
+     "t": 39.98,
+     "text": "Thanks, Andria. I'm Mike, an AI voice, not a scientist. I love this topic because it's a detective story, and the detectives are still arguing."
+    },
+    {
+     "who": "bea",
+     "t": 47.87,
+     "text": "I'm Bea, an AI voice, not a breeder. I'm here for the later chapters, when dogs started travelling with people and changing along the way."
+    },
+    {
+     "who": "rosie",
+     "t": 56.05,
+     "text": "And I'm Rosie, an AI voice, not an expert. I have one big question already. When did the first dog show up?"
+    },
+    {
+     "who": "hal",
+     "t": 62.55,
+     "text": "Straight to the point. Mike?"
+    },
+    {
+     "who": "mike",
+     "t": 65.23,
+     "text": "Here's the honest answer: nobody knows the exact date. One study in the journal Science says the oldest bones that clearly look like a dog are, to be careful, about fourteen and a half thousand years old."
+    },
+    {
+     "who": "mike",
+     "t": 75.58,
+     "text": "Older bones have been suggested, but scientists dispute them. So that number is a floor, not a starting gun."
+    },
+    {
+     "who": "rosie",
+     "t": 81.42,
+     "text": "Fourteen thousand years. That's a lot of walks."
+    },
+    {
+     "who": "andria",
+     "t": 84.3,
+     "text": "Mike, how do scientists study something that old?"
+    },
+    {
+     "who": "mike",
+     "t": 87.29,
+     "text": "Mostly with ancient DNA. Researchers take tiny samples from old bones and read the genes inside. In that Science study, the team read the genomes, the genetic code, of twenty-seven ancient dogs."
+    },
+    {
+     "who": "mike",
+     "t": 98.16,
+     "text": "These studies are peer-reviewed, which means other scientists checked them before the journal printed them."
+    },
+    {
+     "who": "hal",
+     "t": 103.51,
+     "text": "And what did twenty-seven old dogs tell them?"
+    },
+    {
+     "who": "mike",
+     "t": 107.18,
+     "text": "Something surprising. By about eleven thousand years ago, there were already at least five separate dog family lines. The authors say that points to a deep dog history in the Old Stone Age, the time of hunters and gatherers."
+    },
+    {
+     "who": "rosie",
+     "t": 118.72,
+     "text": "Wait, so the dog family tree was already branching while people were still hunting and gathering?"
+    },
+    {
+     "who": "mike",
+     "t": 123.87,
+     "text": "That's what the study suggests, yes."
+    },
+    {
+     "who": "andria",
+     "t": 126.38,
+     "text": "Okay, but where did it start? Is there a spot on the map?"
+    },
+    {
+     "who": "mike",
+     "t": 129.73,
+     "text": "This is where the arguing comes in. A study in the journal Nature, from twenty twenty-two, read the genes of seventy-two ancient wolves, spanning the last hundred thousand years."
+    },
+    {
+     "who": "mike",
+     "t": 138.7,
+     "text": "It found that today's dogs are, overall, closer to ancient wolves from the eastern side of Europe and Asia. The authors say that suggests domestication began somewhere in the east."
+    },
+    {
+     "who": "hal",
+     "t": 148.59,
+     "text": "Suggests. I'm hearing that word a lot."
+    },
+    {
+     "who": "mike",
+     "t": 151.93,
+     "text": "Good ear, Hal. The same study found that none of those seventy-two wolves was a direct match for dogs' ancestors. They say the exact wolf populations that gave rise to dogs are still to be found."
+    },
+    {
+     "who": "rosie",
+     "t": 162.7,
+     "text": "So the great-great-grandparent wolf is still missing."
+    },
+    {
+     "who": "mike",
+     "t": 165.89,
+     "text": "Still missing. And there's a twist. Dogs in the Near East and Africa got as much as half of their ancestry from a different wolf group, one related to wolves from the southwest of Europe and Asia."
+    },
+    {
+     "who": "andria",
+     "t": 176.04,
+     "text": "So two wolf families in the mix?"
+    },
+    {
+     "who": "mike",
+     "t": 178.4,
+     "text": "Two sources, yes. The authors say it could mean dogs were tamed twice, in two places, and the lines later mixed. Or dogs began once in the east and later mixed with western wolves. Their data can't tell which."
+    },
+    {
+     "who": "hal",
+     "t": 189.2,
+     "text": "I like that they say so plainly."
+    },
+    {
+     "who": "andria",
+     "t": 192.37,
+     "text": "I've heard a story that dogs started in Siberia. Is that from one of these papers?"
+    },
+    {
+     "who": "mike",
+     "t": 197.41,
+     "text": "That idea comes from a third paper, in the Proceedings of the National Academy of Sciences, from twenty twenty-one. It compares what was already known about the genes of people and dogs, rather than reading new ancient genomes."
+    },
+    {
+     "who": "mike",
+     "t": 208.9,
+     "text": "Its authors suggest dogs may have been domesticated in Siberia by around twenty-three thousand years ago, possibly during the coldest stretch of the last Ice Age. It's a hypothesis, and the Nature paper doesn't confirm a place or a date. One note: we read that paper's summary, not the whole text."
+    },
+    {
+     "who": "rosie",
+     "t": 223.87,
+     "text": "So it's a good guess, not a settled fact."
+    },
+    {
+     "who": "mike",
+     "t": 226.57,
+     "text": "Exactly. A careful clue, not a verdict."
+    },
+    {
+     "who": "andria",
+     "t": 229.31,
+     "text": "Bea, you're up. Once dogs existed, what happened next?"
+    },
+    {
+     "who": "bea",
+     "t": 232.8,
+     "text": "They travelled. That same Siberia paper suggests dogs came with the very first people into the Americas, as people spread across the continent from about fifteen thousand years ago."
+    },
+    {
+     "who": "hal",
+     "t": 243.49,
+     "text": "So dogs may have been along for the trip from the very start."
+    },
+    {
+     "who": "bea",
+     "t": 247.61,
+     "text": "That's the idea. And the Science study found that dog history often followed human history. When groups of people moved and mixed, their dogs often did too. Though not always: in some places the two stories went their separate ways."
+    },
+    {
+     "who": "rosie",
+     "t": 261.01,
+     "text": "Did the dogs change along the way?"
+    },
+    {
+     "who": "bea",
+     "t": 263.47,
+     "text": "In some ways, yes. Here's a nice example from the Science paper: the gene that helps break down starch."
+    },
+    {
+     "who": "bea",
+     "t": 269.78,
+     "text": "In ancient dogs living with hunter-gatherers, the copies of that gene were few. Some early farming-era dogs already had more, others didn't, and higher counts became common only thousands of years after farming began."
+    },
+    {
+     "who": "hal",
+     "t": 282.31,
+     "text": "So the dog's tummy followed people into the farming age, slowly."
+    },
+    {
+     "who": "bea",
+     "t": 287.07,
+     "text": "Nicely put, Hal. Slowly is the key word."
+    },
+    {
+     "who": "andria",
+     "t": 290.15,
+     "text": "What about the dogs we know today? How do they connect to all this?"
+    },
+    {
+     "who": "bea",
+     "t": 293.74,
+     "text": "The Science study found big reshuffles. In Europe, the early mix of dog lines was largely replaced. A dog from Sweden, about five thousand years old, turned out to be a close stand-in for nearly all the ancestry of most modern European dogs."
+    },
+    {
+     "who": "mike",
+     "t": 308.4,
+     "text": "And the Nature paper adds that both of those old wolf sources, east and west, show up in the modern dogs it looked at. The dog on your sofa likely carries a bit of that ancient story."
+    },
+    {
+     "who": "rosie",
+     "t": 318.14,
+     "text": "So my imaginary couch potato is a mix of ancient travellers. I love that."
+    },
+    {
+     "who": "andria",
+     "t": 322.92,
+     "text": "Mike, what can't these studies tell us?"
+    },
+    {
+     "who": "mike",
+     "t": 325.27,
+     "text": "Quite a lot. Ancient DNA doesn't survive well everywhere, and the Nature team had few or no ancient wolf genomes from some key areas, like parts of East and Central Asia. The Science team says the geographic origin of dogs remains unknown."
+    },
+    {
+     "who": "bea",
+     "t": 338.69,
+     "text": "And these are three papers, not the whole field. Other researchers read the same clues differently. That's healthy."
+    },
+    {
+     "who": "hal",
+     "t": 345.25,
+     "text": "So the honest headline is: a long story, a lot of clues, and the first chapter still being written."
+    },
+    {
+     "who": "andria",
+     "t": 351.77,
+     "text": "Let's sum it up in three points. One: dogs come from wolves, and the oldest clearly dog-like bones are about fourteen and a half thousand years old, with older dates still debated."
+    },
+    {
+     "who": "andria",
+     "t": 362.67,
+     "text": "Two: ancient DNA suggests several dog family lines by eleven thousand years ago, and at least two wolf sources in the mix. Three: where and exactly when it began is still an open question. The links are under the player."
+    },
+    {
+     "who": "rosie",
+     "t": 377.06,
+     "text": "So when my imaginary dog steals the warm spot on the sofa, that's fourteen thousand years of practice."
+    },
+    {
+     "who": "hal",
+     "t": 382.85,
+     "text": "At least, Rosie. At least."
+    },
+    {
+     "who": "andria",
+     "t": 385.54,
+     "text": "That's our walk for today. These are AI voices sharing general information, not veterinary advice. For your dog's health, ask your own vet."
+    },
+    {
+     "who": "hal",
+     "t": 394.61,
+     "text": "And if you're in Irvine and need care for your dog while you're away, TurtleRock Paws would love to meet you."
+    },
+    {
+     "who": "andria",
+     "t": 400.98,
+     "text": "Happy walking."
+    }
+   ],
+   "sources": {
+    "intro": "Three peer-reviewed papers on dog origins. The two Bergström studies were read in full text; the Perri paper was read as an abstract only.",
+    "checked": "November 15, 2026",
+    "items": [
+     {
+      "kind": "study",
+      "title": "Origins and genetic legacy of prehistoric dogs",
+      "cite": "Bergström A, et al. Science. 2020;370(6516):557-564. PMID 33122379, PMCID PMC7116352. Full text read.",
+      "url": "https://doi.org/10.1126/science.aba9572",
+      "supports": "27 ancient dog genomes; at least five lineages by about 11,000 years ago; earliest clearly dog-like remains conservatively about 14,500 years ago, older claims disputed; dog history often but not always followed human movements; starch gene copy numbers low in hunter-gatherer-context dogs and spreading after farming; early European dog ancestry largely replaced, a 5,000-year-old Swedish dog a proxy for 90 to 100 percent of the ancestry of most modern European dogs; geographic origin remains unknown."
+     },
+     {
+      "kind": "study",
+      "title": "Grey wolf genomic history reveals a dual ancestry of dogs",
+      "cite": "Bergström A, et al. Nature. 2022;607(7918):313-320. PMID 35768506, PMCID PMC9279150. Full text read.",
+      "url": "https://doi.org/10.1038/s41586-022-04824-9",
+      "supports": "72 ancient wolf genomes over 100,000 years; dogs closer overall to ancient eastern Eurasian wolves, suggesting an eastern domestication; Near Eastern and African dogs up to half from a southwest-Eurasian-related wolf source; two scenarios cannot be told apart; no wolf genome a direct match; both ancestries in modern dogs; gaps in East and Central Asia sampling."
+     },
+     {
+      "kind": "study (synthesis of existing evidence)",
+      "title": "Dog domestication and the dual dispersal of people and dogs into the Americas",
+      "cite": "Perri AR, et al. Proc Natl Acad Sci U S A. 2021;118(6):e2010083118. PMID 33495362, PMCID PMC8017920. Abstract only read.",
+      "url": "https://doi.org/10.1073/pnas.2010083118",
+      "supports": "Hypothesis that dogs were domesticated in Siberia by about 23,000 years ago, possibly during the Last Glacial Maximum; dogs accompanied the first people into the Americas from about 15,000 years ago."
+     }
+    ],
+    "notes": "Summarised in our own words. Where the papers say 'suggests' or 'possibly', so do we. The origin of dogs is still debated among researchers."
+   }
   }
  ],
  "bench": [
