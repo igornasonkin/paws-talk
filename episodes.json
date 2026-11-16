@@ -6625,6 +6625,277 @@
     ],
     "notes": "Summarised in our own words. Where the papers say 'suggests' or 'possibly', so do we. The origin of dogs is still debated among researchers."
    }
+  },
+  {
+   "id": "023",
+   "title": "Home away from home: hotel manners and helping your dog settle in",
+   "date": "2026-11-16",
+   "duration": 399.4,
+   "summary": "Ed, Leo and Rosie join the hosts for the hotel part of a trip with a dog: checking the pet rules before booking, packing a few familiar things, keeping the usual routine, and good manners in shared hallways. A small study run in Budapest and Vienna adds a lovely idea: in an unfamiliar room, your own presence seems to help your dog get on with things.",
+   "audio": "ep023.mp3",
+   "kind": "Table talk",
+   "topic": "Traveling with dogs: planes, road trips and hotel etiquette",
+   "cast": [
+    {
+     "id": "andria",
+     "name": "Andria",
+     "role": "Host"
+    },
+    {
+     "id": "hal",
+     "name": "Hal",
+     "role": "Host"
+    },
+    {
+     "id": "ed",
+     "name": "Ed",
+     "role": "Training voice"
+    },
+    {
+     "id": "leo",
+     "name": "Leo",
+     "role": "Behavior voice"
+    },
+    {
+     "id": "rosie",
+     "name": "Rosie",
+     "role": "New puppy parent"
+    }
+   ],
+   "links": [],
+   "lines": [
+    {
+     "who": "andria",
+     "t": 16.65,
+     "text": "Welcome to Today's Walk, Let's Talk. I'm Andria, an AI voice, not a travel agent."
+    },
+    {
+     "who": "hal",
+     "t": 22.28,
+     "text": "And I'm Hal, an AI voice, not a hotel manager. Picture it: a key card that beeps, a door that swings open, and a dog walking in nose first, reading the whole room like a newspaper."
+    },
+    {
+     "who": "andria",
+     "t": 33.9,
+     "text": "That's today's table talk: the hotel part of a trip with your dog. Manners in the hallway, and helping a dog feel at home in a strange room. We covered the drive itself in an earlier episode. With us are Ed, Leo and Rosie."
+    },
+    {
+     "who": "ed",
+     "t": 47.92,
+     "text": "I'm Ed, an AI voice, not a trainer. I'm here for the manners, the small steps that make a hotel stay smoother for everyone on the floor."
+    },
+    {
+     "who": "leo",
+     "t": 56.45,
+     "text": "I'm Leo, an AI voice, not a behaviorist. I'm here for what a new room might feel like from the dog's side, and I brought one study I really enjoyed."
+    },
+    {
+     "who": "rosie",
+     "t": 67.73,
+     "text": "I'm Rosie, an AI voice, not an expert. And my first question is a little embarrassing. Do I just show up with my dog and hope?"
+    },
+    {
+     "who": "andria",
+     "t": 74.86,
+     "text": "Not embarrassing at all. Ed, where does it start?"
+    },
+    {
+     "who": "ed",
+     "t": 77.93,
+     "text": "It starts before you book. A national veterinary group, the American Veterinary Medical Association, put out hotel tips, and step one is to make sure your dog is welcome. Check the hotel's pet rules, including any size limits."
+    },
+    {
+     "who": "hal",
+     "t": 91.38,
+     "text": "So the first piece of luggage is a phone call."
+    },
+    {
+     "who": "ed",
+     "t": 94.99,
+     "text": "Or a careful read of the hotel's pet page. Rules differ from place to place, so check each one."
+    },
+    {
+     "who": "rosie",
+     "t": 101.31,
+     "text": "What about flying? That was going to be my next question, and I'd have no idea where to start."
+    },
+    {
+     "who": "andria",
+     "t": 106.31,
+     "text": "Flying is really its own topic. Each airline sets its own pet rules, so the airline's own page is the place to start. Today we're staying at the hotel."
+    },
+    {
+     "who": "rosie",
+     "t": 116.13,
+     "text": "Okay, hotel. What do I pack?"
+    },
+    {
+     "who": "ed",
+     "t": 118.48,
+     "text": "The same tip sheet suggests a travel kit with your dog's meals, a leash and cleanup bags, plus familiar things like their bedding and toys. That last part is easy to forget, and it's the part your dog notices."
+    },
+    {
+     "who": "leo",
+     "t": 130.9,
+     "text": "And that's where I come in. A familiar blanket smells like home. In a room full of strangers' smells, that's a little island of normal."
+    },
+    {
+     "who": "hal",
+     "t": 140.3,
+     "text": "I like that. An island of normal. Leo, tell us about your study."
+    },
+    {
+     "who": "leo",
+     "t": 145.37,
+     "text": "It's a peer-reviewed paper from twenty thirteen, in the journal PLOS ONE. Peer-reviewed means other scientists checked it before the journal printed it. Researchers in Budapest and Vienna asked a simple question: does having their person in the room change how a dog handles an unfamiliar place?"
+    },
+    {
+     "who": "rosie",
+     "t": 165.09,
+     "text": "How do you even test that?"
+    },
+    {
+     "who": "leo",
+     "t": 167.17,
+     "text": "They brought dogs into a quiet test room and gave them a puzzle toy with food inside, one the dog had never seen. Each try lasted five minutes. Sometimes the owner stayed in the room, sometimes the owner was out of the room."
+    },
+    {
+     "who": "andria",
+     "t": 182.98,
+     "text": "And what happened?"
+    },
+    {
+     "who": "leo",
+     "t": 184.45,
+     "text": "In the first experiment, with twenty dogs, they worked at the puzzle for less time when their owner was out of the room. When the owner was there, they kept at it longer."
+    },
+    {
+     "who": "ed",
+     "t": 195.26,
+     "text": "Here's my favorite detail. In one version the owner just sat there in dark sunglasses, saying nothing. In another, the owner cheered the dog on. The dogs kept at the puzzle about the same either way."
+    },
+    {
+     "who": "hal",
+     "t": 206.76,
+     "text": "So the cheering didn't matter much. Just being there did."
+    },
+    {
+     "who": "leo",
+     "t": 210.66,
+     "text": "That's what this study found. And in a second experiment, with twenty six dogs, they swapped the owner for an unfamiliar person who also sat quietly. The stranger didn't give the same boost. The researchers call this a secure base effect, which just means a dog uses a trusted person as a steady home base for exploring."
+    },
+    {
+     "who": "rosie",
+     "t": 233.01,
+     "text": "Oh, that's sweet. So in a hotel room, I'm the home base."
+    },
+    {
+     "who": "leo",
+     "t": 236.26,
+     "text": "That's a nice way to think about it, with an honest note. This was a lab room and a food puzzle, not a hotel, and the groups were small. It's a good clue about dogs and unfamiliar places, not a rule for every dog or every room."
+    },
+    {
+     "who": "andria",
+     "t": 252.44,
+     "text": "Fair. So what does someone actually do in the first ten minutes in the room?"
+    },
+    {
+     "who": "ed",
+     "t": 256.55,
+     "text": "This part is common practice, not a tested result. Let your dog sniff around on leash first while you stay close. Put their bed or blanket down early. Then do something ordinary together, like a short sit and a treat."
+    },
+    {
+     "who": "leo",
+     "t": 268.79,
+     "text": "And keep the day familiar. The vet group's tips stress keeping the usual routine, things like mealtimes, potty breaks, walks and cuddle time. Their phrase is that some consistency goes a long way."
+    },
+    {
+     "who": "hal",
+     "t": 282.79,
+     "text": "Same breakfast, new view."
+    },
+    {
+     "who": "rosie",
+     "t": 285.39,
+     "text": "What about the hallway? I always picture a dog barking at the elevator."
+    },
+    {
+     "who": "ed",
+     "t": 289.37,
+     "text": "The tip sheet's etiquette points are simple. Keep your dog leashed in public areas, make sure they don't disturb other guests, and don't leave them alone in the room for long periods."
+    },
+    {
+     "who": "ed",
+     "t": 299.17,
+     "text": "For the elevator, common practice is to wait for an empty one if your dog is unsure, or let other people go first. A little patience, and everyone gets to their floor smiling."
+    },
+    {
+     "who": "leo",
+     "t": 309.85,
+     "text": "And if your dog seems unsettled by all the new sounds, common practice is to give them a little space and a quieter moment. That's a habit, not a tested result. And if anything about your dog worries you, that's a question for your own vet."
+    },
+    {
+     "who": "rosie",
+     "t": 326.42,
+     "text": "So one more question. What if my dog just isn't a traveler?"
+    },
+    {
+     "who": "andria",
+     "t": 330.06,
+     "text": "The vet group covers that too. They say to think about your dog's personality and whether they'd enjoy the trip. If not, a sitter or a boarding service might be the better choice."
+    },
+    {
+     "who": "hal",
+     "t": 340.6,
+     "text": "Knowing your own dog is part of good trip planning."
+    },
+    {
+     "who": "andria",
+     "t": 344.54,
+     "text": "Let me sum up. One: check the hotel's pet rules before you book. Two: pack a few familiar things and keep the usual routine. Three: in a new room, your presence seems to matter, at least in one small study."
+    },
+    {
+     "who": "hal",
+     "t": 357.65,
+     "text": "So the short version: call ahead, bring the blanket, and be the home base."
+    },
+    {
+     "who": "andria",
+     "t": 362.46,
+     "text": "Our sources are listed under the player. That's our walk for today. These are AI voices sharing general information, not veterinary advice. For your dog's health, ask your own vet."
+    },
+    {
+     "who": "hal",
+     "t": 373.87,
+     "text": "And if you're in Irvine and need care for your dog while you're away, TurtleRock Paws would love to meet you."
+    },
+    {
+     "who": "rosie",
+     "t": 380.24,
+     "text": "Happy walking. And happy travels."
+    }
+   ],
+   "sources": {
+    "intro": "One set of hotel tips from a national veterinary association and one peer-reviewed study read in full (open access). Tips about the first minutes in the room and elevators are labeled as common practice. This is general information, not veterinary or training advice.",
+    "checked": "November 16, 2026",
+    "items": [
+     {
+      "kind": "guideline (professional veterinary association)",
+      "title": "American Veterinary Medical Association's advice for sharing hotel rooms with pets",
+      "cite": "American Veterinary Medical Association (AVMA), news release, July 27, 2023.",
+      "url": "https://www.prnewswire.com/news-releases/american-veterinary-medical-associations-advice-for-sharing-hotel-rooms-with-pets-301886242.html",
+      "supports": "Confirm the hotel accepts dogs and check size limits and other pet restrictions before booking; pack a travel kit with meals, a leash, cleanup bags and familiar items such as bedding and toys; keep the usual routine (feeding and bathroom times, walks, cuddle time), 'some consistency goes a long way'; consider the pet's personality before bringing it, and a pet sitter or boarding may be the better choice; keep dogs leashed in public areas, avoid leaving them alone in the room for long periods, and make sure they don't disturb other guests."
+     },
+     {
+      "kind": "study (peer-reviewed experiment; full text read, open access CC BY)",
+      "title": "The importance of the secure base effect for domestic dogs: evidence from a manipulative problem-solving task",
+      "cite": "Horn L, Huber L, Range F. PLOS ONE 8(5): e65296 (2013). doi:10.1371/journal.pone.0065296. PMID 23734243; PMCID PMC3667003.",
+      "url": "https://doi.org/10.1371/journal.pone.0065296",
+      "supports": "Pet dogs from volunteer databases in Budapest (Experiment 1, 20 dogs completed) and Vienna (Experiment 2, 26 dogs completed) were given unfamiliar food-puzzle toys in a quiet test room, 5-minute trials. Dogs manipulated the toy for less time when the owner was absent than when present; no significant difference between a silent owner wearing opaque sunglasses and an encouraging owner. An unfamiliar person sitting silently did not significantly increase manipulation compared with the owner being absent. The authors describe this as an owner-specific secure base effect. Limits: small samples, lab setting, food-puzzle task only."
+     }
+    ],
+    "notes": "The study was in a lab test room, not a hotel; the episode uses it as a clue about dogs in unfamiliar places, not as a rule. Flying is mentioned only to point listeners to each airline's own rules."
+   }
   }
  ],
  "bench": [
