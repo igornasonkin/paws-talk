@@ -6896,6 +6896,304 @@
     ],
     "notes": "The study was in a lab test room, not a hotel; the episode uses it as a clue about dogs in unfamiliar places, not as a rule. Flying is mentioned only to point listeners to each airline's own rules."
    }
+  },
+  {
+   "id": "024",
+   "title": "Adopting in Irvine: a friendly visit to the Animal Care Center",
+   "date": "2026-11-17",
+   "duration": 529.0,
+   "summary": "Charles, Leo and Rosie join the hosts to walk through what the City of Irvine's own pages say about adopting a dog at the Irvine Animal Care Center, and what one study of adopters says about the first months at home. Hours and steps can change, so check the city's page before you go.",
+   "audio": "ep024.mp3",
+   "kind": "Table talk",
+   "topic": "Adopting in Irvine: meet the Animal Care Center",
+   "cast": [
+    {
+     "id": "andria",
+     "name": "Andria",
+     "role": "Host"
+    },
+    {
+     "id": "hal",
+     "name": "Hal",
+     "role": "Host"
+    },
+    {
+     "id": "charles",
+     "name": "Charles",
+     "role": "Irvine walks and local events"
+    },
+    {
+     "id": "leo",
+     "name": "Leo",
+     "role": "Behavior voice"
+    },
+    {
+     "id": "rosie",
+     "name": "Rosie",
+     "role": "New puppy parent"
+    }
+   ],
+   "links": [],
+   "lines": [
+    {
+     "who": "andria",
+     "t": 16.65,
+     "text": "Welcome to Today's Walk, Let's Talk. I'm Andria, an AI voice, not a shelter worker."
+    },
+    {
+     "who": "hal",
+     "t": 22.22,
+     "text": "And I'm Hal, an AI voice, not an adoption counselor. Picture it: a row of hopeful faces, one wagging tail that seems to be wagging just for you, and a person thinking, maybe today."
+    },
+    {
+     "who": "andria",
+     "t": 33.54,
+     "text": "That's today's table talk: adopting a dog in Irvine, and what the city's own Animal Care Center says about how it works. With us are Charles, Leo and Rosie. We're all AI voices sharing general information."
+    },
+    {
+     "who": "charles",
+     "t": 47.3,
+     "text": "I'm Charles, an AI voice, not a local guide. I've brought the City of Irvine's adoption pages, checked today, and I'll say it more than once: hours and steps can change, so check the city's page before you go."
+    },
+    {
+     "who": "leo",
+     "t": 65.69,
+     "text": "I'm Leo, an AI voice, not a behaviorist. I'm here for the part after the paperwork: the first weeks and months at home, and what one study heard from adopters."
+    },
+    {
+     "who": "rosie",
+     "t": 77.48,
+     "text": "I'm Rosie, an AI voice, not an expert. And I have a very practical first question. Can I just book a time online and pick up a dog?"
+    },
+    {
+     "who": "charles",
+     "t": 85.36,
+     "text": "Not quite, Rosie. The city's page says you visit in person. It says the center does not take reservations by phone or email, and adoptions are first come, first served."
+    },
+    {
+     "who": "rosie",
+     "t": 99.71,
+     "text": "Oh. So you just show up?"
+    },
+    {
+     "who": "charles",
+     "t": 101.68,
+     "text": "You check in at the front office and fill out an adoption interest form. The page says the forms are processed in the order they come in. And if several people are waiting for the same animal when the doors open, the page says a lottery decides who goes first."
+    },
+    {
+     "who": "hal",
+     "t": 121.37,
+     "text": "A lottery. I like that. It keeps things fair, and nobody has to sprint across the parking lot."
+    },
+    {
+     "who": "andria",
+     "t": 127.54,
+     "text": "And Charles, about timing. Today is a Tuesday, isn't it?"
+    },
+    {
+     "who": "charles",
+     "t": 131.22,
+     "text": "It is, and that matters. On the page I checked today, the center is closed on Tuesdays and on holidays. It lists afternoon hours on weekdays, and slightly earlier hours on weekends. So if you're hearing this on a Tuesday, save the visit for another day, and check the page for the current hours."
+    },
+    {
+     "who": "rosie",
+     "t": 155.09,
+     "text": "Good to know. What happens once you're inside?"
+    },
+    {
+     "who": "charles",
+     "t": 157.85,
+     "text": "The page describes a meet-and-greet with an adoption counselor, who answers questions and shares tips for helping the dog settle into a home. It says the process can take up to an hour, and it strongly recommends that everyone in the household come along."
+    },
+    {
+     "who": "hal",
+     "t": 177.84,
+     "text": "Makes sense. The whole family gets a vote, and the dog gets to meet the whole family."
+    },
+    {
+     "who": "rosie",
+     "t": 183.43,
+     "text": "Is there an age rule for the people?"
+    },
+    {
+     "who": "charles",
+     "t": 185.89,
+     "text": "Yes. The page says adopters must be at least eighteen. It also suggests checking any landlord rules before you adopt. And it says there is an adoption fee, which depends on the type and age of the animal, so the page itself is the place to look for the number."
+    },
+    {
+     "who": "andria",
+     "t": 206.11,
+     "text": "Charles, the city also mentions a matching program. What's that about?"
+    },
+    {
+     "who": "charles",
+     "t": 210.39,
+     "text": "The city has a page on a program called Meet Your Match. It says adult dogs get color-coded personality labels on their kennels, and visitors can fill in a short survey about their own lifestyle. Staff use the results to give guidance and help manage expectations."
+    },
+    {
+     "who": "rosie",
+     "t": 232.42,
+     "text": "So it's like a dating profile, but for dogs."
+    },
+    {
+     "who": "charles",
+     "t": 235.42,
+     "text": "Something like that. And the page is clear that you don't have to choose the type the survey suggests. It's guidance, not a rule. It also says puppies aren't part of that program."
+    },
+    {
+     "who": "leo",
+     "t": 249.52,
+     "text": "I like that idea, Rosie, because it lines up with the research I brought. It's about expectations."
+    },
+    {
+     "who": "andria",
+     "t": 256.85,
+     "text": "Tell us about it, Leo."
+    },
+    {
+     "who": "leo",
+     "t": 258.59,
+     "text": "It's a study from Australia, published in 2024 in the journal Animals. It's peer-reviewed, which means other scientists checked it before the journal printed it. The researchers interviewed thirty-one people who had adopted dogs from one shelter organization, three to four years after the adoption."
+    },
+    {
+     "who": "hal",
+     "t": 279.4,
+     "text": "Three to four years later. So they're looking back on the whole story."
+    },
+    {
+     "who": "leo",
+     "t": 284.05,
+     "text": "Exactly. And they found three big themes. One: settling in takes time and patience. Two: building trust, and learning what your dog is comfortable with, matters a lot. Three: every person and dog pair is its own unique story."
+    },
+    {
+     "who": "rosie",
+     "t": 300.89,
+     "text": "How much time are we talking about?"
+    },
+    {
+     "who": "leo",
+     "t": 303.37,
+     "text": "Many of the adopters said it took around three to six months for their dog to really trust them. But the study also heard from people whose dogs settled in straight away. So there's no single clock."
+    },
+    {
+     "who": "rosie",
+     "t": 316.18,
+     "text": "Three to six months. I think I would have expected about a weekend."
+    },
+    {
+     "who": "leo",
+     "t": 319.92,
+     "text": "You're in good company. Many of the adopters said exactly that: their first expectations weren't realistic, and they adjusted them as they got to know their dog. Patience came up again and again in their stories."
+    },
+    {
+     "who": "hal",
+     "t": 334.22,
+     "text": "So the dog is learning a new home, and the person is learning a new dog. Both sides need a little time."
+    },
+    {
+     "who": "leo",
+     "t": 340.94,
+     "text": "That's a lovely way to put it, Hal. One adopter in the study described a dog who was nervous near the ocean. About six months in, she just walked down to the beach with them one day, and a few months after that she ran through a puddle. The owner's takeaway was that it wasn't about teaching her to like water. It was about her trusting them."
+    },
+    {
+     "who": "rosie",
+     "t": 362.77,
+     "text": "Oh, I love that. So what helped people during those early months?"
+    },
+    {
+     "who": "leo",
+     "t": 366.34,
+     "text": "The adopters mentioned shelter staff, volunteers and foster carers as sources of support. A few wished they'd had more information up front, like a short talk or a video before bringing a dog home. And the authors suggest that sharing real adopters' stories could help new adopters set realistic expectations."
+    },
+    {
+     "who": "andria",
+     "t": 388.09,
+     "text": "And Leo, what's the honest limit on this study?"
+    },
+    {
+     "who": "leo",
+     "t": 390.97,
+     "text": "It was a small group, from one organization in one Australian state, and the researchers chose dogs who were thought to be a bit harder to place. So the authors say the results can't be generalized. It's a set of real stories, not a rule for every dog."
+    },
+    {
+     "who": "hal",
+     "t": 408.86,
+     "text": "Fair enough. And if a new dog seems worried or the early days feel hard, what's the first step?"
+    },
+    {
+     "who": "leo",
+     "t": 415.06,
+     "text": "Ask for help early. Your own vet is a good first call for any sudden change, and a qualified, reward-based behavior professional can help with settling in. The center's page also mentions that counselors share tips for helping a dog settle."
+    },
+    {
+     "who": "charles",
+     "t": 432.16,
+     "text": "One more thing from the city's page. It says that if you find your match, the dog goes home with you the same day, because the center doesn't hold animals overnight. So it's worth having the basics ready before you visit: a leash, a collar, a bed and a quiet corner."
+    },
+    {
+     "who": "rosie",
+     "t": 453.29,
+     "text": "So the plan is: check the page, go on a day that isn't Tuesday, bring the whole family, and have the bed ready before I go."
+    },
+    {
+     "who": "hal",
+     "t": 459.83,
+     "text": "Then give it time. Months, not a weekend."
+    },
+    {
+     "who": "andria",
+     "t": 463.37,
+     "text": "Let me sum up. One: the city's page says adoptions at the Irvine Animal Care Center happen in person, first come, first served, and the process there can take up to an hour. Two: the matching program offers guidance on fit, not a rule. Three: in one study, many adopters said it took a few months for real trust to grow, so patience is part of the plan."
+    },
+    {
+     "who": "hal",
+     "t": 485.18,
+     "text": "The links are under the player, so you can read the city's own words and the study for yourself."
+    },
+    {
+     "who": "andria",
+     "t": 491.07,
+     "text": "That's our walk for today. These are AI voices sharing general information, not veterinary advice. For your dog's health, ask your own vet, and for adoption details, check the city's own page."
+    },
+    {
+     "who": "hal",
+     "t": 503.53,
+     "text": "And if you're in Irvine and need care for your dog while you're away, TurtleRock Paws would love to meet you."
+    },
+    {
+     "who": "rosie",
+     "t": 509.9,
+     "text": "Happy walking. And happy matching."
+    }
+   ],
+   "sources": {
+    "intro": "Two official City of Irvine pages about adopting at the Irvine Animal Care Center, paraphrased in our own words, and one peer-reviewed study of adopters' experiences. Adoption steps, hours and fees can change, so check the city's current page before you go. This is general information, not veterinary or legal advice.",
+    "checked": "November 17, 2026",
+    "items": [
+     {
+      "kind": "official guidance (city)",
+      "title": "Irvine Animal Care Center: Available Pets for Adoption",
+      "cite": "City of Irvine, Irvine Animal Care Center, adoption page.",
+      "url": "https://cityofirvine.gov/irvine-animal-care-center/adopt-pet",
+      "supports": "Adoptions are in person; check in at the front office and submit an adoption interest form; forms processed in the order received; first come, first served; a lottery if several people are waiting for the same animal at opening; meet-and-greet with an adoption counselor who answers questions and offers tips for settling the dog into a home; can take up to one hour; strongly recommends everyone in the household attend; the adopted animal goes home the same day and is not held overnight; closed Tuesdays and holidays, with weekday and weekend hours listed; adopters must be at least 18; no reservations by phone or email; check landlord restrictions; adoption fees vary by animal type and age."
+     },
+     {
+      "kind": "official guidance (city)",
+      "title": "Meet Your Match at the Irvine Animal Care Center",
+      "cite": "City of Irvine, Irvine Animal Care Center, Meet Your Match page.",
+      "url": "https://cityofirvine.gov/node/41921",
+      "supports": "Adult dogs get color-coded personality labels shown on kennels; visitors complete a lifestyle survey; adopters are not required to choose the suggested type; staff use the results to give guidance and help manage adopters' expectations; puppies are not part of the program."
+     },
+     {
+      "kind": "study (peer-reviewed, qualitative interviews)",
+      "title": "Coming Home, Staying Home: Adopters' Stories about Transitioning Their New Dog into Their Home and Family",
+      "cite": "Thumpkin E, Pachana NA, Paterson MBA. Animals (Basel). 2024;14(5):723. doi:10.3390/ani14050723. PMID 38473108; PMCID PMC10930770. Open access; full text read.",
+      "url": "https://doi.org/10.3390/ani14050723",
+      "supports": "31 adopters from one Queensland, Australia shelter organization interviewed three to four years after adoption; three themes (adoption takes time and patience; building trust and learning limits; each human-dog relationship is unique); participants frequently suggested three to six months for dogs to trust them; some dogs settled straight away; many adopters said early expectations were unrealistic and adjusted them; staff, volunteers and foster carers seen as support; a few suggested a seminar or video before adopting; authors suggest adopters' stories could help set expectations; the ocean-to-puddle story; limits: small purposive sample of harder-to-adopt dogs from one organization in one state, results cannot be generalized."
+     }
+    ],
+    "notes": "The center's street address, phone number, exact hours and fee amounts are deliberately not read on air; listeners are pointed to the city's page. Leo's 'ask for help early' line is labeled as general practice, not a finding of the study. Getting basics ready before the visit is a common-sense suggestion, not from the city page."
+   }
   }
  ],
  "bench": [
