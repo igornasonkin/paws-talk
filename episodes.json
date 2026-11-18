@@ -7194,6 +7194,304 @@
     ],
     "notes": "The center's street address, phone number, exact hours and fee amounts are deliberately not read on air; listeners are pointed to the city's page. Leo's 'ask for help early' line is labeled as general practice, not a finding of the study. Getting basics ready before the visit is a common-sense suggestion, not from the city page."
    }
+  },
+  {
+   "id": "025",
+   "title": "The shadow dog: why some dogs stick close",
+   "date": "2026-11-18",
+   "duration": 438.6,
+   "summary": "Bea, Mike and Leo join the hosts to ask why some dogs follow you from room to room while others are happy on their own. Three studies point to a mix of genes, the individual dog, and a link with the relationship between dog and owner.",
+   "audio": "ep025.mp3",
+   "kind": "Table talk",
+   "topic": "The Velcro dog debate: why are some dogs clingier than others? Type, upbringing or personality?",
+   "cast": [
+    {
+     "id": "andria",
+     "name": "Andria",
+     "role": "Host"
+    },
+    {
+     "id": "hal",
+     "name": "Hal",
+     "role": "Host"
+    },
+    {
+     "id": "bea",
+     "name": "Bea",
+     "role": "Breed voice"
+    },
+    {
+     "id": "mike",
+     "name": "Mike",
+     "role": "Genetics and canine science voice"
+    },
+    {
+     "id": "leo",
+     "name": "Leo",
+     "role": "Behavior voice"
+    }
+   ],
+   "links": [],
+   "lines": [
+    {
+     "who": "andria",
+     "t": 16.65,
+     "text": "Welcome to Today's Walk, Let's Talk. I'm Andria, an AI voice, not a journalist. Today: the shadow dog. You get up to fetch a glass of water, and there they are, right behind you."
+    },
+    {
+     "who": "hal",
+     "t": 28.11,
+     "text": "And I'm Hal, an AI voice, not a veteran dog owner. Picture it: you walk into the kitchen, you turn around, and a pair of eyes is looking up at you like you've just come back from a long trip. You were gone eight seconds."
+    },
+    {
+     "who": "andria",
+     "t": 40.68,
+     "text": "So why are some dogs our shadows, and others happy to nap in the other room? Type, upbringing, or plain personality? We have three voices at the table. Bea, welcome."
+    },
+    {
+     "who": "bea",
+     "t": 51.08,
+     "text": "Thank you. I'm Bea, an AI voice, not a breeder. And I'll say up front: I won't be naming any breeds today, because the research we read suggests the label on the dog tells you less than people expect."
+    },
+    {
+     "who": "mike",
+     "t": 62.41,
+     "text": "I'm Mike, an AI voice, not a scientist. And Bea's right, that's where the big study comes in."
+    },
+    {
+     "who": "leo",
+     "t": 67.55,
+     "text": "And I'm Leo, an AI voice, not a behaviorist. I'm here for the part about what a clingy dog might be telling you."
+    },
+    {
+     "who": "andria",
+     "t": 76.07,
+     "text": "Mike, start us off. What's the big study?"
+    },
+    {
+     "who": "mike",
+     "t": 78.84,
+     "text": "It's a study in the journal Science. Owners filled in surveys about more than eighteen thousand dogs, purebred and mixed, and the team read the DNA of more than two thousand one hundred of them."
+    },
+    {
+     "who": "hal",
+     "t": 88.82,
+     "text": "That's a lot of tail wags to count."
+    },
+    {
+     "who": "mike",
+     "t": 92.02,
+     "text": "It is. And it's peer-reviewed, which means other scientists checked it before the journal printed it. One of the traits they measured is what they call human sociability. In plain words, how much a dog seems to seek out and enjoy people."
+    },
+    {
+     "who": "andria",
+     "t": 104.02,
+     "text": "So, the shadow factor."
+    },
+    {
+     "who": "mike",
+     "t": 105.91,
+     "text": "Close to it. Here's the surprise. Of all the behavior groups they looked at, human sociability had the strongest link to genes. Their estimate, with a wide margin of error, was that roughly two thirds of the differences between dogs on that trait lined up with genetic differences."
+    },
+    {
+     "who": "hal",
+     "t": 119.53,
+     "text": "So it's in the genes. Case closed?"
+    },
+    {
+     "who": "mike",
+     "t": 122.75,
+     "text": "Not so fast. Genes, yes. But not neatly by breed. Across all the behaviors, breed explained only about nine percent of the differences between individual dogs."
+    },
+    {
+     "who": "bea",
+     "t": 131.67,
+     "text": "And that's the bit I want every family to hear. In their own example, owners of one well-known type were more likely to rate their dog in the top group for loving people. It went from about one in five for mixed-breed dogs to about two in five for that type."
+    },
+    {
+     "who": "andria",
+     "t": 146.29,
+     "text": "So the odds go up, but more than half of those dogs still weren't in the top group."
+    },
+    {
+     "who": "bea",
+     "t": 151.02,
+     "text": "Exactly. A type can shift the odds, but it doesn't hand you a ready-made shadow. So if you're hoping for a cuddly dog, my advice is: meet the actual dog. Spend time with them. Ask the people who know that dog how they act at home."
+    },
+    {
+     "who": "hal",
+     "t": 164.22,
+     "text": "I like that. Meet the dog, not the brochure."
+    },
+    {
+     "who": "mike",
+     "t": 167.85,
+     "text": "One more honest note. The behavior scores came from owner surveys, and the authors themselves say owners can be swayed by what they expect a type to be like. So some of that type difference may be in our heads."
+    },
+    {
+     "who": "andria",
+     "t": 178.61,
+     "text": "Leo, let's turn to the dog itself. When a dog follows me everywhere, is that a good sign or a worry?"
+    },
+    {
+     "who": "leo",
+     "t": 185.14,
+     "text": "Often, it's simply a dog who likes being near the person who matters to them. Researchers who study the bond between dogs and their people borrow ideas from studies of children and parents."
+    },
+    {
+     "who": "leo",
+     "t": 197.6,
+     "text": "Two ideas stand out. A safe haven, the person you go to when something feels uncertain. And a secure base, the person you check in with before you go off to explore."
+    },
+    {
+     "who": "andria",
+     "t": 209.43,
+     "text": "Oh, I love that. So the dog follows you, then wanders off to sniff something, then comes back."
+    },
+    {
+     "who": "leo",
+     "t": 215.22,
+     "text": "That's the picture. A small study by researchers in Italy and Hungary, published in 2020, watched pet dogs in a short test where the owner leaves the room and comes back, and a friendly stranger comes and goes."
+    },
+    {
+     "who": "leo",
+     "t": 230.28,
+     "text": "In one group of forty dogs, the researchers classed thirty-two of them, about eighty percent, as securely attached."
+    },
+    {
+     "who": "hal",
+     "t": 238.21,
+     "text": "And what did those secure dogs actually do?"
+    },
+    {
+     "who": "leo",
+     "t": 241.9,
+     "text": "When the owner came back, they went to them and stayed close, more than the dogs classed as avoidant. And they played more with the stranger when their owner was in the room than when the owner was out."
+    },
+    {
+     "who": "andria",
+     "t": 254.48,
+     "text": "So the dog who runs to greet you might be the confident one, not the needy one."
+    },
+    {
+     "who": "leo",
+     "t": 259.31,
+     "text": "In that study, yes, seeking closeness at the reunion went along with the secure style. But it's one small study, and the authors say their sample may not represent all dogs. So I'd call it a good clue, not the last word."
+    },
+    {
+     "who": "mike",
+     "t": 274.85,
+     "text": "And a different way of testing could give different numbers. They used two versions of the test, and they suggest sticking closer to the original method next time."
+    },
+    {
+     "who": "andria",
+     "t": 282.8,
+     "text": "Now, the upbringing part. Does the relationship we build change how close a dog wants to be?"
+    },
+    {
+     "who": "mike",
+     "t": 288.42,
+     "text": "A large study from Finland, published in 2023, surveyed more than two thousand dog owners about themselves and their dogs. Dogs rated higher on a trait the researchers also call human sociability had owners who reported keeping less emotional distance from them."
+    },
+    {
+     "who": "hal",
+     "t": 303.16,
+     "text": "So friendly dogs and close owners go together. Which came first?"
+    },
+    {
+     "who": "mike",
+     "t": 308.04,
+     "text": "That's the honest answer: the study can't say. It was one snapshot in time. The authors suggest it could run either way. A friendly dog may draw people in, or people may bring out the friendly side, or both."
+    },
+    {
+     "who": "leo",
+     "t": 318.47,
+     "text": "They also point out that most pets join a family while they're young, so the people around them may help shape their personality over time. That's their suggestion, not something they measured."
+    },
+    {
+     "who": "bea",
+     "t": 330.85,
+     "text": "And most of those owners were women in Finland, so the authors themselves warn against assuming it fits everyone everywhere."
+    },
+    {
+     "who": "andria",
+     "t": 337.68,
+     "text": "So, type, upbringing, or personality. What's the verdict?"
+    },
+    {
+     "who": "mike",
+     "t": 341.34,
+     "text": "All three, mixed together. Genes play a real part. A type can shift the odds for a group. And each dog is still an individual."
+    },
+    {
+     "who": "bea",
+     "t": 347.99,
+     "text": "Which is why the best question isn't 'what kind of dog is this?' It's 'who is this particular dog?'"
+    },
+    {
+     "who": "hal",
+     "t": 353.52,
+     "text": "And what if a shadow dog seems truly upset whenever they're left on their own?"
+    },
+    {
+     "who": "leo",
+     "t": 358.81,
+     "text": "Then it's worth a chat with your own vet and a qualified behavior professional who uses reward-based methods. Following you around because they like you is one thing. Real distress is a different thing, and it deserves a proper look from someone who can meet your dog."
+    },
+    {
+     "who": "andria",
+     "t": 376.67,
+     "text": "Let me sum up in three. One: a strong pull toward people looks partly genetic, but breed explains only a small share of how individual dogs behave. Two: following you and checking in can be part of a secure, happy bond. Three: the relationship may run both ways, and every dog is their own dog."
+    },
+    {
+     "who": "hal",
+     "t": 396.19,
+     "text": "So the short version: if your shadow follows you to the kitchen, it may well be a compliment."
+    },
+    {
+     "who": "andria",
+     "t": 402.0,
+     "text": "The links to all three studies are under the player. That's our walk for today. These are AI voices sharing general information, not veterinary advice. For your dog's health, ask your own vet."
+    },
+    {
+     "who": "hal",
+     "t": 414.13,
+     "text": "And if you're in Irvine and need care for your dog while you're away, TurtleRock Paws would love to meet you."
+    },
+    {
+     "who": "andria",
+     "t": 420.5,
+     "text": "Happy walking."
+    }
+   ],
+   "sources": {
+    "intro": "Three peer-reviewed studies, each read in full and summarised in our own words. One is a large genetics and survey study, one is a small behaviour study of dogs and their owners, and one is a large survey of owners and their dogs. None of these studies can tell you about your own dog. This is general information, not veterinary advice.",
+    "checked": "November 18, 2026",
+    "items": [
+     {
+      "kind": "study (peer-reviewed, full text read)",
+      "title": "Ancestry-inclusive dog genomics challenges popular breed stereotypes",
+      "cite": "Morrill K, Hekman J, Li X, et al. Science. 2022;376(6592):eabk0639. doi:10.1126/science.abk0639. PMID 35482869; PMCID PMC9675396.",
+      "url": "https://doi.org/10.1126/science.abk0639",
+      "supports": "Owner surveys on 18,385 purebred and mixed-breed dogs and genetic data on 2,155 dogs; human sociability was the most heritable behaviour factor (estimate about 67 percent, with a wide margin of error); breed explained about 9 percent of behavioural variation in individual dogs; in the authors' example, the chance of an owner rating a dog in the top quarter for human sociability rose from 22 percent for a mixed-breed dog to 40 percent for one breed; the authors note owner surveys can be influenced by breed stereotypes."
+     },
+     {
+      "kind": "study (peer-reviewed, full text read)",
+      "title": "Quantitative Behavioral Analysis and Qualitative Classification of Attachment Styles in Domestic Dogs: Are Dogs with a Secure and an Insecure-Avoidant Attachment Different?",
+      "cite": "Riggio G, Gazzano A, Zsilák B, Carlone B, Mariti C. Animals (Basel). 2021;11(1):14 (published online December 23, 2020). doi:10.3390/ani11010014. PMID 33374815; PMCID PMC7823664. Open access.",
+      "url": "https://doi.org/10.3390/ani11010014",
+      "supports": "Describes the safe haven and secure base ideas borrowed from child-parent attachment research; in protocol II, 32 of 40 dogs (80 percent) were classed as secure; secure dogs sought more closeness with the owner at reunions than avoidant dogs and played more with the stranger when the owner was present; the authors note a small sample that may not represent all dogs, and recommend using a test closer to the original method."
+     },
+     {
+      "kind": "study (peer-reviewed, full text read)",
+      "title": "Pet and owner personality and mental wellbeing associate with attachment to cats and dogs",
+      "cite": "Ståhl A, Salonen M, Hakanen E, et al. iScience. 2023;26(12):108423. doi:10.1016/j.isci.2023.108423. PMID 38077144; PMCID PMC10709106. Open access.",
+      "url": "https://doi.org/10.1016/j.isci.2023.108423",
+      "supports": "Survey of 2,724 Finnish pet owners (2,150 dog owners) about 2,545 dogs and 788 cats; higher human sociability in dogs was associated with lower avoidant attachment in owners; cross-sectional design, so direction cannot be determined; authors suggest pets obtained young may be shaped by their owners; mostly female, Finnish sample limits how far results apply."
+     }
+    ],
+    "notes": "We do not name breeds. Studies of groups describe averages and cannot predict how any one dog will behave. If a dog seems distressed when left alone, ask your own vet and a qualified behavior professional."
+   }
   }
  ],
  "bench": [
