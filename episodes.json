@@ -7492,6 +7492,334 @@
     ],
     "notes": "We do not name breeds. Studies of groups describe averages and cannot predict how any one dog will behave. If a dog seems distressed when left alone, ask your own vet and a qualified behavior professional."
    }
+  },
+  {
+   "id": "026",
+   "title": "The office dog: helper or distraction?",
+   "date": "2026-11-19",
+   "duration": 435.5,
+   "summary": "Leo, Mike and Charles join the hosts to ask what happens when dogs come to work. Two small interview studies and one review suggest office dogs can bring breaks and friendlier hallways, but also interruptions, and that good rules and a flexible workplace seem to matter most.",
+   "audio": "ep026.mp3",
+   "kind": "Table talk",
+   "topic": "Dogs in the workplace: productivity booster or distraction?",
+   "cast": [
+    {
+     "id": "andria",
+     "name": "Andria",
+     "role": "Host"
+    },
+    {
+     "id": "hal",
+     "name": "Hal",
+     "role": "Host"
+    },
+    {
+     "id": "leo",
+     "name": "Leo",
+     "role": "Behavior voice"
+    },
+    {
+     "id": "mike",
+     "name": "Mike",
+     "role": "Genetics and canine science voice"
+    },
+    {
+     "id": "charles",
+     "name": "Charles",
+     "role": "Irvine walks and local events"
+    }
+   ],
+   "links": [],
+   "lines": [
+    {
+     "who": "andria",
+     "t": 16.65,
+     "text": "Welcome to Today's Walk, Let's Talk. I'm Andria, an AI voice, not a journalist."
+    },
+    {
+     "who": "hal",
+     "t": 21.95,
+     "text": "And I'm Hal, an AI voice, not a veteran dog owner. Picture it: a quiet office, everyone typing, and somewhere under a desk, a soft little snore."
+    },
+    {
+     "who": "andria",
+     "t": 31.57,
+     "text": "Today's question: dogs at work. Do they make the day better, or do they just make it harder to finish that report? We have three guests."
+    },
+    {
+     "who": "mike",
+     "t": 39.47,
+     "text": "I'm Mike, an AI voice, not a scientist. I'll be the one asking how the studies were done."
+    },
+    {
+     "who": "leo",
+     "t": 44.63,
+     "text": "I'm Leo, an AI voice, not a behaviorist. I'll try to speak up for the dog's side of the desk."
+    },
+    {
+     "who": "charles",
+     "t": 51.85,
+     "text": "And I'm Charles, an AI voice, not a local guide. I'm here for the manners."
+    },
+    {
+     "who": "andria",
+     "t": 58.94,
+     "text": "Mike, let's start with the research. Is there a lot of it?"
+    },
+    {
+     "who": "mike",
+     "t": 62.36,
+     "text": "Less than you'd think. A 2017 review, led by a researcher at the National Institute for Occupational Safety and Health, looked at dogs in the workplace. The authors wrote that they weren't aware of any studies on how dogs affect workplace productivity."
+    },
+    {
+     "who": "hal",
+     "t": 76.01,
+     "text": "So the big question in our title had no answer back then."
+    },
+    {
+     "who": "mike",
+     "t": 80.3,
+     "text": "Not a measured one. More has been published since, and the two newer studies we read today are interview studies. All three papers are peer-reviewed, which means other scientists checked them before the journal printed them."
+    },
+    {
+     "who": "andria",
+     "t": 91.14,
+     "text": "Tell us about the first one."
+    },
+    {
+     "who": "mike",
+     "t": 93.03,
+     "text": "It's a 2021 study in the journal Animals. The researchers visited five small creative agencies in Germany, with between six and forty employees each. They interviewed twelve people: dog owners, and managers with and without dogs."
+    },
+    {
+     "who": "hal",
+     "t": 106.33,
+     "text": "Twelve people. That's a dinner party, not a census."
+    },
+    {
+     "who": "mike",
+     "t": 110.21,
+     "text": "Exactly the right instinct, Hal. It's a small interview study, so it tells us how people describe their experience, not a measured result."
+    },
+    {
+     "who": "andria",
+     "t": 117.54,
+     "text": "And what did they describe?"
+    },
+    {
+     "who": "mike",
+     "t": 119.42,
+     "text": "People said short breaks with the dog helped them recharge, and coworkers without dogs joined in too. Dogs also worked as an icebreaker, so people from different teams ended up talking more."
+    },
+    {
+     "who": "leo",
+     "t": 129.71,
+     "text": "That fits what we see with dogs in general. A dog gives two strangers something easy to talk about."
+    },
+    {
+     "who": "mike",
+     "t": 136.78,
+     "text": "There was one more twist. Owners had to take a real lunch break, because the dog needed a walk. In busy agencies, people said they often skip breaks, so the dog quietly made them stop."
+    },
+    {
+     "who": "hal",
+     "t": 146.65,
+     "text": "I like that. The dog becomes the one coworker who insists you go outside."
+    },
+    {
+     "who": "andria",
+     "t": 152.02,
+     "text": "But surely it wasn't all sunshine?"
+    },
+    {
+     "who": "mike",
+     "t": 154.34,
+     "text": "No. Owners compared the dog to an extra responsibility. Some barking and playing happened, and during very stressful weeks, the dog's walk could feel like one more task."
+    },
+    {
+     "who": "andria",
+     "t": 163.34,
+     "text": "So, Mike, does it help or hurt productivity?"
+    },
+    {
+     "who": "mike",
+     "t": 166.26,
+     "text": "Here's the key finding. The authors said the good effects seemed to depend on the workplace: flexible hours, the freedom to take a break, and talking openly when something goes wrong. Without that, they suggest a dog could add pressure instead of easing it."
+    },
+    {
+     "who": "hal",
+     "t": 178.76,
+     "text": "So the dog doesn't fix the office. The office has to be ready for the dog."
+    },
+    {
+     "who": "mike",
+     "t": 183.88,
+     "text": "That's a fair one-sentence version of what they argued."
+    },
+    {
+     "who": "andria",
+     "t": 187.14,
+     "text": "And the second study?"
+    },
+    {
+     "who": "mike",
+     "t": 188.79,
+     "text": "This one is from 2025, in Frontiers in Public Health. It looked at a bring-your-dog-to-work program at a university veterinary college in the American Midwest. The program started in 1999."
+    },
+    {
+     "who": "andria",
+     "t": 200.81,
+     "text": "That's a long-running experiment."
+    },
+    {
+     "who": "mike",
+     "t": 202.95,
+     "text": "It is. When the study was done, forty dogs had the go-ahead to come into offices, and the researchers interviewed eleven of their owners. Before a dog could come in, it had to be checked for good manners by a behavior specialist."
+    },
+    {
+     "who": "andria",
+     "t": 214.49,
+     "text": "Leo, what did the owners say helped?"
+    },
+    {
+     "who": "leo",
+     "t": 216.99,
+     "text": "They talked about short breaks, a little humor, and simply being able to pet their dog for a few minutes after a hard phone call. Several said it made their work and home life fit together better."
+    },
+    {
+     "who": "leo",
+     "t": 229.15,
+     "text": "One story I liked: a dog who would head out of the office to greet the cleaning staff when they arrived at night. Its owner said that's how they started chatting every day, and admitted they wouldn't have otherwise."
+    },
+    {
+     "who": "hal",
+     "t": 242.64,
+     "text": "That's a lovely one. The dog makes the introductions."
+    },
+    {
+     "who": "andria",
+     "t": 246.56,
+     "text": "And the hard parts?"
+    },
+    {
+     "who": "leo",
+     "t": 248.22,
+     "text": "Two stood out. First, a steady stream of colleagues dropping by to say hello, which can make it tough to get anything done. Second, owners said the behavior rules only help if they're followed, so they wanted better ways to keep the standards up over time."
+    },
+    {
+     "who": "andria",
+     "t": 265.63,
+     "text": "Charles, this sounds like a manners question for the people, too."
+    },
+    {
+     "who": "charles",
+     "t": 269.45,
+     "text": "Very much so. Owners in that study put it nicely: not everyone wants a dog around all the time, and there are more people without dogs than with them."
+    },
+    {
+     "who": "charles",
+     "t": 281.33,
+     "text": "So the courteous approach is simple, and this part is plain common courtesy, not a study. Ask your colleagues first. Keep your dog to your own space. And, as one participant described, choose a bathroom spot well away from where people eat their lunch."
+    },
+    {
+     "who": "hal",
+     "t": 302.11,
+     "text": "Common sense, but it's nice to hear it out loud."
+    },
+    {
+     "who": "andria",
+     "t": 305.86,
+     "text": "Leo, what about the dog itself? Is the office a good day for a dog?"
+    },
+    {
+     "who": "leo",
+     "t": 310.15,
+     "text": "That depends on the dog. The 2017 review says owners should watch for stressful surroundings, give the dog time to play and do normal dog things, and adjust as the dog's energy changes with age."
+    },
+    {
+     "who": "leo",
+     "t": 325.56,
+     "text": "In everyday words, and this is common practice rather than a study: a quiet resting spot, water, regular trips outside, and an honest look at whether your dog enjoys a busy room. Some dogs seem to love it. Some would rather nap at home."
+    },
+    {
+     "who": "hal",
+     "t": 342.63,
+     "text": "So the question isn't just, can I bring my dog? It's, would my dog like to come?"
+    },
+    {
+     "who": "leo",
+     "t": 348.05,
+     "text": "That's it exactly, Hal."
+    },
+    {
+     "who": "andria",
+     "t": 350.15,
+     "text": "Mike, before we wrap up, what can't these studies tell us?"
+    },
+    {
+     "who": "mike",
+     "t": 353.48,
+     "text": "Quite a bit. Both studies were small, and the second one talked only to owners in the program. Its authors said future work should ask the coworkers who don't bring dogs. And none of these papers measured productivity directly."
+    },
+    {
+     "who": "mike",
+     "t": 364.89,
+     "text": "So the honest answer to our title is: people describe both, a helper and a distraction, and the research hasn't settled which wins."
+    },
+    {
+     "who": "andria",
+     "t": 371.99,
+     "text": "Let me sum up in three short points. One: the research is still thin and mostly interviews. Two: people describe office dogs bringing breaks and friendlier conversations, along with interruptions and extra responsibility. Three: clear rules, flexible schedules, and respect for coworkers seem to matter, and so does whether your own dog enjoys it."
+    },
+    {
+     "who": "hal",
+     "t": 393.65,
+     "text": "Ask the office, ask the coworkers, and watch your dog. That's my version."
+    },
+    {
+     "who": "andria",
+     "t": 398.9,
+     "text": "The links to all three papers are under the player. That's our walk for today. These are AI voices sharing general information, not veterinary advice. For your dog's health, ask your own vet."
+    },
+    {
+     "who": "hal",
+     "t": 411.03,
+     "text": "And if you're in Irvine and need care for your dog while you're away, TurtleRock Paws would love to meet you."
+    },
+    {
+     "who": "andria",
+     "t": 417.4,
+     "text": "Happy walking."
+    }
+   ],
+   "sources": {
+    "intro": "Two small peer-reviewed interview studies and one peer-reviewed review, each read in full and summarised in our own words. Interview studies describe what people say about their experience; they do not measure productivity or prove cause and effect. This is general information, not veterinary advice.",
+    "checked": "November 19, 2026",
+    "items": [
+     {
+      "kind": "review (peer-reviewed, full text read)",
+      "title": "Dogs in the Workplace: A Review of the Benefits and Potential Challenges",
+      "cite": "Foreman AM, Glenn MK, Meade BJ, Wirth O. Int J Environ Res Public Health. 2017;14(5):498. doi:10.3390/ijerph14050498. PMID 28481317; PMCID PMC5451949. Open access.",
+      "url": "https://doi.org/10.3390/ijerph14050498",
+      "supports": "First author at the National Institute for Occupational Safety and Health; the authors write they were not aware of any research studies on the impact of dogs on workplace productivity; welfare section says owners should be aware of stressful environments, allow time for play and species-typical behaviour, and accommodate changes in energy with age."
+     },
+     {
+      "kind": "study (peer-reviewed, qualitative interviews, full text read)",
+      "title": "Dogs at the Workplace: A Multiple Case Study",
+      "cite": "Wagner E, Pina e Cunha M. Animals (Basel). 2021;11(1):89. doi:10.3390/ani11010089. PMID 33466471; PMCID PMC7824880. Open access.",
+      "url": "https://doi.org/10.3390/ani11010089",
+      "supports": "Five creative agencies in Germany with 6 to 40 employees; 12 interviews in 2019 with dog owners and managers with and without dogs; reported short recharging breaks (including by non-owners), dogs as icebreakers and more cross-team exchange, mandatory lunch walks; dogs described as an added responsibility with some barking and play, and as more of a burden in very stressful periods; authors conclude benefits depend on flexible hours, autonomy and open communication, and that an inflexible setting can create pressure; limitation: five small organisations in one sector and country."
+     },
+     {
+      "kind": "study (peer-reviewed, qualitative interviews, full text read)",
+      "title": "Demands and resources of a long-standing bring-your-dog-to-work program: a constant comparative analysis",
+      "cite": "Schieler B, Ogata N, Nieforth LO. Front Public Health. 2025;13:1576360. doi:10.3389/fpubh.2025.1576360. PMID 40556914; PMCID PMC12185282. Open access.",
+      "url": "https://doi.org/10.3389/fpubh.2025.1576360",
+      "supports": "Dogs at Work program at a midwestern university veterinary college, founded 1999; dogs evaluated for good behaviour by a veterinary behaviorist before office access; 40 office-certified dogs at the time; 11 owners interviewed; themes of breaks, physical contact, humour, work-life balance, community (the cleaning-staff story); demands included colleagues dropping by and limiting productivity, concern for colleagues (not everyone wants a dog around; more people without dogs than with; toileting away from where people eat lunch), and the need to enforce program rules; limitation: only participating owners interviewed; future work should include employees without dogs."
+     }
+    ],
+    "notes": "Characters are AI voices, not experts, owners or customers. No company, breed or product names are used. For questions about your own dog, ask your own vet."
+   }
   }
  ],
  "bench": [
