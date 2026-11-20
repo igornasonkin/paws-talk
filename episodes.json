@@ -7820,6 +7820,323 @@
     ],
     "notes": "Characters are AI voices, not experts, owners or customers. No company, breed or product names are used. For questions about your own dog, ask your own vet."
    }
+  },
+  {
+   "id": "027",
+   "title": "Journal Club: socializing a puppy, is more always better?",
+   "date": "2026-11-20",
+   "duration": 445.8,
+   "summary": "A peer-reviewed review based mainly at Queen's University Belfast sifted more than a thousand search results down to 29 studies on puppy socialization, the early weeks when puppies learn about the world. It finds the science is thinner than most advice suggests, that nobody yet knows the minimum or the maximum a puppy needs, and that puppies should not be overwhelmed.",
+   "audio": "ep027.mp3",
+   "kind": "Journal Club",
+   "topic": "Socialization or over-socialization: why greeting everyone backfires",
+   "cast": [
+    {
+     "id": "andria",
+     "name": "Andria",
+     "role": "Host"
+    },
+    {
+     "id": "hal",
+     "name": "Hal",
+     "role": "Host"
+    },
+    {
+     "id": "mike",
+     "name": "Mike",
+     "role": "Genetics and canine science voice"
+    },
+    {
+     "id": "leo",
+     "name": "Leo",
+     "role": "Behavior voice"
+    },
+    {
+     "id": "ed",
+     "name": "Ed",
+     "role": "Training voice"
+    }
+   ],
+   "links": [],
+   "lines": [
+    {
+     "who": "andria",
+     "t": 16.65,
+     "text": "Welcome to Today's Walk, Let's Talk. I'm Andria, an AI voice, not a vet. Picture a puppy on its first trip to the farmers market, and a whole line of friendly strangers waiting to say hello."
+    },
+    {
+     "who": "hal",
+     "t": 28.78,
+     "text": "And I'm Hal, an AI voice, not a researcher. It's Friday, so it's Journal Club, where we take one real paper and read it closely. Today's question: does a puppy need to meet everybody?"
+    },
+    {
+     "who": "andria",
+     "t": 40.2,
+     "text": "At the table: Mike, Leo and Ed. All of us are AI voices sharing general information, not veterinary advice. Mike, what did we read?"
+    },
+    {
+     "who": "mike",
+     "t": 49.36,
+     "text": "I'm Mike, an AI voice, not a scientist. We read a review called Canine Socialisation: A Narrative Systematic Review, from a team based mainly at Queen's University Belfast, published in the journal Animals in 2022. I read the whole paper, methods and all."
+    },
+    {
+     "who": "leo",
+     "t": 63.71,
+     "text": "I'm Leo, an AI voice, not a behaviorist. I read it all too. And the honest headline is humbler than the advice you hear at the dog park."
+    },
+    {
+     "who": "ed",
+     "t": 73.94,
+     "text": "I'm Ed, an AI voice, not a trainer. I read it as well, and one detail about how little contact some old studies said puppies needed really surprised me. I'll save it for a minute."
+    },
+    {
+     "who": "andria",
+     "t": 84.93,
+     "text": "First, the word itself. Leo, what is socialization?"
+    },
+    {
+     "who": "leo",
+     "t": 88.59,
+     "text": "In plain words, it's a puppy learning that the world is a normal place: people, other dogs, sounds, surfaces. The researchers focus on what they call the socialization period, which just means a window of roughly three to twelve weeks of age when puppies take in new things most easily."
+    },
+    {
+     "who": "hal",
+     "t": 108.52,
+     "text": "Three to twelve weeks. That's a short window."
+    },
+    {
+     "who": "mike",
+     "t": 112.05,
+     "text": "It is. Now, what kind of paper is this? It's a review, so the team didn't test puppies themselves. They gathered other people's studies, checked their quality, and summed up what's known. Peer-reviewed, by the way, means other scientists checked it before the journal printed it."
+    },
+    {
+     "who": "andria",
+     "t": 124.78,
+     "text": "How many studies did they find?"
+    },
+    {
+     "who": "mike",
+     "t": 126.98,
+     "text": "Their searches turned up 1,036 results. After screening and a quality check, 29 studies were left. So from more than a thousand, about thirty that really fit."
+    },
+    {
+     "who": "hal",
+     "t": 136.61,
+     "text": "That's a lot of sifting for a small pile."
+    },
+    {
+     "who": "leo",
+     "t": 139.95,
+     "text": "And here's the first surprise. The review says most socialization programs people use today are still based on research from the 1950s and 1960s, often in laboratory settings very different from a modern home."
+    },
+    {
+     "who": "andria",
+     "t": 156.94,
+     "text": "Okay, Ed. Your surprise."
+    },
+    {
+     "who": "ed",
+     "t": 158.99,
+     "text": "One of those older studies claimed puppies could be socialized with as little as two twenty-minute sessions a week, from three to twelve weeks. Another described lab puppies counted as adequately socialized with less than five minutes of human contact a week."
+    },
+    {
+     "who": "andria",
+     "t": 173.8,
+     "text": "Five minutes a week? That's less than one lap around the block."
+    },
+    {
+     "who": "ed",
+     "t": 177.45,
+     "text": "Right. But the review is careful here. Those were lab dogs, judged only by how they reacted to one person in a controlled room. So it doesn't mean five minutes is enough for a family dog. It means nobody has pinned down the minimum."
+    },
+    {
+     "who": "mike",
+     "t": 190.57,
+     "text": "And the review says the same about the top end. They write that the maximum and minimum levels of socialization needed to raise emotionally robust adult dogs are currently unknown."
+    },
+    {
+     "who": "hal",
+     "t": 200.26,
+     "text": "So that's where today's topic comes in. Is there such a thing as too much?"
+    },
+    {
+     "who": "leo",
+     "t": 205.13,
+     "text": "The paper doesn't use the phrase over-socialization, so I'll be honest about that. What it does say is that puppies should not be overwhelmed, and that experiences should match the puppy's stage of development."
+    },
+    {
+     "who": "mike",
+     "t": 219.03,
+     "text": "There's also one hint of a ceiling. In a study of guide dog puppies, an extra socialization program didn't change how many passed their training. The authors suggested the puppies were already getting plenty, which may point to a level beyond which more doesn't add much."
+    },
+    {
+     "who": "andria",
+     "t": 232.84,
+     "text": "So more isn't automatically better."
+    },
+    {
+     "who": "mike",
+     "t": 235.17,
+     "text": "That's a fair reading, with a caution: it's one study, in one kind of working-dog program."
+    },
+    {
+     "who": "hal",
+     "t": 240.16,
+     "text": "Was there anything that seemed to help, in a gentle way?"
+    },
+    {
+     "who": "leo",
+     "t": 244.23,
+     "text": "One small experiment I liked. Puppies aged three to five weeks were shown sound-and-video recordings of everyday things, like a vacuum cleaner. At eight weeks they met the real thing. The 15 puppies who'd seen the recordings showed less fearful behavior than the 13 who hadn't."
+    },
+    {
+     "who": "andria",
+     "t": 263.33,
+     "text": "So a little preview, at a puppy's pace."
+    },
+    {
+     "who": "leo",
+     "t": 265.81,
+     "text": "Exactly. Calm, small steps. Though the review notes nobody knows whether it was the sound or the picture that did the work."
+    },
+    {
+     "who": "andria",
+     "t": 274.45,
+     "text": "Ed, the dog park question. What about greeting everybody?"
+    },
+    {
+     "who": "ed",
+     "t": 278.32,
+     "text": "This part is common practice among trainers, not something this paper tested. The idea is that socialization means good experiences, not lots of greetings. A puppy can learn plenty by calmly watching people and dogs from a comfortable distance."
+    },
+    {
+     "who": "ed",
+     "t": 292.56,
+     "text": "And there's a practical side. Some trainers find that if every person on the sidewalk turns into a party, a puppy may learn to pull toward everyone. So they mix in lots of calm passing-by, with a treat for staying relaxed."
+    },
+    {
+     "who": "hal",
+     "t": 305.41,
+     "text": "I like that. Watching counts."
+    },
+    {
+     "who": "andria",
+     "t": 308.26,
+     "text": "What about puppy classes?"
+    },
+    {
+     "who": "mike",
+     "t": 310.13,
+     "text": "Mixed, and the review says so. Some studies found benefits from classes, and others found no clear benefit. Part of the problem is that, in one study, the puppies ranged widely in age, which makes the groups hard to compare."
+    },
+    {
+     "who": "andria",
+     "t": 321.64,
+     "text": "Now the honest part. What can't this paper tell us?"
+    },
+    {
+     "who": "leo",
+     "t": 324.83,
+     "text": "Quite a lot, and the authors say it themselves. Many of the studies relied on owner questionnaires. Owners are volunteers, they may see the same behavior differently, and they may be biased about their own dog."
+    },
+    {
+     "who": "mike",
+     "t": 339.41,
+     "text": "And questionnaires show links, not causes. A survey can find that dogs with fewer puppy experiences tend to be more fearful later, but it can't prove the experiences caused the difference. The authors call for more experiments that follow puppies over time."
+    },
+    {
+     "who": "ed",
+     "t": 353.06,
+     "text": "One more thing they point out: it doesn't stop at twelve weeks. Good experiences later in life matter too, and may partly make up for a slow start."
+    },
+    {
+     "who": "andria",
+     "t": 361.72,
+     "text": "Let's take it home. Three short points. Hal?"
+    },
+    {
+     "who": "hal",
+     "t": 364.55,
+     "text": "One: more isn't automatically better, and nobody yet knows the minimum or the maximum a puppy needs."
+    },
+    {
+     "who": "andria",
+     "t": 371.39,
+     "text": "Two: short, calm and at the puppy's pace. Watching from a distance counts, and nobody has to meet everybody."
+    },
+    {
+     "who": "hal",
+     "t": 378.29,
+     "text": "Three: it doesn't end at twelve weeks. For your own puppy's needs, ask your own vet and a qualified, reward-based trainer."
+    },
+    {
+     "who": "hal",
+     "t": 385.68,
+     "text": "If you want to dig deeper, the links are under the player."
+    },
+    {
+     "who": "mike",
+     "t": 389.75,
+     "text": "Two more papers there. One followed puppies in the UK and Ireland before, during and after the lockdowns. It didn't find fewer experiences during lockdown, though the authors say their quantity and quality may have been affected. The other compared puppies bought in 2020 with puppies from 2019. We read only the abstracts of those two."
+    },
+    {
+     "who": "leo",
+     "t": 406.78,
+     "text": "So the short version: calm and at the puppy's pace, not a hundred quick hellos."
+    },
+    {
+     "who": "andria",
+     "t": 412.25,
+     "text": "That's our walk for today. These are AI voices sharing general information, not veterinary advice. For your dog's health, ask your own vet."
+    },
+    {
+     "who": "hal",
+     "t": 421.32,
+     "text": "And if you're in Irvine and need care for your dog while you're away, TurtleRock Paws would love to meet you."
+    },
+    {
+     "who": "andria",
+     "t": 427.69,
+     "text": "Happy walking."
+    }
+   ],
+   "sources": {
+    "intro": "One peer-reviewed systematic review, read in full, plus two further-reading papers read as abstracts.",
+    "checked": "November 20, 2026",
+    "items": [
+     {
+      "kind": "review (main paper, full text read)",
+      "title": "Canine Socialisation: A Narrative Systematic Review",
+      "cite": "McEvoy V, Espinosa UB, Crump A, Arnott G. Animals (Basel), 2022;12(21):2895. PMID 36359020, PMCID PMC9655304. doi:10.3390/ani12212895. Open access (CC BY). Correction published: Animals 2023;13(1):81, doi:10.3390/ani13010081.",
+      "url": "https://doi.org/10.3390/ani12212895",
+      "supports": "All claims about the main paper: three of the four authors are at Queen's University Belfast (PubMed author affiliations, checked November 20, 2026); socialisation period of roughly 3 to 12 weeks; searches returned 1,036 results, 29 studies kept after screening and quality assessment; most current programs are based on 1950s-1960s research; Fuller (1967) claimed two 20-minute sessions per week from 3 to 12 weeks could suffice and Wolfe (1990) described adequate socialisation of laboratory dogs with under five minutes of human contact per week, both limited to lab conditions and reactions to a human experimenter; the maximum and minimum levels of socialisation are currently unknown; puppies should not be overwhelmed and stimulation should match development; in a guide-dog study (Batt et al. 2008) extra socialisation did not change training success, which the review reads as a possible maximum level; in Pluijmakers et al. (2010) puppies shown audio-visual playbacks at 3 to 5 weeks (n = 15) showed less fearful behaviour toward the real stimuli at 8 weeks than controls (n = 13), and it is unclear whether sound or vision helped; puppy-class evidence is mixed, with wide age ranges complicating comparisons; many studies rely on owner questionnaires from volunteers, whose perception of behaviour differs and who may be biased about their own pet, and show correlation not causation; more experimental, longitudinal studies are needed; later enrichment may partly compensate for a poor start. Full text read from PubMed Central on November 20, 2026.",
+      "role": "main",
+      "year": 2022,
+      "access": "full_text_read"
+     },
+     {
+      "kind": "study (further reading, abstract read)",
+      "title": "Puppy Socialisation Experiences in Relation to Age and COVID-19 Lockdown Restrictions in the UK and ROI",
+      "cite": "Kinsman RH, Jim HL, Casey RA, Ruiz-Izaguirre E, Owczarczak-Garstecka S, Cooper B, Tasker S, Murray JK. Animals (Basel), 2024;14(10):1471. PMID 38791688, PMCID PMC11117371. doi:10.3390/ani14101471",
+      "url": "https://doi.org/10.3390/ani14101471",
+      "supports": "Further reading: a longitudinal UK and Ireland study of puppies' socialisation experiences before, during and after lockdown; fewer experiences during lockdown were hypothesised but not found, though the authors say the quantity and quality of experiences may have been affected. Abstract read.",
+      "role": "context",
+      "year": 2024,
+      "access": "abstract_only"
+     },
+     {
+      "kind": "study (further reading, abstract read)",
+      "title": "Pandemic Puppies: Demographic Characteristics, Health and Early Life Experiences of Puppies Acquired during the 2020 Phase of the COVID-19 Pandemic in the UK",
+      "cite": "Brand CL, O'Neill DG, Belshaw Z, Pegram CL, Stevens KB, Packer RMA. Animals (Basel), 2022;12(5):629. PMID 35268198, PMCID PMC8909199. doi:10.3390/ani12050629",
+      "url": "https://doi.org/10.3390/ani12050629",
+      "supports": "Further reading: an online survey comparing 4,369 puppies bought in 2020 with 1,148 bought in 2019; the 2020 puppies were less likely to have attended puppy classes or had home visitors before 16 weeks. Abstract read.",
+      "role": "context",
+      "year": 2022,
+      "access": "abstract_only"
+     }
+    ],
+    "notes": "Access level: FULL_TEXT for the main paper (McEvoy et al. 2022, CC BY), read in full from PubMed Central on November 20, 2026, together with its published correction. The paper does not use the term 'over-socialization'; the episode says so, and the tips about calm watching from a distance and passing by are labelled on air as common trainer practice, not tested by this paper. Further-reading papers were read at abstract level only, and the episode says so. No breed names. Calm topic: puppy development and learning."
+   }
   }
  ],
  "bench": [
