@@ -8137,6 +8137,294 @@
     ],
     "notes": "Access level: FULL_TEXT for the main paper (McEvoy et al. 2022, CC BY), read in full from PubMed Central on November 20, 2026, together with its published correction. The paper does not use the term 'over-socialization'; the episode says so, and the tips about calm watching from a distance and passing by are labelled on air as common trainer practice, not tested by this paper. Further-reading papers were read at abstract level only, and the episode says so. No breed names. Calm topic: puppy development and learning."
    }
+  },
+  {
+   "id": "028",
+   "title": "Bed, floor or dog bed: who wakes whom at night?",
+   "date": "2026-11-21",
+   "duration": 446.9,
+   "summary": "Three small studies looked at how people and their dogs sleep, two of them with motion trackers that show who stirs first. The answers do not all agree, and the most interesting finding may be how differently people remember their nights from how the trackers recorded them.",
+   "audio": "ep028.mp3",
+   "kind": "Table talk",
+   "topic": "Should your dog sleep in your bed?",
+   "cast": [
+    {
+     "id": "andria",
+     "name": "Andria",
+     "role": "Host"
+    },
+    {
+     "id": "hal",
+     "name": "Hal",
+     "role": "Host"
+    },
+    {
+     "id": "maya",
+     "name": "Maya",
+     "role": "Sleep and rest voice"
+    },
+    {
+     "id": "leo",
+     "name": "Leo",
+     "role": "Behavior voice"
+    },
+    {
+     "id": "ed",
+     "name": "Ed",
+     "role": "Training voice"
+    }
+   ],
+   "links": [],
+   "lines": [
+    {
+     "who": "andria",
+     "t": 16.65,
+     "text": "Welcome to Today's Walk, Let's Talk. I'm Andria, an AI voice, not a vet. Picture this: it's eleven at night, the lights are off, and a warm, heavy shape settles right across your feet."
+    },
+    {
+     "who": "hal",
+     "t": 28.21,
+     "text": "And I'm Hal, an AI voice, not a veteran dog owner. Today's question is one a lot of households argue about quietly: should the dog sleep on the bed?"
+    },
+    {
+     "who": "andria",
+     "t": 37.78,
+     "text": "At the table: Maya, Leo and Ed. All of us are AI voices sharing general information, not veterinary advice. Maya, you've been looking at the sleep research."
+    },
+    {
+     "who": "maya",
+     "t": 48.25,
+     "text": "I'm Maya, an AI voice, not a sleep scientist. I read three peer-reviewed studies, which means other scientists checked them before the journal printed them. And I'll say up front: this is a comfort decision, and the research doesn't crown a winner."
+    },
+    {
+     "who": "leo",
+     "t": 64.44,
+     "text": "I'm Leo, an AI voice, not a behaviorist. I like that. Where a dog sleeps tells you a lot about the relationship, and not much about right or wrong."
+    },
+    {
+     "who": "ed",
+     "t": 75.59,
+     "text": "I'm Ed, an AI voice, not a trainer. And I'm here for the practical part: whatever you choose, how do you help everyone settle?"
+    },
+    {
+     "who": "hal",
+     "t": 83.15,
+     "text": "Let's start with the science. Maya, how do you even measure who wakes whom?"
+    },
+    {
+     "who": "maya",
+     "t": 88.04,
+     "text": "With small motion trackers. The person and the dog each wear one, a bit like a fitness band, and the devices count movement minute by minute all night."
+    },
+    {
+     "who": "andria",
+     "t": 98.23,
+     "text": "So it's like a little night diary that writes itself."
+    },
+    {
+     "who": "maya",
+     "t": 101.3,
+     "text": "Exactly. And one thing to know first: dogs don't sleep in one long block the way many of us try to. The authors of a 2026 study point out that dogs sleep in several shorter stretches. So a dog that resettles between those stretches fits that pattern."
+    },
+    {
+     "who": "hal",
+     "t": 119.01,
+     "text": "Tell us about the first study."
+    },
+    {
+     "who": "maya",
+     "t": 121.76,
+     "text": "It was published in 2020 in the journal Animals. Twelve women who each shared their bed with one dog wore trackers for about ten nights, so 124 nights in all. On average, the dogs were moving for about twelve percent of the night, and the people for about four and a half percent."
+    },
+    {
+     "who": "andria",
+     "t": 140.17,
+     "text": "So the dogs fidget almost three times as much."
+    },
+    {
+     "who": "maya",
+     "t": 143.19,
+     "text": "That's the gist. And about half of the moments when a person moved, the dog was moving too. In the minute after a dog moved, the person was about three times as likely to start moving."
+    },
+    {
+     "who": "hal",
+     "t": 155.22,
+     "text": "So the dog wins the night shift."
+    },
+    {
+     "who": "maya",
+     "t": 158.27,
+     "text": "Careful, though. The authors themselves say this pattern does not prove the dog caused it. Something else could have moved both of them. And a tracker sees movement, not whether someone actually woke up."
+    },
+    {
+     "who": "leo",
+     "t": 170.46,
+     "text": "Here's the part I love. The women kept a diary each morning, and they remembered their dog waking them on only 22 of those 124 nights. Three of the twelve said the dog never woke them at all."
+    },
+    {
+     "who": "andria",
+     "t": 184.83,
+     "text": "So the tracker shows a busy night, and the person doesn't remember being woken?"
+    },
+    {
+     "who": "leo",
+     "t": 189.4,
+     "text": "Often, yes. The authors suggest that sharing the night may meet a need for comfort and security. My own guess is that's part of why people don't count the little stirs."
+    },
+    {
+     "who": "hal",
+     "t": 200.63,
+     "text": "Now the second study. I hear it flips the story."
+    },
+    {
+     "who": "maya",
+     "t": 204.5,
+     "text": "It does, a bit. It's a 2026 study in the journal PLOS One, from a team in Canada. Twenty-five people and thirty-eight dogs wore trackers for about four weeks. All the dogs were of one similar type."
+    },
+    {
+     "who": "ed",
+     "t": 219.0,
+     "text": "And what did they find about the bed itself?"
+    },
+    {
+     "who": "maya",
+     "t": 222.24,
+     "text": "Whether the dog slept on the bed or not made no measurable difference to how long people slept, or to how much of their time in bed they spent asleep. Where the dog slept also didn't change how well people said they slept."
+    },
+    {
+     "who": "andria",
+     "t": 236.18,
+     "text": "And who started the stirring?"
+    },
+    {
+     "who": "maya",
+     "t": 238.05,
+     "text": "In 22 of the 36 human and dog pairs they could analyze, the two were linked. In ten of those, the person moved first. In four, the dog moved first. And in eight, they moved within the same minute, so nobody could tell who started it."
+    },
+    {
+     "who": "hal",
+     "t": 254.53,
+     "text": "So in that study, the people stirred first more often than the dogs did. I like that, it's only fair."
+    },
+    {
+     "who": "leo",
+     "t": 261.27,
+     "text": "And one small surprise. In the four pairs where the dog moved first, none of those dogs were sleeping on the bed. Why that is, the numbers alone can't say, so I'll just call it a curiosity."
+    },
+    {
+     "who": "maya",
+     "t": 274.74,
+     "text": "That's a tiny number, though, four pairs, so it's a clue, not a rule. And the people in that study did report one thing: having more than one dog went along with rating their own sleep worse. The authors note that, overall, this result was not a strong one."
+    },
+    {
+     "who": "andria",
+     "t": 291.26,
+     "text": "And the third study?"
+    },
+    {
+     "who": "maya",
+     "t": 292.87,
+     "text": "A 2017 study of forty adults and their dogs, seven nights each. I read the summary, not the full paper. On average, people spent about 81 percent of their time in bed asleep, and that share was lower when the dog was on the bed than when the dog was simply in the room."
+    },
+    {
+     "who": "hal",
+     "t": 311.85,
+     "text": "So the three studies don't quite agree."
+    },
+    {
+     "who": "maya",
+     "t": 315.11,
+     "text": "They don't, and that's honest science. They're all small, one of them included only women, and each study measured things a little differently. None of them can tell you how you or your dog will sleep."
+    },
+    {
+     "who": "andria",
+     "t": 327.92,
+     "text": "Ed, let's get practical. Say someone wants the dog nearby but not on the bed."
+    },
+    {
+     "who": "ed",
+     "t": 332.95,
+     "text": "Make the dog's own bed a great place to be. Put it where your dog likes to settle, reward your dog for lying there in the evening, and keep those practice sessions short and calm. That's common practice rather than a tested result."
+    },
+    {
+     "who": "andria",
+     "t": 345.53,
+     "text": "And if the dog is on the bed and everyone's happy?"
+    },
+    {
+     "who": "ed",
+     "t": 348.72,
+     "text": "Then you may not need to change a thing. If you'd like the option to switch later, a simple 'off' or 'go to your bed' cue, practiced in the daytime when nobody's sleepy, gives you choices."
+    },
+    {
+     "who": "leo",
+     "t": 358.94,
+     "text": "One thing from the behavior side. Every dog's night-time habits are their own, and if you ever have a question about your dog, your own vet is the person to ask."
+    },
+    {
+     "who": "maya",
+     "t": 370.26,
+     "text": "And a gentle wind-down is common practice, not a tested result. Many people find a calm end to the day goes better than a big game of tug right before lights out."
+    },
+    {
+     "who": "hal",
+     "t": 381.02,
+     "text": "Tired isn't the same as settled. I'm writing that one down."
+    },
+    {
+     "who": "andria",
+     "t": 385.41,
+     "text": "Let me sum up in three. One: dogs sleep in shorter stretches, and in one study they moved more at night than their people did. Two: the studies disagree on who wakes whom, and people often don't remember the small stirs. Three: bed, floor or dog bed is your call, and the research doesn't name a winner."
+    },
+    {
+     "who": "hal",
+     "t": 403.77,
+     "text": "So the short version: wherever your dog sleeps, make it a calm place, and don't lose sleep over the choice."
+    },
+    {
+     "who": "andria",
+     "t": 410.31,
+     "text": "The links to all three studies are under the player. That's our walk for today. These are AI voices sharing general information, not veterinary advice. For your dog's health, ask your own vet."
+    },
+    {
+     "who": "hal",
+     "t": 422.44,
+     "text": "And if you're in Irvine and need care for your dog while you're away, TurtleRock Paws would love to meet you."
+    },
+    {
+     "who": "andria",
+     "t": 428.82,
+     "text": "Happy walking."
+    }
+   ],
+   "sources": {
+    "intro": "Three peer-reviewed studies, summarised in our own words. Two were read in full; the third was read as an abstract only, and the script says so. All three are small and observational, so none of them shows cause and effect, and none can tell you about your own dog. This is general information, not veterinary advice.",
+    "checked": "November 21, 2026",
+    "items": [
+     {
+      "kind": "study (peer-reviewed, full text read)",
+      "title": "Human-Animal Co-Sleeping: An Actigraphy-Based Assessment of Dogs' Impacts on Women's Nighttime Movements",
+      "cite": "Hoffman CL, Browne M, Smith BP. Animals (Basel). 2020;10(2):278. doi:10.3390/ani10020278. PMID 32054077; PMCID PMC7070703.",
+      "url": "https://doi.org/10.3390/ani10020278",
+      "supports": "12 women, each sharing a bed with one dog; about 10 nights each, 124 nights in all; dogs moving about 12.4 percent and people about 4.5 percent of the night; dog movement accompanied about half of human movement; people about three times as likely to start moving in the minute after dog movement; the authors say this association does not show cause and that the trackers cannot confirm waking; people recalled being woken by their dog on 22 of 124 nights, and 3 of 12 said never; the authors' suggestion that co-sleeping may meet a need for comfort and security."
+     },
+     {
+      "kind": "study (peer-reviewed, full text read)",
+      "title": "Who is disrupting whom? Examining the nighttime activity patterns of humans and their dogs",
+      "cite": "Li MF, Nagendran L, Kiru C, Schroeder L, Samson DR. PLoS One. 2026;21(10):e0358453. doi:10.1371/journal.pone.0358453. PMID 42842531; PMCID PMC13645015.",
+      "url": "https://doi.org/10.1371/journal.pone.0358453",
+      "supports": "25 people and 38 dogs in Canada, trackers for about four weeks, dogs all of one similar type; dogs sleep in several shorter bouts (stated in the paper's introduction); bed-sharing had no measurable effect on measured sleep duration or efficiency; dog sleeping location did not affect self-rated sleep; 22 of 36 pairs linked, of which 10 person-first, 4 dog-first, 8 same minute; in all 4 dog-first pairs the dog was not on the bed; more than one dog associated with worse self-rated sleep, with the overall model not significantly better than a model with no predictors."
+     },
+     {
+      "kind": "study (peer-reviewed, abstract read only)",
+      "title": "The Effect of Dogs on Human Sleep in the Home Sleep Environment",
+      "cite": "Patel SI, Miller BW, Kosiorek HE, Parish JM, Lyng PJ, Krahn LE. Mayo Clin Proc. 2017;92(9):1368-1372. doi:10.1016/j.mayocp.2017.06.014. PMID 28870354.",
+      "url": "https://doi.org/10.1016/j.mayocp.2017.06.014",
+      "supports": "40 adults and their dogs, 7 nights; on average about 81 percent of time in bed spent asleep; lower when the dog was on the bed than when the dog was in the room. Read as the abstract only."
+     }
+    ],
+    "notes": "Access: the two full-text papers were read from PubMed Central on November 21, 2026; the third was read as its PubMed abstract only, and Maya says so on air. Everything is paraphrased; no tables, figures or passages are reproduced. The tips from Ed and Maya about a dog's own bed and a calm wind-down are labelled as common practice, not tested results. The dog type in the second study is described generally, without a breed name."
+   }
   }
  ],
  "bench": [
