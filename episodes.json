@@ -8425,6 +8425,286 @@
     ],
     "notes": "Access: the two full-text papers were read from PubMed Central on November 21, 2026; the third was read as its PubMed abstract only, and Maya says so on air. Everything is paraphrased; no tables, figures or passages are reproduced. The tips from Ed and Maya about a dog's own bed and a calm wind-down are labelled as common practice, not tested results. The dog type in the second study is described generally, without a breed name."
    }
+  },
+  {
+   "id": "029",
+   "title": "Muddy paws and pet hair: making home easy to live in with a dog",
+   "date": "2026-11-22",
+   "duration": 462.3,
+   "summary": "The table talks about the two things most dogs bring indoors: loose hair and muddy paws. Judy explains what brushing does, Ed builds a calm paw-wipe routine, Mike shares a study that found dogs leave their own little signature on a home, and Charles walks us back in through the door.",
+   "audio": "ep029.mp3",
+   "kind": "Table talk",
+   "topic": "Designing a family home for pet hair, muddy paws and safety",
+   "cast": [
+    {
+     "id": "andria",
+     "name": "Andria",
+     "role": "Host"
+    },
+    {
+     "id": "hal",
+     "name": "Hal",
+     "role": "Host"
+    },
+    {
+     "id": "judy",
+     "name": "Judy",
+     "role": "Grooming and care voice"
+    },
+    {
+     "id": "ed",
+     "name": "Ed",
+     "role": "Training voice"
+    },
+    {
+     "id": "mike",
+     "name": "Mike",
+     "role": "Genetics and canine science voice"
+    },
+    {
+     "id": "charles",
+     "name": "Charles",
+     "role": "Irvine walks and local events"
+    }
+   ],
+   "links": [],
+   "lines": [
+    {
+     "who": "andria",
+     "t": 16.65,
+     "text": "Welcome to Today's Walk, Let's Talk. I'm Andria, an AI voice, not a vet. Picture this: it rained last night, the walk was wonderful, and now four very happy, very muddy paws are heading straight for the sofa."
+    },
+    {
+     "who": "hal",
+     "t": 29.65,
+     "text": "And I'm Hal, an AI voice, not a veteran dog owner. Today we're talking about the two things most dogs bring home: hair and mud. Not how to win the battle, just how to live with it a little more easily."
+    },
+    {
+     "who": "andria",
+     "t": 41.57,
+     "text": "At the table: Judy, Ed, Mike and Charles. All of us are AI voices sharing general information, not veterinary advice. Charles, you're our walks voice, so let's start at the front door."
+    },
+    {
+     "who": "charles",
+     "t": 53.41,
+     "text": "I'm Charles, an AI voice, not a local guide. The end of a walk is a little moment of its own. The dog is happy, the leash is still on, and the door is the border between outside and in."
+    },
+    {
+     "who": "charles",
+     "t": 69.21,
+     "text": "Many people keep a mat and an old towel right by the door, so the wipe happens before the dog reaches the living room. I should say plainly: that's common practice, not something a study tested."
+    },
+    {
+     "who": "hal",
+     "t": 85.26,
+     "text": "I like that. The door is a border. Wipe at the border."
+    },
+    {
+     "who": "andria",
+     "t": 89.41,
+     "text": "But Hal, some dogs treat a towel like a wrestling match. Ed, how do you make a paw wipe something a dog doesn't mind?"
+    },
+    {
+     "who": "ed",
+     "t": 96.7,
+     "text": "I'm Ed, an AI voice, not a trainer. The idea has a name: cooperative care. Cornell's canine health center describes it as teaching a dog to take part in handling willingly, at the dog's own pace, with rewards."
+    },
+    {
+     "who": "ed",
+     "t": 109.58,
+     "text": "Here's a common-practice version, in three small steps. One: when your dog is relaxed, touch one paw for a second, then a treat. Two: add the towel, just a touch, then a treat. Three: one gentle wipe, a treat, and stop while it's going well."
+    },
+    {
+     "who": "andria",
+     "t": 122.78,
+     "text": "And how would someone know it's working?"
+    },
+    {
+     "who": "ed",
+     "t": 124.98,
+     "text": "Your dog stays soft and loose. Lip licking, a yawn when they're not tired, freezing or pulling away means 'too much', so pause and make the step smaller; if it keeps happening, ask your own vet and a qualified behavior professional. Cornell's page says stopping early counts as a success."
+    },
+    {
+     "who": "hal",
+     "t": 140.97,
+     "text": "Stopping early is a success. I could use that in a few other parts of life."
+    },
+    {
+     "who": "andria",
+     "t": 146.42,
+     "text": "Now, the hair. Judy, it's November. Is this the season when the sofa grows a second coat?"
+    },
+    {
+     "who": "judy",
+     "t": 152.35,
+     "text": "I'm Judy, an AI voice, not a groomer. It can be. Texas A and M's vet school says many dogs shed more in spring and fall, and Purdue's canine welfare team says the same, so autumn is a fair time to expect a bit more."
+    },
+    {
+     "who": "judy",
+     "t": 175.46,
+     "text": "Purdue's page explains that brushing removes loose hairs and dead skin cells and helps keep the coat clean. Hair that ends up in the brush is hair that doesn't end up on the rug."
+    },
+    {
+     "who": "andria",
+     "t": 193.94,
+     "text": "How often, though? I need a number, Judy."
+    },
+    {
+     "who": "judy",
+     "t": 196.67,
+     "text": "It depends on the coat, and this is guidance, not a rule. Purdue suggests about once a week for short, smooth coats, more for thick or curly coats, and daily for long, silky ones, with more during shedding season."
+    },
+    {
+     "who": "judy",
+     "t": 218.49,
+     "text": "A veterinary technician at Texas A and M suggests short sessions several times a week, about five to ten minutes each. If your dog seems to shed far more than usual, ask your vet."
+    },
+    {
+     "who": "hal",
+     "t": 237.83,
+     "text": "Short and often, then. Not one big Sunday marathon."
+    },
+    {
+     "who": "judy",
+     "t": 242.05,
+     "text": "Exactly. Purdue says start slow, pair the brush with treats, and pick a time when your dog is relaxed, like after a walk. And not every brush suits every coat, so it's worth asking a groomer or your vet which kind fits yours."
+    },
+    {
+     "who": "ed",
+     "t": 265.76,
+     "text": "That's the same recipe as the paw wipe. Small steps, a treat, and end on a good note."
+    },
+    {
+     "who": "andria",
+     "t": 271.61,
+     "text": "Mike, you've been waiting patiently with a study. Something about what dogs bring into a house that we can't even see?"
+    },
+    {
+     "who": "mike",
+     "t": 278.42,
+     "text": "I'm Mike, an AI voice, not a scientist. Yes! This is a peer-reviewed study, which means other scientists checked it before the journal printed it. It was a citizen science project in North Carolina: forty households swabbed nine spots in their own homes."
+    },
+    {
+     "who": "mike",
+     "t": 291.77,
+     "text": "The spots were things like a pillowcase, the TV screen, the kitchen counter and the trim above a door. Then the team read the bacteria's DNA to see which kinds lived where."
+    },
+    {
+     "who": "hal",
+     "t": 300.91,
+     "text": "So people at home swabbing their own TV screens. I love a science project you can do in your socks."
+    },
+    {
+     "who": "mike",
+     "t": 307.6,
+     "text": "The main finding was that every spot in a home has its own mix. But homes with dogs stood out. They had more kinds of bacteria, on average forty-two percent more on pillowcases and fifty-seven percent more on TV screens, compared with homes without pets."
+    },
+    {
+     "who": "mike",
+     "t": 320.68,
+     "text": "And some of the extra kinds were ones the researchers note are more common on dog fur than on human skin. So a dog leaves a little signature on the home, even on a TV screen it probably never touches."
+    },
+    {
+     "who": "andria",
+     "t": 331.82,
+     "text": "So what does that tell us?"
+    },
+    {
+     "who": "mike",
+     "t": 333.67,
+     "text": "Mostly, that we share our homes in more ways than we notice. The study measured which bacteria were there, not whether that's good or bad, and it's one region, forty homes, swabbed once. It shows a link, not a cause, so it's a fun clue, nothing more."
+    },
+    {
+     "who": "hal",
+     "t": 345.7,
+     "text": "So the dog isn't just living in your house. In a small way, your house becomes a bit of the dog."
+    },
+    {
+     "who": "charles",
+     "t": 351.94,
+     "text": "Which is rather lovely, when you think about it."
+    },
+    {
+     "who": "andria",
+     "t": 355.82,
+     "text": "Let's get practical. Charles, anything that makes the door routine easier on a wet day?"
+    },
+    {
+     "who": "charles",
+     "t": 361.4,
+     "text": "Keep everything for the wipe in one place, so you're not hunting for a towel while the dog heads for the carpet. And a slower last minute of the walk gives you both time to arrive calmly. Again, that's everyday practice, not a tested result."
+    },
+    {
+     "who": "judy",
+     "t": 380.24,
+     "text": "And I'd add a washable blanket on the dog's favorite spot. Wash the blanket, not the whole sofa. Also common practice."
+    },
+    {
+     "who": "ed",
+     "t": 393.29,
+     "text": "One more from me: a calm 'wait' at the door, rewarded, gives you that moment to grab the towel. Teach it on dry days first, when it's easy. That's common practice too."
+    },
+    {
+     "who": "andria",
+     "t": 402.93,
+     "text": "Let me sum up in three. One: brushing, short and often, catches loose hair before it lands, and fall can be a heavier shedding time. Two: make the paw wipe a small, rewarded routine at the door. Three: a dog shares a home in ways you can't even see, and one study found its signature on the TV screen."
+    },
+    {
+     "who": "hal",
+     "t": 422.14,
+     "text": "So the short version: brush a little, wipe a little, and enjoy the company."
+    },
+    {
+     "who": "andria",
+     "t": 427.17,
+     "text": "The links are under the player. That's our walk for today. These are AI voices sharing general information, not veterinary advice. For your dog's health, ask your own vet."
+    },
+    {
+     "who": "hal",
+     "t": 437.87,
+     "text": "And if you're in Irvine and need care for your dog while you're away, TurtleRock Paws would love to meet you."
+    },
+    {
+     "who": "andria",
+     "t": 444.24,
+     "text": "Happy walking."
+    }
+   ],
+   "sources": {
+    "intro": "One peer-reviewed study and three pages of public guidance from veterinary schools, summarised in our own words. The study is observational and small, so it shows a link, not a cause, and it did not look at health. The doormat, towel and washable-blanket tips are labelled on air as common practice, not tested results. This is general information, not veterinary advice.",
+    "checked": "November 22, 2026",
+    "items": [
+     {
+      "kind": "study (peer-reviewed, full text read)",
+      "title": "Home Life: Factors Structuring the Bacterial Diversity Found within and between Homes",
+      "cite": "Dunn RR, Fierer N, Henley JB, Leff JW, Menninger HL. PLoS One. 2013;8(5):e64133. doi:10.1371/journal.pone.0064133. PMID 23717552; PMCID PMC3661444.",
+      "url": "https://doi.org/10.1371/journal.pone.0064133",
+      "supports": "Citizen science project; 40 homes in the Raleigh-Durham area of North Carolina sampled nine standard locations (including pillowcase, TV screen, kitchen counter and door trims); each location had a distinct bacterial community; homes with dogs had a different community on pillowcases and TV screens, with on average 42% and 57% more bacterial types there than homes without pets; some taxa driving the difference are more abundant on dog fur than on human skin; the study did not set out to assess health effects; limits: one region, 40 homes, single sampling, observational."
+     },
+     {
+      "kind": "guidance (veterinary school)",
+      "title": "Brushing and Coat Care",
+      "cite": "Purdue University Canine Welfare Science, resource page (accessed November 22, 2026).",
+      "url": "https://caninewelfare.centers.purdue.edu/resource/brushing-and-coat-care/",
+      "supports": "Brushing removes dead skin cells and loose hairs and helps keep the coat clean; suggested frequency by coat type (long and silky daily, thick undercoat once or twice a week, curly 2 to 3 times a week, short and smooth about once a week); more brushing when shedding in spring and fall; start slow, pair brushing with treats, brush when the dog is relaxed, such as after exercise."
+     },
+     {
+      "kind": "guidance (veterinary school)",
+      "title": "Brushing Up For Shedding Season",
+      "cite": "Texas A&M School of Veterinary Medicine & Biomedical Sciences, Pet Talk, December 8, 2022.",
+      "url": "https://vetmed.tamu.edu/news/pet-talk/reduce-dog-shedding",
+      "supports": "A veterinary technician suggests brushing at least three to four times a week for 5 to 10 minutes; many dogs shed seasonally in fall and spring; grooming tools are not one size fits all; unusually heavy shedding is a reason to consult a veterinarian."
+     },
+     {
+      "kind": "guidance (veterinary school)",
+      "title": "Grooming - Cooperative Care",
+      "cite": "Cornell Richard P. Riney Canine Health Center, health tips, February 5, 2026.",
+      "url": "https://riney.vet.cornell.edu/member-benefits-health-tips/grooming-cooperative-care-february-2026",
+      "supports": "Cooperative care defined as teaching dogs to take part in handling voluntarily, at the dog's pace, with positive reinforcement; practice gentle paw handling when the dog is relaxed; small, frequent rewards; short sessions that end on a positive note; stress signs include lip licking, yawning when not tired, freezing and pulling away; stopping early is a success."
+     }
+    ],
+    "notes": "Access: the study was read in full from PubMed Central on November 22, 2026; the three guidance pages were read the same day. Everything is paraphrased; no tables, figures or passages are reproduced. No cleaning products, brands or breed names are mentioned."
+   }
   }
  ],
  "bench": [
