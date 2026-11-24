@@ -8993,6 +8993,269 @@
     ],
     "notes": "Access: the review was read in full from PubMed Central on November 23, 2026; the two guidance pages were read the same day. Studies mentioned on air are described as the review summarises them. Everything is paraphrased, apart from the short phrase 'no one-size-fits-all', credited to the review authors; no tables or figures are reproduced. Cooling coats are deferred to a summer episode."
    }
+  },
+  {
+   "id": "031",
+   "title": "What's in a dog's name? From Skylax to Max",
+   "date": "2026-11-24",
+   "duration": 364.3,
+   "summary": "The table looks at how people have named their dogs, from short names an old Roman farm writer suggested to today's names that sound like a classmate's. Mike shares what a study of nearly twelve thousand dog names from reader letters found, and Ed explains how to help a dog love hearing its name.",
+   "audio": "ep031.mp3",
+   "kind": "Table talk",
+   "topic": "The evolution of dog names: from Roman advice to people names",
+   "cast": [
+    {
+     "id": "andria",
+     "name": "Andria",
+     "role": "Host"
+    },
+    {
+     "id": "hal",
+     "name": "Hal",
+     "role": "Host"
+    },
+    {
+     "id": "charles",
+     "name": "Charles",
+     "role": "Irvine walks and local events"
+    },
+    {
+     "id": "mike",
+     "name": "Mike",
+     "role": "Genetics and canine science voice"
+    },
+    {
+     "id": "ed",
+     "name": "Ed",
+     "role": "Training voice"
+    }
+   ],
+   "links": [],
+   "lines": [
+    {
+     "who": "andria",
+     "t": 16.65,
+     "text": "Welcome to Today's Walk, Let's Talk. I'm Andria, an AI voice, not a vet. Picture the dog park: someone calls out a name, and three dogs and one surprised gentleman all turn around."
+    },
+    {
+     "who": "hal",
+     "t": 28.54,
+     "text": "And I'm Hal, an AI voice, not a veteran dog owner. Today it's names. Where dog names come from, how they've changed, and why so many dogs now sound like they're about to start kindergarten."
+    },
+    {
+     "who": "andria",
+     "t": 40.33,
+     "text": "At the table: Charles, Mike and Ed. All of us are AI voices sharing general information, not veterinary advice. Charles, you're our history fan. How far back does dog naming go?"
+    },
+    {
+     "who": "charles",
+     "t": 52.43,
+     "text": "I'm Charles, an AI voice, not a local guide, and today not a historian either, just a curious reader. There's naming advice written down about two thousand years ago, by a Roman farm writer called Columella."
+    },
+    {
+     "who": "charles",
+     "t": 70.43,
+     "text": "In a book on farming, in a section on raising dogs, he suggested names that are not very long, so a dog answers quickly when called. But not shorter than two syllables, either."
+    },
+    {
+     "who": "hal",
+     "t": 84.88,
+     "text": "Two thousand years old, and it still sounds like good sense."
+    },
+    {
+     "who": "andria",
+     "t": 89.06,
+     "text": "What names did he like?"
+    },
+    {
+     "who": "charles",
+     "t": 90.83,
+     "text": "A teaching page from Cambridge lists his examples. Skylax, which means puppy. Lupa, which means she-wolf. Celer, which means speedy. And Tigris, a tiger."
+    },
+    {
+     "who": "hal",
+     "t": 104.68,
+     "text": "Speedy. I'd like to meet the dog who earned that one, and the one who didn't."
+    },
+    {
+     "who": "charles",
+     "t": 109.49,
+     "text": "That page also notes that Romans seem to have liked Greek names for their dogs. Skylax is one of those. A little borrowed glamour, even then."
+    },
+    {
+     "who": "andria",
+     "t": 121.68,
+     "text": "So the first rule of dog naming: short, but not too short."
+    },
+    {
+     "who": "andria",
+     "t": 125.52,
+     "text": "Now, lots of today's dogs have names like Max and Bella. When did that switch to people names happen? Mike?"
+    },
+    {
+     "who": "mike",
+     "t": 132.39,
+     "text": "I'm Mike, an AI voice, not a scientist. The best source I found is a study by a researcher at the University of California, Berkeley, published in 2012 in a journal about names, called Names. Other scholars checked it before the journal printed it. That's what peer-reviewed means."
+    },
+    {
+     "who": "mike",
+     "t": 146.95,
+     "text": "Here's the fun part. In 1985, a newspaper columnist asked readers to write in with their dogs' names. The researcher later went through those letters: four hundred and ten of them, listing nearly twelve thousand dog names."
+    },
+    {
+     "who": "andria",
+     "t": 158.84,
+     "text": "Twelve thousand! What did people call their dogs?"
+    },
+    {
+     "who": "mike",
+     "t": 162.03,
+     "text": "The biggest single group was people names. The columnist said Max, Belle, Ginger, Walter and Sam came up most."
+    },
+    {
+     "who": "hal",
+     "t": 168.25,
+     "text": "Walter. Now that's a dog who reads the newspaper."
+    },
+    {
+     "who": "mike",
+     "t": 172.01,
+     "text": "The paper also mentions a count from a university vet school's 1984 report. Of three hundred and thirty-one dogs named, one hundred and fifty-seven had human names, the largest group. That's a bit under half."
+    },
+    {
+     "who": "andria",
+     "t": 183.98,
+     "text": "So in those counts, people names were already the biggest group back in the eighties."
+    },
+    {
+     "who": "mike",
+     "t": 188.8,
+     "text": "Yes. And the author's reading is that naming dogs like people goes along with treating them more like members of the family. That's his interpretation, and it fits the letters."
+    },
+    {
+     "who": "mike",
+     "t": 197.47,
+     "text": "But it's not a scientific survey, and he says so himself. These were people who chose to write to a newspaper, so they may love talking about their dogs more than most of us."
+    },
+    {
+     "who": "hal",
+     "t": 206.34,
+     "text": "Hard to imagine anyone who loves talking about their dog."
+    },
+    {
+     "who": "mike",
+     "t": 211.01,
+     "text": "My favorite detail: almost ten percent of the letter writers addressed their letter to a dog instead of to the columnist, most often the famous dog the column itself had suggested. And only two owners said their dog's name was simply Dog."
+    },
+    {
+     "who": "andria",
+     "t": 223.63,
+     "text": "Is it the same everywhere?"
+    },
+    {
+     "who": "mike",
+     "t": 225.56,
+     "text": "Not quite. A 2025 study from a university in Istanbul looked at cat and dog names people reported in Turkey. I could only read its summary, not the whole paper, so I'll keep it short."
+    },
+    {
+     "who": "mike",
+     "t": 236.11,
+     "text": "The summary says cats there were more likely than dogs to get human names, and more traditional local ones. Dogs more often got foreign or modern-sounding names. So the trend has local flavor."
+    },
+    {
+     "who": "andria",
+     "t": 246.67,
+     "text": "Fun. Ed, let's get practical. Whatever the name, how does a dog learn it?"
+    },
+    {
+     "who": "ed",
+     "t": 251.11,
+     "text": "I'm Ed, an AI voice, not a trainer. This part is common practice, not a tested result. Say the name once, in a happy voice, and the moment your dog looks at you, reward it."
+    },
+    {
+     "who": "ed",
+     "t": 261.18,
+     "text": "Do that a few times a day in a quiet room, then try it with a little more going on. You're teaching that the name means something good is about to happen."
+    },
+    {
+     "who": "andria",
+     "t": 269.87,
+     "text": "And what about the name you use when they've just stolen a sock?"
+    },
+    {
+     "who": "ed",
+     "t": 273.36,
+     "text": "A common tip is to keep the name for happy moments, so your dog has no reason to tune it out. To stop something, a calm, separate cue is usual; a qualified trainer can help."
+    },
+    {
+     "who": "hal",
+     "t": 284.24,
+     "text": "And if the dog came home with a name already?"
+    },
+    {
+     "who": "ed",
+     "t": 287.89,
+     "text": "Many people keep it, or pick a new one and teach it the same way: say it, reward the look, keep it pleasant. Go at your dog's pace."
+    },
+    {
+     "who": "charles",
+     "t": 295.42,
+     "text": "Which brings us back to Columella. Short and clear is easier to call across a park, Roman or not."
+    },
+    {
+     "who": "hal",
+     "t": 304.08,
+     "text": "So the short version: pick a name you'll enjoy saying a thousand times, and try to make it sound like good news."
+    },
+    {
+     "who": "andria",
+     "t": 311.11,
+     "text": "Let me sum up. One: short, clear dog names were already being suggested about two thousand years ago. Two: in the letters and a vet-school count from the nineteen eighties, people names were already the biggest group. Three: teach the name with a happy voice and a reward, and keep it for good moments."
+    },
+    {
+     "who": "andria",
+     "t": 329.0,
+     "text": "That's our walk for today. These are AI voices sharing general information, not veterinary advice. For your dog's health, ask your own vet. The links are under the player."
+    },
+    {
+     "who": "hal",
+     "t": 339.83,
+     "text": "And if you're in Irvine and need care for your dog while you're away, TurtleRock Paws would love to meet you."
+    },
+    {
+     "who": "andria",
+     "t": 346.21,
+     "text": "Happy walking."
+    }
+   ],
+   "sources": {
+    "intro": "One peer-reviewed study read in full, the published summary of a second study, and a teaching page on an ancient Roman writer, summarised in our own words. The 1985 letters were not a scientific survey, so they show a trend among people who wrote in, not all dog owners. The name-teaching steps are common practice, not tested results. No brands, products or breed names are mentioned. This is general information, not veterinary advice.",
+    "checked": "November 24, 2026",
+    "items": [
+     {
+      "kind": "study (peer-reviewed, full text read)",
+      "title": "Dear Rin Tin Tin: An Analysis of William Safire's Dog-Naming Survey from 1985",
+      "cite": "Brandes S. Names. 2012;60(1):3-14. doi:10.1179/0027-773811Z.0000000001.",
+      "url": "https://ans-names.pitt.edu/ans/article/download/1939/1938/3880",
+      "supports": "University of California, Berkeley; letters from a 1985 newspaper column request; 410 letters naming nearly 12,000 dog names; the survey was not scientific; largest category was names of people, with Max, Belle, Ginger, Walter and Sam predominating; a 1984 Cornell vet school report: of 331 dogs, 157 had human names, the largest category; almost ten percent of writers addressed their letters to an imaginary dog, most commonly 'Dear Rin Tin Tin', as the column had invited; only two owners called their pet Dog; author's reading: naming reflects the increasing treatment of companion animals as human."
+     },
+     {
+      "kind": "study (peer-reviewed journal, abstract only read)",
+      "title": "Pet Naming Practices in Turkey: Cats vs. Dogs",
+      "cite": "Ketrez FN. Names. 2025;73(3):49-61. doi:10.5195/names.2025.2613. CC BY 4.0.",
+      "url": "https://ans-names.pitt.edu/ans/article/view/2613",
+      "supports": "Istanbul Bilgi University; names reported by Turkish-speaking owners; cats more likely than dogs to get human names and more traditional Turkish names; dogs more likely to get foreign or more modern human names. Only the abstract was read."
+     },
+     {
+      "kind": "teaching page (ancient source in translation)",
+      "title": "Names for Roman Dogs",
+      "cite": "Cambridge School Classics Project, citing Columella, On Agriculture 7.12.13 (tr. Forster and Heffner).",
+      "url": "",
+      "supports": "Columella advised names not very long, so each dog obeys more quickly when called, and not shorter than two syllables; example names Scylax, spelled Skylax on air (puppy), Lupa (she-wolf), Celer (speedy), Tigris (tiger); Romans seem to have liked Greek names for dogs."
+     }
+    ],
+    "notes": "Name-teaching tips (say the name once in a happy voice, reward the look, keep the name for good moments) are common practice, said so on air. Two-thousand-year figure: Columella wrote in the first century AD."
+   }
   }
  ],
  "bench": [

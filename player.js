@@ -147,7 +147,8 @@
       $('srcintro').textContent = sr.intro || ''; var ul = $('srclist'); ul.textContent = '';
       sr.items.forEach(function (it) {
         var li = el('li'); li.appendChild(el('span', 'kind', it.kind));
-        var a = el('a', null, it.title); a.href = it.url; a.target = '_blank'; a.rel = 'noopener noreferrer'; li.appendChild(a);
+        if (it.url) { var a = el('a', null, it.title); a.href = it.url; a.target = '_blank'; a.rel = 'noopener noreferrer'; li.appendChild(a); }
+        else { li.appendChild(el('span', 'title', it.title)); }
         li.appendChild(el('span', 'cite', it.cite)); li.appendChild(el('p', null, it.supports)); ul.appendChild(li);
       });
       $('srcnote').textContent = sr.notes || ''; $('srcdate').textContent = sr.checked ? 'Links checked ' + sr.checked + '. This is general information, not veterinary advice.' : '';
