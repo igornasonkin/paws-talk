@@ -9256,6 +9256,269 @@
     ],
     "notes": "Name-teaching tips (say the name once in a happy voice, reward the look, keep the name for good moments) are common practice, said so on air. Two-thousand-year figure: Columella wrote in the first century AD."
    }
+  },
+  {
+   "id": "032",
+   "title": "Big dog, little dog: how size is written in the genes",
+   "date": "2026-11-25",
+   "duration": 355.8,
+   "summary": "The table looks at why dogs come in so many sizes, from a dog you can tuck under one arm to one as tall as a park bench. Mike shares what two genetics studies found about size genes, including a very old small-size gene version, and Bea explains what a growth chart study says about how fast big and small puppies grow up.",
+   "audio": "ep032.mp3",
+   "kind": "Table talk",
+   "topic": "How does size get written into a dog's genes?",
+   "cast": [
+    {
+     "id": "andria",
+     "name": "Andria",
+     "role": "Host"
+    },
+    {
+     "id": "hal",
+     "name": "Hal",
+     "role": "Host"
+    },
+    {
+     "id": "mike",
+     "name": "Mike",
+     "role": "Genetics and canine science voice"
+    },
+    {
+     "id": "bea",
+     "name": "Bea",
+     "role": "Breed voice"
+    },
+    {
+     "id": "rosie",
+     "name": "Rosie",
+     "role": "New puppy parent"
+    }
+   ],
+   "links": [],
+   "lines": [
+    {
+     "who": "andria",
+     "t": 16.65,
+     "text": "Welcome to Today's Walk, Let's Talk. I'm Andria, an AI voice, not a journalist. Picture the dog park this morning: a dog you could tuck under one arm, sniffing noses with a dog as tall as the bench."
+    },
+    {
+     "who": "hal",
+     "t": 29.58,
+     "text": "And I'm Hal, an AI voice, not a veteran dog owner. Same species, same wagging tail, and yet one of them fits in a tote bag. I've always wondered how that happens."
+    },
+    {
+     "who": "andria",
+     "t": 40.33,
+     "text": "Today's question comes from our topic list: big dogs and small dogs, and why they turn out so different. We'll look at how size gets written into a dog. Mike and Bea are here, and Rosie brought questions."
+    },
+    {
+     "who": "mike",
+     "t": 52.84,
+     "text": "I'm Mike, an AI voice, not a scientist. And Hal, the gap you're describing is real. A 2022 study in the journal Current Biology calls dogs the most variable-sized mammal on Earth, with about a forty-fold size difference between breeds."
+    },
+    {
+     "who": "bea",
+     "t": 66.42,
+     "text": "I'm Bea, an AI voice, not a breeder. And the human side matters: the authors write that the biggest size changes came from people's breeding choices over roughly the last two centuries."
+    },
+    {
+     "who": "rosie",
+     "t": 77.53,
+     "text": "I'm Rosie, an AI voice, not an expert. Forty times! Okay, first question: is there one size gene, like a volume knob?"
+    },
+    {
+     "who": "mike",
+     "t": 84.75,
+     "text": "Sort of, but it's more like a sound mixing board with lots of sliders. The paper says studies of over two hundred breeds have found about twenty genes linked to body size. One of them, called I G F 1, stands out."
+    },
+    {
+     "who": "andria",
+     "t": 96.01,
+     "text": "What does I G F 1 actually do?"
+    },
+    {
+     "who": "mike",
+     "t": 98.5,
+     "text": "It's tied to one of the body's growth signals. The paper notes that this one gene accounts for about fifteen percent of the size differences between breeds."
+    },
+    {
+     "who": "hal",
+     "t": 106.6,
+     "text": "Fifteen percent. So it's a big slider, but not the whole board."
+    },
+    {
+     "who": "mike",
+     "t": 111.26,
+     "text": "Exactly. An earlier study, in Genome Research in 2013, looked at five hundred dogs from ninety-three breeds. Seven genetic markers near six genes explained roughly half of the size differences between breeds."
+    },
+    {
+     "who": "rosie",
+     "t": 123.5,
+     "text": "And the other half?"
+    },
+    {
+     "who": "mike",
+     "t": 125.08,
+     "text": "That study didn't pin it down. Scientists are still working on it. I'd call that an honest 'we don't fully know'."
+    },
+    {
+     "who": "andria",
+     "t": 130.67,
+     "text": "Mike, tell them the wolf part. It's my favorite."
+    },
+    {
+     "who": "mike",
+     "t": 133.73,
+     "text": "So, the 2022 team studied 1,431 genomes from thirteen species: ancient dogs, modern dogs, wolves and other wild relatives, foxes among them. Near the I G F 1 gene they found a single letter of DNA that comes in two versions. One version goes with smaller size, the other with larger size."
+    },
+    {
+     "who": "hal",
+     "t": 150.85,
+     "text": "One letter. That's a short story."
+    },
+    {
+     "who": "mike",
+     "t": 153.68,
+     "text": "Here's the twist. The small version looks like the older one. In a set of other wild relatives they checked, nearly all carried two copies of it. They even found one copy in a wolf from Siberia that lived about fifty-three thousand years ago."
+    },
+    {
+     "who": "rosie",
+     "t": 165.9,
+     "text": "Wait. So small dogs got their small from an ancient wolf?"
+    },
+    {
+     "who": "mike",
+     "t": 169.36,
+     "text": "That's roughly how the authors read it. The small version was already around, became uncommon in big wolves of the cold north, and then people brought it back by choosing small dogs."
+    },
+    {
+     "who": "bea",
+     "t": 179.2,
+     "text": "I do love that. The little dog on your sofa may carry a gene version that's tens of thousands of years old."
+    },
+    {
+     "who": "andria",
+     "t": 185.31,
+     "text": "And there's something close to home, Mike?"
+    },
+    {
+     "who": "mike",
+     "t": 187.52,
+     "text": "Yes. They checked twelve small foxes, ten of them from California's Channel Islands, each just a few kilograms. All twelve carried two copies of the small version."
+    },
+    {
+     "who": "hal",
+     "t": 196.39,
+     "text": "Little foxes, little gene. I like that."
+    },
+    {
+     "who": "mike",
+     "t": 199.89,
+     "text": "There's a climate pattern too. In wolves and in ancient dogs, the small version was more common in warmer, southern places, and the large version in colder, northern ones. Scientists call that kind of pattern Bergmann's rule: bigger bodies in colder places."
+    },
+    {
+     "who": "rosie",
+     "t": 213.57,
+     "text": "Like a bigger coat for the snow!"
+    },
+    {
+     "who": "mike",
+     "t": 215.84,
+     "text": "Ha, close enough. Now my honest part: this is a genetic association study. It shows the variant goes along with size. It doesn't yet show exactly how it works inside the body."
+    },
+    {
+     "who": "bea",
+     "t": 225.55,
+     "text": "Which is why I'd never treat any of this as a promise about one puppy's adult size. Common advice, not a study: meet the parents if you can, and plan for a range, not an exact number."
+    },
+    {
+     "who": "rosie",
+     "t": 236.57,
+     "text": "Okay, practical question. Do big puppies and small puppies grow up at the same speed?"
+    },
+    {
+     "who": "bea",
+     "t": 241.78,
+     "text": "Not quite. A 2017 study in the journal PLOS ONE built growth charts from the vet records of millions of young dogs. Its background section notes that very small dogs often reach adult size at about eight to twelve months, while larger dogs can take up to two years to reach adult weight."
+    },
+    {
+     "who": "hal",
+     "t": 259.43,
+     "text": "So the big puppy gets to be a puppy for longer. That's a nice thought."
+    },
+    {
+     "who": "bea",
+     "t": 264.15,
+     "text": "And the researchers found that growth could mostly be charted by expected adult size, instead of needing a separate chart for every breed."
+    },
+    {
+     "who": "rosie",
+     "t": 272.05,
+     "text": "So I'd ask the vet how my puppy is tracking?"
+    },
+    {
+     "who": "bea",
+     "t": 274.94,
+     "text": "Yes, ask your own vet how your puppy's growth looks. The authors themselves said more work was needed before charts like these become an everyday clinic tool."
+    },
+    {
+     "who": "andria",
+     "t": 283.83,
+     "text": "Quick note: peer-reviewed means other scientists checked a study before the journal printed it, and all three studies today are peer-reviewed. Now, three points."
+    },
+    {
+     "who": "andria",
+     "t": 293.15,
+     "text": "One: dog size is shaped by many genes, and one called I G F 1 is a big piece. Two: a small-size version near it looks very old, older than dogs themselves, the study suggests. Three: bigger dogs often keep growing for longer, so ask your vet how your puppy is doing."
+    },
+    {
+     "who": "hal",
+     "t": 311.53,
+     "text": "So the short version: the pocket-sized dog and the bench-sized dog are cousins, just with different settings on the same very old mixing board."
+    },
+    {
+     "who": "andria",
+     "t": 320.46,
+     "text": "That's our walk for today. These are AI voices sharing general information, not veterinary advice. For your dog's health, ask your own vet. The links are under the player."
+    },
+    {
+     "who": "hal",
+     "t": 331.3,
+     "text": "And if you're in Irvine and need care for your dog while you're away, TurtleRock Paws would love to meet you."
+    },
+    {
+     "who": "andria",
+     "t": 337.67,
+     "text": "Happy walking."
+    }
+   ],
+   "sources": {
+    "intro": "Two peer-reviewed studies read in full and the published summary of a third, summarised in our own words. These are genetic association and records-based studies: they show what goes along with size, not exactly how it works, and they say nothing about any one dog. The advice to meet a puppy's parents and plan for a range is common practice, not a tested result. No brands, products or breed names are mentioned. This is general information, not veterinary advice.",
+    "checked": "November 25, 2026",
+    "items": [
+     {
+      "kind": "study (peer-reviewed, full text read)",
+      "title": "Natural and human-driven selection of a single non-coding body size variant in ancient and modern canids",
+      "cite": "Plassais J, vonHoldt BM, Parker HG, et al. Current Biology. 2022;32(4):889-897.e9. doi:10.1016/j.cub.2021.12.036. PMID 35090588; PMCID PMC8891063.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8891063/",
+      "supports": "Dogs described as the most variable-sized mammalian species, with a 40-fold size difference between breeds; most dramatic size shifts from selection over the last two centuries; analyses of over 200 breeds found about 20 body size genes; IGF1 controls about 15% of size variation between breeds (citing earlier work); 1,431 genome sequences from 13 species; a single variant (one DNA letter) near IGF1 with a small-size and a large-size version; the small version appears ancestral (in a set of 24 genomes from 11 other wild canid species, all except two red wolves carried two copies); one copy found in a 53,000-year-old Siberian wolf; 10 Channel Island foxes and 2 grey foxes (1.4 to 5.5 kg) all carried two copies of the small version; small version more common in warmer, lower-latitude wolves and ancient dogs, matching Bergmann's rule; small version nearly vanished in Ice Age wolves before people selected for small dogs; mechanism not yet shown."
+     },
+     {
+      "kind": "study (peer-reviewed, abstract read)",
+      "title": "Derived variants at six genes explain nearly half of size reduction in dog breeds",
+      "cite": "Rimbault M, Beale HC, Schoenebeck JJ, et al. Genome Research. 2013;23(12):1985-1995. doi:10.1101/gr.157339.113. PMID 24026177; PMCID PMC3847769.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3847769/",
+      "supports": "Panel of 500 dogs from 93 breeds; seven markers near six candidate genes explain 46% to 52.5% of the variance in body size of dog breeds."
+     },
+     {
+      "kind": "study (peer-reviewed, full text read)",
+      "title": "Growth standard charts for monitoring bodyweight in dogs of different sizes",
+      "cite": "Salt C, Morris PJ, German AJ, et al. PLOS ONE. 2017;12(9):e0182064. doi:10.1371/journal.pone.0182064. PMID 28873413; PMCID PMC5584974. CC BY 4.0. A 2024 correction notice exists (doi:10.1371/journal.pone.0314711).",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5584974/",
+      "supports": "Bodyweight records from over 6 million young dogs at primary care vet hospitals; background notes very small dogs reach maturity at 8 to 12 months and larger dogs may need up to 24 months to reach adult body weight (citing earlier work); growth could be described with size categories rather than breed-specific curves; authors say further studies are needed to validate the standards and create a clinical tool."
+     }
+    ],
+    "notes": "The episode covers how size is shaped by genes and how growth differs by expected adult size."
+   }
   }
  ],
  "bench": [
