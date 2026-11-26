@@ -9519,6 +9519,311 @@
     ],
     "notes": "The episode covers how size is shaped by genes and how growth differs by expected adult size."
    }
+  },
+  {
+   "id": "033",
+   "title": "Patio manners: a café table, a cup of coffee and your dog",
+   "date": "2026-11-26",
+   "duration": 441.4,
+   "summary": "Charles, Ed, Mike and Rosie join the hosts to talk about bringing a dog to a café patio in Irvine: what California's food code and the City of Irvine's own pages say, how to help a dog settle, and one study on dogs as ice-breakers. We don't name or rank any places: each restaurant decides whether dogs are welcome, so ask first and check the official pages.",
+   "audio": "ep033.mp3",
+   "kind": "Table talk",
+   "topic": "Bringing your dog to a café patio in Irvine",
+   "cast": [
+    {
+     "id": "andria",
+     "name": "Andria",
+     "role": "Host"
+    },
+    {
+     "id": "hal",
+     "name": "Hal",
+     "role": "Host"
+    },
+    {
+     "id": "charles",
+     "name": "Charles",
+     "role": "Irvine walks and local events"
+    },
+    {
+     "id": "ed",
+     "name": "Ed",
+     "role": "Training voice"
+    },
+    {
+     "id": "mike",
+     "name": "Mike",
+     "role": "Genetics and canine science voice"
+    },
+    {
+     "id": "rosie",
+     "name": "Rosie",
+     "role": "New puppy parent"
+    }
+   ],
+   "links": [],
+   "lines": [
+    {
+     "who": "andria",
+     "t": 16.65,
+     "text": "Welcome to Today's Walk, Let's Talk. I'm Andria, an AI voice, not a restaurant critic."
+    },
+    {
+     "who": "hal",
+     "t": 22.3,
+     "text": "And I'm Hal, an AI voice, not a food writer. Picture a sunny patio, a cup of coffee, and a dog stretched out under the table like a contented rug."
+    },
+    {
+     "who": "andria",
+     "t": 31.97,
+     "text": "That's today's table talk: taking your dog to a café patio in Irvine. We won't name or rank any places. Instead we'll talk about the rules, the manners, and one study on why dogs get people talking. With us are Charles, Ed, Mike and Rosie. We're all AI voices sharing general information."
+    },
+    {
+     "who": "charles",
+     "t": 50.93,
+     "text": "I'm Charles, an AI voice, not a local guide. I've brought California's food code and the City of Irvine's own answers on leashes, checked today. Rules can change, so the official pages are the place to check."
+    },
+    {
+     "who": "ed",
+     "t": 69.3,
+     "text": "I'm Ed, an AI voice, not a trainer. I'm here for the dog's side of the table: how to help a dog settle while the people eat."
+    },
+    {
+     "who": "mike",
+     "t": 77.12,
+     "text": "I'm Mike, an AI voice, not a scientist. I brought one large survey about pets and neighbors, and I'll tell you what it found and what it didn't."
+    },
+    {
+     "who": "rosie",
+     "t": 84.55,
+     "text": "I'm Rosie, an AI voice, not an expert. And my first question is simple. Is it even allowed to bring a dog to a restaurant patio here?"
+    },
+    {
+     "who": "charles",
+     "t": 92.24,
+     "text": "In California, a state law lets a food business allow pet dogs in its outdoor dining area, if a list of conditions is met. The key word is allow. The law says the owner of the place elects to permit dogs, so each restaurant decides for itself."
+    },
+    {
+     "who": "rosie",
+     "t": 112.84,
+     "text": "So it's up to them, not up to me."
+    },
+    {
+     "who": "charles",
+     "t": 115.19,
+     "text": "Quite so. A polite question at the door, or a look at the business's own sign, settles it. If the answer is no, that's their choice to make, and a cheerful thank you is the right reply."
+    },
+    {
+     "who": "hal",
+     "t": 130.27,
+     "text": "I like that. Ask first, smile either way."
+    },
+    {
+     "who": "andria",
+     "t": 133.95,
+     "text": "Charles, what are some of the conditions on that list?"
+    },
+    {
+     "who": "charles",
+     "t": 136.91,
+     "text": "A few that matter to a guest. The dog should come in through a separate outdoor entrance, not through the restaurant. And the law says dogs are not allowed on chairs, benches, seats or other fixtures."
+    },
+    {
+     "who": "rosie",
+     "t": 152.54,
+     "text": "No chairs? But some dogs look so dignified sitting up at a table."
+    },
+    {
+     "who": "charles",
+     "t": 156.54,
+     "text": "They do, and they'll have to look dignified on the ground. The law also says the dog is on a leash or in a pet carrier, under the control of its owner."
+    },
+    {
+     "who": "andria",
+     "t": 168.43,
+     "text": "And what about Irvine itself?"
+    },
+    {
+     "who": "charles",
+     "t": 170.46,
+     "text": "The City of Irvine's answers page says a dog that's off its own property should be on a leash of six feet or shorter, held by a person who can completely control the dog. Another city answer says leaving your dog's mess on property that isn't yours is against the city code. So bring bags, and use them."
+    },
+    {
+     "who": "hal",
+     "t": 194.85,
+     "text": "Short leash, and a pocket full of bags. Got it."
+    },
+    {
+     "who": "rosie",
+     "t": 198.64,
+     "text": "What about water? My imaginary puppy gets thirsty."
+    },
+    {
+     "who": "charles",
+     "t": 201.92,
+     "text": "The state law says food and water the business gives to pet dogs must be in single-use, disposable containers. So don't be surprised if the water comes in a disposable cup or dish rather than a regular bowl."
+    },
+    {
+     "who": "charles",
+     "t": 219.24,
+     "text": "And the law says food workers on duty shouldn't have direct contact with pet dogs. So if your server doesn't stop for a pat, please don't take it personally."
+    },
+    {
+     "who": "rosie",
+     "t": 231.63,
+     "text": "Oh, that's good to know. I'd have thought they just didn't like my dog."
+    },
+    {
+     "who": "andria",
+     "t": 235.29,
+     "text": "Ed, let's say the restaurant says yes. How do you help a dog enjoy it?"
+    },
+    {
+     "who": "ed",
+     "t": 239.48,
+     "text": "Start before the café. Practice a settle at home: a small mat or towel, a calm moment, and a quiet reward when the dog lies down on it. A few minutes at a time. That's common practice among reward-based trainers, not a tested result."
+    },
+    {
+     "who": "rosie",
+     "t": 253.29,
+     "text": "So the mat is like a little portable living room."
+    },
+    {
+     "who": "ed",
+     "t": 256.32,
+     "text": "Exactly. Bring the same mat to the patio, so there's something familiar under the table. Then pick a quiet time, a table near the edge, and keep the first visit short. Leave while it's still going well."
+    },
+    {
+     "who": "hal",
+     "t": 267.23,
+     "text": "Leave while it's going well. That's good advice for parties, too."
+    },
+    {
+     "who": "rosie",
+     "t": 271.48,
+     "text": "What if my dog gets wiggly or worried?"
+    },
+    {
+     "who": "ed",
+     "t": 274.36,
+     "text": "Watch the small signals: turning away, lip licking, freezing, not settling. They can mean this is a lot. Make it easier with more distance, fewer people, or a short walk. And if a dog often seems uneasy, your own vet and a qualified behavior professional are good people to ask."
+    },
+    {
+     "who": "andria",
+     "t": 289.69,
+     "text": "Mike, you said dogs get people talking. Tell us about the study."
+    },
+    {
+     "who": "mike",
+     "t": 293.71,
+     "text": "It's a 2015 study in the journal PLOS ONE. It's peer-reviewed, which means other scientists checked it before the journal printed it. Researchers phoned randomly selected residents in four cities, nearly twenty-seven hundred people in all: San Diego, Portland, Nashville, and Perth in Australia."
+    },
+    {
+     "who": "rosie",
+     "t": 308.91,
+     "text": "San Diego! That's practically a neighbor."
+    },
+    {
+     "who": "mike",
+     "t": 311.7,
+     "text": "It is. In San Diego, about half of the pet owners said they had got to know people in their neighborhood because of their pet. And across all four cities, dog owners had about five times the odds of saying that, compared with owners of other kinds of pets."
+    },
+    {
+     "who": "hal",
+     "t": 324.67,
+     "text": "So the dog is the one who starts the conversation."
+    },
+    {
+     "who": "mike",
+     "t": 328.57,
+     "text": "That's how many people described it. The authors call pets an ice-breaker. And around a quarter of pet owners said at least one person they met through their pet had become a friend."
+    },
+    {
+     "who": "andria",
+     "t": 337.46,
+     "text": "Mike, what can't this study tell us?"
+    },
+    {
+     "who": "mike",
+     "t": 339.67,
+     "text": "It's a snapshot survey, so it can't show that dogs cause friendships; friendly people may simply be more likely to have dogs. People answered from memory. And it was done in 2012, in four cities, so it doesn't speak for everywhere. One more thing worth knowing: one of the authors worked at a research center run by a pet food company."
+    },
+    {
+     "who": "hal",
+     "t": 355.59,
+     "text": "Fair enough. Still, a patio is a bit like a neighborhood with chairs."
+    },
+    {
+     "who": "rosie",
+     "t": 360.51,
+     "text": "Except the dog doesn't get a chair."
+    },
+    {
+     "who": "hal",
+     "t": 362.95,
+     "text": "Except the dog doesn't get a chair. Rosie's been listening."
+    },
+    {
+     "who": "charles",
+     "t": 367.3,
+     "text": "And a word on courtesy. Not everyone on a patio is a dog person. Keep your dog close to your own table, leave room for the servers to pass, and let other guests come to your dog, rather than the other way round. That's simple good manners, not a rule."
+    },
+    {
+     "who": "andria",
+     "t": 387.85,
+     "text": "Let's sum up. One: in California each restaurant decides whether dogs are welcome on its patio, so ask first. Two: leash on, dog on the ground, not on the chairs, and bags in your pocket. Three: practice a calm settle at home, keep first visits short, and leave while it's going well. The links are under the player."
+    },
+    {
+     "who": "andria",
+     "t": 407.14,
+     "text": "That's our walk for today. These are AI voices sharing general information, not veterinary or legal advice. For your dog's health, ask your own vet."
+    },
+    {
+     "who": "hal",
+     "t": 416.92,
+     "text": "And if you're in Irvine and need care for your dog while you're away, TurtleRock Paws would love to meet you."
+    },
+    {
+     "who": "andria",
+     "t": 423.29,
+     "text": "Happy walking."
+    }
+   ],
+   "sources": {
+    "intro": "One state law, two City of Irvine answer pages and one peer-reviewed study read in full, summarised in our own words. The law and city pages were checked on the date below; rules can change, so check the official pages yourself. The study is a cross-sectional survey: it shows what goes together, not what causes what. The tips about settling a dog and patio courtesy are common practice, not tested results. No businesses, brands, products or breed names are mentioned. This is general information, not veterinary or legal advice.",
+    "checked": "November 26, 2026",
+    "items": [
+     {
+      "kind": "state law (official text, as published by FindLaw, current as of January 1, 2026)",
+      "title": "California Health and Safety Code section 114259.5 (live animals in food facilities), subsection (d): pet dogs in outdoor dining areas",
+      "cite": "Cal. Health & Safety Code § 114259.5(d).",
+      "url": "https://codes.findlaw.com/ca/health-and-safety-code/hsc-sect-114259-5/",
+      "supports": "Pet dogs under the control of a person may be in an outdoor dining area if all listed conditions are met, including: the owner of the food facility elects to allow pet dogs; a separate outdoor entrance where dogs enter without going through the food establishment; pet dogs not allowed on chairs, benches, seats or other fixtures; food and water provided to pet dogs only in single-use disposable containers; food employees prohibited from direct contact with pet dogs while on duty; the dog on a leash or in a pet carrier and under the control of the owner."
+     },
+     {
+      "kind": "official city guidance",
+      "title": "City of Irvine answer: leash requirement",
+      "cite": "City of Irvine, Animal Services frequently asked questions.",
+      "url": "https://legacy.cityofirvine.org/crm/ReqFaq/answers.asp?id=7901",
+      "supports": "Dogs not on their own property must be on a 6-foot or shorter leash, held by a person who can completely control the dog."
+     },
+     {
+      "kind": "official city guidance",
+      "title": "City of Irvine answer: picking up after your dog",
+      "cite": "City of Irvine, Animal Services frequently asked questions (Irvine Municipal Code 4-5-710).",
+      "url": "https://legacy.cityofirvine.org/crm/ReqFaq/answers.asp?id=7905",
+      "supports": "It is unlawful to leave your pet's waste on public or private property that you do not own."
+     },
+     {
+      "kind": "study (peer-reviewed, full text read)",
+      "title": "The pet factor: companion animals as a conduit for getting to know people, friendship formation and social support",
+      "cite": "Wood L, Martin K, Christian H, et al. PLoS ONE. 2015;10(4):e0122085. doi:10.1371/journal.pone.0122085. PMID 25924013; PMCID PMC4414420. Open access.",
+      "url": "https://doi.org/10.1371/journal.pone.0122085",
+      "supports": "Telephone survey in 2012 of 2,692 randomly selected residents of San Diego, Portland, Nashville and Perth; 51.1% of San Diego pet owners got to know people in their neighborhood as a result of their pet; across all cities dog owners had about five times the odds of other pet owners of getting to know people through their pet (OR 5.01, 95% CI 3.90 to 6.43); around a quarter of pet owners regarded at least one person met through their pet as a friend; pets described as ice-breakers; limitations: cross-sectional (causality cannot be established), possible personality differences, self-report and recall bias, four cities not representative of the countries. One author was affiliated with a pet food company's research centre."
+     }
+    ],
+    "notes": "We do not name, rank or recommend any restaurant or café. Each business decides whether dogs are welcome on its patio."
+   }
   }
  ],
  "bench": [
