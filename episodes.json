@@ -9824,6 +9824,338 @@
     ],
     "notes": "We do not name, rank or recommend any restaurant or café. Each business decides whether dogs are welcome on its patio."
    }
+  },
+  {
+   "id": "034",
+   "title": "Journal Club: the dogs of the Ice Age, already on the move",
+   "date": "2026-11-27",
+   "duration": 502.7,
+   "summary": "A peer-reviewed paper in the journal Nature read ancient DNA from canids at sites in Türkiye and England and found dogs, not wolves, about 15,800 and 14,300 years ago, pushing the genetic record of dogs back by roughly five thousand years. The two dogs, at the eastern and western ends of where these early dogs are known, were genetically very similar, which suggests one dog population was shared across very different groups of Ice Age people.",
+   "audio": "ep034.mp3",
+   "kind": "Journal Club",
+   "topic": "Rare and ancient breeds that split from wolves long ago",
+   "cast": [
+    {
+     "id": "andria",
+     "name": "Andria",
+     "role": "Host"
+    },
+    {
+     "id": "hal",
+     "name": "Hal",
+     "role": "Host"
+    },
+    {
+     "id": "mike",
+     "name": "Mike",
+     "role": "Genetics and canine science voice"
+    },
+    {
+     "id": "leo",
+     "name": "Leo",
+     "role": "Behavior voice"
+    },
+    {
+     "id": "ed",
+     "name": "Ed",
+     "role": "Training voice"
+    }
+   ],
+   "links": [],
+   "lines": [
+    {
+     "who": "andria",
+     "t": 16.65,
+     "text": "Welcome to Today's Walk, Let's Talk. I'm Andria, an AI voice, not a scientist. Picture two dogs, one in what is now Türkiye and one in what is now England, living more than fourteen thousand years ago. Never met. And yet, according to their DNA, they were genetically very similar."
+    },
+    {
+     "who": "hal",
+     "t": 34.79,
+     "text": "And I'm Hal, an AI voice, not a researcher. It's Friday, so it's Journal Club, where we take one real paper and read it closely. Today: how far back can DNA trace the first dogs?"
+    },
+    {
+     "who": "andria",
+     "t": 46.52,
+     "text": "At the table: Mike, Leo and Ed. All of us are AI voices sharing general information, not veterinary advice. Mike, what did we read?"
+    },
+    {
+     "who": "mike",
+     "t": 55.69,
+     "text": "I'm Mike, an AI voice, not a scientist. We read a paper called Dogs were widely distributed across western Eurasia during the Palaeolithic, published in the journal Nature in 2026, by a team of 46 researchers. The first author is at the Natural History Museum in London. I read the whole paper, methods and all."
+    },
+    {
+     "who": "leo",
+     "t": 72.85,
+     "text": "I'm Leo, an AI voice, not a behaviorist. I read it all too. It's a genetics paper, but underneath it is a story about people and dogs getting along a very long time ago."
+    },
+    {
+     "who": "ed",
+     "t": 85.68,
+     "text": "I'm Ed, an AI voice, not a trainer. I read it as well, and one detail from a cave in Iran surprised me. I'll save it for a minute."
+    },
+    {
+     "who": "andria",
+     "t": 94.24,
+     "text": "First, the kind of paper. Mike?"
+    },
+    {
+     "who": "mike",
+     "t": 96.7,
+     "text": "It's a study, not a review. The team read ancient DNA from bones and teeth themselves. And it's peer-reviewed, which means other scientists checked it before the journal printed it."
+    },
+    {
+     "who": "hal",
+     "t": 106.07,
+     "text": "So what was the puzzle?"
+    },
+    {
+     "who": "mike",
+     "t": 108.42,
+     "text": "Dogs come from wolves, but nobody agrees on when. The paper says past estimates ranged from about 135,000 years ago to 15,000 years ago. And by shape alone, an early dog and a wolf can look almost the same."
+    },
+    {
+     "who": "leo",
+     "t": 120.98,
+     "text": "In fact, the paper describes very old finds, around 34,000 and 28,500 years old, that were first called dogs by their shape. When their DNA was read, they turned out to belong to wolf populations that no longer exist."
+    },
+    {
+     "who": "andria",
+     "t": 139.3,
+     "text": "So you can't trust the skull alone."
+    },
+    {
+     "who": "mike",
+     "t": 141.52,
+     "text": "Not alone, no. Before this paper, the oldest dogs confirmed by their genome were about 10,900 years old, from a site in northwest Russia."
+    },
+    {
+     "who": "hal",
+     "t": 149.92,
+     "text": "And now?"
+    },
+    {
+     "who": "mike",
+     "t": 151.51,
+     "text": "Now there's a dog from a site called Pınarbaşı in Türkiye, about 15,800 years old, and one from Gough's Cave in England, about 14,300 years old. Both group with dogs, not wolves. That pushes the genetic record back by roughly five thousand years."
+    },
+    {
+     "who": "andria",
+     "t": 165.97,
+     "text": "Five thousand years! That's a lot of walks."
+    },
+    {
+     "who": "mike",
+     "t": 168.85,
+     "text": "Here's the part I love. Those two dogs, at the eastern and western ends of where these early dogs are known, were more genetically similar to each other than to any other dog in the data."
+    },
+    {
+     "who": "leo",
+     "t": 178.34,
+     "text": "And the people at those places were not one group. The paper links these early dogs to three different groups of Ice Age hunter-gatherers, with different ancestry and different ways of making tools."
+    },
+    {
+     "who": "hal",
+     "t": 191.56,
+     "text": "So the dogs were more alike than their people were."
+    },
+    {
+     "who": "leo",
+     "t": 195.18,
+     "text": "That's what the data suggest. The researchers' explanation is that dogs were passed between groups. In England, for example, the people show no sign of mixing with the newcomers, yet they had the same kind of dog."
+    },
+    {
+     "who": "hal",
+     "t": 209.44,
+     "text": "I like that. People with different roots still shared the same kind of dog."
+    },
+    {
+     "who": "andria",
+     "t": 214.32,
+     "text": "When did this dog population spread?"
+    },
+    {
+     "who": "mike",
+     "t": 216.88,
+     "text": "The authors put it between about 18,500 and 14,000 years ago. One idea they favor is that the dogs spread across Europe around 16,000 years ago, along with a wave of people and their culture. They say plainly that another route can't be ruled out yet."
+    },
+    {
+     "who": "andria",
+     "t": 231.04,
+     "text": "What did these dogs eat? Do we know?"
+    },
+    {
+     "who": "leo",
+     "t": 233.44,
+     "text": "A little. The team measured chemical signatures in bone that reflect diet. At the site in Türkiye, the signatures point to something from the water, and the remains of small freshwater fish, probably caught with nets, are common where people lived."
+    },
+    {
+     "who": "leo",
+     "t": 250.5,
+     "text": "So the authors suggest people were feeding the dogs there, directly or indirectly. Fish suppers, long before anyone had a dog bowl."
+    },
+    {
+     "who": "hal",
+     "t": 260.28,
+     "text": "Ha. Fishing buddies from the very start."
+    },
+    {
+     "who": "andria",
+     "t": 263.64,
+     "text": "Ed, you've been very patient. What surprised you?"
+    },
+    {
+     "who": "ed",
+     "t": 266.72,
+     "text": "Two canids from a cave in Iran were found in a layer thought to be Ice Age. When the team dated them directly, one was a dog about 1,500 years old and one a wolf about 2,700 years old. The old layer had been disturbed in more recent times."
+    },
+    {
+     "who": "ed",
+     "t": 282.19,
+     "text": "So the lesson is: check the date on the thing itself, not just the shelf it was sitting on."
+    },
+    {
+     "who": "hal",
+     "t": 287.85,
+     "text": "That's good advice for old family photos too."
+    },
+    {
+     "who": "andria",
+     "t": 291.59,
+     "text": "Mike, our topic today is dog lineages that split long ago. Does the paper speak to that?"
+    },
+    {
+     "who": "mike",
+     "t": 297.14,
+     "text": "It does. Scientists describe two big branches of dogs: an eastern branch, found in Arctic and East Asian dogs, and a western branch from Europe and the Near East. The Ice Age dogs here sit on the western branch, which means those two branches had already separated at least 15,800 years ago."
+    },
+    {
+     "who": "leo",
+     "t": 312.65,
+     "text": "And both branches later met. The paper finds that dogs in Serbia and northwest Russia, roughly eight to eleven thousand years ago, carried a mix of both, and modern dogs from the European branch in their data still carry roughly a fifth eastern ancestry."
+    },
+    {
+     "who": "andria",
+     "t": 330.79,
+     "text": "So many modern dogs of the European branch carry a little of both sides of a very old split."
+    },
+    {
+     "who": "mike",
+     "t": 336.91,
+     "text": "That's the authors' reading. And one more surprise: dogs and wolves lived side by side for more than 15,000 years, yet dogs picked up very little wolf ancestry, apart from some mixing in the Near East more than 7,000 years ago."
+    },
+    {
+     "who": "mike",
+     "t": 349.12,
+     "text": "The paper contrasts that with pigs and cattle, which mixed a great deal with wild boar and wild cattle after they reached Europe."
+    },
+    {
+     "who": "hal",
+     "t": 355.92,
+     "text": "So once dogs became dogs, they mostly stayed dogs."
+    },
+    {
+     "who": "andria",
+     "t": 360.29,
+     "text": "Now the honest part. What can't this paper tell us?"
+    },
+    {
+     "who": "mike",
+     "t": 363.48,
+     "text": "Quite a bit. Very few Ice Age dog remains exist, and the authors say so. The new sample was 27 bones and teeth from six sites, and the DNA was thin: for the main new genomes, each spot was read only about one and a half times on average, and some far less."
+    },
+    {
+     "who": "leo",
+     "t": 377.28,
+     "text": "And the diet chemistry is a rough tool. The authors note it can't cleanly tell a wild canid from a dog, and at the English site, the wolf sat at a similar level of the food chain as the dogs and the people."
+    },
+    {
+     "who": "leo",
+     "t": 391.12,
+     "text": "And it can't tell us how these dogs behaved or what their everyday lives were like. It's DNA, dates and diet, not a diary."
+    },
+    {
+     "who": "mike",
+     "t": 400.26,
+     "text": "Also, the paper doesn't say where or when dogs first came from wolves. It shows dogs were already here, and already spread out, by these dates."
+    },
+    {
+     "who": "andria",
+     "t": 407.81,
+     "text": "Ed, what does a dog owner in Irvine take from this?"
+    },
+    {
+     "who": "ed",
+     "t": 410.94,
+     "text": "There's no training tip in this paper. For me, it's a reminder that the dog beside you on the walk comes from a very old partnership with people."
+    },
+    {
+     "who": "andria",
+     "t": 419.59,
+     "text": "Three take-home points. One: genetic evidence for dogs now reaches back about 15,800 years. Two: those early dogs were genetically very similar across a huge area, shared by very different groups of people. Three: in the fifteen thousand years since, dogs picked up very little wolf ancestry."
+    },
+    {
+     "who": "andria",
+     "t": 439.56,
+     "text": "Want to dig deeper? The links are under the player. In the same issue of Nature, a second team studied 216 ancient canid remains, most of them from Europe, and reported a dog about 14,200 years old in Switzerland; we read that abstract only."
+    },
+    {
+     "who": "hal",
+     "t": 456.47,
+     "text": "And a 2026 genetics paper suggests some more social behavior tendencies, including lower fear of non-social things, were favored early in dog history. Again, we read the abstract only."
+    },
+    {
+     "who": "andria",
+     "t": 469.13,
+     "text": "That's our walk for today. These are AI voices sharing general information, not veterinary advice. For your dog's health, ask your own vet."
+    },
+    {
+     "who": "hal",
+     "t": 478.2,
+     "text": "And if you're in Irvine and need care for your dog while you're away, TurtleRock Paws would love to meet you."
+    },
+    {
+     "who": "andria",
+     "t": 484.57,
+     "text": "Happy walking."
+    }
+   ],
+   "sources": {
+    "intro": "One peer-reviewed research paper, read in full, plus two further-reading papers read as abstracts only.",
+    "checked": "November 27, 2026",
+    "items": [
+     {
+      "kind": "study (main paper, full text read)",
+      "title": "Dogs were widely distributed across western Eurasia during the Palaeolithic",
+      "cite": "Marsh WA, Scarsbrook L, Yüncü E, Hodgson L, Lin AT, De Iorio M, et al. (46 authors). Nature. 2026;651(8107):995-1003. doi:10.1038/s41586-026-10170-x. PMID 41882128, PMCID PMC13017512. Copyright the authors; free full text in PubMed Central.",
+      "url": "https://doi.org/10.1038/s41586-026-10170-x",
+      "supports": "All claims about the main paper: 46 authors, first author at the Natural History Museum, London (PubMed affiliations); past estimates of dog origins ranged from 135,000 to 15,000 years ago; morphologically identified 'early dogs' at about 34,000 (Goyet) and 28,500 (Předmostí) years were shown by nuclear genomes to be extinct wolf populations; earliest previously confirmed genetic dogs about 10,900 years ago (Veretye, Karelia, Russia); new dog genomes from Pınarbaşı, Türkiye (about 15,800 years) and Gough's Cave, UK (about 14,300 years) cluster with dogs; these two dogs are more genetically similar to each other than to any other dog; Palaeolithic dogs associated with three genetically and culturally distinct hunter-gatherer groups (Magdalenian, Epigravettian, Anatolian); dogs exchanged between groups without detectable human gene flow at Gough's Cave; population expanded between about 18,500 and 14,000 years ago, favoured scenario a spread with Epigravettian-associated ancestry and culture about 16,000 years ago, alternative not ruled out; Pınarbaşı isotopes indicate an aquatic dietary component and small freshwater fish, probably net-caught, are common in human-occupied layers, suggesting dogs were directly or indirectly provisioned by humans; Wezmeh Cave (Iran) canids from a suspected Palaeolithic deposit dated directly to about 1,532 years (dog) and about 2,700 years (wolf) because of recent disturbance; eastern and western dog lineages diverged at least 15,800 years ago; Mesolithic dogs from Serbia and north-west Russia modelled as a mix of western and eastern ancestry; roughly 20% eastern Eurasian ancestry in modern breed dogs of the European lineage; little to no wolf ancestry gained in more than 15,000 years apart from isolated admixture in the Near East before 7,000 years ago, in contrast with pigs and cattle; limitations: scarcity of Palaeolithic dog remains, 27 specimens from 6 sites, low-coverage genomes (median depth 1.5x (range 0.1-3.0x) across the new dated genomes), isotopes cannot definitively separate wild and domestic canids, and the Gough's Cave wolf had a similar trophic position. Full text read from PubMed Central on November 27, 2026.",
+      "role": "main",
+      "year": 2026,
+      "access": "full_text_read"
+     },
+     {
+      "kind": "study (further reading, abstract read)",
+      "title": "Genomic history of early dogs in Europe",
+      "cite": "Bergström A, Furtwängler A, Johnston S, et al. Nature. 2026;651(8107):986-994. doi:10.1038/s41586-026-10112-7. PMID 41882126, PMCID PMC13017524.",
+      "url": "https://doi.org/10.1038/s41586-026-10112-7",
+      "supports": "Further reading: analysed 216 canid remains, including 181 from Palaeolithic and Mesolithic Europe; oldest dog data from a 14,200-year-old dog at Kesslerloch, Switzerland, which shares ancestry with later dogs worldwide. Abstract read only.",
+      "role": "context",
+      "year": 2026,
+      "access": "abstract_only"
+     },
+     {
+      "kind": "study (further reading, abstract read)",
+      "title": "Polygenic adaptation signals reveal selection on key behavioral traits early in dog domestication history",
+      "cite": "Ko WH, Lee J, Kim D, Serpell JA, Jeong C, Shin S. Molecular Biology and Evolution. 2026;43(11). doi:10.1093/molbev/msag267. PMID 42961922, PMCID PMC13756119.",
+      "url": "https://doi.org/10.1093/molbev/msag267",
+      "supports": "Further reading: genomic analysis of two datasets (1,987 and 722 dogs) suggesting pro-social behavioural shifts, including lower non-social fear, were selected early and shared across major dog lineages. Abstract read only.",
+      "role": "context",
+      "year": 2026,
+      "access": "abstract_only"
+     }
+    ],
+    "notes": "Access level: FULL_TEXT for the main paper (Marsh et al. 2026), read in full from PubMed Central on November 27, 2026. Further-reading papers were read at abstract level only, and the episode says so. All findings are summarised in our own words; no tables or figures reproduced. No breed names. Calm topic: dog history, ancient DNA and the long partnership between dogs and people."
+   }
   }
  ],
  "bench": [
